@@ -1,0 +1,276 @@
+{
+  "entityType" : "RULE_CHAIN",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "configuration" : null,
+    "debugMode" : true,
+    "externalId" : null,
+    "firstRuleNodeId" : {
+      "entityType" : "RULE_NODE",
+      "id" : "340fbb60-2835-11f1-ba77-1dd73ff76043"
+    },
+    "id" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "44eb26c0-cf45-11f0-b724-6b1671e6d9b4"
+    },
+    "name" : "Rule chain - Project",
+    "root" : false,
+    "type" : "CORE"
+  },
+  "metaData" : {
+    "connections" : [ {
+      "fromIndex" : 0,
+      "toIndex" : 1,
+      "type" : "REST API request"
+    }, {
+      "fromIndex" : 1,
+      "toIndex" : 5,
+      "type" : "createRule"
+    }, {
+      "fromIndex" : 2,
+      "toIndex" : 3,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 2,
+      "toIndex" : 8,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 4,
+      "toIndex" : 2,
+      "type" : "True"
+    }, {
+      "fromIndex" : 4,
+      "toIndex" : 6,
+      "type" : "False"
+    }, {
+      "fromIndex" : 5,
+      "toIndex" : 4,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 8,
+      "toIndex" : 7,
+      "type" : "Success"
+    } ],
+    "firstNodeIndex" : 0,
+    "nodes" : [ {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 303,
+        "layoutY" : 153
+      },
+      "configuration" : {
+        "version" : 0
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "340fbb60-2835-11f1-ba77-1dd73ff76043"
+      },
+      "name" : "lọc bản tin",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.filter.TbMsgTypeSwitchNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 479,
+        "layoutY" : 329
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "function nextRelation(metadata, msg) {\n    var out_list = [];\n    switch (msg.method) {\n        case \"createRule\":\n            out_list = ['createRule']\n            break;\n            \n        default:\n            out_list = ['otherMethod']\n            break;\n    }\n    return out_list;\n}\nreturn nextRelation(metadata, msg);",
+        "tbelScript" : "function nextRelation(metadata, msg) {\n    return ['one','nine'];\n}\nif(msgType == 'POST_TELEMETRY_REQUEST') {\n    return ['two'];\n}\nreturn nextRelation(metadata, msg);"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "72457b90-2835-11f1-ba77-1dd73ff76043"
+      },
+      "name" : "lọc bản tin khởi tạo thực thể",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsSwitchNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1252,
+        "layoutY" : 329
+      },
+      "configuration" : {
+        "direction" : "FROM",
+        "entityType" : "ASSET",
+        "entityNamePattern" : "${entityName_Rule}",
+        "entityTypePattern" : "RULE",
+        "relationType" : "Project_Rule",
+        "createEntityIfNotExists" : true,
+        "removeCurrentRelations" : false,
+        "changeOriginatorToRelatedEntity" : true
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "55eebb90-2836-11f1-ba77-1dd73ff76043"
+      },
+      "name" : "Project@Rule+>",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.action.TbCreateRelationNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1502,
+        "layoutY" : 329
+      },
+      "configuration" : {
+        "forwardMsgToDefaultRuleChain" : false,
+        "ruleChainId" : "3a3fde90-cf46-11f0-b724-6b1671e6d9b4"
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "55eee2a0-2836-11f1-ba77-1dd73ff76043"
+      },
+      "name" : "=> Rule chain - Rule",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1002,
+        "layoutY" : 328
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "return metadata.checkValidator === \"true\";",
+        "tbelScript" : "return msg.temperature > 20;"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "8dc0b360-285a-11f1-ba77-1dd73ff76043"
+      },
+      "name" : "Validator",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 752,
+        "layoutY" : 329
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "function validateData(msg, metadata) {\r\n    metadata.checkValidator = \"true\"; // Mặc định là đúng\r\n    var p = msg.params;\r\n\r\n    // --- 1. KIỂM TRA CÁC TRƯỜNG CƠ BẢN (CODE 1) ---\r\n    if (typeof p.entityName_Project !== 'string') {\r\n        metadata.checkValidator = \"false\";\r\n        return { code: 1, message: \"Thiếu hoặc sai kiểu dữ liệu key 'entityName_Project'\" };\r\n    }\r\n    if (typeof p.entityName_Rule !== 'string') {\r\n        metadata.checkValidator = \"false\";\r\n        return { code: 1, message: \"Thiếu hoặc sai kiểu dữ liệu key 'entityName_Rule'\" };\r\n    }\r\n    if (typeof p.name !== 'string') {\r\n        metadata.checkValidator = \"false\";\r\n        return { code: 1, message: \"Thiếu hoặc sai kiểu dữ liệu key 'name'\" };\r\n    }\r\n    if (typeof p.type !== 'string') {\r\n        metadata.checkValidator = \"false\";\r\n        return { code: 1, message: \"Thiếu hoặc sai kiểu dữ liệu key 'type'\" };\r\n    }\r\n    if (typeof p.status !== 'boolean') {\r\n        metadata.checkValidator = \"false\";\r\n        return { code: 1, message: \"Thiếu hoặc sai kiểu dữ liệu key 'status'\" };\r\n    }\r\n\r\n    // --- 2. KIỂM TRA VALIDITYPERIOD (CODE 2) ---\r\n    var vp = p.validityPeriod;\r\n    if (!vp) {\r\n        metadata.checkValidator = \"false\";\r\n        return { code: 2, message: \"validityPeriod không tồn tại\" };\r\n    }\r\n    if (typeof vp.allDay !== 'boolean') {\r\n        metadata.checkValidator = \"false\";\r\n        return { code: 2, message: \"Key 'allDay' trong validityPeriod sai định dạng\" };\r\n    }\r\n    if (typeof vp.startDay !== 'number') {\r\n        metadata.checkValidator = \"false\";\r\n        return { code: 2, message: \"Key 'startDay' trong validityPeriod sai định dạng\" };\r\n    }\r\n    if (typeof vp.endDay !== 'number') {\r\n        metadata.checkValidator = \"false\";\r\n        return { code: 2, message: \"Key 'endDay' trong validityPeriod sai định dạng\" };\r\n    }\r\n\r\n    // 4. Kiểm tra inputData & Triggers\r\n    var inData = p.inputData;\r\n    if (!inData) {\r\n        metadata.checkValidator = \"false\";\r\n        return { code: 3, message: \"inputData không tồn tại\" };\r\n    }\r\n    if (typeof inData.logic !== 'string') {\r\n        metadata.checkValidator = \"false\";\r\n        return { code: 3, message: \"Thiếu hoặc sai kiểu dữ liệu của key 'logic'\"};\r\n    }\r\n    if (!inData.inputTimer) {\r\n        metadata.checkValidator = \"false\";\r\n        return { code: 3, message: \"inputTimer không tồn tại \" };\r\n    }\r\n    if (typeof inData.inputTimer.activeTimer !== 'boolean') {\r\n        metadata.checkValidator = \"false\";\r\n        return { code: 3, message: \"Thiếu hoặc sai kiểu dữ liệu của key 'activeTimer'\"};\r\n    }    \r\n    var triggers = inData.inputTimer.triggers;\r\n    if (!(triggers instanceof Array)) {\r\n        metadata.checkValidator = \"false\";\r\n        return { code: 3, message: \"mảng thời gian kích hoạt bị lỗi cấu trúc hoặc không tồn tại\" };\r\n    }\r\n    for (var i = 0; i < triggers.length; i++) {\r\n        var t = triggers[i];\r\n        if (typeof t.time !== 'string' || typeof t.repeat !== 'number' || t.repeat < 0 || t.repeat > 127) {\r\n            metadata.checkValidator = \"false\";\r\n            return { code: 3, message: \"Phần tử Trigger  thứ \" + i + \"lỗi\" };\r\n        }\r\n    }\r\n\r\n    // --- 4. KIỂM TRA LISTINPUTDEVICE (CODE 4) ---\r\n    var inDevs = inData.listInputDevice;\r\n    if (!(inDevs instanceof Array)) {\r\n        metadata.checkValidator = \"false\";\r\n        return { code: 4, message: \"listInputDevice không tồn tại hoặc sai cấu trúc mảng\" };\r\n    }\r\n\r\n    for (var j = 0; j < inDevs.length; j++) {\r\n        var dIn = inDevs[j];\r\n\r\n        // Kiểm tra entityName\r\n        if (typeof dIn.entityName !== 'string' || dIn.entityName === \"\") {\r\n            metadata.checkValidator = \"false\";\r\n            return { code: 4, message: \"Thiếu hoặc sai entityName tại thiết bị đầu vào thứ \" + j };\r\n        }\r\n\r\n        // Kiểm tra profileName (Dựa trên danh sách cho phép)\r\n        var validInProfiles = [\"OTHER_DEVICE\"];\r\n        if (validInProfiles.indexOf(dIn.profileName) === -1) {\r\n            metadata.checkValidator = \"false\";\r\n            return { code: 4, message: \"profileName '\" + dIn.profileName + \"' không hợp lệ tại thiết bị thứ \" + j };\r\n        }\r\n\r\n        // Kiểm tra mảng dataTrigger\r\n        var dataTriggers = dIn.dataTrigger;\r\n        if (!(dataTriggers instanceof Array)) {\r\n            metadata.checkValidator = \"false\";\r\n            return { code: 4, message: \"dataTrigger tại thiết bị thứ \" + j + \" bị lỗi cấu trúc\" };\r\n        }\r\n\r\n        // Kiểm tra chi tiết từng điều kiện trong dataTrigger\r\n        for (var k = 0; k < dataTriggers.length; k++) {\r\n            var dt = dataTriggers[k];\r\n\r\n            if (typeof dt.key !== 'string') {\r\n                metadata.checkValidator = \"false\";\r\n                return { code: 4, message: \"Thiếu 'key' tại trigger thứ \" + k + \" của thiết bị \" + j };\r\n            }\r\n\r\n            // Logic kiểm tra Operator mới: =, ><, <>\r\n            if (dt.operator === \"=\") {\r\n                if (typeof dt.value === 'undefined') {\r\n                    metadata.checkValidator = \"false\";\r\n                    return { code: 4, message: \"Toán tử '=' yêu cầu trường 'value' (Thiết bị \" + j + \")\" };\r\n                }\r\n            } else if (dt.operator === \"><\" || dt.operator === \"<>\") {\r\n                if (typeof dt.min !== 'number' || typeof dt.max !== 'number') {\r\n                    metadata.checkValidator = \"false\";\r\n                    return { code: 4, message: \"Toán tử '\" + dt.operator + \"' yêu cầu 'min' và 'max' là số (Thiết bị \" + j + \")\" };\r\n                }\r\n                if ( dt.min >= dt.max ) {\r\n                    metadata.checkValidator = \"false\";\r\n                    return { code: 4, message: \"Thiêt bị đầu vào \" + j + \"Lỗi do min > max của điều kiện key\"+ dt.key};\r\n                }                \r\n            } else {\r\n                metadata.checkValidator = \"false\";\r\n                return { code: 4, message: \"Toán tử '\" + dt.operator + \"' không được hỗ trợ (Thiết bị \" + j + \")\" };\r\n            }\r\n        }\r\n    }\r\n\r\n    // --- 5. KIỂM TRA OUTPUTRULEVALUE (CODE 5) ---\r\n    var outDevs = p.outputRuleValue;\r\n    var outProfiles = [\"STREET_LIGHT_RIIM\", \"STREET_LIGHT_CAN\", \"STREET_LIGHT_LAN\", \"GATEWAY\", \"BRANCH_NORMAL\", \"BRANCH_MESH\", \"BRANCH_LAN\"];\r\n    var indexTracker = {}; // Dùng object làm Map để check unique O(1)\r\n\r\n    if (!(outDevs instanceof Array)) {\r\n        metadata.checkValidator = \"false\";\r\n        return { code: 5, message: \"outputRuleValue không tồn tại hoặc sai cấu trúc mảng\" };\r\n    }\r\n\r\n    for (var k = 0; k < outDevs.length; k++) {\r\n        var dOut = outDevs[k];\r\n        \r\n        // 5.1 Kiểm tra entityName đầu ra\r\n        if (typeof dOut.entityName !== 'string' || dOut.entityName === \"\") {\r\n            metadata.checkValidator = \"false\";\r\n            return { code: 5, message: \"Thiếu hoặc sai entityName tại entityOutput thứ \" + k };\r\n        }\r\n\r\n        // 5.2 Kiểm tra profileName đầu ra\r\n        if (outProfiles.indexOf(dOut.profileName) === -1) {\r\n            metadata.checkValidator = \"false\";\r\n            return { code: 5, message: \"profileName '\" + dOut.profileName + \"' không hợp lệ tại entityOutput thứ \" + k };\r\n        }\r\n\r\n        // 5.3 Kiểm tra Index (phải là số và duy nhất)\r\n        if (typeof dOut.index !== 'number') {\r\n            metadata.checkValidator = \"false\";\r\n            return { code: 5, message: \"Index tại entityOutput thứ \" + k + \" phải là kiểu số\" };\r\n        }\r\n        if (indexTracker[dOut.index]) {\r\n            metadata.checkValidator = \"false\";\r\n            return { code: 5, message: \"Lỗi: Index \" + dOut.index + \" bị trùng lặp tại entityOutput thứ \" + k };\r\n        }\r\n        indexTracker[dOut.index] = true;\r\n\r\n        // 5.4 Kiểm tra delayOutput (0-60 giây)\r\n        if (typeof dOut.delayOutput !== 'number' || dOut.delayOutput < 0 || dOut.delayOutput > 60) {\r\n            metadata.checkValidator = \"false\";\r\n            return { code: 5, message: \"delayOutput tại entityOutput thứ \" + k + \" phải từ 0 đến 60\" };\r\n        }\r\n\r\n        // 5.5 Kiểm tra dataAction (bt và dim)\r\n        var action = dOut.dataAction;\r\n        if (!action) {\r\n            metadata.checkValidator = \"false\";\r\n            return { code: 5, message: \"Thiếu dataAction tại entityOutput thứ \" + k };\r\n        }\r\n\r\n        // Kiểm tra bt (phải là 0 hoặc 1)\r\n        if (typeof action.bt !== 'number' || (action.bt !== 0 && action.bt !== 1)) {\r\n            metadata.checkValidator = \"false\";\r\n            return { code: 5, message: \"Trường 'bt' tại entityOutput \" + k + \" phải là 0 hoặc 1\" };\r\n        }\r\n\r\n        // Kiểm tra dim (phải là số từ 0 đến 100)\r\n        if (typeof action.dim !== 'number' || action.dim < 0 || action.dim > 100) {\r\n            metadata.checkValidator = \"false\";\r\n            return { code: 5, message: \"Trường 'dim' tại entityOutput \" + k + \" phải từ 0 đến 100\" };\r\n        }\r\n    }\r\n    metadata.entityName_Rule  = msg.params.entityName_Rule\r\n    return msg; // Mọi thứ ok\r\n}\r\n\r\n// Thực thi\r\nmsg = validateData(msg, metadata);\r\n\r\nreturn {\r\n    msg: msg,\r\n    metadata: metadata,\r\n    msgType: msgType\r\n};",
+        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "ef923460-285a-11f1-ba77-1dd73ff76043"
+      },
+      "name" : "Validator",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1252,
+        "layoutY" : 278
+      },
+      "configuration" : {
+        "serviceIdMetaDataAttribute" : "serviceId",
+        "requestIdMetaDataAttribute" : "requestUUID"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "2686f5f0-285b-11f1-ba77-1dd73ff76043"
+      },
+      "name" : "response",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.rest.TbSendRestApiCallReplyNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1751,
+        "layoutY" : 279
+      },
+      "configuration" : {
+        "serviceIdMetaDataAttribute" : "serviceId",
+        "requestIdMetaDataAttribute" : "requestUUID"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "68f89730-28c0-11f1-ba77-1dd73ff76043"
+      },
+      "name" : "response",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.rest.TbSendRestApiCallReplyNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1501,
+        "layoutY" : 278
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "msg = {\r\n    code :0,\r\n    message: \"Tạo Rule thành công\"\r\n};\r\n\r\nreturn {\r\n    msg: msg,\r\n    metadata: metadata,\r\n    msgType: msgType\r\n};",
+        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "c4451690-28c0-11f1-ba77-1dd73ff76043"
+      },
+      "name" : "Validator",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    } ],
+    "ruleChainConnections" : null
+  }
+}
