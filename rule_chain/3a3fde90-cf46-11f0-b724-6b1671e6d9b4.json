@@ -3112,7 +3112,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "var data = msg\nmsg = {}\nmsg[metadata.key_outputRuleCloud] = data \nmsgType = \"POST_ATTRIBUTES_REQUEST\";\nreturn {\n    msg: msg,\n    metadata: metadata,\n    msgType: msgType\n};",
+        "jsScript" : "var data = msg\nmsg = {}\nmsg[metadata.key_outputRule] = data \nmsgType = \"POST_ATTRIBUTES_REQUEST\";\nreturn {\n    msg: msg,\n    metadata: metadata,\n    msgType: msgType\n};",
         "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
       },
       "configurationVersion" : 0,
@@ -3190,7 +3190,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "var data = msg\nmsg = {}\nmsg[metadata.key_outputRuleCloud] = data \nmsgType = \"POST_ATTRIBUTES_REQUEST\";\nreturn {\n    msg: msg,\n    metadata: metadata,\n    msgType: msgType\n};",
+        "jsScript" : "var data = msg\nmsg = {}\nmsg[metadata.key_outputRule] = data \nmsgType = \"POST_ATTRIBUTES_REQUEST\";\nreturn {\n    msg: msg,\n    metadata: metadata,\n    msgType: msgType\n};",
         "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
       },
       "configurationVersion" : 0,
