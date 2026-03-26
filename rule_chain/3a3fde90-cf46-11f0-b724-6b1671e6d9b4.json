@@ -4422,7 +4422,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "msg = {\r\n    code :0,\r\n    message: \"Tạo Rule thành công\"\r\n};\r\n\r\nreturn {\r\n    msg: msg,\r\n    metadata: metadata,\r\n    msgType: msgType\r\n};",
+        "jsScript" : "msg = {\r\n    code :0,\r\n    message: \"Cập nhật Rule thành công\"\r\n};\r\n\r\nreturn {\r\n    msg: msg,\r\n    metadata: metadata,\r\n    msgType: msgType\r\n};",
         "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
       },
       "configurationVersion" : 0,
