@@ -26,7 +26,7 @@
       "type" : "REST API request"
     }, {
       "fromIndex" : 1,
-      "toIndex" : 5,
+      "toIndex" : 13,
       "type" : "createRule"
     }, {
       "fromIndex" : 2,
@@ -67,6 +67,10 @@
     }, {
       "fromIndex" : 12,
       "toIndex" : 11,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 13,
+      "toIndex" : 5,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 0,
@@ -119,7 +123,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1501,
+        "layoutX" : 1601,
         "layoutY" : 328
       },
       "configuration" : {
@@ -148,7 +152,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1754,
+        "layoutX" : 1854,
         "layoutY" : 329
       },
       "configuration" : {
@@ -171,7 +175,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1002,
+        "layoutX" : 1102,
         "layoutY" : 328
       },
       "configuration" : {
@@ -195,7 +199,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 752,
+        "layoutX" : 852,
         "layoutY" : 329
       },
       "configuration" : {
@@ -219,7 +223,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1252,
+        "layoutX" : 1352,
         "layoutY" : 278
       },
       "configuration" : {
@@ -242,7 +246,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2003,
+        "layoutX" : 2103,
         "layoutY" : 279
       },
       "configuration" : {
@@ -265,7 +269,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1753,
+        "layoutX" : 1853,
         "layoutY" : 278
       },
       "configuration" : {
@@ -289,7 +293,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1251,
+        "layoutX" : 1351,
         "layoutY" : 329
       },
       "configuration" : {
@@ -323,7 +327,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1502,
+        "layoutX" : 1602,
         "layoutY" : 279
       },
       "configuration" : {
@@ -357,7 +361,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2004,
+        "layoutX" : 2104,
         "layoutY" : 230
       },
       "configuration" : {
@@ -380,7 +384,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1754,
+        "layoutX" : 1854,
         "layoutY" : 229
       },
       "configuration" : {
@@ -401,6 +405,32 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 703,
+        "layoutY" : 227
+      },
+      "configuration" : {
+        "dataMapping" : {
+          "name" : "entityName_Project"
+        },
+        "ignoreNullStrings" : false,
+        "fetchTo" : "METADATA"
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "771d6fb0-29c5-11f1-ba77-1dd73ff76043"
+      },
+      "name" : "createRule",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetOriginatorFieldsNode"
     } ],
     "ruleChainConnections" : null
   }
