@@ -123,7 +123,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1601,
+        "layoutX" : 1502,
         "layoutY" : 328
       },
       "configuration" : {
@@ -152,7 +152,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1854,
+        "layoutX" : 1755,
         "layoutY" : 329
       },
       "configuration" : {
@@ -175,7 +175,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1102,
+        "layoutX" : 1003,
         "layoutY" : 328
       },
       "configuration" : {
@@ -199,7 +199,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 852,
+        "layoutX" : 753,
         "layoutY" : 329
       },
       "configuration" : {
@@ -223,7 +223,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1352,
+        "layoutX" : 1253,
         "layoutY" : 278
       },
       "configuration" : {
@@ -246,7 +246,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2103,
+        "layoutX" : 2004,
         "layoutY" : 279
       },
       "configuration" : {
@@ -269,7 +269,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1853,
+        "layoutX" : 1754,
         "layoutY" : 278
       },
       "configuration" : {
@@ -293,7 +293,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1351,
+        "layoutX" : 1252,
         "layoutY" : 329
       },
       "configuration" : {
@@ -327,7 +327,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1602,
+        "layoutX" : 1503,
         "layoutY" : 279
       },
       "configuration" : {
@@ -361,7 +361,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2104,
+        "layoutX" : 2005,
         "layoutY" : 230
       },
       "configuration" : {
@@ -384,7 +384,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1854,
+        "layoutX" : 1755,
         "layoutY" : 229
       },
       "configuration" : {
@@ -408,8 +408,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 703,
-        "layoutY" : 227
+        "layoutX" : 652,
+        "layoutY" : 229
       },
       "configuration" : {
         "dataMapping" : {
