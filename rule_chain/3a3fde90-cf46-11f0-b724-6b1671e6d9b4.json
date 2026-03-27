@@ -3286,7 +3286,7 @@
         "entityType" : "RULE_NODE",
         "id" : "35452a10-1cf0-11f1-a40c-6196b9f91d14"
       },
-      "name" : "lấy danh sách đầu ra ban đầu",
+      "name" : "G_OutputRule",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
@@ -3392,7 +3392,7 @@
         "entityType" : "RULE_NODE",
         "id" : "35455121-1cf0-11f1-a40c-6196b9f91d14"
       },
-      "name" : "lấy danh sách đầu vào ban đầu",
+      "name" : "G_InputRule",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
