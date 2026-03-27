@@ -3226,7 +3226,7 @@
         "entityType" : "RULE_NODE",
         "id" : "35450303-1cf0-11f1-a40c-6196b9f91d14"
       },
-      "name" : "lưu thông tin vào attribute",
+      "name" : "save server",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
