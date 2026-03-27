@@ -605,19 +605,27 @@
       "type" : "createRule"
     }, {
       "fromIndex" : 146,
-      "toIndex" : 76,
-      "type" : "deleteRule"
-    }, {
-      "fromIndex" : 146,
-      "toIndex" : 78,
-      "type" : "deleteRule"
-    }, {
-      "fromIndex" : 146,
       "toIndex" : 142,
       "type" : "updateRule"
     }, {
+      "fromIndex" : 146,
+      "toIndex" : 149,
+      "type" : "deleteRule"
+    }, {
       "fromIndex" : 148,
       "toIndex" : 147,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 149,
+      "toIndex" : 76,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 149,
+      "toIndex" : 78,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 149,
+      "toIndex" : 148,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 34,
@@ -2584,8 +2592,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1629,
-        "layoutY" : 1204
+        "layoutX" : 1128,
+        "layoutY" : 1206
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -2608,8 +2616,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1879,
-        "layoutY" : 1203
+        "layoutX" : 1378,
+        "layoutY" : 1205
       },
       "configuration" : {
         "version" : 0
@@ -2630,8 +2638,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1628,
-        "layoutY" : 1253
+        "layoutX" : 1127,
+        "layoutY" : 1255
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -2654,8 +2662,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1879,
-        "layoutY" : 1254
+        "layoutX" : 1378,
+        "layoutY" : 1256
       },
       "configuration" : {
         "version" : 0
@@ -2676,8 +2684,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2129,
-        "layoutY" : 1253
+        "layoutX" : 1628,
+        "layoutY" : 1255
       },
       "configuration" : {
         "scriptLang" : "TBEL",
@@ -2700,8 +2708,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2379,
-        "layoutY" : 1253
+        "layoutX" : 1878,
+        "layoutY" : 1255
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -2734,8 +2742,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2379,
-        "layoutY" : 1203
+        "layoutX" : 1878,
+        "layoutY" : 1205
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -2768,8 +2776,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2629,
-        "layoutY" : 1203
+        "layoutX" : 2128,
+        "layoutY" : 1205
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
@@ -2793,8 +2801,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2629,
-        "layoutY" : 1252
+        "layoutX" : 2128,
+        "layoutY" : 1254
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
@@ -4448,8 +4456,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1163,
-        "layoutY" : 996
+        "layoutX" : 1377,
+        "layoutY" : 1154
       },
       "configuration" : {
         "serviceIdMetaDataAttribute" : "serviceId",
@@ -4471,8 +4479,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 913,
-        "layoutY" : 996
+        "layoutX" : 1127,
+        "layoutY" : 1154
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -4492,6 +4500,32 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 876,
+        "layoutY" : 1203
+      },
+      "configuration" : {
+        "dataMapping" : {
+          "name" : "entityName"
+        },
+        "ignoreNullStrings" : false,
+        "fetchTo" : "METADATA"
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b03709e0-29c1-11f1-ba77-1dd73ff76043"
+      },
+      "name" : "G entityName",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetOriginatorFieldsNode"
     } ],
     "ruleChainConnections" : null
   }
