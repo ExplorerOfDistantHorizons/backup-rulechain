@@ -329,7 +329,7 @@
       "configuration" : {
         "originatorSource" : "ENTITY",
         "entityType" : "ASSET",
-        "entityNamePattern" : "${entityName_Rule}",
+        "entityNamePattern" : "${entityName_Project}",
         "relationsQuery" : {
           "direction" : "FROM",
           "maxLevel" : 1,
