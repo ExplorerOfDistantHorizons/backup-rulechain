@@ -2988,7 +2988,7 @@
         "entityNamePattern" : "$[entityName]",
         "entityTypePattern" : "$[profileName]",
         "relationType" : "Rule_InputEntity",
-        "createEntityIfNotExists" : true,
+        "createEntityIfNotExists" : false,
         "removeCurrentRelations" : false,
         "changeOriginatorToRelatedEntity" : true
       },
@@ -3066,7 +3066,7 @@
         "entityNamePattern" : "$[entityName]",
         "entityTypePattern" : "$[profileName]",
         "relationType" : "Rule_OutputEntity",
-        "createEntityIfNotExists" : true,
+        "createEntityIfNotExists" : false,
         "removeCurrentRelations" : false,
         "changeOriginatorToRelatedEntity" : true
       },
@@ -3144,7 +3144,7 @@
         "entityNamePattern" : "$[entityName]",
         "entityTypePattern" : "$[profileName]",
         "relationType" : "Rule_OutputEntity",
-        "createEntityIfNotExists" : true,
+        "createEntityIfNotExists" : false,
         "removeCurrentRelations" : false,
         "changeOriginatorToRelatedEntity" : true
       },
