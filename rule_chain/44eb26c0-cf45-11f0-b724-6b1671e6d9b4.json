@@ -38,12 +38,12 @@
       "type" : "Success"
     }, {
       "fromIndex" : 4,
-      "toIndex" : 2,
-      "type" : "True"
-    }, {
-      "fromIndex" : 4,
       "toIndex" : 6,
       "type" : "False"
+    }, {
+      "fromIndex" : 4,
+      "toIndex" : 9,
+      "type" : "True"
     }, {
       "fromIndex" : 5,
       "toIndex" : 4,
@@ -51,6 +51,14 @@
     }, {
       "fromIndex" : 8,
       "toIndex" : 7,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 9,
+      "toIndex" : 2,
+      "type" : "Failure"
+    }, {
+      "fromIndex" : 9,
+      "toIndex" : 10,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 0,
@@ -103,8 +111,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1252,
-        "layoutY" : 329
+        "layoutX" : 1501,
+        "layoutY" : 328
       },
       "configuration" : {
         "direction" : "FROM",
@@ -132,7 +140,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1502,
+        "layoutX" : 1754,
         "layoutY" : 329
       },
       "configuration" : {
@@ -226,7 +234,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1751,
+        "layoutX" : 2003,
         "layoutY" : 279
       },
       "configuration" : {
@@ -249,7 +257,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1501,
+        "layoutX" : 1753,
         "layoutY" : 278
       },
       "configuration" : {
@@ -270,6 +278,74 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1251,
+        "layoutY" : 329
+      },
+      "configuration" : {
+        "originatorSource" : "ENTITY",
+        "entityType" : "ASSET",
+        "entityNamePattern" : "${entityName_Rule}",
+        "relationsQuery" : {
+          "direction" : "FROM",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Contains",
+            "entityTypes" : [ ],
+            "negate" : false
+          } ],
+          "fetchLastLevelOnly" : false
+        }
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "6a04e2f0-29c4-11f1-ba77-1dd73ff76043"
+      },
+      "name" : "check tồn tại",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1502,
+        "layoutY" : 279
+      },
+      "configuration" : {
+        "originatorSource" : "ENTITY",
+        "entityType" : "ASSET",
+        "entityNamePattern" : "${entityName_Rule}",
+        "relationsQuery" : {
+          "direction" : "FROM",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Contains",
+            "entityTypes" : [ ],
+            "negate" : false
+          } ],
+          "fetchLastLevelOnly" : false
+        }
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "6a050a00-29c4-11f1-ba77-1dd73ff76043"
+      },
+      "name" : "quay trở về Project",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
     } ],
     "ruleChainConnections" : null
   }
