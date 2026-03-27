@@ -161,11 +161,7 @@
       "type" : "Post telemetry"
     }, {
       "fromIndex" : 33,
-      "toIndex" : 53,
-      "type" : "Entity Deleted"
-    }, {
-      "fromIndex" : 33,
-      "toIndex" : 147,
+      "toIndex" : 146,
       "type" : "REST API request"
     }, {
       "fromIndex" : 34,
@@ -173,7 +169,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 35,
-      "toIndex" : 121,
+      "toIndex" : 120,
       "type" : "Success"
     }, {
       "fromIndex" : 36,
@@ -201,7 +197,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 42,
-      "toIndex" : 65,
+      "toIndex" : 64,
       "type" : "Success"
     }, {
       "fromIndex" : 43,
@@ -209,11 +205,11 @@
       "type" : "Success"
     }, {
       "fromIndex" : 44,
-      "toIndex" : 118,
+      "toIndex" : 117,
       "type" : "Success"
     }, {
       "fromIndex" : 45,
-      "toIndex" : 125,
+      "toIndex" : 124,
       "type" : "True"
     }, {
       "fromIndex" : 46,
@@ -221,7 +217,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 47,
-      "toIndex" : 126,
+      "toIndex" : 125,
       "type" : "True"
     }, {
       "fromIndex" : 48,
@@ -233,127 +229,123 @@
       "type" : "Success"
     }, {
       "fromIndex" : 50,
-      "toIndex" : 54,
+      "toIndex" : 53,
       "type" : "Success"
     }, {
       "fromIndex" : 51,
-      "toIndex" : 57,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 51,
-      "toIndex" : 59,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 51,
-      "toIndex" : 116,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 51,
-      "toIndex" : 134,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 52,
-      "toIndex" : 76,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 52,
-      "toIndex" : 102,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 53,
-      "toIndex" : 77,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 53,
-      "toIndex" : 79,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 54,
       "toIndex" : 56,
       "type" : "Success"
     }, {
-      "fromIndex" : 55,
-      "toIndex" : 121,
-      "type" : "True"
-    }, {
-      "fromIndex" : 56,
-      "toIndex" : 55,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 57,
+      "fromIndex" : 51,
       "toIndex" : 58,
       "type" : "Success"
     }, {
+      "fromIndex" : 51,
+      "toIndex" : 115,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 51,
+      "toIndex" : 133,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 52,
+      "toIndex" : 75,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 52,
+      "toIndex" : 101,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 53,
+      "toIndex" : 55,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 54,
+      "toIndex" : 120,
+      "type" : "True"
+    }, {
+      "fromIndex" : 55,
+      "toIndex" : 54,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 56,
+      "toIndex" : 57,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 57,
+      "toIndex" : 66,
+      "type" : "Success"
+    }, {
       "fromIndex" : 58,
-      "toIndex" : 67,
+      "toIndex" : 59,
       "type" : "Success"
     }, {
       "fromIndex" : 59,
-      "toIndex" : 60,
+      "toIndex" : 65,
       "type" : "Success"
     }, {
       "fromIndex" : 60,
-      "toIndex" : 66,
+      "toIndex" : 61,
       "type" : "Success"
     }, {
       "fromIndex" : 61,
       "toIndex" : 62,
       "type" : "Success"
     }, {
-      "fromIndex" : 62,
-      "toIndex" : 63,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 65,
+      "fromIndex" : 64,
       "toIndex" : 37,
       "type" : "Success"
     }, {
-      "fromIndex" : 66,
-      "toIndex" : 70,
+      "fromIndex" : 65,
+      "toIndex" : 69,
       "type" : "DEVICE"
     }, {
-      "fromIndex" : 66,
-      "toIndex" : 73,
+      "fromIndex" : 65,
+      "toIndex" : 72,
       "type" : "ASSET"
+    }, {
+      "fromIndex" : 66,
+      "toIndex" : 67,
+      "type" : "Success"
     }, {
       "fromIndex" : 67,
       "toIndex" : 68,
       "type" : "Success"
     }, {
-      "fromIndex" : 68,
-      "toIndex" : 69,
+      "fromIndex" : 69,
+      "toIndex" : 70,
       "type" : "Success"
     }, {
       "fromIndex" : 70,
       "toIndex" : 71,
       "type" : "Success"
     }, {
-      "fromIndex" : 71,
-      "toIndex" : 72,
+      "fromIndex" : 72,
+      "toIndex" : 73,
       "type" : "Success"
     }, {
       "fromIndex" : 73,
       "toIndex" : 74,
       "type" : "Success"
     }, {
-      "fromIndex" : 74,
-      "toIndex" : 75,
+      "fromIndex" : 75,
+      "toIndex" : 85,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 75,
+      "toIndex" : 135,
       "type" : "Success"
     }, {
       "fromIndex" : 76,
-      "toIndex" : 86,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 76,
-      "toIndex" : 136,
+      "toIndex" : 77,
       "type" : "Success"
     }, {
       "fromIndex" : 77,
-      "toIndex" : 78,
+      "toIndex" : 82,
       "type" : "Success"
     }, {
       "fromIndex" : 78,
-      "toIndex" : 83,
+      "toIndex" : 79,
       "type" : "Success"
     }, {
       "fromIndex" : 79,
@@ -362,34 +354,34 @@
     }, {
       "fromIndex" : 80,
       "toIndex" : 81,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 81,
-      "toIndex" : 82,
       "type" : "ASSET"
     }, {
-      "fromIndex" : 81,
-      "toIndex" : 83,
+      "fromIndex" : 80,
+      "toIndex" : 82,
       "type" : "DEVICE"
     }, {
-      "fromIndex" : 82,
-      "toIndex" : 85,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 83,
+      "fromIndex" : 81,
       "toIndex" : 84,
       "type" : "Success"
     }, {
-      "fromIndex" : 86,
-      "toIndex" : 87,
+      "fromIndex" : 82,
+      "toIndex" : 83,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 85,
+      "toIndex" : 86,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 87,
+      "toIndex" : 88,
       "type" : "Success"
     }, {
       "fromIndex" : 88,
-      "toIndex" : 89,
+      "toIndex" : 92,
       "type" : "Success"
     }, {
       "fromIndex" : 89,
-      "toIndex" : 93,
+      "toIndex" : 90,
       "type" : "Success"
     }, {
       "fromIndex" : 90,
@@ -397,43 +389,47 @@
       "type" : "Success"
     }, {
       "fromIndex" : 91,
-      "toIndex" : 92,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 92,
-      "toIndex" : 96,
+      "toIndex" : 95,
       "type" : "DEVICE"
     }, {
-      "fromIndex" : 92,
-      "toIndex" : 99,
+      "fromIndex" : 91,
+      "toIndex" : 98,
       "type" : "ASSET"
+    }, {
+      "fromIndex" : 92,
+      "toIndex" : 93,
+      "type" : "Success"
     }, {
       "fromIndex" : 93,
       "toIndex" : 94,
       "type" : "Success"
     }, {
-      "fromIndex" : 94,
-      "toIndex" : 95,
+      "fromIndex" : 95,
+      "toIndex" : 96,
       "type" : "Success"
     }, {
       "fromIndex" : 96,
       "toIndex" : 97,
       "type" : "Success"
     }, {
-      "fromIndex" : 97,
-      "toIndex" : 98,
+      "fromIndex" : 98,
+      "toIndex" : 99,
       "type" : "Success"
     }, {
       "fromIndex" : 99,
       "toIndex" : 100,
       "type" : "Success"
     }, {
-      "fromIndex" : 100,
-      "toIndex" : 101,
+      "fromIndex" : 101,
+      "toIndex" : 102,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 101,
+      "toIndex" : 106,
       "type" : "Success"
     }, {
       "fromIndex" : 102,
-      "toIndex" : 103,
+      "toIndex" : 89,
       "type" : "Success"
     }, {
       "fromIndex" : 102,
@@ -441,43 +437,39 @@
       "type" : "Success"
     }, {
       "fromIndex" : 103,
-      "toIndex" : 90,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 103,
-      "toIndex" : 108,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 104,
-      "toIndex" : 105,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 105,
-      "toIndex" : 114,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 106,
-      "toIndex" : 110,
-      "type" : "DEVICE"
-    }, {
-      "fromIndex" : 106,
-      "toIndex" : 111,
-      "type" : "ASSET"
-    }, {
-      "fromIndex" : 107,
-      "toIndex" : 88,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 107,
       "toIndex" : 104,
       "type" : "Success"
     }, {
-      "fromIndex" : 108,
+      "fromIndex" : 104,
+      "toIndex" : 113,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 105,
       "toIndex" : 109,
+      "type" : "DEVICE"
+    }, {
+      "fromIndex" : 105,
+      "toIndex" : 110,
+      "type" : "ASSET"
+    }, {
+      "fromIndex" : 106,
+      "toIndex" : 87,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 106,
+      "toIndex" : 103,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 107,
+      "toIndex" : 108,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 108,
+      "toIndex" : 105,
       "type" : "Success"
     }, {
       "fromIndex" : 109,
-      "toIndex" : 106,
+      "toIndex" : 111,
       "type" : "Success"
     }, {
       "fromIndex" : 110,
@@ -485,7 +477,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 111,
-      "toIndex" : 113,
+      "toIndex" : 121,
       "type" : "Success"
     }, {
       "fromIndex" : 112,
@@ -493,131 +485,127 @@
       "type" : "Success"
     }, {
       "fromIndex" : 113,
-      "toIndex" : 123,
+      "toIndex" : 114,
       "type" : "Success"
     }, {
       "fromIndex" : 114,
-      "toIndex" : 115,
+      "toIndex" : 123,
       "type" : "Success"
     }, {
       "fromIndex" : 115,
-      "toIndex" : 124,
+      "toIndex" : 116,
       "type" : "Success"
     }, {
-      "fromIndex" : 116,
-      "toIndex" : 117,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 118,
+      "fromIndex" : 117,
       "toIndex" : 41,
       "type" : "DeviceDirect"
     }, {
-      "fromIndex" : 118,
-      "toIndex" : 127,
+      "fromIndex" : 117,
+      "toIndex" : 126,
       "type" : "GROUP"
     }, {
-      "fromIndex" : 118,
-      "toIndex" : 128,
+      "fromIndex" : 117,
+      "toIndex" : 127,
       "type" : "SCENE"
     }, {
-      "fromIndex" : 118,
-      "toIndex" : 132,
+      "fromIndex" : 117,
+      "toIndex" : 131,
       "type" : "DeviceInDirect"
     }, {
-      "fromIndex" : 119,
+      "fromIndex" : 118,
       "toIndex" : 48,
       "type" : "Success"
     }, {
-      "fromIndex" : 120,
+      "fromIndex" : 119,
       "toIndex" : 47,
       "type" : "Success"
     }, {
-      "fromIndex" : 121,
+      "fromIndex" : 120,
       "toIndex" : 46,
       "type" : "Success"
     }, {
+      "fromIndex" : 124,
+      "toIndex" : 119,
+      "type" : "Success"
+    }, {
       "fromIndex" : 125,
-      "toIndex" : 120,
+      "toIndex" : 118,
       "type" : "Success"
     }, {
       "fromIndex" : 126,
-      "toIndex" : 119,
+      "toIndex" : 128,
       "type" : "Success"
     }, {
       "fromIndex" : 127,
       "toIndex" : 129,
       "type" : "Success"
     }, {
-      "fromIndex" : 128,
-      "toIndex" : 130,
+      "fromIndex" : 130,
+      "toIndex" : 60,
       "type" : "Success"
     }, {
       "fromIndex" : 131,
-      "toIndex" : 61,
+      "toIndex" : 132,
       "type" : "Success"
     }, {
       "fromIndex" : 132,
-      "toIndex" : 133,
+      "toIndex" : 130,
       "type" : "Success"
     }, {
       "fromIndex" : 133,
-      "toIndex" : 131,
+      "toIndex" : 134,
       "type" : "Success"
     }, {
       "fromIndex" : 134,
-      "toIndex" : 135,
+      "toIndex" : 63,
       "type" : "Success"
     }, {
       "fromIndex" : 135,
-      "toIndex" : 64,
-      "type" : "Success"
+      "toIndex" : 136,
+      "type" : "True"
     }, {
       "fromIndex" : 136,
       "toIndex" : 137,
-      "type" : "True"
-    }, {
-      "fromIndex" : 137,
-      "toIndex" : 138,
       "type" : "Success"
     }, {
-      "fromIndex" : 137,
+      "fromIndex" : 136,
+      "toIndex" : 139,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 139,
       "toIndex" : 140,
       "type" : "Success"
     }, {
       "fromIndex" : 140,
-      "toIndex" : 141,
+      "toIndex" : 138,
       "type" : "Success"
     }, {
       "fromIndex" : 141,
-      "toIndex" : 139,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 142,
       "toIndex" : 52,
       "type" : "True"
     }, {
-      "fromIndex" : 142,
-      "toIndex" : 144,
+      "fromIndex" : 141,
+      "toIndex" : 143,
       "type" : "False"
     }, {
-      "fromIndex" : 142,
-      "toIndex" : 146,
+      "fromIndex" : 141,
+      "toIndex" : 145,
       "type" : "True"
     }, {
-      "fromIndex" : 143,
-      "toIndex" : 142,
+      "fromIndex" : 142,
+      "toIndex" : 141,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 145,
+      "toIndex" : 144,
       "type" : "Success"
     }, {
       "fromIndex" : 146,
-      "toIndex" : 145,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 147,
       "toIndex" : 51,
       "type" : "createRule"
     }, {
-      "fromIndex" : 147,
-      "toIndex" : 143,
+      "fromIndex" : 146,
+      "toIndex" : 142,
       "type" : "updateRule"
     } ],
     "firstNodeIndex" : 34,
@@ -1994,30 +1982,6 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 604,
-        "layoutY" : 1104
-      },
-      "configuration" : {
-        "scriptLang" : "JS",
-        "jsScript" : "return {msg: msg, metadata: metadata, msgType: msgType};",
-        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
-      },
-      "configurationVersion" : 0,
-      "createdTime" : 0,
-      "debugMode" : true,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "2023aaa2-29af-11f1-ba77-1dd73ff76043"
-      },
-      "name" : "Xóa RuleCloud",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "",
         "layoutX" : 351,
         "layoutY" : 1626
       },
@@ -2618,7 +2582,7 @@
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
-      "debugMode" : false,
+      "debugMode" : true,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
@@ -2664,7 +2628,7 @@
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
-      "debugMode" : false,
+      "debugMode" : true,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
@@ -4448,8 +4412,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 602,
-        "layoutY" : 752
+        "layoutX" : 600,
+        "layoutY" : 1028
       },
       "configuration" : {
         "scriptLang" : "JS",
