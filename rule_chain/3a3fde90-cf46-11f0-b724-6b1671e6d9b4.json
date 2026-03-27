@@ -6,10 +6,13 @@
     },
     "configuration" : null,
     "debugMode" : false,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "3a3fde90-cf46-11f0-b724-6b1671e6d9b4"
+    },
     "firstRuleNodeId" : {
       "entityType" : "RULE_NODE",
-      "id" : "35415980-1cf0-11f1-a40c-6196b9f91d14"
+      "id" : "20233570-29af-11f1-ba77-1dd73ff76043"
     },
     "id" : {
       "entityType" : "RULE_CHAIN",
@@ -549,6 +552,10 @@
       "toIndex" : 130,
       "type" : "Success"
     }, {
+      "fromIndex" : 131,
+      "toIndex" : 61,
+      "type" : "Success"
+    }, {
       "fromIndex" : 132,
       "toIndex" : 133,
       "type" : "Success"
@@ -631,7 +638,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3a462020-cf46-11f0-b724-6b1671e6d9b4"
+        "id" : "20222400-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "Tiền xử lý",
       "queueName" : null,
@@ -655,7 +662,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3a462021-cf46-11f0-b724-6b1671e6d9b4"
+        "id" : "20222401-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "Tiền xử lý",
       "queueName" : null,
@@ -679,7 +686,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3a462022-cf46-11f0-b724-6b1671e6d9b4"
+        "id" : "20224b10-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "Tiền xử lý",
       "queueName" : null,
@@ -703,7 +710,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3a462023-cf46-11f0-b724-6b1671e6d9b4"
+        "id" : "20224b11-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "Tiền xử lý",
       "queueName" : null,
@@ -725,7 +732,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3a462024-cf46-11f0-b724-6b1671e6d9b4"
+        "id" : "20224b12-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "gửi xuống",
       "queueName" : null,
@@ -747,7 +754,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3a464730-cf46-11f0-b724-6b1671e6d9b4"
+        "id" : "20224b13-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "gửi xuống",
       "queueName" : null,
@@ -769,7 +776,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3a464731-cf46-11f0-b724-6b1671e6d9b4"
+        "id" : "20227220-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "gửi xuống",
       "queueName" : null,
@@ -791,7 +798,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3a464732-cf46-11f0-b724-6b1671e6d9b4"
+        "id" : "20227221-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "gửi xuống",
       "queueName" : null,
@@ -820,7 +827,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3a464734-cf46-11f0-b724-6b1671e6d9b4"
+        "id" : "20227222-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "tạo quan hệ",
       "queueName" : null,
@@ -846,7 +853,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3a466e40-cf46-11f0-b724-6b1671e6d9b4"
+        "id" : "20227223-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "xóa quan hệ với rule",
       "queueName" : null,
@@ -870,7 +877,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3a4ab402-cf46-11f0-b724-6b1671e6d9b4"
+        "id" : "20227224-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "lọc bản tin rule device",
       "queueName" : null,
@@ -894,7 +901,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3a4ab403-cf46-11f0-b724-6b1671e6d9b4"
+        "id" : "20229930-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "xử lý",
       "queueName" : null,
@@ -919,7 +926,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3a4adb10-cf46-11f0-b724-6b1671e6d9b4"
+        "id" : "20229931-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "lưu thông tin vào attribute vv",
       "queueName" : null,
@@ -953,7 +960,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3a4adb11-cf46-11f0-b724-6b1671e6d9b4"
+        "id" : "20229932-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "chuyển đến các nhánh tb đầu ra",
       "queueName" : null,
@@ -978,7 +985,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3a4b2930-cf46-11f0-b724-6b1671e6d9b4"
+        "id" : "2022c040-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "xóa phần tử trong list thiết bị lỗi",
       "queueName" : null,
@@ -1002,7 +1009,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3a4b2931-cf46-11f0-b724-6b1671e6d9b4"
+        "id" : "2022c041-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "xử lý thiết bị lỗi để lưu.",
       "queueName" : null,
@@ -1036,7 +1043,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3a4b2932-cf46-11f0-b724-6b1671e6d9b4"
+        "id" : "2022c042-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "chuyển đến các nhánh tb đầu ra",
       "queueName" : null,
@@ -1061,7 +1068,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3a4b5040-cf46-11f0-b724-6b1671e6d9b4"
+        "id" : "2022c043-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "lưu thông tin vào attribute",
       "queueName" : null,
@@ -1085,7 +1092,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3a4b5041-cf46-11f0-b724-6b1671e6d9b4"
+        "id" : "2022c044-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "xử lý",
       "queueName" : null,
@@ -1119,7 +1126,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3a4b5042-cf46-11f0-b724-6b1671e6d9b4"
+        "id" : "2022c045-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "chuyển đến các nhánh tb đầu ra",
       "queueName" : null,
@@ -1144,7 +1151,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3a4b5043-cf46-11f0-b724-6b1671e6d9b4"
+        "id" : "2022c046-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "xóa phần tử trong list thiết bị lỗi",
       "queueName" : null,
@@ -1168,7 +1175,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3a4b7750-cf46-11f0-b724-6b1671e6d9b4"
+        "id" : "2022e750-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "xử lý thiết bị lỗi để lưu.",
       "queueName" : null,
@@ -1202,7 +1209,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3a4b7751-cf46-11f0-b724-6b1671e6d9b4"
+        "id" : "2022e751-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "chuyển đến các nhánh tb đầu ra",
       "queueName" : null,
@@ -1227,7 +1234,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3a4b7752-cf46-11f0-b724-6b1671e6d9b4"
+        "id" : "2022e752-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "lưu thông tin vào attribute",
       "queueName" : null,
@@ -1251,7 +1258,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3a4b7753-cf46-11f0-b724-6b1671e6d9b4"
+        "id" : "2022e753-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "xử lý",
       "queueName" : null,
@@ -1285,7 +1292,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3a4b7754-cf46-11f0-b724-6b1671e6d9b4"
+        "id" : "2022e754-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "chuyển đến các nhánh tb đầu ra",
       "queueName" : null,
@@ -1310,7 +1317,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3a4b9e60-cf46-11f0-b724-6b1671e6d9b4"
+        "id" : "2022e755-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "xóa phần tử trong list thiết bị lỗi",
       "queueName" : null,
@@ -1334,7 +1341,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3a4b9e61-cf46-11f0-b724-6b1671e6d9b4"
+        "id" : "2022e756-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "xử lý thiết bị lỗi để lưu.",
       "queueName" : null,
@@ -1368,7 +1375,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3a4b9e62-cf46-11f0-b724-6b1671e6d9b4"
+        "id" : "20230e60-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "chuyển đến các nhánh tb đầu ra",
       "queueName" : null,
@@ -1393,7 +1400,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3a4b9e63-cf46-11f0-b724-6b1671e6d9b4"
+        "id" : "20230e61-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "lưu thông tin vào attribute",
       "queueName" : null,
@@ -1418,7 +1425,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3a4b9e64-cf46-11f0-b724-6b1671e6d9b4"
+        "id" : "20230e62-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "xóa phần tử trong list thiết bị lỗi vv",
       "queueName" : null,
@@ -1442,7 +1449,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3a4bc570-cf46-11f0-b724-6b1671e6d9b4"
+        "id" : "20230e63-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "xử lý thiết bị lỗi để lưu.",
       "queueName" : null,
@@ -1476,7 +1483,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3a4bc571-cf46-11f0-b724-6b1671e6d9b4"
+        "id" : "20230e64-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "chuyển đến rule đã xóa",
       "queueName" : null,
@@ -1498,7 +1505,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35413270-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20230e65-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "phân loại",
       "queueName" : null,
@@ -1522,7 +1529,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35415980-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20233570-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "Tiền xử lý parse",
       "queueName" : null,
@@ -1546,7 +1553,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35418090-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20233571-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "check Input Rule cloud",
       "queueName" : null,
@@ -1568,7 +1575,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35418091-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20233572-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "tách mảng nào",
       "queueName" : null,
@@ -1592,7 +1599,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35418092-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20233573-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "xử lý",
       "queueName" : null,
@@ -1616,7 +1623,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35418093-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20233574-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "check delay",
       "queueName" : null,
@@ -1641,7 +1648,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3541a7a0-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20233575-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "ok",
       "queueName" : null,
@@ -1663,7 +1670,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3541a7a1-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20233576-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "OUTPUT - ControllDev",
       "queueName" : null,
@@ -1697,7 +1704,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3541ceb0-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20235c80-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "->DeviceDirect",
       "queueName" : null,
@@ -1725,7 +1732,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3541ceb1-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20235c81-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "CLOCK",
       "queueName" : null,
@@ -1749,7 +1756,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3541ceb2-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20235c82-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "chuyển delayOutput lên telemetri",
       "queueName" : null,
@@ -1773,7 +1780,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3541ceb3-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20235c83-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "định dạng bản tin điều khiển",
       "queueName" : null,
@@ -1797,7 +1804,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3541f5c0-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20235c84-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "check  status + validity Period",
       "queueName" : null,
@@ -1825,7 +1832,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35421cd0-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20238390-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "lấy validityPeriod, status",
       "queueName" : null,
@@ -1849,7 +1856,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35421cd1-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20238391-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "kiểm tra điều kiện and và or của các đầu vào",
       "queueName" : null,
@@ -1873,7 +1880,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35421cd2-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20238392-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "chuẩn hóa mảng",
       "queueName" : null,
@@ -1895,7 +1902,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "354243e0-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20238393-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "tách mảng",
       "queueName" : null,
@@ -1929,7 +1936,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "354243e1-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20238394-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "-> Rule",
       "queueName" : null,
@@ -1953,7 +1960,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "354243e2-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "2023aaa0-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "Duyệt dữ liệu",
       "queueName" : null,
@@ -1977,7 +1984,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "354243e3-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "2023aaa1-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "Duyệt dữ liệu",
       "queueName" : null,
@@ -2001,7 +2008,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35426af0-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "2023aaa2-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "Xóa RuleCloud",
       "queueName" : null,
@@ -2029,7 +2036,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35426af1-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "2023aaa3-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "lấy inputTimer",
       "queueName" : null,
@@ -2053,7 +2060,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35426af2-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "2023aaa4-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "kiểm tra thời gian điều kiện với thời gian hiện tại",
       "queueName" : null,
@@ -2077,7 +2084,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35426af3-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "2023aaa5-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "check inputTimer",
       "queueName" : null,
@@ -2101,7 +2108,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3542b910-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "2023aaa6-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "get list listInputDevice",
       "queueName" : null,
@@ -2123,7 +2130,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3542b911-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "2023d1b0-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "tách mảng id thiết bị",
       "queueName" : null,
@@ -2147,7 +2154,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3542e020-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "2023d1b1-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "get list outputRuleValue",
       "queueName" : null,
@@ -2169,7 +2176,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3542e021-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "2023d1b2-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "tách mảng id thiết bị",
       "queueName" : null,
@@ -2193,7 +2200,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3542e022-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "2023d1b3-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "Tiền sử lý",
       "queueName" : null,
@@ -2216,7 +2223,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3542e023-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "2023d1b4-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "Scene Aggregation Enqueue Node",
       "queueName" : null,
@@ -2238,7 +2245,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35430730-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "2023d1b5-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "Scene Aggregator Node",
       "queueName" : null,
@@ -2267,7 +2274,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35430731-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "2023f8c0-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "Rule@system_clock+",
       "queueName" : null,
@@ -2305,7 +2312,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35430732-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "2023f8c1-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "Lấy danh sách các rule có đầu vào thời gian",
       "queueName" : null,
@@ -2329,7 +2336,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35432e40-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "2023f8c2-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "Filter - switch",
       "queueName" : null,
@@ -2358,7 +2365,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35432e41-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20241fd0-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "Rule@DeviceIn->",
       "queueName" : null,
@@ -2382,7 +2389,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35432e42-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20241fd1-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "key_inputRule save",
       "queueName" : null,
@@ -2407,7 +2414,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35432e43-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20241fd2-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "save server",
       "queueName" : null,
@@ -2436,7 +2443,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35435550-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20241fd3-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "Rule@DeviceOut->",
       "queueName" : null,
@@ -2460,7 +2467,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35435551-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "202446e0-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "key_outputRule save",
       "queueName" : null,
@@ -2485,7 +2492,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35435552-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "202446e1-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "save server",
       "queueName" : null,
@@ -2514,7 +2521,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35437c60-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "202446e2-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "Rule@AssetOut->",
       "queueName" : null,
@@ -2538,7 +2545,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35437c61-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "202446e3-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "key_outputRule save",
       "queueName" : null,
@@ -2563,7 +2570,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35437c62-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "202446e4-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "save server",
       "queueName" : null,
@@ -2591,7 +2598,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35437c63-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20246df0-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "G_InputTimer",
       "queueName" : null,
@@ -2615,7 +2622,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3543a370-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20246df1-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "Lấy danh sách entityInputRule",
       "queueName" : null,
@@ -2637,7 +2644,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3543a371-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20246df2-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "tách mảng id thiết bị",
       "queueName" : null,
@@ -2661,7 +2668,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3543a372-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20246df3-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "lấy danh sách entityOutputRule",
       "queueName" : null,
@@ -2683,7 +2690,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3543a373-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20246df4-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "tách mảng id thiết bị",
       "queueName" : null,
@@ -2707,7 +2714,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3543a374-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20249500-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "Filter - switch",
       "queueName" : null,
@@ -2741,7 +2748,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3543ca80-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20249501-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "-> Asset",
       "queueName" : null,
@@ -2775,7 +2782,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3543ca81-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20249502-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "-> Device",
       "queueName" : null,
@@ -2800,7 +2807,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3543ca82-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20249503-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "xóa dữ liệu rule của thiết bị",
       "queueName" : null,
@@ -2825,7 +2832,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "354466c0-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20249504-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "xóa dữ liệu rule của thiết bị",
       "queueName" : null,
@@ -2849,7 +2856,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "354466c1-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20249505-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "DTO attribute Rule",
       "queueName" : null,
@@ -2874,7 +2881,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "354466c2-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "2024bc10-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "Save server",
       "queueName" : null,
@@ -2898,7 +2905,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "354466c3-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "2024bc11-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "get list listInputDevice",
       "queueName" : null,
@@ -2920,7 +2927,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35448dd0-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "2024bc12-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "tách mảng id thiết bị",
       "queueName" : null,
@@ -2944,7 +2951,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35448dd1-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "2024bc13-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "get list outputRuleValue",
       "queueName" : null,
@@ -2966,7 +2973,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35448dd2-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "2024bc14-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "tách mảng id thiết bị",
       "queueName" : null,
@@ -2990,7 +2997,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3544b4e0-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "2024bc15-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "Filter - switch",
       "queueName" : null,
@@ -3019,7 +3026,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3544b4e1-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "2024bc16-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "Thêm quan hệ cho rule cloud và thực thể đầu vào",
       "queueName" : null,
@@ -3043,7 +3050,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3544b4e2-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "2024e320-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "xử lý",
       "queueName" : null,
@@ -3068,7 +3075,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3544dbf0-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "2024e321-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "save server",
       "queueName" : null,
@@ -3097,7 +3104,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3544dbf1-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "2024e322-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "Rule@DeviceOut->",
       "queueName" : null,
@@ -3121,7 +3128,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3544dbf2-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "2024e323-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "xử lý",
       "queueName" : null,
@@ -3146,7 +3153,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35450300-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "2024e324-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "save server",
       "queueName" : null,
@@ -3175,7 +3182,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35450301-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "2024e325-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "Rule@AssetOut->",
       "queueName" : null,
@@ -3199,7 +3206,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35450302-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "2024e326-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "xử lý",
       "queueName" : null,
@@ -3224,7 +3231,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35450303-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20250a30-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "save server",
       "queueName" : null,
@@ -3248,7 +3255,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35450304-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20250a31-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "Giảm tải đầu vào",
       "queueName" : null,
@@ -3284,7 +3291,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35452a10-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20250a32-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "G_OutputRule",
       "queueName" : null,
@@ -3308,7 +3315,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35452a11-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20250a33-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "lấy danh sách thiết bị cần xóa sau cập nhật",
       "queueName" : null,
@@ -3330,7 +3337,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35452a12-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20250a34-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "tách mảng id thiết bị",
       "queueName" : null,
@@ -3354,7 +3361,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35455120-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20250a35-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "Filter - switch",
       "queueName" : null,
@@ -3390,7 +3397,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35455121-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20253140-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "G_InputRule",
       "queueName" : null,
@@ -3414,7 +3421,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35455122-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20253141-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "Lọc danh sách output cần xóa",
       "queueName" : null,
@@ -3436,7 +3443,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35457830-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20253142-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "tách mảng id thiết bị",
       "queueName" : null,
@@ -3470,7 +3477,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35457831-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20253143-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "-> device",
       "queueName" : null,
@@ -3504,7 +3511,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35457832-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20253144-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "-> asset",
       "queueName" : null,
@@ -3529,7 +3536,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35457833-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20253145-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "xóa dữ liệu rule của thiết bị",
       "queueName" : null,
@@ -3554,7 +3561,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35459f40-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20253146-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "xóa dữ liệu rule của thiết bị",
       "queueName" : null,
@@ -3588,7 +3595,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35459f41-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20255850-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "chuyển thực thể gốc đến device",
       "queueName" : null,
@@ -3613,7 +3620,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35459f42-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20255851-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "xóa dữ liệu rule của thiết bị",
       "queueName" : null,
@@ -3637,7 +3644,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35459f43-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20255852-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "Tạo RuleCloud",
       "queueName" : null,
@@ -3662,7 +3669,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35459f44-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20255853-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "lưu thông tin vào attribute",
       "queueName" : null,
@@ -3686,7 +3693,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3545c650-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20255854-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "Lọc đầu ra",
       "queueName" : null,
@@ -3721,7 +3728,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3545c651-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20255855-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "lấy danh sách entity Đầu ra",
       "queueName" : null,
@@ -3756,7 +3763,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3545c652-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20257f60-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "lấy danh sách đầu vào",
       "queueName" : null,
@@ -3780,7 +3787,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3545c653-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20257f61-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "tạo key dataRule trong mỗi thiết bị",
       "queueName" : null,
@@ -3806,7 +3813,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3545ed60-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20257f62-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "Rule%DeviceOut",
       "queueName" : null,
@@ -3832,7 +3839,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3545ed61-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20257f63-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "Rule%AssetOut",
       "queueName" : null,
@@ -3858,7 +3865,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3545ed62-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20257f64-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "Rule%InputEntity",
       "queueName" : null,
@@ -3886,7 +3893,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3545ed63-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "20257f65-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "Lấy các thông tin cần thiết của rule để check",
       "queueName" : null,
@@ -3910,7 +3917,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35461470-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "2025a670-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "chuẩn hóa mảng",
       "queueName" : null,
@@ -3944,7 +3951,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35461471-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "2025a671-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "chuyển đến GROUP",
       "queueName" : null,
@@ -3978,7 +3985,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35461472-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "2025a672-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "chuyển đến SCENE",
       "queueName" : null,
@@ -4001,7 +4008,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35461473-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "2025a673-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "Rule chain - GROUP",
       "queueName" : null,
@@ -4024,7 +4031,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35463b80-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "2025a674-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "Rule chain - SCENE",
       "queueName" : null,
@@ -4046,7 +4053,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35463b82-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "2025a675-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "OUTPUT - ControllDev",
       "queueName" : null,
@@ -4080,7 +4087,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35466290-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "2025cd80-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "->DeviceInDirect",
       "queueName" : null,
@@ -4113,7 +4120,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35466291-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "2025cd81-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "->Gateway",
       "queueName" : null,
@@ -4137,7 +4144,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35466292-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "2025cd82-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "->[type_weak_1439]",
       "queueName" : null,
@@ -4159,7 +4166,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "35466293-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "2025cd83-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "tách mảng id thiết bị",
       "queueName" : null,
@@ -4183,7 +4190,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "354689a0-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "2025cd84-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "nếu có thay đổi timer",
       "queueName" : null,
@@ -4209,7 +4216,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3546fed0-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "2025f490-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "Xóa timer cũ",
       "queueName" : null,
@@ -4238,7 +4245,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3546fed1-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "202669c0-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "Rule@Building",
       "queueName" : null,
@@ -4267,7 +4274,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "354725e0-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "202669c1-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "Rule@system_clock+",
       "queueName" : null,
@@ -4291,7 +4298,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "354725e1-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "202669c2-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "->[type_weak_1439]",
       "queueName" : null,
@@ -4313,7 +4320,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "354725e2-1cf0-11f1-a40c-6196b9f91d14"
+        "id" : "202690d0-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "tách mảng id thiết bị",
       "queueName" : null,
@@ -4337,7 +4344,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "b4639511-28db-11f1-ba77-1dd73ff76043"
+        "id" : "202690d1-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "Validator",
       "queueName" : null,
@@ -4361,7 +4368,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "b4645860-28db-11f1-ba77-1dd73ff76043"
+        "id" : "202690d2-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "Validator",
       "queueName" : null,
@@ -4384,7 +4391,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "b4645861-28db-11f1-ba77-1dd73ff76043"
+        "id" : "202690d3-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "response fail",
       "queueName" : null,
@@ -4407,7 +4414,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "b4647f70-28db-11f1-ba77-1dd73ff76043"
+        "id" : "202690d4-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "response success",
       "queueName" : null,
@@ -4431,7 +4438,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "b4647f71-28db-11f1-ba77-1dd73ff76043"
+        "id" : "2026def0-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "Validator",
       "queueName" : null,
@@ -4455,7 +4462,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "b4647f72-28db-11f1-ba77-1dd73ff76043"
+        "id" : "2026def1-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "lọc bản tin khởi tạo thực thể",
       "queueName" : null,
@@ -4464,8 +4471,5 @@
       "type" : "org.thingsboard.rule.engine.filter.TbJsSwitchNode"
     } ],
     "ruleChainConnections" : null
-  },
-  "attributes" : {
-    "SERVER_SCOPE" : [ ]
   }
 }
