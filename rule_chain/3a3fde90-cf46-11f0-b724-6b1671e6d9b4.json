@@ -2884,8 +2884,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2125,
-        "layoutY" : 1006
+        "layoutX" : 2130,
+        "layoutY" : 1004
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -2908,7 +2908,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2377,
+        "layoutX" : 2379,
         "layoutY" : 1003
       },
       "configuration" : {
@@ -3294,7 +3294,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2126,
+        "layoutX" : 2130,
         "layoutY" : 1053
       },
       "configuration" : {
@@ -3318,7 +3318,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2378,
+        "layoutX" : 2379,
         "layoutY" : 1053
       },
       "configuration" : {
