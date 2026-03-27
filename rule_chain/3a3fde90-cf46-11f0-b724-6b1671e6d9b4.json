@@ -3610,7 +3610,7 @@
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
-        "keys" : [ "${key_inputRuleCloud}" ],
+        "keys" : [ "${key_inputRule}" ],
         "sendAttributesDeletedNotification" : false,
         "notifyDevice" : false
       },
