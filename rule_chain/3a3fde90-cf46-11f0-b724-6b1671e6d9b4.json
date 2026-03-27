@@ -4219,7 +4219,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2376,
+        "layoutX" : 2379,
         "layoutY" : 903
       },
       "configuration" : {
@@ -4277,8 +4277,8 @@
     }, {
       "additionalInfo" : {
         "description" : "lấy thông tin của các thiết bị đầu vào để xóa rule này bên trong attribute.",
-        "layoutX" : 2378,
-        "layoutY" : 955
+        "layoutX" : 2379,
+        "layoutY" : 954
       },
       "configuration" : {
         "scriptLang" : "JS",
