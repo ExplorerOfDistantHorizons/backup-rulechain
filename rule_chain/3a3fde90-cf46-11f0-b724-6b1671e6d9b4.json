@@ -2851,7 +2851,7 @@
         "entityType" : "RULE_NODE",
         "id" : "354466c1-1cf0-11f1-a40c-6196b9f91d14"
       },
-      "name" : "Tạo RuleCloud",
+      "name" : "DTO attribute Rule",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
