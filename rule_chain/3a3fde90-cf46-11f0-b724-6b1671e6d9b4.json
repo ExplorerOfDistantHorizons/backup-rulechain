@@ -4232,7 +4232,7 @@
       "configuration" : {
         "direction" : "TO",
         "entityType" : "ASSET",
-        "entityNamePattern" : "${entityName_Building}",
+        "entityNamePattern" : "${entityName_Project}",
         "entityTypePattern" : "BUILDING",
         "relationType" : "Rule",
         "createEntityIfNotExists" : false,
@@ -4247,7 +4247,7 @@
         "entityType" : "RULE_NODE",
         "id" : "202669c0-29af-11f1-ba77-1dd73ff76043"
       },
-      "name" : "Rule@Building",
+      "name" : "Rule@Project",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
