@@ -3526,7 +3526,7 @@
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
-        "keys" : [ "${key_outputRuleCloud}" ],
+        "keys" : [ "${key_outputRule}" ],
         "sendAttributesDeletedNotification" : false,
         "notifyDevice" : false
       },
@@ -3551,7 +3551,7 @@
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
-        "keys" : [ "${key_outputRuleCloud}" ],
+        "keys" : [ "${key_outputRule}" ],
         "sendAttributesDeletedNotification" : false,
         "notifyDevice" : false
       },
