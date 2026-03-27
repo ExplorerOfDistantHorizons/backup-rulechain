@@ -605,6 +605,14 @@
       "type" : "createRule"
     }, {
       "fromIndex" : 146,
+      "toIndex" : 76,
+      "type" : "deleteRule"
+    }, {
+      "fromIndex" : 146,
+      "toIndex" : 78,
+      "type" : "deleteRule"
+    }, {
+      "fromIndex" : 146,
       "toIndex" : 142,
       "type" : "updateRule"
     } ],
