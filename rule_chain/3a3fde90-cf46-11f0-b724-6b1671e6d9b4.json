@@ -1963,8 +1963,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1378,
-        "layoutY" : 904
+        "layoutX" : 1377,
+        "layoutY" : 902
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -2573,7 +2573,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1627,
+        "layoutX" : 1626,
         "layoutY" : 904
       },
       "configuration" : {
@@ -3234,7 +3234,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1628,
+        "layoutX" : 1626,
         "layoutY" : 953
       },
       "configuration" : {
@@ -4371,7 +4371,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1377,
+        "layoutX" : 1375,
         "layoutY" : 953
       },
       "configuration" : {
@@ -4394,7 +4394,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1628,
+        "layoutX" : 1625,
         "layoutY" : 1004
       },
       "configuration" : {
@@ -4417,8 +4417,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1378,
-        "layoutY" : 1003
+        "layoutX" : 1376,
+        "layoutY" : 1004
       },
       "configuration" : {
         "scriptLang" : "JS",
