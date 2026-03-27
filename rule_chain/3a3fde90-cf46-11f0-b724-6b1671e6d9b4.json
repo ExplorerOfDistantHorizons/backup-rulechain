@@ -4420,8 +4420,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 600,
-        "layoutY" : 1028
+        "layoutX" : 601,
+        "layoutY" : 953
       },
       "configuration" : {
         "scriptLang" : "JS",
