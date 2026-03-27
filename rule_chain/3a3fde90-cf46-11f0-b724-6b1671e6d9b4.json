@@ -1987,8 +1987,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 622,
-        "layoutY" : 1298
+        "layoutX" : 604,
+        "layoutY" : 1104
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -2601,8 +2601,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 897,
-        "layoutY" : 1297
+        "layoutX" : 879,
+        "layoutY" : 1103
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -2625,8 +2625,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1147,
-        "layoutY" : 1297
+        "layoutX" : 1129,
+        "layoutY" : 1104
       },
       "configuration" : {
         "version" : 0
@@ -2647,8 +2647,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 897,
-        "layoutY" : 1346
+        "layoutX" : 879,
+        "layoutY" : 1153
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -2671,8 +2671,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1147,
-        "layoutY" : 1346
+        "layoutX" : 1129,
+        "layoutY" : 1154
       },
       "configuration" : {
         "version" : 0
@@ -2693,8 +2693,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1397,
-        "layoutY" : 1346
+        "layoutX" : 1379,
+        "layoutY" : 1153
       },
       "configuration" : {
         "scriptLang" : "TBEL",
@@ -2717,8 +2717,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1647,
-        "layoutY" : 1347
+        "layoutX" : 1629,
+        "layoutY" : 1154
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -2751,8 +2751,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1647,
-        "layoutY" : 1296
+        "layoutX" : 1629,
+        "layoutY" : 1103
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -2785,8 +2785,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1897,
-        "layoutY" : 1296
+        "layoutX" : 1879,
+        "layoutY" : 1104
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
@@ -2810,8 +2810,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1897,
-        "layoutY" : 1346
+        "layoutX" : 1879,
+        "layoutY" : 1153
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
