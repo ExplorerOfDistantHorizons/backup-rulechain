@@ -2593,7 +2593,7 @@
         "entityType" : "RULE_NODE",
         "id" : "35437c63-1cf0-11f1-a40c-6196b9f91d14"
       },
-      "name" : "lấy các thông tin cần thiết của rule để so sánh.",
+      "name" : "G_InputTimer",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
