@@ -1979,7 +1979,7 @@
         "entityType" : "RULE_NODE",
         "id" : "354243e3-1cf0-11f1-a40c-6196b9f91d14"
       },
-      "name" : "Sửa RuleCloud",
+      "name" : "Duyệt dữ liệu",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
