@@ -2618,7 +2618,7 @@
         "entityType" : "RULE_NODE",
         "id" : "20246df2-29af-11f1-ba77-1dd73ff76043"
       },
-      "name" : "tách mảng id thiết bị",
+      "name" : "tách mảng",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
@@ -2664,7 +2664,7 @@
         "entityType" : "RULE_NODE",
         "id" : "20246df4-29af-11f1-ba77-1dd73ff76043"
       },
-      "name" : "tách mảng id thiết bị",
+      "name" : "tách mảng",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
