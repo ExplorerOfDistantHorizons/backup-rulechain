@@ -615,6 +615,10 @@
       "fromIndex" : 146,
       "toIndex" : 142,
       "type" : "updateRule"
+    }, {
+      "fromIndex" : 148,
+      "toIndex" : 147,
+      "type" : "Success"
     } ],
     "firstNodeIndex" : 34,
     "nodes" : [ {
@@ -2580,8 +2584,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 879,
-        "layoutY" : 1103
+        "layoutX" : 1629,
+        "layoutY" : 1202
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -2604,8 +2608,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1129,
-        "layoutY" : 1104
+        "layoutX" : 1879,
+        "layoutY" : 1203
       },
       "configuration" : {
         "version" : 0
@@ -2626,8 +2630,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 879,
-        "layoutY" : 1153
+        "layoutX" : 1629,
+        "layoutY" : 1252
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -2650,8 +2654,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1129,
-        "layoutY" : 1154
+        "layoutX" : 1879,
+        "layoutY" : 1254
       },
       "configuration" : {
         "version" : 0
@@ -2672,8 +2676,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1379,
-        "layoutY" : 1153
+        "layoutX" : 2129,
+        "layoutY" : 1253
       },
       "configuration" : {
         "scriptLang" : "TBEL",
@@ -2696,8 +2700,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1629,
-        "layoutY" : 1154
+        "layoutX" : 2379,
+        "layoutY" : 1253
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -2730,8 +2734,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1629,
-        "layoutY" : 1103
+        "layoutX" : 2379,
+        "layoutY" : 1203
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -2764,8 +2768,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1879,
-        "layoutY" : 1104
+        "layoutX" : 2629,
+        "layoutY" : 1203
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
@@ -2789,8 +2793,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1879,
-        "layoutY" : 1153
+        "layoutX" : 2629,
+        "layoutY" : 1252
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
@@ -4441,6 +4445,53 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.filter.TbJsSwitchNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1163,
+        "layoutY" : 996
+      },
+      "configuration" : {
+        "serviceIdMetaDataAttribute" : "serviceId",
+        "requestIdMetaDataAttribute" : "requestUUID"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "aeae8a90-29c0-11f1-ba77-1dd73ff76043"
+      },
+      "name" : "response success",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.rest.TbSendRestApiCallReplyNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 913,
+        "layoutY" : 996
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "msg = {\r\n    code :0,\r\n    message: \"Cập nhật Rule thành công\"\r\n};\r\n\r\nreturn {\r\n    msg: msg,\r\n    metadata: metadata,\r\n    msgType: msgType\r\n};",
+        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "aeae8a91-29c0-11f1-ba77-1dd73ff76043"
+      },
+      "name" : "Validator",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
     } ],
     "ruleChainConnections" : null
   }
