@@ -4417,7 +4417,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "function nextRelation(metadata, msg) {\n    var out_list = [];\n    switch (msg.method) {\n        case \"createRule\":\n            out_list = ['createRule']\n            break;\n        case \"updateRule\":\n            out_list = ['updateRule']\n            break;\n            \n        default:\n            out_list = ['otherMethod']\n            break;\n    }\n    return out_list;\n}\nreturn nextRelation(metadata, msg);",
+        "jsScript" : "function nextRelation(metadata, msg) {\n    var out_list = [];\n    switch (msg.method) {\n        case \"createRule\":\n            out_list = ['createRule']\n            break;\n            \n        case \"updateRule\":\n            out_list = ['updateRule']\n            break;\n            \n        case \"deleteRule\":\n            out_list = ['deleteRule']\n            break;\n            \n        default:\n            out_list = ['otherMethod']\n            break;\n    }\n    return out_list;\n}\nreturn nextRelation(metadata, msg);",
         "tbelScript" : "function nextRelation(metadata, msg) {\n    return ['one','nine'];\n}\nif(msgType == 'POST_TELEMETRY_REQUEST') {\n    return ['two'];\n}\nreturn nextRelation(metadata, msg);"
       },
       "configurationVersion" : 0,
