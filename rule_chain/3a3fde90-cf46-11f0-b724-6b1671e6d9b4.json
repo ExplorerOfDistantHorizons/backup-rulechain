@@ -2585,7 +2585,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "metadata.key_inputRule  = \"inputRule_\" + metadata.entityName\nmsg = msg.additionalInfo.inputData.listInputDevice;\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "jsScript" : "metadata.key_inputRule  = \"inputRule_\" + msg.params.entityName_Rule\nmsg = msg.params.inputData.listInputDevice;\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
         "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
       },
       "configurationVersion" : 0,
@@ -2631,7 +2631,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "metadata.key_outputRule = \"outputRule_\"+ metadata.entityName\nmsg = msg.additionalInfo.outputRuleValue;\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "jsScript" : "metadata.key_outputRule = \"outputRule_\"+ msg.params.entityName_Rule\nmsg = msg.params.outputRuleValue;\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
         "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
       },
       "configurationVersion" : 0,
