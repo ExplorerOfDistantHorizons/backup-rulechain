@@ -2604,7 +2604,7 @@
         "entityType" : "RULE_NODE",
         "id" : "20246df1-29af-11f1-ba77-1dd73ff76043"
       },
-      "name" : "Lấy danh sách entityInputRule",
+      "name" : "G entityInputRule",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
@@ -2650,7 +2650,7 @@
         "entityType" : "RULE_NODE",
         "id" : "20246df3-29af-11f1-ba77-1dd73ff76043"
       },
-      "name" : "lấy danh sách entityOutputRule",
+      "name" : "G entityOutputRule",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
