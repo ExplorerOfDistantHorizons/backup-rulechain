@@ -26,7 +26,7 @@
       "type" : "REST API request"
     }, {
       "fromIndex" : 1,
-      "toIndex" : 13,
+      "toIndex" : 9,
       "type" : "createRule"
     }, {
       "fromIndex" : 2,
@@ -38,12 +38,12 @@
       "type" : "Success"
     }, {
       "fromIndex" : 4,
-      "toIndex" : 6,
-      "type" : "False"
+      "toIndex" : 2,
+      "type" : "True"
     }, {
       "fromIndex" : 4,
-      "toIndex" : 9,
-      "type" : "True"
+      "toIndex" : 6,
+      "type" : "False"
     }, {
       "fromIndex" : 5,
       "toIndex" : 4,
@@ -54,22 +54,6 @@
       "type" : "Success"
     }, {
       "fromIndex" : 9,
-      "toIndex" : 2,
-      "type" : "Failure"
-    }, {
-      "fromIndex" : 9,
-      "toIndex" : 10,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 10,
-      "toIndex" : 12,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 12,
-      "toIndex" : 11,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 13,
       "toIndex" : 5,
       "type" : "Success"
     } ],
@@ -123,7 +107,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1502,
+        "layoutX" : 1254,
         "layoutY" : 328
       },
       "configuration" : {
@@ -152,7 +136,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1755,
+        "layoutX" : 1507,
         "layoutY" : 329
       },
       "configuration" : {
@@ -246,7 +230,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2004,
+        "layoutX" : 1756,
         "layoutY" : 279
       },
       "configuration" : {
@@ -269,7 +253,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1754,
+        "layoutX" : 1506,
         "layoutY" : 278
       },
       "configuration" : {
@@ -284,121 +268,6 @@
       "id" : {
         "entityType" : "RULE_NODE",
         "id" : "c4451690-28c0-11f1-ba77-1dd73ff76043"
-      },
-      "name" : "Validator",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "",
-        "layoutX" : 1252,
-        "layoutY" : 329
-      },
-      "configuration" : {
-        "originatorSource" : "ENTITY",
-        "entityType" : "ASSET",
-        "entityNamePattern" : "${entityName_Rule}",
-        "relationsQuery" : {
-          "direction" : "FROM",
-          "maxLevel" : 1,
-          "filters" : [ {
-            "relationType" : "Contains",
-            "entityTypes" : [ ],
-            "negate" : false
-          } ],
-          "fetchLastLevelOnly" : false
-        }
-      },
-      "configurationVersion" : 0,
-      "createdTime" : 0,
-      "debugMode" : true,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "6a04e2f0-29c4-11f1-ba77-1dd73ff76043"
-      },
-      "name" : "check tồn tại",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "",
-        "layoutX" : 1503,
-        "layoutY" : 279
-      },
-      "configuration" : {
-        "originatorSource" : "ENTITY",
-        "entityType" : "ASSET",
-        "entityNamePattern" : "${entityName_Project}",
-        "relationsQuery" : {
-          "direction" : "FROM",
-          "maxLevel" : 1,
-          "filters" : [ {
-            "relationType" : "Contains",
-            "entityTypes" : [ ],
-            "negate" : false
-          } ],
-          "fetchLastLevelOnly" : false
-        }
-      },
-      "configurationVersion" : 0,
-      "createdTime" : 0,
-      "debugMode" : true,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "6a050a00-29c4-11f1-ba77-1dd73ff76043"
-      },
-      "name" : "quay trở về Project",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "",
-        "layoutX" : 2005,
-        "layoutY" : 230
-      },
-      "configuration" : {
-        "serviceIdMetaDataAttribute" : "serviceId",
-        "requestIdMetaDataAttribute" : "requestUUID"
-      },
-      "configurationVersion" : 0,
-      "createdTime" : 0,
-      "debugMode" : true,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "9218be60-29c4-11f1-ba77-1dd73ff76043"
-      },
-      "name" : "response",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.rest.TbSendRestApiCallReplyNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "",
-        "layoutX" : 1755,
-        "layoutY" : 229
-      },
-      "configuration" : {
-        "scriptLang" : "JS",
-        "jsScript" : "msg = {\r\n    code :6,\r\n    message: \"Lỗi : entityName_Rule:'\"+metadata.entityName_Rule+\"' đã được sử dụng \"\r\n};\r\n\r\nreturn {\r\n    msg: msg,\r\n    metadata: metadata,\r\n    msgType: msgType\r\n};",
-        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
-      },
-      "configurationVersion" : 0,
-      "createdTime" : 0,
-      "debugMode" : true,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "9218e570-29c4-11f1-ba77-1dd73ff76043"
       },
       "name" : "Validator",
       "queueName" : null,
