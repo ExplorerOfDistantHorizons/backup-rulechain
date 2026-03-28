@@ -619,6 +619,10 @@
       "fromIndex" : 149,
       "toIndex" : 148,
       "type" : "Success"
+    }, {
+      "fromIndex" : 149,
+      "toIndex" : 150,
+      "type" : "Success"
     } ],
     "firstNodeIndex" : 34,
     "nodes" : [ {
@@ -4495,8 +4499,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 877,
-        "layoutY" : 1229
+        "layoutX" : 879,
+        "layoutY" : 1204
       },
       "configuration" : {
         "dataMapping" : {
@@ -4518,6 +4522,78 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.metadata.TbGetOriginatorFieldsNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1128,
+        "layoutY" : 1253
+      },
+      "configuration" : {
+        "fetchTo" : "METADATA",
+        "dataMapping" : {
+          "serialNumber" : "sn"
+        },
+        "dataToFetch" : "ATTRIBUTES",
+        "relationsQuery" : {
+          "direction" : "FROM",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Contains",
+            "entityTypes" : [ ],
+            "negate" : false
+          } ],
+          "fetchLastLevelOnly" : false
+        }
+      },
+      "configurationVersion" : 2,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "e652eed0-2a49-11f1-ba77-1dd73ff76043"
+      },
+      "name" : "G EntityName child",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetRelatedEntityDataPlusNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1128,
+        "layoutY" : 1204
+      },
+      "configuration" : {
+        "fetchTo" : "METADATA",
+        "dataMapping" : {
+          "serialNumber" : "sn"
+        },
+        "dataToFetch" : "ATTRIBUTES",
+        "relationsQuery" : {
+          "direction" : "FROM",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Contains",
+            "entityTypes" : [ ],
+            "negate" : false
+          } ],
+          "fetchLastLevelOnly" : false
+        }
+      },
+      "configurationVersion" : 2,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "e6533cf0-2a49-11f1-ba77-1dd73ff76043"
+      },
+      "name" : "G EntityName child",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetRelatedEntityDataPlusNode"
     } ],
     "ruleChainConnections" : null
   }
