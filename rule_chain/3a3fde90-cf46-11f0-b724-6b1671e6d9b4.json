@@ -561,7 +561,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 135,
-      "toIndex" : 136,
+      "toIndex" : 152,
       "type" : "True"
     }, {
       "fromIndex" : 136,
@@ -634,6 +634,10 @@
     }, {
       "fromIndex" : 151,
       "toIndex" : 76,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 152,
+      "toIndex" : 136,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 34,
@@ -4192,8 +4196,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2130,
-        "layoutY" : 954
+        "layoutX" : 2380,
+        "layoutY" : 953
       },
       "configuration" : {
         "deleteForSingleEntity" : false,
@@ -4218,8 +4222,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2379,
-        "layoutY" : 903
+        "layoutX" : 2629,
+        "layoutY" : 902
       },
       "configuration" : {
         "direction" : "TO",
@@ -4247,8 +4251,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2879,
-        "layoutY" : 954
+        "layoutX" : 3129,
+        "layoutY" : 953
       },
       "configuration" : {
         "direction" : "TO",
@@ -4276,8 +4280,8 @@
     }, {
       "additionalInfo" : {
         "description" : "lấy thông tin của các thiết bị đầu vào để xóa rule này bên trong attribute.",
-        "layoutX" : 2379,
-        "layoutY" : 954
+        "layoutX" : 2629,
+        "layoutY" : 953
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -4300,8 +4304,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2629,
-        "layoutY" : 954
+        "layoutX" : 2879,
+        "layoutY" : 953
       },
       "configuration" : {
         "version" : 0
@@ -4605,6 +4609,41 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.metadata.TbGetRelatedEntityDataPlusNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2128,
+        "layoutY" : 953
+      },
+      "configuration" : {
+        "relationsQuery" : {
+          "fetchLastLevelOnly" : false,
+          "direction" : "TO",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Project_Rule",
+            "entityTypes" : [ "ASSET" ]
+          } ]
+        },
+        "dataToFetch" : "FIELDS",
+        "fetchTo" : "METADATA",
+        "dataMapping" : {
+          "name" : "entityName_Project"
+        }
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "14c588c0-2a56-11f1-ba77-1dd73ff76043"
+      },
+      "name" : "G EntityName_Project",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetRelatedAttributeNode"
     } ],
     "ruleChainConnections" : null
   }
