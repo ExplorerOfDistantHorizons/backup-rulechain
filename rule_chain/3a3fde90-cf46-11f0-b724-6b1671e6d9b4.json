@@ -623,6 +623,10 @@
       "fromIndex" : 149,
       "toIndex" : 150,
       "type" : "Success"
+    }, {
+      "fromIndex" : 149,
+      "toIndex" : 151,
+      "type" : "Success"
     } ],
     "firstNodeIndex" : 34,
     "nodes" : [ {
@@ -4553,7 +4557,7 @@
         "entityType" : "RULE_NODE",
         "id" : "e652eed0-2a49-11f1-ba77-1dd73ff76043"
       },
-      "name" : "G EntityName child",
+      "name" : "G EntityName OutputEntity",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
@@ -4565,20 +4569,19 @@
         "layoutY" : 1204
       },
       "configuration" : {
-        "fetchTo" : "METADATA",
-        "dataMapping" : {
-          "serialNumber" : "sn"
-        },
-        "dataToFetch" : "ATTRIBUTES",
         "relationsQuery" : {
+          "fetchLastLevelOnly" : false,
           "direction" : "FROM",
           "maxLevel" : 1,
           "filters" : [ {
-            "relationType" : "Contains",
-            "entityTypes" : [ ],
-            "negate" : false
-          } ],
-          "fetchLastLevelOnly" : false
+            "relationType" : "Rule_InputEntity",
+            "entityTypes" : [ "DEVICE" ]
+          } ]
+        },
+        "dataToFetch" : "ATTRIBUTES",
+        "fetchTo" : "METADATA",
+        "dataMapping" : {
+          "serialNumber" : "sn"
         }
       },
       "configurationVersion" : 2,
@@ -4589,7 +4592,7 @@
         "entityType" : "RULE_NODE",
         "id" : "e6533cf0-2a49-11f1-ba77-1dd73ff76043"
       },
-      "name" : "G EntityName child",
+      "name" : "G EntityName InputEntity",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
