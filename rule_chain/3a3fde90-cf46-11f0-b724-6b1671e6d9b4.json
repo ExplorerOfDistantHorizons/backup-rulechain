@@ -196,10 +196,6 @@
       "toIndex" : 40,
       "type" : "Success"
     }, {
-      "fromIndex" : 42,
-      "toIndex" : 154,
-      "type" : "Success"
-    }, {
       "fromIndex" : 43,
       "toIndex" : 38,
       "type" : "Success"
@@ -4685,37 +4681,32 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 54,
-        "layoutY" : 1827
+        "layoutX" : 52,
+        "layoutY" : 1826
       },
       "configuration" : {
-        "originatorSource" : "ENTITY",
+        "direction" : "FROM",
         "entityType" : "ASSET",
         "entityNamePattern" : "system_clock_rules",
-        "relationsQuery" : {
-          "direction" : "FROM",
-          "maxLevel" : 1,
-          "filters" : [ {
-            "relationType" : "Contains",
-            "entityTypes" : [ ],
-            "negate" : false
-          } ],
-          "fetchLastLevelOnly" : false
-        }
+        "entityTypePattern" : "SYSTEM_CLOCK",
+        "relationType" : "Contains",
+        "createEntityIfNotExists" : true,
+        "removeCurrentRelations" : false,
+        "changeOriginatorToRelatedEntity" : true
       },
-      "configurationVersion" : 0,
+      "configurationVersion" : 1,
       "createdTime" : 0,
-      "debugMode" : true,
+      "debugMode" : false,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "ace09a90-2a7f-11f1-ba77-1dd73ff76043"
+        "id" : "06541430-2a80-11f1-ba77-1dd73ff76043"
       },
-      "name" : "-> Clock",
+      "name" : "clock+>",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+      "type" : "org.thingsboard.rule.engine.action.TbCreateRelationNode"
     } ],
     "ruleChainConnections" : null
   }
