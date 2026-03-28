@@ -4537,11 +4537,6 @@
         "layoutY" : 1304
       },
       "configuration" : {
-        "fetchTo" : "METADATA",
-        "dataMapping" : {
-          "serialNumber" : "sn"
-        },
-        "dataToFetch" : "ATTRIBUTES",
         "relationsQuery" : {
           "direction" : "FROM",
           "maxLevel" : 1,
@@ -4551,6 +4546,11 @@
             "negate" : false
           } ],
           "fetchLastLevelOnly" : false
+        },
+        "dataToFetch" : "ATTRIBUTES",
+        "fetchTo" : "METADATA",
+        "dataMapping" : {
+          "inputRule_" : "sn"
         }
       },
       "configurationVersion" : 2,
