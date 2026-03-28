@@ -4551,7 +4551,7 @@
           } ]
         },
         "dataToFetch" : "FIELDS",
-        "fetchTo" : "METADATA",
+        "fetchTo" : "DATA",
         "dataMapping" : {
           "name" : "entityName",
           "type" : "profileName"
@@ -4587,7 +4587,7 @@
           } ]
         },
         "dataToFetch" : "FIELDS",
-        "fetchTo" : "METADATA",
+        "fetchTo" : "DATA",
         "dataMapping" : {
           "name" : "entityName"
         }
