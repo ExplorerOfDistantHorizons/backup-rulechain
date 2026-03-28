@@ -3704,14 +3704,14 @@
           "direction" : "FROM",
           "maxLevel" : 1,
           "filters" : [ {
-            "relationType" : "RuleCloud_OutputEntity",
+            "relationType" : "Rule_OutputEntity",
             "entityTypes" : [ "DEVICE", "ASSET" ]
           } ]
         },
         "dataToFetch" : "ATTRIBUTES",
         "fetchTo" : "DATA",
         "dataMapping" : {
-          "${key_outputRuleCloud}" : "key_outputRuleCloud"
+          "${key_outputRule}" : "key_outputRule"
         }
       },
       "configurationVersion" : 2,
