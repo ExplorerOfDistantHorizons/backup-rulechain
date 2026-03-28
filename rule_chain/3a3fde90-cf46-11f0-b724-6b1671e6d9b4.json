@@ -2696,13 +2696,13 @@
         "layoutY" : 1253
       },
       "configuration" : {
-        "scriptLang" : "TBEL",
-        "jsScript" : "function nextRelation(metadata, msg) {\n    return ['one','nine'];\n}\nif(msgType === 'POST_TELEMETRY_REQUEST') {\n    return ['two'];\n}\nreturn nextRelation(metadata, msg);",
-        "tbelScript" : "function nextRelation(metadata, msg) {\r\n    var out_list = [];\r\n    switch (msg.profileName) {\r\n        case \"BRANCH_NORMAL\":\r\n        case \"BRANCH_MESH\":\r\n        case \"BRANCH_LAN\":\r\n        // case \"ROAD\":\r\n        // case \"ROUTE\":\r\n            out_list = ['ASSET']\r\n            break;\r\n\r\n        case \"STREET_LIGHT_RIIM\":\r\n        case \"STREET_LIGHT_CAN\":\r\n        case \"STREET_LIGHT_LAN\":\r\n        case \"GATEWAY\":\r\n            out_list = ['DEVICE']\r\n            break;\r\n\r\n        default:\r\n            out_list = ['Other']\r\n            break;\r\n    }\r\n    return out_list;\r\n}\r\nreturn nextRelation(metadata, msg);"
+        "scriptLang" : "JS",
+        "jsScript" : "function nextRelation(metadata, msg) {\r\n    var out_list = [];\r\n    switch (msg.profileName) {\r\n        case \"BRANCH_NORMAL\":\r\n        case \"BRANCH_MESH\":\r\n        case \"BRANCH_LAN\":\r\n        // case \"ROAD\":\r\n        // case \"ROUTE\":\r\n            out_list = ['ASSET']\r\n            break;\r\n\r\n        case \"STREET_LIGHT_RIIM\":\r\n        case \"STREET_LIGHT_CAN\":\r\n        case \"STREET_LIGHT_LAN\":\r\n        case \"GATEWAY\":\r\n            out_list = ['DEVICE']\r\n            break;\r\n\r\n        default:\r\n            out_list = ['Other']\r\n            break;\r\n    }\r\n    return out_list;\r\n}\r\nreturn nextRelation(metadata, msg);",
+        "tbelScript" : ""
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
-      "debugMode" : false,
+      "debugMode" : true,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
