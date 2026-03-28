@@ -4230,7 +4230,7 @@
         "entityType" : "ASSET",
         "entityNamePattern" : "${entityName_Project}",
         "entityTypePattern" : "BUILDING",
-        "relationType" : "Rule",
+        "relationType" : "Project_Rule",
         "createEntityIfNotExists" : false,
         "removeCurrentRelations" : false,
         "changeOriginatorToRelatedEntity" : false
