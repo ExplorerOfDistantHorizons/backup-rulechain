@@ -1779,7 +1779,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "function normalizeDelay(value) {\n    // Chuyển sang số (parseFloat an toàn hơn parseInt với số có dấu chấm)\n    var num = parseFloat(value);\n\n    // Nếu không phải số, hoặc là NaN, thì trả về 0\n    if (isNaN(num)) {\n        return 0;\n    }\n\n    // Làm tròn xuống để bỏ phần thập phân\n    num = Math.floor(num);\n\n    // Giới hạn trong khoảng 0–60\n    if (num < 0) num = 0;\n    if (num > 60) num = 60;\n\n    return num;\n}\nmsg =msg.key_outputRuleCloud\n\nmetadata.delayOutput =normalizeDelay(msg.delayOutput);\n\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "jsScript" : "function normalizeDelay(value) {\n    // Chuyển sang số (parseFloat an toàn hơn parseInt với số có dấu chấm)\n    var num = parseFloat(value);\n\n    // Nếu không phải số, hoặc là NaN, thì trả về 0\n    if (isNaN(num)) {\n        return 0;\n    }\n\n    // Làm tròn xuống để bỏ phần thập phân\n    num = Math.floor(num);\n\n    // Giới hạn trong khoảng 0–60\n    if (num < 0) num = 0;\n    if (num > 60) num = 60;\n\n    return num;\n}\nmsg =msg.key_outputRule\n\nmetadata.delayOutput =normalizeDelay(msg.delayOutput);\n\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
         "tbelScript" : "metadata.dataNext = JSON.stringify(msg.params);\nvar newParams = {\n    id        : msg.params.id\n}\nmsg.params = newParams;\nreturn {msg: msg, metadata: metadata, msgType: msgType};"
       },
       "configurationVersion" : 0,
