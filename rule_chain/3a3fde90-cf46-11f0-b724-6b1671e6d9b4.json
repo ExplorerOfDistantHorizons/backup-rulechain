@@ -197,7 +197,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 42,
-      "toIndex" : 64,
+      "toIndex" : 154,
       "type" : "Success"
     }, {
       "fromIndex" : 43,
@@ -646,6 +646,10 @@
     }, {
       "fromIndex" : 153,
       "toIndex" : 33,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 154,
+      "toIndex" : 64,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 34,
@@ -1742,8 +1746,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 102,
-        "layoutY" : 1827
+        "layoutX" : 52,
+        "layoutY" : 1627
       },
       "configuration" : {
         "msgCount" : 0,
@@ -4678,6 +4682,40 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.metadata.TbGetOriginatorFieldsNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 54,
+        "layoutY" : 1827
+      },
+      "configuration" : {
+        "originatorSource" : "ENTITY",
+        "entityType" : "ASSET",
+        "entityNamePattern" : "system_clock_rules",
+        "relationsQuery" : {
+          "direction" : "FROM",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Contains",
+            "entityTypes" : [ ],
+            "negate" : false
+          } ],
+          "fetchLastLevelOnly" : false
+        }
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "ace09a90-2a7f-11f1-ba77-1dd73ff76043"
+      },
+      "name" : "-> Clock",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
     } ],
     "ruleChainConnections" : null
   }
