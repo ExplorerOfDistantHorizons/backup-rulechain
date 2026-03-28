@@ -624,11 +624,11 @@
       "toIndex" : 148,
       "type" : "Success"
     }, {
-      "fromIndex" : 150,
+      "fromIndex" : 151,
       "toIndex" : 152,
       "type" : "Success"
     }, {
-      "fromIndex" : 151,
+      "fromIndex" : 152,
       "toIndex" : 150,
       "type" : "Success"
     } ],
@@ -4533,8 +4533,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 876,
-        "layoutY" : 1304
+        "layoutX" : 1126,
+        "layoutY" : 1302
       },
       "configuration" : {
         "relationsQuery" : {
@@ -4595,8 +4595,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1127,
-        "layoutY" : 1301
+        "layoutX" : 879,
+        "layoutY" : 1303
       },
       "configuration" : {
         "scriptLang" : "JS",
