@@ -3770,7 +3770,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "metadata.key_outputRuleCloud = \"outputRuleCloud_\"+ metadata.entityName_Rule\nmetadata.key_inputRuleCloud  = \"inputRuleCloud_\" + metadata.entityName_Rule\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "jsScript" : "metadata.key_outputRule = \"outputRule_\"+ metadata.entityName_Rule\nmetadata.key_inputRule  = \"inputRule_\" + metadata.entityName_Rule\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
         "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
       },
       "configurationVersion" : 0,
