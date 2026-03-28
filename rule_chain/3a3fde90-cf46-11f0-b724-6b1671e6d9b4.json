@@ -2651,7 +2651,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "metadata.key_outputRule = \"outputRule_\"+ metadata.entityName\nmsg = msg.params.outputRuleValue;\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "jsScript" : "metadata.key_outputRule = \"outputRule_\"+ metadata.entityName\nmsg = msg.dataResponse;\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
         "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
       },
       "configurationVersion" : 0,
