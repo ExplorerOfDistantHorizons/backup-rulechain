@@ -164,10 +164,6 @@
       "toIndex" : 146,
       "type" : "REST API request"
     }, {
-      "fromIndex" : 33,
-      "toIndex" : 151,
-      "type" : "Entity Deleted"
-    }, {
       "fromIndex" : 34,
       "toIndex" : 33,
       "type" : "Success"
@@ -622,14 +618,6 @@
     }, {
       "fromIndex" : 149,
       "toIndex" : 148,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 151,
-      "toIndex" : 152,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 152,
-      "toIndex" : 150,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 34,
@@ -4530,92 +4518,6 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.metadata.TbGetOriginatorFieldsNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "",
-        "layoutX" : 1126,
-        "layoutY" : 1302
-      },
-      "configuration" : {
-        "relationsQuery" : {
-          "direction" : "FROM",
-          "maxLevel" : 1,
-          "filters" : [ {
-            "relationType" : "Contains",
-            "entityTypes" : [ ],
-            "negate" : false
-          } ],
-          "fetchLastLevelOnly" : false
-        },
-        "dataToFetch" : "ATTRIBUTES",
-        "fetchTo" : "METADATA",
-        "dataMapping" : {
-          "inputRule_" : "sn"
-        }
-      },
-      "configurationVersion" : 2,
-      "createdTime" : 0,
-      "debugMode" : true,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "447b76f0-2a48-11f1-ba77-1dd73ff76043"
-      },
-      "name" : "lấy hết",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.metadata.TbGetRelatedEntityDataPlusNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "",
-        "layoutX" : 649,
-        "layoutY" : 1306
-      },
-      "configuration" : {
-        "dataMapping" : {
-          "name" : "entityName"
-        },
-        "ignoreNullStrings" : false,
-        "fetchTo" : "METADATA"
-      },
-      "configurationVersion" : 1,
-      "createdTime" : 0,
-      "debugMode" : true,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "447b9e00-2a48-11f1-ba77-1dd73ff76043"
-      },
-      "name" : "G entityName",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.metadata.TbGetOriginatorFieldsNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "",
-        "layoutX" : 879,
-        "layoutY" : 1303
-      },
-      "configuration" : {
-        "scriptLang" : "JS",
-        "jsScript" : "msg = {\r\n    code :0,\r\n    message: \"Xóa dữ liệu Rule thành công\"\r\n};\r\n\r\nreturn {\r\n    msg: msg,\r\n    metadata: metadata,\r\n    msgType: msgType\r\n};",
-        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
-      },
-      "configurationVersion" : 0,
-      "createdTime" : 0,
-      "debugMode" : true,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "69ded860-2a48-11f1-ba77-1dd73ff76043"
-      },
-      "name" : "Validator",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
     } ],
     "ruleChainConnections" : null
   }
