@@ -34,7 +34,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 2,
-      "toIndex" : 8,
+      "toIndex" : 10,
       "type" : "Success"
     }, {
       "fromIndex" : 4,
@@ -55,6 +55,10 @@
     }, {
       "fromIndex" : 9,
       "toIndex" : 5,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 10,
+      "toIndex" : 8,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 0,
@@ -230,7 +234,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1756,
+        "layoutX" : 2000,
         "layoutY" : 279
       },
       "configuration" : {
@@ -253,12 +257,12 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1506,
+        "layoutX" : 1750,
         "layoutY" : 278
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "msg = {\r\n    code :0,\r\n    message: \"Tạo Rule thành công\"\r\n};\r\n\r\nreturn {\r\n    msg: msg,\r\n    metadata: metadata,\r\n    msgType: msgType\r\n};",
+        "jsScript" : "msg = {\r\n    code :0,\r\n    message: \"Tạo Rule thành công\",\r\n    entityId:metadata.entityId\r\n};\r\n\r\nreturn {\r\n    msg: msg,\r\n    metadata: metadata,\r\n    msgType: msgType\r\n};",
         "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
       },
       "configurationVersion" : 0,
@@ -296,6 +300,32 @@
         "id" : "771d6fb0-29c5-11f1-ba77-1dd73ff76043"
       },
       "name" : "G entityName_Project",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetOriginatorFieldsNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1506,
+        "layoutY" : 279
+      },
+      "configuration" : {
+        "dataMapping" : {
+          "id" : "entityId"
+        },
+        "ignoreNullStrings" : false,
+        "fetchTo" : "METADATA"
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "2daff2a0-2a72-11f1-ba77-1dd73ff76043"
+      },
+      "name" : "G EntityId_Rule",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
