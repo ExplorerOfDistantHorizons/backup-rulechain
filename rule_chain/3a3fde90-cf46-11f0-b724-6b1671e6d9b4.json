@@ -627,6 +627,14 @@
       "fromIndex" : 149,
       "toIndex" : 151,
       "type" : "Success"
+    }, {
+      "fromIndex" : 150,
+      "toIndex" : 78,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 151,
+      "toIndex" : 76,
+      "type" : "Success"
     } ],
     "firstNodeIndex" : 34,
     "nodes" : [ {
@@ -2592,8 +2600,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1629,
-        "layoutY" : 1204
+        "layoutX" : 1378,
+        "layoutY" : 1203
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -2616,8 +2624,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1879,
-        "layoutY" : 1204
+        "layoutX" : 1628,
+        "layoutY" : 1203
       },
       "configuration" : {
         "version" : 0
@@ -2638,8 +2646,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1629,
-        "layoutY" : 1254
+        "layoutX" : 1378,
+        "layoutY" : 1253
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -2662,8 +2670,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1879,
-        "layoutY" : 1253
+        "layoutX" : 1628,
+        "layoutY" : 1252
       },
       "configuration" : {
         "version" : 0
@@ -2684,8 +2692,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2129,
-        "layoutY" : 1254
+        "layoutX" : 1878,
+        "layoutY" : 1253
       },
       "configuration" : {
         "scriptLang" : "TBEL",
@@ -2708,8 +2716,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2379,
-        "layoutY" : 1254
+        "layoutX" : 2128,
+        "layoutY" : 1253
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -2742,8 +2750,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2379,
-        "layoutY" : 1204
+        "layoutX" : 2128,
+        "layoutY" : 1203
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -2776,8 +2784,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2629,
-        "layoutY" : 1204
+        "layoutX" : 2378,
+        "layoutY" : 1203
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
@@ -2801,8 +2809,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2629,
-        "layoutY" : 1253
+        "layoutX" : 2378,
+        "layoutY" : 1252
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
@@ -4578,10 +4586,11 @@
             "entityTypes" : [ "DEVICE" ]
           } ]
         },
-        "dataToFetch" : "ATTRIBUTES",
+        "dataToFetch" : "FIELDS",
         "fetchTo" : "METADATA",
         "dataMapping" : {
-          "serialNumber" : "sn"
+          "name" : "entityName",
+          "type" : "profileName"
         }
       },
       "configurationVersion" : 2,
