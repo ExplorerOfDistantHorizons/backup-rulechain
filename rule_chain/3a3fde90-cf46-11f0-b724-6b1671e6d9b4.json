@@ -3739,14 +3739,14 @@
           "direction" : "FROM",
           "maxLevel" : 1,
           "filters" : [ {
-            "relationType" : "RuleCloud_InputEntity",
+            "relationType" : "Rule_InputEntity",
             "entityTypes" : [ "DEVICE" ]
           } ]
         },
         "dataToFetch" : "ATTRIBUTES",
         "fetchTo" : "DATA",
         "dataMapping" : {
-          "${key_inputRuleCloud}" : "data"
+          "${key_inputRule}" : "data"
         }
       },
       "configurationVersion" : 2,
