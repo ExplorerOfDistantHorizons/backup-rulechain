@@ -4541,20 +4541,20 @@
         "layoutY" : 1253
       },
       "configuration" : {
-        "fetchTo" : "METADATA",
-        "dataMapping" : {
-          "serialNumber" : "sn"
-        },
-        "dataToFetch" : "ATTRIBUTES",
         "relationsQuery" : {
+          "fetchLastLevelOnly" : false,
           "direction" : "FROM",
           "maxLevel" : 1,
           "filters" : [ {
-            "relationType" : "Contains",
-            "entityTypes" : [ ],
-            "negate" : false
-          } ],
-          "fetchLastLevelOnly" : false
+            "relationType" : "Rule_OutputEntity",
+            "entityTypes" : [ "DEVICE", "ASSET" ]
+          } ]
+        },
+        "dataToFetch" : "FIELDS",
+        "fetchTo" : "METADATA",
+        "dataMapping" : {
+          "name" : "entityName",
+          "type" : "profileName"
         }
       },
       "configurationVersion" : 2,
@@ -4589,8 +4589,7 @@
         "dataToFetch" : "FIELDS",
         "fetchTo" : "METADATA",
         "dataMapping" : {
-          "name" : "entityName",
-          "type" : "profileName"
+          "name" : "entityName"
         }
       },
       "configurationVersion" : 2,
