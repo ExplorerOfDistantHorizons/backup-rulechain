@@ -3242,7 +3242,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "delete msg.name\ndelete msg.status\ndelete msg.validityPeriod\ndelete msg.logic\ndelete msg.inputTimer\ndelete msg.ss_inputTimer\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "jsScript" : "delete msg.name\ndelete msg.status\ndelete msg.validityPeriod\ndelete msg.logic\ndelete msg.inputTimer\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
         "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
       },
       "configurationVersion" : 0,
