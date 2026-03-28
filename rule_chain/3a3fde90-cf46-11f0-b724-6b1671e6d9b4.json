@@ -2605,7 +2605,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "metadata.key_inputRule  = \"inputRule_\" + metadata.entityName\nmsg = msg.params.inputData.listInputDevice;\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "jsScript" : "metadata.key_inputRule  = \"inputRule_\" + metadata.entityName\nmsg = msg.dataResponse;\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
         "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
       },
       "configurationVersion" : 0,
