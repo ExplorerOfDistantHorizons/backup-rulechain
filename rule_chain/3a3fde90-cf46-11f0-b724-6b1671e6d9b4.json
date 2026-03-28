@@ -4326,8 +4326,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1128,
-        "layoutY" : 903
+        "layoutX" : 1129,
+        "layoutY" : 953
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -4350,8 +4350,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 877,
-        "layoutY" : 904
+        "layoutX" : 878,
+        "layoutY" : 954
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -4515,8 +4515,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 879,
-        "layoutY" : 1204
+        "layoutX" : 878,
+        "layoutY" : 1203
       },
       "configuration" : {
         "dataMapping" : {
