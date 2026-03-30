@@ -1,0 +1,26 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : {
+      "entityName_Project" : "eb2a0e5d-7092-45af-a58f-5985881dd5ab"
+    },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "4f892120-cf47-11f0-b724-6b1671e6d9b4"
+    },
+    "attributes" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "beda25b0-2c1c-11f1-ba77-1dd73ff76043"
+    },
+    "label" : "tuyến đường 1",
+    "name" : "5bcd70bc-7303-4e5f-bfe2-fdbbaab56e71",
+    "telemetry" : null,
+    "type" : "ROUTE"
+  }
+}
