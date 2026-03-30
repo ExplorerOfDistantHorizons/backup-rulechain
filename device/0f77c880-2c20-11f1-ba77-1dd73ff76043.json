@@ -1,0 +1,43 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : true,
+      "overwriteActivityTime" : false,
+      "description" : ""
+    },
+    "attributes" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "MQTT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "023a1040-cf48-11f0-b724-6b1671e6d9b4"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "0f77c880-2c20-11f1-ba77-1dd73ff76043"
+    },
+    "label" : "",
+    "name" : "{{entityName_Gatateway}}",
+    "softwareId" : null,
+    "telemetry" : null,
+    "type" : "GATEWAY"
+  },
+  "credentials" : {
+    "credentialsId" : "1b24f1651ecb18e4cc8222b9eb50f5084ed6ea5ed79ce69ff48a7b4b39cb2633",
+    "credentialsType" : "MQTT_BASIC",
+    "credentialsValue" : "{\"clientId\":\"g_rd_666666834343\",\"userName\":\"g_rd_66666683434\",\"password\":\"g_rd_6666434334\"}"
+  }
+}
