@@ -1704,7 +1704,7 @@
         "entityType" : "RULE_NODE",
         "id" : "20233576-29af-11f1-ba77-1dd73ff76043"
       },
-      "name" : "OUTPUT - ControllDev",
+      "name" : "call RPC",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
@@ -4671,7 +4671,7 @@
         "entityType" : "RULE_NODE",
         "id" : "107580b0-2be4-11f1-ba77-1dd73ff76043"
       },
-      "name" : "OUTPUT - ControllDev",
+      "name" : "call RPC",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
