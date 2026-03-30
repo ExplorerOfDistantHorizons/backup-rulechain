@@ -1,0 +1,26 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : {
+      "entityName_Project" : "eb2a0e5d-7092-45af-a58f-5985881dd5ab"
+    },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "555a6320-cf47-11f0-b724-6b1671e6d9b4"
+    },
+    "attributes" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "92bb8580-2c1e-11f1-ba77-1dd73ff76043"
+    },
+    "label" : " đường 1",
+    "name" : "dccbcef0-36d6-4b70-80dc-ea71ae6b1fdf",
+    "telemetry" : null,
+    "type" : "ROAD"
+  }
+}
