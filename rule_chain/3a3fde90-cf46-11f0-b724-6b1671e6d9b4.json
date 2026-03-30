@@ -1738,7 +1738,7 @@
         "entityType" : "RULE_NODE",
         "id" : "20235c80-29af-11f1-ba77-1dd73ff76043"
       },
-      "name" : "->DeviceDirect",
+      "name" : "->STREET_LIGHT_LAN",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
