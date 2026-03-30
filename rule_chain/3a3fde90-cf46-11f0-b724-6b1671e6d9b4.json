@@ -502,15 +502,19 @@
     }, {
       "fromIndex" : 117,
       "toIndex" : 126,
-      "type" : "GROUP"
+      "type" : "BRANCH_NORMAL"
     }, {
       "fromIndex" : 117,
       "toIndex" : 127,
-      "type" : "SCENE"
+      "type" : "BRANCH_MESH"
     }, {
       "fromIndex" : 117,
       "toIndex" : 131,
       "type" : "DeviceInDirect"
+    }, {
+      "fromIndex" : 117,
+      "toIndex" : 155,
+      "type" : "BRANCH_LAN"
     }, {
       "fromIndex" : 118,
       "toIndex" : 48,
@@ -3696,7 +3700,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "function nextRelation(metadata, msg) {\r\n    var out_list = [];\r\n    switch (metadata.profileName_outEntity) {\r\n        case \"GROUP\":\r\n            out_list = ['GROUP']\r\n            break;\r\n        case \"SCENE\":\r\n            out_list = ['SCENE']\r\n            break;\r\n        case \"DeviceInDirect\":\r\n            out_list = ['DeviceInDirect']\r\n            break;\r\n        case \"DeviceDirect\":\r\n            out_list = ['DeviceDirect']\r\n            break;\r\n        default:\r\n            out_list = ['other']\r\n            break;\r\n    }\r\n    return out_list;\r\n}\r\nreturn nextRelation(metadata, msg);",
+        "jsScript" : "function nextRelation(metadata, msg) {\r\n    var out_list = [];\r\n    switch (metadata.profileName_outEntity) {\r\n        case \"BRANCH_NORMAL\":\r\n            out_list = ['BRANCH_NORMAL']\r\n            break;\r\n        case \"BRANCH_MESH\":\r\n            out_list = ['BRANCH_MESH']\r\n            break;\r\n        case \"BRANCH_LAN\":\r\n            out_list = ['BRANCH_LAN']\r\n            break;\r\n            \r\n        case \"DeviceDirect\":\r\n            out_list = ['DeviceDirect']\r\n            break;\r\n        default:\r\n            out_list = ['other']\r\n            break;\r\n    }\r\n    return out_list;\r\n}\r\nreturn nextRelation(metadata, msg);",
         "tbelScript" : "function nextRelation(metadata, msg) {\r\n    var out_list = [];\r\n    switch (msg.profileName) {\r\n        case \"GROUP\":\r\n        case \"SCENE\":\r\n            out_list = ['ASSET']\r\n            break;\r\n\r\n        default:\r\n            out_list = ['DEVICE']\r\n            break;\r\n    }\r\n    return out_list;\r\n}\r\nreturn nextRelation(metadata, msg);"
       },
       "configurationVersion" : 0,
