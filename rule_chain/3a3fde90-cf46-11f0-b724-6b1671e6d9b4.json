@@ -3969,7 +3969,7 @@
         "entityType" : "RULE_NODE",
         "id" : "2025a671-29af-11f1-ba77-1dd73ff76043"
       },
-      "name" : "chuyển đến GROUP",
+      "name" : "->BRANCH_NORMAL",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
@@ -4003,7 +4003,7 @@
         "entityType" : "RULE_NODE",
         "id" : "2025a672-29af-11f1-ba77-1dd73ff76043"
       },
-      "name" : "chuyển đến SCENE",
+      "name" : "->BRANCH_MESH",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
@@ -4748,7 +4748,7 @@
         "entityType" : "RULE_NODE",
         "id" : "975e9470-2be1-11f1-ba77-1dd73ff76043"
       },
-      "name" : "chuyển đến SCENE",
+      "name" : "->BRANCH_LAN",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
