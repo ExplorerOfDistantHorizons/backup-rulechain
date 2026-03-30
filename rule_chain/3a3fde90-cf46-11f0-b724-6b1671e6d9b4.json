@@ -4705,7 +4705,7 @@
         "entityType" : "RULE_NODE",
         "id" : "1075a7c0-2be4-11f1-ba77-1dd73ff76043"
       },
-      "name" : "->DeviceDirect",
+      "name" : "->GATEWAY",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
