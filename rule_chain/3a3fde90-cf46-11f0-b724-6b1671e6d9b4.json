@@ -1755,8 +1755,8 @@
         "scriptLang" : "JS",
         "jsScript" : "function getTypeTimerNow() {\r\n    // UTC+7 offset\r\n    var OFFSET = 7 * 3600000;\r\n    // timestamp hiện tại\r\n    var now = Date.now() + OFFSET;\r\n    var d = new Date(now);\r\n    // minute of day\r\n    var minutes = d.getUTCHours() * 60 + d.getUTCMinutes();\r\n    // getUTCDay(): 0=Sun\r\n    var day = d.getUTCDay();\r\n    var dayName;\r\n    switch (day) {\r\n        case 1: dayName = \"Mon\"; break;\r\n        case 2: dayName = \"Tue\"; break;\r\n        case 3: dayName = \"Wed\"; break;\r\n        case 4: dayName = \"Thu\"; break;\r\n        case 5: dayName = \"Fri\"; break;\r\n        case 6: dayName = \"Sat\"; break;\r\n        default: dayName = \"Sun\";\r\n    }\r\n\r\n    return {\r\n        type: dayName + \"_\" + minutes,\r\n        typeAll:\"All_\"+minutes\r\n    }\r\n}\r\nvar metadata = getTypeTimerNow();\r\nvar msgType = \"POST_TELEMETRY_REQUEST\";\r\nreturn {\r\n    msg: {},\r\n    metadata: metadata,\r\n    msgType: msgType\r\n};",
         "tbelScript" : "var msg = {};\nvar metadata = {};\nvar msgType = \"POST_TELEMETRY_REQUEST\";\n\nreturn { msg: msg, metadata: metadata, msgType: msgType };",
-        "originatorId" : "bd0db720-2a7c-11f1-ba77-1dd73ff76043",
-        "originatorType" : "ASSET"
+        "originatorId" : "13814000-1dd2-11b2-8080-808080808080",
+        "originatorType" : "RULE_NODE"
       },
       "configurationVersion" : 2,
       "createdTime" : 0,
