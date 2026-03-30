@@ -1,0 +1,28 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : {
+      "locationId" : "21.153277,106.151533",
+      "description" : "Khu 2 mô tả",
+      "createdByEmail" : "cssb_gd2@thingsboard.org"
+    },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "458b4c70-cf47-11f0-b724-6b1671e6d9b4"
+    },
+    "attributes" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "491a0590-2c1a-11f1-ba77-1dd73ff76043"
+    },
+    "label" : "khu 2",
+    "name" : "8bc4cba0-6788-4abf-820f-45115652d70d",
+    "telemetry" : null,
+    "type" : "ZONE"
+  }
+}
