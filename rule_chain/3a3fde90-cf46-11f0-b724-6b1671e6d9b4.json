@@ -3700,7 +3700,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "function nextRelation(metadata, msg) {\r\n    var out_list = [];\r\n    switch (metadata.profileName_outEntity) {\r\n        case \"BRANCH_NORMAL\":\r\n            out_list = ['BRANCH_NORMAL']\r\n            break;\r\n        case \"BRANCH_MESH\":\r\n            out_list = ['BRANCH_MESH']\r\n            break;\r\n        case \"BRANCH_LAN\":\r\n            out_list = ['BRANCH_LAN']\r\n            break;\r\n            \r\n        case \"DeviceDirect\":\r\n            out_list = ['DeviceDirect']\r\n            break;\r\n        default:\r\n            out_list = ['other']\r\n            break;\r\n    }\r\n    return out_list;\r\n}\r\nreturn nextRelation(metadata, msg);",
+        "jsScript" : "function nextRelation(metadata, msg) {\r\n    var out_list = [];\r\n    switch (metadata.profileName_outEntity) {\r\n        case \"BRANCH_NORMAL\":\r\n        case \"BRANCH_MESH\":\r\n        case \"BRANCH_LAN\":\r\n            out_list = ['BRANCH']\r\n            break;\r\n            \r\n        case \"DeviceDirect\":\r\n            out_list = ['DeviceDirect']\r\n            break;\r\n        default:\r\n            out_list = ['other']\r\n            break;\r\n    }\r\n    return out_list;\r\n}\r\nreturn nextRelation(metadata, msg);",
         "tbelScript" : "function nextRelation(metadata, msg) {\r\n    var out_list = [];\r\n    switch (msg.profileName) {\r\n        case \"GROUP\":\r\n        case \"SCENE\":\r\n            out_list = ['ASSET']\r\n            break;\r\n\r\n        default:\r\n            out_list = ['DEVICE']\r\n            break;\r\n    }\r\n    return out_list;\r\n}\r\nreturn nextRelation(metadata, msg);"
       },
       "configurationVersion" : 0,
@@ -4016,7 +4016,7 @@
       },
       "configuration" : {
         "forwardMsgToDefaultRuleChain" : false,
-        "ruleChainId" : "314dca00-cf45-11f0-b724-6b1671e6d9b4"
+        "ruleChainId" : "fb149ad0-cf45-11f0-b724-6b1671e6d9b4"
       },
       "configurationVersion" : 1,
       "createdTime" : 0,
