@@ -508,6 +508,10 @@
       "toIndex" : 129,
       "type" : "STREET_LIGHT_MESH"
     }, {
+      "fromIndex" : 117,
+      "toIndex" : 154,
+      "type" : "GATEWAY"
+    }, {
       "fromIndex" : 118,
       "toIndex" : 48,
       "type" : "Success"
