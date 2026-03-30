@@ -1,0 +1,24 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : { },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "3ebb3810-cf47-11f0-b724-6b1671e6d9b4"
+    },
+    "attributes" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "31e2e7a0-2c17-11f1-ba77-1dd73ff76043"
+    },
+    "label" : "Tên Dự án ",
+    "name" : "46490679-6c7b-4592-adee-f9218dd68b8a",
+    "telemetry" : null,
+    "type" : "PROJECT"
+  }
+}
