@@ -1,0 +1,28 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : {
+      "locationId" : "21.153277,106.151533",
+      "description" : "Dự án test 300326",
+      "createdByEmail" : "cssb_gd2@thingsboard.org"
+    },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "3ebb3810-cf47-11f0-b724-6b1671e6d9b4"
+    },
+    "attributes" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "7e9022f0-2c05-11f1-ba77-1dd73ff76043"
+    },
+    "label" : "Dự án 003",
+    "name" : "1859c90c-3376874354-8f823aac527a",
+    "telemetry" : null,
+    "type" : "PROJECT"
+  }
+}
