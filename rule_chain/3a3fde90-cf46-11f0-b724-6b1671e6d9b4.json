@@ -643,6 +643,10 @@
       "fromIndex" : 152,
       "toIndex" : 64,
       "type" : "Success"
+    }, {
+      "fromIndex" : 154,
+      "toIndex" : 153,
+      "type" : "Success"
     } ],
     "firstNodeIndex" : 34,
     "nodes" : [ {
@@ -4646,6 +4650,62 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.action.TbCreateRelationNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 3504,
+        "layoutY" : 1554
+      },
+      "configuration" : {
+        "timeoutInSeconds" : 0
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "107580b0-2be4-11f1-ba77-1dd73ff76043"
+      },
+      "name" : "OUTPUT - ControllDev",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.rpc.TbSendRPCRequestNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 3254,
+        "layoutY" : 1554
+      },
+      "configuration" : {
+        "originatorSource" : "ENTITY",
+        "entityType" : "DEVICE",
+        "entityNamePattern" : "${entityName_outEntity}",
+        "relationsQuery" : {
+          "direction" : "FROM",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Contains",
+            "entityTypes" : [ ],
+            "negate" : false
+          } ],
+          "fetchLastLevelOnly" : false
+        }
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "1075a7c0-2be4-11f1-ba77-1dd73ff76043"
+      },
+      "name" : "->DeviceDirect",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
     } ],
     "ruleChainConnections" : null
   }
