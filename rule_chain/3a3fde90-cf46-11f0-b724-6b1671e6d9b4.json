@@ -161,11 +161,11 @@
       "type" : "Post telemetry"
     }, {
       "fromIndex" : 33,
-      "toIndex" : 146,
+      "toIndex" : 144,
       "type" : "REST API request"
     }, {
       "fromIndex" : 34,
-      "toIndex" : 153,
+      "toIndex" : 151,
       "type" : "Success"
     }, {
       "fromIndex" : 35,
@@ -197,7 +197,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 42,
-      "toIndex" : 154,
+      "toIndex" : 152,
       "type" : "Success"
     }, {
       "fromIndex" : 43,
@@ -245,7 +245,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 51,
-      "toIndex" : 133,
+      "toIndex" : 131,
       "type" : "Success"
     }, {
       "fromIndex" : 52,
@@ -333,7 +333,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 75,
-      "toIndex" : 135,
+      "toIndex" : 133,
       "type" : "Success"
     }, {
       "fromIndex" : 76,
@@ -502,19 +502,11 @@
     }, {
       "fromIndex" : 117,
       "toIndex" : 126,
-      "type" : "BRANCH_NORMAL"
+      "type" : "BRANCH"
     }, {
       "fromIndex" : 117,
-      "toIndex" : 127,
-      "type" : "BRANCH_MESH"
-    }, {
-      "fromIndex" : 117,
-      "toIndex" : 131,
+      "toIndex" : 129,
       "type" : "DeviceInDirect"
-    }, {
-      "fromIndex" : 117,
-      "toIndex" : 155,
-      "type" : "BRANCH_LAN"
     }, {
       "fromIndex" : 118,
       "toIndex" : 48,
@@ -537,15 +529,19 @@
       "type" : "Success"
     }, {
       "fromIndex" : 126,
-      "toIndex" : 128,
+      "toIndex" : 127,
       "type" : "Success"
     }, {
-      "fromIndex" : 127,
-      "toIndex" : 129,
+      "fromIndex" : 128,
+      "toIndex" : 60,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 129,
+      "toIndex" : 130,
       "type" : "Success"
     }, {
       "fromIndex" : 130,
-      "toIndex" : 60,
+      "toIndex" : 128,
       "type" : "Success"
     }, {
       "fromIndex" : 131,
@@ -553,111 +549,99 @@
       "type" : "Success"
     }, {
       "fromIndex" : 132,
-      "toIndex" : 130,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 133,
-      "toIndex" : 134,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 134,
       "toIndex" : 63,
       "type" : "Success"
     }, {
-      "fromIndex" : 135,
-      "toIndex" : 152,
+      "fromIndex" : 133,
+      "toIndex" : 150,
       "type" : "True"
     }, {
-      "fromIndex" : 136,
+      "fromIndex" : 134,
+      "toIndex" : 135,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 134,
       "toIndex" : 137,
       "type" : "Success"
     }, {
-      "fromIndex" : 136,
-      "toIndex" : 139,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 139,
-      "toIndex" : 140,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 140,
+      "fromIndex" : 137,
       "toIndex" : 138,
       "type" : "Success"
     }, {
-      "fromIndex" : 141,
-      "toIndex" : 52,
-      "type" : "True"
-    }, {
-      "fromIndex" : 141,
-      "toIndex" : 143,
-      "type" : "False"
-    }, {
-      "fromIndex" : 141,
-      "toIndex" : 145,
-      "type" : "True"
-    }, {
-      "fromIndex" : 142,
-      "toIndex" : 141,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 145,
-      "toIndex" : 144,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 146,
-      "toIndex" : 51,
-      "type" : "createRule"
-    }, {
-      "fromIndex" : 146,
-      "toIndex" : 142,
-      "type" : "updateRule"
-    }, {
-      "fromIndex" : 146,
-      "toIndex" : 149,
-      "type" : "deleteRule"
-    }, {
-      "fromIndex" : 148,
-      "toIndex" : 147,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 149,
-      "toIndex" : 148,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 149,
-      "toIndex" : 150,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 149,
-      "toIndex" : 151,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 150,
-      "toIndex" : 78,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 151,
-      "toIndex" : 76,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 152,
+      "fromIndex" : 138,
       "toIndex" : 136,
       "type" : "Success"
     }, {
-      "fromIndex" : 153,
+      "fromIndex" : 139,
+      "toIndex" : 52,
+      "type" : "True"
+    }, {
+      "fromIndex" : 139,
+      "toIndex" : 141,
+      "type" : "False"
+    }, {
+      "fromIndex" : 139,
+      "toIndex" : 143,
+      "type" : "True"
+    }, {
+      "fromIndex" : 140,
+      "toIndex" : 139,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 143,
+      "toIndex" : 142,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 144,
+      "toIndex" : 51,
+      "type" : "createRule"
+    }, {
+      "fromIndex" : 144,
+      "toIndex" : 140,
+      "type" : "updateRule"
+    }, {
+      "fromIndex" : 144,
+      "toIndex" : 147,
+      "type" : "deleteRule"
+    }, {
+      "fromIndex" : 146,
+      "toIndex" : 145,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 147,
+      "toIndex" : 146,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 147,
+      "toIndex" : 148,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 147,
+      "toIndex" : 149,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 148,
+      "toIndex" : 78,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 149,
+      "toIndex" : 76,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 150,
+      "toIndex" : 134,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 151,
       "toIndex" : 33,
       "type" : "Failure"
     }, {
-      "fromIndex" : 153,
+      "fromIndex" : 151,
       "toIndex" : 33,
       "type" : "Success"
     }, {
-      "fromIndex" : 154,
+      "fromIndex" : 152,
       "toIndex" : 64,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 155,
-      "toIndex" : 156,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 34,
@@ -3976,40 +3960,6 @@
       "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
     }, {
       "additionalInfo" : {
-        "description" : "",
-        "layoutX" : 3253,
-        "layoutY" : 1601
-      },
-      "configuration" : {
-        "originatorSource" : "ENTITY",
-        "entityType" : "ASSET",
-        "entityNamePattern" : "${entityName_outEntity}",
-        "relationsQuery" : {
-          "direction" : "FROM",
-          "maxLevel" : 1,
-          "filters" : [ {
-            "relationType" : "Contains",
-            "entityTypes" : [ ],
-            "negate" : false
-          } ],
-          "fetchLastLevelOnly" : false
-        }
-      },
-      "configurationVersion" : 0,
-      "createdTime" : 0,
-      "debugMode" : false,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "2025a672-29af-11f1-ba77-1dd73ff76043"
-      },
-      "name" : "->BRANCH_MESH",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
-    }, {
-      "additionalInfo" : {
         "description" : "chuyển đến Rule chain - Room",
         "layoutX" : 3503,
         "layoutY" : 1550
@@ -4027,29 +3977,6 @@
         "id" : "2025a673-29af-11f1-ba77-1dd73ff76043"
       },
       "name" : "Rule chain - GROUP",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "chuyển đến Rule chain - Room",
-        "layoutX" : 3503,
-        "layoutY" : 1601
-      },
-      "configuration" : {
-        "forwardMsgToDefaultRuleChain" : false,
-        "ruleChainId" : "314dca00-cf45-11f0-b724-6b1671e6d9b4"
-      },
-      "configurationVersion" : 1,
-      "createdTime" : 0,
-      "debugMode" : false,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "2025a674-29af-11f1-ba77-1dd73ff76043"
-      },
-      "name" : "Rule chain - SCENE",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
@@ -4719,63 +4646,6 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.action.TbCreateRelationNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "",
-        "layoutX" : 3253,
-        "layoutY" : 1653
-      },
-      "configuration" : {
-        "originatorSource" : "ENTITY",
-        "entityType" : "ASSET",
-        "entityNamePattern" : "${entityName_outEntity}",
-        "relationsQuery" : {
-          "direction" : "FROM",
-          "maxLevel" : 1,
-          "filters" : [ {
-            "relationType" : "Contains",
-            "entityTypes" : [ ],
-            "negate" : false
-          } ],
-          "fetchLastLevelOnly" : false
-        }
-      },
-      "configurationVersion" : 0,
-      "createdTime" : 0,
-      "debugMode" : false,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "975e9470-2be1-11f1-ba77-1dd73ff76043"
-      },
-      "name" : "->BRANCH_LAN",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "chuyển đến Rule chain - Room",
-        "layoutX" : 3503,
-        "layoutY" : 1653
-      },
-      "configuration" : {
-        "forwardMsgToDefaultRuleChain" : false,
-        "ruleChainId" : "314dca00-cf45-11f0-b724-6b1671e6d9b4"
-      },
-      "configurationVersion" : 1,
-      "createdTime" : 0,
-      "debugMode" : false,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "975ebb80-2be1-11f1-ba77-1dd73ff76043"
-      },
-      "name" : "Rule chain - SCENE",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
     } ],
     "ruleChainConnections" : null
   }
