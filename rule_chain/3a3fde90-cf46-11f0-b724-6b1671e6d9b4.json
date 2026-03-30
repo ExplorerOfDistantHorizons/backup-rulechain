@@ -498,7 +498,7 @@
     }, {
       "fromIndex" : 117,
       "toIndex" : 41,
-      "type" : "DeviceDirect"
+      "type" : "STREET_LIGHT_LAN"
     }, {
       "fromIndex" : 117,
       "toIndex" : 126,
@@ -506,7 +506,7 @@
     }, {
       "fromIndex" : 117,
       "toIndex" : 129,
-      "type" : "DeviceInDirect"
+      "type" : "STREET_LIGHT_MESH"
     }, {
       "fromIndex" : 118,
       "toIndex" : 48,
@@ -3927,8 +3927,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3253,
-        "layoutY" : 1551
+        "layoutX" : 3254,
+        "layoutY" : 1603
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -3961,8 +3961,8 @@
     }, {
       "additionalInfo" : {
         "description" : "chuyển đến Rule chain - Room",
-        "layoutX" : 3503,
-        "layoutY" : 1550
+        "layoutX" : 3504,
+        "layoutY" : 1603
       },
       "configuration" : {
         "forwardMsgToDefaultRuleChain" : false,
