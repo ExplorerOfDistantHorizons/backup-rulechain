@@ -4006,7 +4006,7 @@
         "entityType" : "RULE_NODE",
         "id" : "2025a675-29af-11f1-ba77-1dd73ff76043"
       },
-      "name" : "OUTPUT - ControllDev",
+      "name" : "Call RPC",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
