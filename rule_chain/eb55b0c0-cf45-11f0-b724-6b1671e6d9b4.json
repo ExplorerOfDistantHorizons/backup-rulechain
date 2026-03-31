@@ -139,7 +139,7 @@
     }, {
       "fromIndex" : 16,
       "toIndex" : 38,
-      "type" : "deleteDevice"
+      "type" : "delGw"
     }, {
       "fromIndex" : 17,
       "toIndex" : 14,
