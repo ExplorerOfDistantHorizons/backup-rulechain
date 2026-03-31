@@ -1,0 +1,24 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : { },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "d6521c30-13c0-11f1-aa53-59604c0ee957"
+    },
+    "attributes" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "6e7b9000-2ccf-11f1-ba77-1dd73ff76043"
+    },
+    "label" : " Nhành ABC",
+    "name" : "221f705b-29f1-44a2-a013-50d9fed1afc3",
+    "telemetry" : null,
+    "type" : "BRANCH_LAN"
+  }
+}
