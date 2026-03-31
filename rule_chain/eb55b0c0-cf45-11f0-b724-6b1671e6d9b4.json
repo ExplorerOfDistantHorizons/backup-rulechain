@@ -1124,7 +1124,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "msg.method = \"deleteDevice\"\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "jsScript" : "\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
         "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
       },
       "configurationVersion" : 0,
