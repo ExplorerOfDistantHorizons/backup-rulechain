@@ -1,0 +1,43 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : false,
+      "overwriteActivityTime" : false,
+      "description" : ""
+    },
+    "attributes" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "MQTT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "3c66f260-cf48-11f0-b724-6b1671e6d9b4"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "7160f120-2cd9-11f1-ba77-1dd73ff76043"
+    },
+    "label" : "StreetLight_f020b1b4d66f",
+    "name" : "StreetLight_RD_06336f448448",
+    "softwareId" : null,
+    "telemetry" : null,
+    "type" : "STREET_LIGHT_LAN"
+  },
+  "credentials" : {
+    "credentialsId" : "780a292d2af4b95e84c06d8c1249fbf92ead5b39679040b979283d40e04af33e",
+    "credentialsType" : "MQTT_BASIC",
+    "credentialsValue" : "{\"clientId\":\"sl_rd_06336f448448\",\"userName\":\"sl_rd_06336f448448\",\"password\":\"sl_rd_06336f448448\"}"
+  }
+}
