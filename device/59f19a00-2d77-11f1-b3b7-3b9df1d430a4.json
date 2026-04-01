@@ -1,0 +1,45 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : true,
+      "overwriteActivityTime" : false,
+      "locationId" : "21.153277,106.151533",
+      "description" : "Dự án test 001 001",
+      "createdByEmail" : "cssb_gd2@thingsboard.org"
+    },
+    "attributes" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "MQTT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "023a1040-cf48-11f0-b724-6b1671e6d9b4"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "59f19a00-2d77-11f1-b3b7-3b9df1d430a4"
+    },
+    "label" : "Gateway_1051dba9d3fb",
+    "name" : "Gateway_RD_1051dba9d3fb",
+    "softwareId" : null,
+    "telemetry" : null,
+    "type" : "GATEWAY"
+  },
+  "credentials" : {
+    "credentialsId" : "0273242dfc2c5b6dd3fa9462b22141529fe993572bb6b82be23523071ac383f0",
+    "credentialsType" : "MQTT_BASIC",
+    "credentialsValue" : "{\"clientId\":\"g_rd_1051dba9d3fb\",\"userName\":\"g_rd_1051dba9d3fb\",\"password\":\"g_rd_1051dba9d3fb\"}"
+  }
+}
