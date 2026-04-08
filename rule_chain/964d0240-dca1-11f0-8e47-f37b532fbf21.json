@@ -1,0 +1,653 @@
+{
+  "entityType" : "RULE_CHAIN",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "configuration" : null,
+    "debugMode" : false,
+    "externalId" : null,
+    "firstRuleNodeId" : {
+      "entityType" : "RULE_NODE",
+      "id" : "9652a790-dca1-11f0-8e47-f37b532fbf21"
+    },
+    "id" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "964d0240-dca1-11f0-8e47-f37b532fbf21"
+    },
+    "name" : "Rule chain - Building",
+    "root" : false,
+    "type" : "CORE"
+  },
+  "metaData" : {
+    "connections" : [ {
+      "fromIndex" : 0,
+      "toIndex" : 3,
+      "type" : "Entity Created"
+    }, {
+      "fromIndex" : 0,
+      "toIndex" : 5,
+      "type" : "Entity Updated"
+    }, {
+      "fromIndex" : 0,
+      "toIndex" : 13,
+      "type" : "REST API request"
+    }, {
+      "fromIndex" : 0,
+      "toIndex" : 18,
+      "type" : "Post telemetry"
+    }, {
+      "fromIndex" : 1,
+      "toIndex" : 0,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 3,
+      "toIndex" : 2,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 3,
+      "toIndex" : 6,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 3,
+      "toIndex" : 7,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 5,
+      "toIndex" : 4,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 5,
+      "toIndex" : 6,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 7,
+      "toIndex" : 8,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 9,
+      "toIndex" : 10,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 10,
+      "toIndex" : 11,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 11,
+      "toIndex" : 15,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 12,
+      "toIndex" : 14,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 12,
+      "toIndex" : 17,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 13,
+      "toIndex" : 12,
+      "type" : "controlEntity"
+    }, {
+      "fromIndex" : 14,
+      "toIndex" : 9,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 15,
+      "toIndex" : 16,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 18,
+      "toIndex" : 19,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 19,
+      "toIndex" : 20,
+      "type" : "Success"
+    } ],
+    "firstNodeIndex" : 1,
+    "nodes" : [ {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 403,
+        "layoutY" : 352
+      },
+      "configuration" : {
+        "version" : 0
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "96528080-dca1-11f0-8e47-f37b532fbf21"
+      },
+      "name" : "message type switch",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.filter.TbMsgTypeSwitchNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 304,
+        "layoutY" : 151
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "return {msg: msg, metadata: metadata, msgType: msgType};",
+        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "9652a790-dca1-11f0-8e47-f37b532fbf21"
+      },
+      "name" : "tiền xử lý",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1005,
+        "layoutY" : 303
+      },
+      "configuration" : {
+        "scope" : "SERVER_SCOPE",
+        "notifyDevice" : false,
+        "sendAttributesUpdatedNotification" : false,
+        "updateAttributesOnlyOnValueChange" : true
+      },
+      "configurationVersion" : 2,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "9652a791-dca1-11f0-8e47-f37b532fbf21"
+      },
+      "name" : "lưu vào attribute",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgAttributesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 729,
+        "layoutY" : 303
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "metadata.assetNameFacility = msg.additionalInfo.assetNameFacility\nmsg={\n    entityType:\"ASSET\"\n}\nmsgType = \"POST_ATTRIBUTES_REQUEST\";\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "9652a792-dca1-11f0-8e47-f37b532fbf21"
+      },
+      "name" : "xử lý các bản tin khởi tạo",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1005,
+        "layoutY" : 403
+      },
+      "configuration" : {
+        "scope" : "SERVER_SCOPE",
+        "notifyDevice" : false,
+        "sendAttributesUpdatedNotification" : false,
+        "updateAttributesOnlyOnValueChange" : true
+      },
+      "configurationVersion" : 2,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "9652cea0-dca1-11f0-8e47-f37b532fbf21"
+      },
+      "name" : "lưu vào attribute",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgAttributesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 729,
+        "layoutY" : 402
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "metadata.assetNameFacility = msg.additionalInfo.assetNameFacility\nmsg = {}\nmsgType = \"POST_ATTRIBUTES_REQUEST\";\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "9652cea1-dca1-11f0-8e47-f37b532fbf21"
+      },
+      "name" : "xử lý các bản tin Cập nhật",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1005,
+        "layoutY" : 354
+      },
+      "configuration" : {
+        "direction" : "TO",
+        "entityType" : "ASSET",
+        "entityNamePattern" : "${assetNameFacility}",
+        "entityTypePattern" : "FACILITY",
+        "relationType" : "Building",
+        "createEntityIfNotExists" : false,
+        "removeCurrentRelations" : true,
+        "changeOriginatorToRelatedEntity" : false
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "9652cea2-dca1-11f0-8e47-f37b532fbf21"
+      },
+      "name" : "gắn quan hệ",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.action.TbCreateRelationNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1004,
+        "layoutY" : 252
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "msg = {\n    bt:0, // 0 =  tắt , 1 = bật , 2 = có thiết bị đang offline\n    dim:0 \n}\nmsgType = \"POST_TELEMETRY_REQUEST\";\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "942ca210-ef5f-11f0-b5d2-6160259d7c0c"
+      },
+      "name" : "Initialize basic TELEMETRY data for Building",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1279,
+        "layoutY" : 252
+      },
+      "configuration" : {
+        "defaultTTL" : 0,
+        "skipLatestPersistence" : false,
+        "useServerTs" : false
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "942cf030-ef5f-11f0-b5d2-6160259d7c0c"
+      },
+      "name" : "save telemetry",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgTimeseriesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1275,
+        "layoutY" : 503
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "if(msg.dataResponse!=null){\n    msg =  msg.dataResponse \n}else{\n    msg = []\n}\n\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "c7b1f3a0-f2c6-11f0-b5d2-6160259d7c0c"
+      },
+      "name" : "Xử lý mảng",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1400,
+        "layoutY" : 605
+      },
+      "configuration" : {
+        "version" : 0
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "60e094f0-f2c7-11f0-b5d2-6160259d7c0c"
+      },
+      "name" : "tách mảng thực thể con",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbSplitArrayMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "Chuyển thực thể gốc tới thiết bị con là Device",
+        "layoutX" : 1577,
+        "layoutY" : 502
+      },
+      "configuration" : {
+        "originatorSource" : "ENTITY",
+        "entityType" : "DEVICE",
+        "entityNamePattern" : "$[entityName]",
+        "relationsQuery" : {
+          "direction" : "FROM",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Contains",
+            "entityTypes" : [ ],
+            "negate" : false
+          } ],
+          "fetchLastLevelOnly" : false
+        }
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "c1d0b6a0-f2c7-11f0-b5d2-6160259d7c0c"
+      },
+      "name" : "originator to Device",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1003,
+        "layoutY" : 503
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "metadata.nextData = JSON.stringify(msg)\nmsg = {}\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "1788a0e0-f5d3-11f0-b5d2-6160259d7c0c"
+      },
+      "name" : "xử lý Bản tin",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 729,
+        "layoutY" : 503
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "function nextRelation(metadata, msg) {\r\n    var out_list = [];\r\n    var values = msg.params;\r\n\r\n    var method = null;\r\n    var hasValidControlField = false;\r\n    var isInvalid = false;\r\n\r\n    for (var key in values) {\r\n        if (values.hasOwnProperty(key)) {\r\n            var val = values[key];\r\n\r\n            if (key === \"dim\" || key === \"onoff\") {\r\n\r\n                // check type number\r\n                if (typeof val !== \"number\") {\r\n                    isInvalid = true;\r\n                    break;\r\n                }\r\n\r\n                // check integer\r\n                if (val % 1 !== 0) {\r\n                    isInvalid = true;\r\n                    break;\r\n                }\r\n\r\n                // check range\r\n                if (key === \"dim\") {\r\n                    if (val < 0 || val > 100) {\r\n                        isInvalid = true;\r\n                        break;\r\n                    }\r\n                }\r\n\r\n                if (key === \"onoff\") {\r\n                    if (val < 0 || val > 1) {\r\n                        isInvalid = true;\r\n                        break;\r\n                    }\r\n                }\r\n\r\n                // field hợp lệ\r\n                hasValidControlField = true;\r\n            }\r\n        }\r\n    }\r\n\r\n    if (hasValidControlField && !isInvalid) {\r\n        method = \"controlEntity\";\r\n    }\r\n\r\n    switch (method) {\r\n        case \"controlEntity\":\r\n            out_list = ['controlEntity'];\r\n            break;\r\n\r\n        default:\r\n            out_list = ['otherMethod'];\r\n            break;\r\n    }\r\n\r\n    return out_list;\r\n}\r\n\r\nreturn nextRelation(metadata, msg);",
+        "tbelScript" : "function nextRelation(metadata, msg) {\n    return ['one','nine'];\n}\nif(msgType == 'POST_TELEMETRY_REQUEST') {\n    return ['two'];\n}\nreturn nextRelation(metadata, msg);"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "1788c7f1-f5d3-11f0-b5d2-6160259d7c0c"
+      },
+      "name" : "lọc bản tin",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsSwitchNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1100,
+        "layoutY" : 603
+      },
+      "configuration" : {
+        "relationsQuery" : {
+          "fetchLastLevelOnly" : false,
+          "direction" : "FROM",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Contains",
+            "entityTypes" : [ "DEVICE" ]
+          } ]
+        },
+        "dataToFetch" : "FIELDS",
+        "fetchTo" : "DATA",
+        "dataMapping" : {
+          "name" : "entityName",
+          "type" : "profileName"
+        }
+      },
+      "configurationVersion" : 2,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "a82a52e0-f5e4-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "lấy entityName",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetRelatedEntityDataPlusNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1676,
+        "layoutY" : 603
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "var gatewayTypes = [\"GATEWAY_HC02\"]\nvar deviceDirectType = [\"CTCU_WIFI_4\", \"CTCU_WIFI_3\",\"CTCU_WIFI_2\", \"CTCU_WIFI_1\"]\nvar dataControl = JSON.parse(metadata.nextData)\n\nif (gatewayTypes.indexOf(msg.profileName) != -1) {\n    metadata.profileName = \"GATEWAY\"\n    msg = {\n        \"method\": \"controlAllDev\",\n        \"params\": dataControl.params\n    };\n} else {\n    if (deviceDirectType.indexOf(msg.profileName) != -1) {\n        metadata.profileName = \"DEVICE_DIRECT\"\n        msg = {\n            \"method\": \"controlDev\",\n            \"params\": {\n                bt: dataControl.params.bt,\n                dim: dataControl.params.dim\n\n            }\n        };\n\n\n    } else {\n        metadata.profileName = msg.profileName\n    }\n}\n\n\n\nmetadata.expirationTime = Date.now() + 10000;\nmetadata.originServiceId = metadata.serviceId;\nmetadata.oneway = false;\nmsgType = \"RPC_CALL_FROM_SERVER_TO_DEVICE\"\n\nreturn {\n    msg: msg,\n    metadata: metadata,\n    msgType: msgType\n};",
+        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "7cac5380-f66a-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "xử lý bản tin điều khiển",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1851,
+        "layoutY" : 503
+      },
+      "configuration" : {
+        "timeoutInSeconds" : 0
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "487a5620-fce6-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "call to Gateway",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.rpc.TbSendRPCRequestNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1276,
+        "layoutY" : 452
+      },
+      "configuration" : {
+        "serviceIdMetaDataAttribute" : "serviceId",
+        "requestIdMetaDataAttribute" : "requestUUID"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "9f05f210-fce6-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "Phản hồi",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.rest.TbSendRestApiCallReplyNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 726,
+        "layoutY" : 679
+      },
+      "configuration" : {
+        "relationsQuery" : {
+          "fetchLastLevelOnly" : false,
+          "direction" : "FROM",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Floor",
+            "entityTypes" : [ "ASSET" ]
+          } ]
+        },
+        "dataToFetch" : "LATEST_TELEMETRY",
+        "fetchTo" : "DATA",
+        "dataMapping" : {
+          "bt" : "bt",
+          "dim" : "dim"
+        }
+      },
+      "configurationVersion" : 2,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "f8332060-0277-11f1-86b8-d52a0a0e6635"
+      },
+      "name" : "Lấy dữ liệu từ các entityChild",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetRelatedEntityDataPlusNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1002,
+        "layoutY" : 678
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "function aggregateBtDim(dataResponse) {\n    var result = {\n        bt: 0,\n        dim: 0\n    };\n\n    if (!dataResponse || !dataResponse.length) {\n        return result;\n    }\n\n    var dimSum = 0;\n    var dimCount = 0;\n\n    for (var i = 0; i < dataResponse.length; i++) {\n        var item = dataResponse[i];\n\n        if (!item) {\n            continue;\n        }\n\n        // ===== bt: chỉ cần 1 thằng = 1 là đủ =====\n        var bt = parseInt(item.bt, 10);\n        if (bt === 1) {\n            result.bt = 1;\n        }\n\n        // ===== dim: tính trung bình =====\n        var dim = parseInt(item.dim, 10);\n        if (!isNaN(dim)) {\n            dimSum += dim;\n            dimCount++;\n        }\n    }\n\n    if (dimCount > 0) {\n        result.dim = Math.round(dimSum / dimCount);\n    }\n\n    return result;\n}\nmsg = aggregateBtDim(msg.dataResponse)\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "ae4eb1c0-0278-11f1-86b8-d52a0a0e6635"
+      },
+      "name" : "Tính dữ liệu",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1275,
+        "layoutY" : 678
+      },
+      "configuration" : {
+        "defaultTTL" : 0,
+        "skipLatestPersistence" : false,
+        "useServerTs" : false
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "ae4ed8d0-0278-11f1-86b8-d52a0a0e6635"
+      },
+      "name" : "save telemetry",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgTimeseriesNode"
+    } ],
+    "ruleChainConnections" : null
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
