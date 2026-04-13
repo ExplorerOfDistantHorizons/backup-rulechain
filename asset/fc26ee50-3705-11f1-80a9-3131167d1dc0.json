@@ -1,0 +1,29 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : {
+      "assetNameFacility" : "Cơ sở M.A"
+    },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "d1929570-dca3-11f0-8e47-f37b532fbf21"
+    },
+    "attributes" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "fc26ee50-3705-11f1-80a9-3131167d1dc0"
+    },
+    "label" : "13/04",
+    "name" : "ab505c26-9bd3-4ba7-8866-9fa647352907",
+    "telemetry" : null,
+    "type" : "BUILDING"
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
