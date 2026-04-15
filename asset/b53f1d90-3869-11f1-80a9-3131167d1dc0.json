@@ -1,0 +1,61 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : {
+      "assetNameGroup" : "Downlight màuu"
+    },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "a107a1d0-dca2-11f0-8e47-f37b532fbf21"
+    },
+    "attributes" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "b53f1d90-3869-11f1-80a9-3131167d1dc0"
+    },
+    "label" : "Downlight màuu",
+    "name" : "Downlight màuu",
+    "telemetry" : null,
+    "type" : "GROUP"
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "entityType",
+      "lastUpdateTs" : 1776216209132,
+      "longValue" : null,
+      "strValue" : "ASSET"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "groupTypeId",
+      "lastUpdateTs" : 1776216208992,
+      "longValue" : 1,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "id",
+      "lastUpdateTs" : 1776216208992,
+      "longValue" : null,
+      "strValue" : "afa0da77-0681-43ac-9af3-1159a5476230"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "name",
+      "lastUpdateTs" : 1776216208992,
+      "longValue" : null,
+      "strValue" : "Downlight màu"
+    } ]
+  }
+}
