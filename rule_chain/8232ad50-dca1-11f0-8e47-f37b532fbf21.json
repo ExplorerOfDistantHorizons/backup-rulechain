@@ -3461,20 +3461,23 @@
         "layoutY" : 1551
       },
       "configuration" : {
-        "fetchTo" : "METADATA",
-        "dataMapping" : {
-          "serialNumber" : "sn"
-        },
-        "dataToFetch" : "ATTRIBUTES",
         "relationsQuery" : {
+          "fetchLastLevelOnly" : false,
           "direction" : "FROM",
           "maxLevel" : 1,
           "filters" : [ {
-            "relationType" : "Contains",
-            "entityTypes" : [ ],
-            "negate" : false
-          } ],
-          "fetchLastLevelOnly" : false
+            "relationType" : "Room_Group",
+            "entityTypes" : [ "ASSET" ]
+          }, {
+            "relationType" : "Room_Scene",
+            "entityTypes" : [ "ASSET" ]
+          } ]
+        },
+        "dataToFetch" : "FIELDS",
+        "fetchTo" : "DATA",
+        "dataMapping" : {
+          "name" : "entityName",
+          "type" : "profileName"
         }
       },
       "configurationVersion" : 2,
