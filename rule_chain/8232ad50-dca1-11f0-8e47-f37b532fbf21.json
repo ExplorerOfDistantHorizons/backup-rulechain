@@ -3490,6 +3490,30 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.metadata.TbGetRelatedEntityDataPlusNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 3901,
+        "layoutY" : 1553
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "return {msg: msg, metadata: metadata, msgType: msgType};",
+        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "5b42d3b0-3a10-11f1-8434-253d78eb4729"
+      },
+      "name" : "dữ liệu check",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
     } ],
     "ruleChainConnections" : null
   },
