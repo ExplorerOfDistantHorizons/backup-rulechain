@@ -1,0 +1,29 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : {
+      "assetNameFacility" : "50145033-6a16-41db-b03c-760da37b5a62"
+    },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "d1929570-dca3-11f0-8e47-f37b532fbf21"
+    },
+    "attributes" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "35c6e460-3a14-11f1-8434-253d78eb4729"
+    },
+    "label" : "Tòa nhà thử nghiệm 99999999999999",
+    "name" : "3d10b12b-7b99-43be-8b96-ccf6bbf75e79",
+    "telemetry" : null,
+    "type" : "BUILDING"
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
