@@ -336,6 +336,10 @@
       "fromIndex" : 73,
       "toIndex" : 74,
       "type" : "Success"
+    }, {
+      "fromIndex" : 75,
+      "toIndex" : 33,
+      "type" : "Success"
     } ],
     "firstNodeIndex" : 18,
     "nodes" : [ {
@@ -2261,8 +2265,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1003,
-        "layoutY" : 688
+        "layoutX" : 1111,
+        "layoutY" : 703
       },
       "configuration" : {
         "msgCount" : 0,
