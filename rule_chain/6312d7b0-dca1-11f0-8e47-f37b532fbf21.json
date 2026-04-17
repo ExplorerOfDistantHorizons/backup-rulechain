@@ -2272,7 +2272,7 @@
         "msgCount" : 0,
         "periodInSeconds" : 1,
         "scriptLang" : "JS",
-        "jsScript" : "var controlFlag = Math.floor(Date.now() / 1000) % 2;\n\nvar msg = {\n    \"method\": \"controlDev\",\n    \"params\": {\n        \"id\": \"dev_c4dd5761c430_c66b5538c1a4\",\n        \"data\": {\n            \"onoff\": controlFlag\n        }\n    }\n};\n\nvar metadata = {\n        expirationTime  : Date.now() +5000,\n        originServiceId : \"thingsboarddev\",\n        oneway          : false\n    }\nvar msgType = \"RPC_CALL_FROM_SERVER_TO_DEVICE\"\nreturn { msg: msg, metadata: metadata, msgType: msgType };",
+        "jsScript" : "var controlFlag = Math.floor(Date.now() / 1000) % 2;\n\nvar msg = {\n    \"method\": \"controlDev\",\n    \"params\": {\n        \"id\": \"dev_c4dd5761c430_c66b5538c1a4\",\n        \"data\": {\n            \"onoff\": controlFlag\n        }\n    }\n};\n\nvar metadata = {\n        expirationTime  : Date.now() +10000,\n        originServiceId : \"thingsboarddev\",\n        oneway          : false\n    }\nvar msgType = \"RPC_CALL_FROM_SERVER_TO_DEVICE\"\nreturn { msg: msg, metadata: metadata, msgType: msgType };",
         "tbelScript" : "\nvar msg = {\n    \"method\": \"controlDev\",\n    \"params\": {\n        \"id\": \"dev_c4dd5761c430_c66b5538c1a4\",\n        \"data\": {\n            \"onoff\": 1\n        }\n    }\n};\nvar metadata = {\n        expirationTime  : Date.now() +5000,\n        originServiceId : \"thingsboarddev\",\n        oneway          : false\n    }\nvar msgType = \"RPC_CALL_FROM_SERVER_TO_DEVICE\"\nreturn { msg: msg, metadata: metadata, msgType: msgType };",
         "originatorId" : "d4d48740-fda3-11f0-8b2e-a5c280dd1e2c",
         "originatorType" : "DEVICE"
