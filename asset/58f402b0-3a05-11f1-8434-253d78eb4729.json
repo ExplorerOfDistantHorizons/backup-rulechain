@@ -1,0 +1,27 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : { },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "d76d7460-dca3-11f0-8e47-f37b532fbf21"
+    },
+    "attributes" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "58f402b0-3a05-11f1-8434-253d78eb4729"
+    },
+    "label" : "Cơ sở thử nghiệm 1233456",
+    "name" : "50145033-6a16-41db-b03c-760da37b5a62",
+    "telemetry" : null,
+    "type" : "FACILITY"
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
