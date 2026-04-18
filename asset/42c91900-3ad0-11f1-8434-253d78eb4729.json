@@ -1,0 +1,29 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : {
+      "assetNameBuilding" : "ab505c26-9bd3-4ba7-8866-9fa647352907"
+    },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "dc296b40-dca2-11f0-8e47-f37b532fbf21"
+    },
+    "attributes" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "42c91900-3ad0-11f1-8434-253d78eb4729"
+    },
+    "label" : "test1",
+    "name" : "3623dce7-c2e0-485d-a4b7-902775574abb",
+    "telemetry" : null,
+    "type" : "ROOM"
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
