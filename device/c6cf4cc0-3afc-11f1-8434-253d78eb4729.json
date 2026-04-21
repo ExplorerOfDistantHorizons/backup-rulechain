@@ -16,12 +16,12 @@
         "type" : "DEFAULT"
       },
       "transportConfiguration" : {
-        "type" : "MQTT"
+        "type" : "DEFAULT"
       }
     },
     "deviceProfileId" : {
       "entityType" : "DEVICE_PROFILE",
-      "id" : "65643a60-dca4-11f0-8e47-f37b532fbf21"
+      "id" : "c4dbc380-3d54-11f1-b4e0-7b34fdcb5ff0"
     },
     "externalId" : null,
     "firmwareId" : null,
@@ -33,15 +33,63 @@
     "name" : "dev_rd_ccba9795c374",
     "softwareId" : null,
     "telemetry" : null,
-    "type" : "CTCU_WIFI_1"
+    "type" : "APTOMAT_WIFI"
   },
   "credentials" : {
-    "credentialsId" : "xeHtn5eV6x08DuH7rf7c",
-    "credentialsType" : "ACCESS_TOKEN",
-    "credentialsValue" : null
+    "credentialsId" : "5bbda6bf8b064040c7a0096d7bf70798d4482ddf9cd5d64dad3d798c567ca22c",
+    "credentialsType" : "MQTT_BASIC",
+    "credentialsValue" : "{\"clientId\":\"rd_ccba9795c374\",\"userName\":\"rd_ccba9795c374\",\"password\":\"rd_ccba9795c374\"}"
   },
   "attributes" : {
-    "SERVER_SCOPE" : [ ],
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1776502973269,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "entityType",
+      "lastUpdateTs" : 1776499276769,
+      "longValue" : null,
+      "strValue" : "DEVICE"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1776502973268,
+      "longValue" : 1776502973268,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1776502339508,
+      "longValue" : 1776502336508,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1776501696176,
+      "longValue" : 1776501696176,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1776502336511,
+      "longValue" : 1776502336511,
+      "strValue" : null
+    } ],
     "SHARED_SCOPE" : [ ]
   }
 }
