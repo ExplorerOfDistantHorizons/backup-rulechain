@@ -488,6 +488,10 @@
       "fromIndex" : 115,
       "toIndex" : 116,
       "type" : "Success"
+    }, {
+      "fromIndex" : 119,
+      "toIndex" : 118,
+      "type" : "Success"
     } ],
     "firstNodeIndex" : 0,
     "nodes" : [ {
@@ -950,8 +954,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1328,
-        "layoutY" : 1704
+        "layoutX" : 1330,
+        "layoutY" : 1752
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -974,8 +978,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1326,
-        "layoutY" : 1903
+        "layoutX" : 1328,
+        "layoutY" : 1951
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -998,8 +1002,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1326,
-        "layoutY" : 2053
+        "layoutX" : 1328,
+        "layoutY" : 2101
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -1066,8 +1070,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1602,
-        "layoutY" : 1703
+        "layoutX" : 1604,
+        "layoutY" : 1751
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -1088,8 +1092,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1602,
-        "layoutY" : 1952
+        "layoutX" : 1604,
+        "layoutY" : 2000
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -1110,8 +1114,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1603,
-        "layoutY" : 2054
+        "layoutX" : 1605,
+        "layoutY" : 2102
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -1617,7 +1621,7 @@
         "relationType" : "Room_DeviceInDirect",
         "createEntityIfNotExists" : false,
         "removeCurrentRelations" : false,
-        "changeOriginatorToRelatedEntity" : false
+        "changeOriginatorToRelatedEntity" : true
       },
       "configurationVersion" : 1,
       "createdTime" : 0,
@@ -1669,8 +1673,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Tiền sử lý bản tin trước khi gửi xuống HCP",
-        "layoutX" : 1877,
-        "layoutY" : 1706
+        "layoutX" : 1879,
+        "layoutY" : 1754
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -1693,8 +1697,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Xử lý các danh sách thiết bị, nhóm , cảnh",
-        "layoutX" : 2375,
-        "layoutY" : 1705
+        "layoutX" : 2377,
+        "layoutY" : 1753
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -1717,8 +1721,8 @@
     }, {
       "additionalInfo" : {
         "description" : "chuyển đến Rule chain - Scene",
-        "layoutX" : 2874,
-        "layoutY" : 1806
+        "layoutX" : 2876,
+        "layoutY" : 1854
       },
       "configuration" : {
         "forwardMsgToDefaultRuleChain" : false,
@@ -1740,8 +1744,8 @@
     }, {
       "additionalInfo" : {
         "description" : "chuyển đến Rule chain - Group",
-        "layoutX" : 2874,
-        "layoutY" : 1756
+        "layoutX" : 2876,
+        "layoutY" : 1804
       },
       "configuration" : {
         "forwardMsgToDefaultRuleChain" : false,
@@ -1763,8 +1767,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Xử lý các danh sách thiết bị, nhóm , cảnh",
-        "layoutX" : 2375,
-        "layoutY" : 1755
+        "layoutX" : 2377,
+        "layoutY" : 1803
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -1787,8 +1791,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Xử lý các danh sách thiết bị, nhóm , cảnh",
-        "layoutX" : 2374,
-        "layoutY" : 1805
+        "layoutX" : 2376,
+        "layoutY" : 1853
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -1811,8 +1815,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2624,
-        "layoutY" : 1705
+        "layoutX" : 2626,
+        "layoutY" : 1753
       },
       "configuration" : {
         "version" : 0
@@ -1833,8 +1837,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2624,
-        "layoutY" : 1757
+        "layoutX" : 2626,
+        "layoutY" : 1805
       },
       "configuration" : {
         "version" : 0
@@ -1855,8 +1859,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2624,
-        "layoutY" : 1805
+        "layoutX" : 2626,
+        "layoutY" : 1853
       },
       "configuration" : {
         "version" : 0
@@ -1877,8 +1881,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2127,
-        "layoutY" : 1707
+        "layoutX" : 2129,
+        "layoutY" : 1755
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -1911,8 +1915,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2874,
-        "layoutY" : 1705
+        "layoutX" : 2876,
+        "layoutY" : 1753
       },
       "configuration" : {
         "deleteForSingleEntity" : true,
@@ -3082,8 +3086,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1879,
-        "layoutY" : 1905
+        "layoutX" : 1881,
+        "layoutY" : 1953
       },
       "configuration" : {
         "relationsQuery" : {
@@ -3118,8 +3122,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2128,
-        "layoutY" : 1904
+        "layoutX" : 2130,
+        "layoutY" : 1952
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -3142,8 +3146,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2628,
-        "layoutY" : 1904
+        "layoutX" : 2630,
+        "layoutY" : 1952
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -3176,8 +3180,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2877,
-        "layoutY" : 1903
+        "layoutX" : 2879,
+        "layoutY" : 1951
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
@@ -3201,8 +3205,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2375,
-        "layoutY" : 1903
+        "layoutX" : 2377,
+        "layoutY" : 1951
       },
       "configuration" : {
         "version" : 0
@@ -3273,8 +3277,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1602,
-        "layoutY" : 1903
+        "layoutX" : 1604,
+        "layoutY" : 1951
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -3307,8 +3311,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2877,
-        "layoutY" : 1954
+        "layoutX" : 2879,
+        "layoutY" : 2002
       },
       "configuration" : {
         "tellFailureIfAbsent" : false,
@@ -3335,8 +3339,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3128,
-        "layoutY" : 1954
+        "layoutX" : 3130,
+        "layoutY" : 2002
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -3359,8 +3363,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3376,
-        "layoutY" : 1954
+        "layoutX" : 3378,
+        "layoutY" : 2002
       },
       "configuration" : {
         "version" : 0
@@ -3381,8 +3385,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3627,
-        "layoutY" : 1953
+        "layoutX" : 3629,
+        "layoutY" : 2001
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
@@ -3426,6 +3430,55 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.rest.TbSendRestApiCallReplyNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 3378,
+        "layoutY" : 1504
+      },
+      "configuration" : {
+        "scope" : "SERVER_SCOPE",
+        "notifyDevice" : false,
+        "sendAttributesUpdatedNotification" : false,
+        "updateAttributesOnlyOnValueChange" : false
+      },
+      "configurationVersion" : 2,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "dbf59430-3e01-11f1-b4e0-7b34fdcb5ff0"
+      },
+      "name" : "lưu vào S attribute",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgAttributesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "Xử lý các danh sách thiết bị, nhóm , cảnh",
+        "layoutX" : 3127,
+        "layoutY" : 1504
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "msg = {\n   roomId: metadata.entityId\n}\nmsgType = \"POST_ATTRIBUTES_REQUEST\";\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "dbf60960-3e01-11f1-b4e0-7b34fdcb5ff0"
+      },
+      "name" : "lưu roomId",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
     } ],
     "ruleChainConnections" : null
   },
