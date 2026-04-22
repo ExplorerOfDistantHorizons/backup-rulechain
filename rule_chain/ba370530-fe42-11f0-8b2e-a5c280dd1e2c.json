@@ -39,6 +39,10 @@
     }, {
       "fromIndex" : 1,
       "toIndex" : 0,
+      "type" : "Failure"
+    }, {
+      "fromIndex" : 1,
+      "toIndex" : 0,
       "type" : "Success"
     }, {
       "fromIndex" : 2,
@@ -496,7 +500,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "try {\n    msg.params = JSON.parse(msg.params);\n} catch (e) {}\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "jsScript" : "msg.params = JSON.parse(msg.params);\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
         "tbelScript" : "metadata.dataNext = JSON.stringify(msg.params);\nvar newParams = {\n    id        : msg.params.id\n}\nmsg.params = newParams;\nreturn {msg: msg, metadata: metadata, msgType: msgType};"
       },
       "configurationVersion" : 0,
