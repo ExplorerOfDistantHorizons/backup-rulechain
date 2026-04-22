@@ -488,14 +488,6 @@
       "fromIndex" : 115,
       "toIndex" : 116,
       "type" : "Success"
-    }, {
-      "fromIndex" : 118,
-      "toIndex" : 119,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 119,
-      "toIndex" : 120,
-      "type" : "Success"
     } ],
     "firstNodeIndex" : 0,
     "nodes" : [ {
@@ -3434,97 +3426,6 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.rest.TbSendRestApiCallReplyNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "",
-        "layoutX" : 3297,
-        "layoutY" : 1548
-      },
-      "configuration" : {
-        "msgCount" : 0,
-        "periodInSeconds" : 5,
-        "scriptLang" : "TBEL",
-        "jsScript" : "var msg = { temp: 42, humidity: 77 };\nvar metadata = { data: 40 };\nvar msgType = \"POST_TELEMETRY_REQUEST\";\n\nreturn { msg: msg, metadata: metadata, msgType: msgType };",
-        "tbelScript" : "var msg = {};\nvar metadata = {};\nvar msgType = \"POST_TELEMETRY_REQUEST\";\n\nreturn { msg: msg, metadata: metadata, msgType: msgType };",
-        "originatorId" : "50a4e530-38a1-11f1-80a9-3131167d1dc0",
-        "originatorType" : "ASSET"
-      },
-      "configurationVersion" : 2,
-      "createdTime" : 0,
-      "debugMode" : false,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "0d3f8370-3a10-11f1-8434-253d78eb4729"
-      },
-      "name" : "máy farm bản tin room",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.debug.TbMsgGeneratorNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "",
-        "layoutX" : 3578,
-        "layoutY" : 1551
-      },
-      "configuration" : {
-        "relationsQuery" : {
-          "fetchLastLevelOnly" : false,
-          "direction" : "FROM",
-          "maxLevel" : 1,
-          "filters" : [ {
-            "relationType" : "Room_Group",
-            "entityTypes" : [ "ASSET" ]
-          }, {
-            "relationType" : "Room_Scene",
-            "entityTypes" : [ "ASSET" ]
-          } ]
-        },
-        "dataToFetch" : "FIELDS",
-        "fetchTo" : "DATA",
-        "dataMapping" : {
-          "name" : "entityName",
-          "type" : "profileName"
-        }
-      },
-      "configurationVersion" : 2,
-      "createdTime" : 0,
-      "debugMode" : false,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "47a528d0-3a10-11f1-8434-253d78eb4729"
-      },
-      "name" : "truy vấn quan hệ của phòng f8bc372c-1173-430d-a8e3-3ce4e16a64e7",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.metadata.TbGetRelatedEntityDataPlusNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "",
-        "layoutX" : 3901,
-        "layoutY" : 1553
-      },
-      "configuration" : {
-        "scriptLang" : "JS",
-        "jsScript" : "return {msg: msg, metadata: metadata, msgType: msgType};",
-        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
-      },
-      "configurationVersion" : 0,
-      "createdTime" : 0,
-      "debugMode" : true,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "5b42d3b0-3a10-11f1-8434-253d78eb4729"
-      },
-      "name" : "dữ liệu check",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
     } ],
     "ruleChainConnections" : null
   },
