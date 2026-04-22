@@ -2748,7 +2748,7 @@
       "additionalInfo" : {
         "description" : "",
         "layoutX" : 2626,
-        "layoutY" : 1055
+        "layoutY" : 1052
       },
       "configuration" : {
         "deleteForSingleEntity" : true,
