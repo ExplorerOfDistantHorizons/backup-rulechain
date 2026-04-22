@@ -234,15 +234,15 @@
       "type" : "Success"
     }, {
       "fromIndex" : 47,
-      "toIndex" : 38,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 47,
       "toIndex" : 41,
       "type" : "Success"
     }, {
       "fromIndex" : 47,
       "toIndex" : 42,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 47,
+      "toIndex" : 120,
       "type" : "Success"
     }, {
       "fromIndex" : 48,
@@ -495,6 +495,10 @@
     }, {
       "fromIndex" : 119,
       "toIndex" : 118,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 120,
+      "toIndex" : 38,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 0,
@@ -1430,7 +1434,7 @@
     }, {
       "additionalInfo" : {
         "description" : "Xử lý các danh sách thiết bị, nhóm , cảnh",
-        "layoutX" : 2375,
+        "layoutX" : 2626,
         "layoutY" : 1505
       },
       "configuration" : {
@@ -1548,7 +1552,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2624,
+        "layoutX" : 2875,
         "layoutY" : 1505
       },
       "configuration" : {
@@ -1614,7 +1618,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2874,
+        "layoutX" : 3125,
         "layoutY" : 1505
       },
       "configuration" : {
@@ -3437,7 +3441,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3378,
+        "layoutX" : 3629,
         "layoutY" : 1504
       },
       "configuration" : {
@@ -3462,7 +3466,7 @@
     }, {
       "additionalInfo" : {
         "description" : "Xử lý các danh sách thiết bị, nhóm , cảnh",
-        "layoutX" : 3127,
+        "layoutX" : 3378,
         "layoutY" : 1504
       },
       "configuration" : {
@@ -3483,6 +3487,32 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2376,
+        "layoutY" : 1504
+      },
+      "configuration" : {
+        "dataMapping" : {
+          "id" : "entityId"
+        },
+        "ignoreNullStrings" : false,
+        "fetchTo" : "METADATA"
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "0a7b1050-3e02-11f1-b4e0-7b34fdcb5ff0"
+      },
+      "name" : "lấy entityId của phòng",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetOriginatorFieldsNode"
     } ],
     "ruleChainConnections" : null
   },
