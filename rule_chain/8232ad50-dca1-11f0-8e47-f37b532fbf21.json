@@ -285,6 +285,10 @@
       "toIndex" : 121,
       "type" : "Success"
     }, {
+      "fromIndex" : 58,
+      "toIndex" : 123,
+      "type" : "Success"
+    }, {
       "fromIndex" : 59,
       "toIndex" : 60,
       "type" : "delDevFromRoomRspComplete"
@@ -3597,7 +3601,7 @@
         "entityType" : "RULE_NODE",
         "id" : "5d701800-3e02-11f1-b4e0-7b34fdcb5ff0"
       },
-      "name" : "Chuyển thực thể gốc sang device",
+      "name" : "-> device",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
