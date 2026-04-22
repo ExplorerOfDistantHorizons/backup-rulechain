@@ -16,7 +16,7 @@
         "inputTimer" : {
           "activeTimer" : true,
           "triggers" : [ {
-            "time" : "07:00:00",
+            "time" : "Invalid date",
             "repeat" : 24
           } ]
         },
@@ -58,11 +58,43 @@
       "id" : "893d9130-3d1f-11f1-b4e0-7b34fdcb5ff0"
     },
     "label" : "rcl5",
-    "name" : "6cef46ea-09a7-428a-a2ed-aa53ec2c6f35",
+    "name" : "893d9130-3d1f-11f1-b4e0-7b34fdcb5ff0",
     "telemetry" : null,
     "type" : "RULE_CLOUD"
   },
   "attributes" : {
-    "SERVER_SCOPE" : [ ]
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "{\"activeTimer\":true,\"triggers\":[{\"time\":\"07:00:00\",\"repeat\":24}]}",
+      "key" : "inputTimer",
+      "lastUpdateTs" : 1776734108156,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "logic",
+      "lastUpdateTs" : 1776734108156,
+      "longValue" : null,
+      "strValue" : "or"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "status",
+      "lastUpdateTs" : 1776734108156,
+      "longValue" : 1,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "{\"allDay\":true,\"startTime\":\"00:00:00\",\"endTime\":\"23:59:59\",\"repeat\":127}",
+      "key" : "validityPeriod",
+      "lastUpdateTs" : 1776734108156,
+      "longValue" : null,
+      "strValue" : null
+    } ]
   }
 }
