@@ -16,8 +16,8 @@
         "inputTimer" : {
           "activeTimer" : true,
           "triggers" : [ {
-            "time" : "Invalid date",
-            "repeat" : 24
+            "time" : "07:04:00",
+            "repeat" : 16
           } ]
         },
         "listInputDevice" : [ ]
@@ -66,9 +66,9 @@
     "SERVER_SCOPE" : [ {
       "booleanValue" : null,
       "doubleValue" : null,
-      "jsonValue" : "{\"activeTimer\":true,\"triggers\":[{\"time\":\"07:00:00\",\"repeat\":24}]}",
+      "jsonValue" : "{\"activeTimer\":true,\"triggers\":[{\"time\":\"Invalid date\",\"repeat\":24}]}",
       "key" : "inputTimer",
-      "lastUpdateTs" : 1776734108156,
+      "lastUpdateTs" : 1776840326729,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -90,9 +90,9 @@
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
-      "jsonValue" : "{\"allDay\":true,\"startTime\":\"00:00:00\",\"endTime\":\"23:59:59\",\"repeat\":127}",
+      "jsonValue" : "{\"allDay\":true,\"startTime\":\"00:00:00\",\"endTime\":\"23:59:59\",\"repeat\":127,\"activationDate\":\"2026-04-22T13:45:26.698Z\"}",
       "key" : "validityPeriod",
-      "lastUpdateTs" : 1776734108156,
+      "lastUpdateTs" : 1776840326729,
       "longValue" : null,
       "strValue" : null
     } ]
