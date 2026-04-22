@@ -2258,34 +2258,6 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.action.TbDeleteRelationNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "",
-        "layoutX" : 1111,
-        "layoutY" : 703
-      },
-      "configuration" : {
-        "msgCount" : 0,
-        "periodInSeconds" : 1,
-        "scriptLang" : "JS",
-        "jsScript" : "var controlFlag = Math.floor(Date.now() / 1000) % 2;\n\nvar msg = {\n    \"method\": \"controlDev\",\n    \"params\": {\n        \"id\": \"dev_c4dd5761c430_c66b5538c1a4\",\n        \"data\": {\n            \"onoff\": controlFlag\n        }\n    }\n};\n\nvar metadata = {\n        expirationTime  : Date.now() +10000,\n        originServiceId : \"thingsboarddev\",\n        oneway          : false\n    }\nvar msgType = \"RPC_CALL_FROM_SERVER_TO_DEVICE\"\nreturn { msg: msg, metadata: metadata, msgType: msgType };",
-        "tbelScript" : "\nvar msg = {\n    \"method\": \"controlDev\",\n    \"params\": {\n        \"id\": \"dev_c4dd5761c430_c66b5538c1a4\",\n        \"data\": {\n            \"onoff\": 1\n        }\n    }\n};\nvar metadata = {\n        expirationTime  : Date.now() +5000,\n        originServiceId : \"thingsboarddev\",\n        oneway          : false\n    }\nvar msgType = \"RPC_CALL_FROM_SERVER_TO_DEVICE\"\nreturn { msg: msg, metadata: metadata, msgType: msgType };",
-        "originatorId" : "070ff7b0-27ef-11f1-ba77-1dd73ff76043",
-        "originatorType" : "DEVICE"
-      },
-      "configurationVersion" : 2,
-      "createdTime" : 0,
-      "debugMode" : true,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "d65f62b0-3a0c-11f1-8434-253d78eb4729"
-      },
-      "name" : "máy farm bản tin",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.debug.TbMsgGeneratorNode"
     } ],
     "ruleChainConnections" : null
   },
