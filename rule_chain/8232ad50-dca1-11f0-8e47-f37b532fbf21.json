@@ -338,15 +338,15 @@
       "type" : "Success"
     }, {
       "fromIndex" : 71,
-      "toIndex" : 63,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 71,
       "toIndex" : 66,
       "type" : "Success"
     }, {
       "fromIndex" : 71,
       "toIndex" : 67,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 71,
+      "toIndex" : 124,
       "type" : "Success"
     }, {
       "fromIndex" : 72,
@@ -374,15 +374,15 @@
       "type" : "Success"
     }, {
       "fromIndex" : 80,
-      "toIndex" : 72,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 80,
       "toIndex" : 75,
       "type" : "Success"
     }, {
       "fromIndex" : 80,
       "toIndex" : 76,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 80,
+      "toIndex" : 125,
       "type" : "Success"
     }, {
       "fromIndex" : 81,
@@ -410,15 +410,15 @@
       "type" : "Success"
     }, {
       "fromIndex" : 89,
-      "toIndex" : 81,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 89,
       "toIndex" : 84,
       "type" : "Success"
     }, {
       "fromIndex" : 89,
       "toIndex" : 85,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 89,
+      "toIndex" : 126,
       "type" : "Success"
     }, {
       "fromIndex" : 94,
@@ -511,6 +511,18 @@
     }, {
       "fromIndex" : 123,
       "toIndex" : 122,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 124,
+      "toIndex" : 63,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 125,
+      "toIndex" : 72,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 126,
+      "toIndex" : 81,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 0,
@@ -2057,8 +2069,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Xử lý các danh sách thiết bị, nhóm , cảnh",
-        "layoutX" : 1878,
-        "layoutY" : 1053
+        "layoutX" : 2128,
+        "layoutY" : 1054
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -2175,8 +2187,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2127,
-        "layoutY" : 1054
+        "layoutX" : 2377,
+        "layoutY" : 1055
       },
       "configuration" : {
         "version" : 0
@@ -2275,7 +2287,7 @@
     }, {
       "additionalInfo" : {
         "description" : "Xử lý các danh sách thiết bị, nhóm , cảnh",
-        "layoutX" : 1877,
+        "layoutX" : 2127,
         "layoutY" : 854
       },
       "configuration" : {
@@ -2393,7 +2405,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2125,
+        "layoutX" : 2375,
         "layoutY" : 853
       },
       "configuration" : {
@@ -2493,8 +2505,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Xử lý các danh sách thiết bị, nhóm , cảnh",
-        "layoutX" : 1877,
-        "layoutY" : 655
+        "layoutX" : 2126,
+        "layoutY" : 653
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -2611,8 +2623,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2126,
-        "layoutY" : 654
+        "layoutX" : 2375,
+        "layoutY" : 652
       },
       "configuration" : {
         "version" : 0
@@ -2711,8 +2723,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2376,
-        "layoutY" : 1054
+        "layoutX" : 2626,
+        "layoutY" : 1055
       },
       "configuration" : {
         "deleteForSingleEntity" : true,
@@ -2737,7 +2749,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2375,
+        "layoutX" : 2625,
         "layoutY" : 853
       },
       "configuration" : {
@@ -2763,8 +2775,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2378,
-        "layoutY" : 654
+        "layoutX" : 2627,
+        "layoutY" : 652
       },
       "configuration" : {
         "direction" : "FROM",
@@ -3610,6 +3622,84 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1878,
+        "layoutY" : 1055
+      },
+      "configuration" : {
+        "dataMapping" : {
+          "id" : "entityId"
+        },
+        "ignoreNullStrings" : false,
+        "fetchTo" : "METADATA"
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b13540f0-3e02-11f1-b4e0-7b34fdcb5ff0"
+      },
+      "name" : "lấy entityId của phòng",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetOriginatorFieldsNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1876,
+        "layoutY" : 855
+      },
+      "configuration" : {
+        "dataMapping" : {
+          "id" : "entityId"
+        },
+        "ignoreNullStrings" : false,
+        "fetchTo" : "METADATA"
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b1356800-3e02-11f1-b4e0-7b34fdcb5ff0"
+      },
+      "name" : "lấy entityId của phòng",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetOriginatorFieldsNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1875,
+        "layoutY" : 654
+      },
+      "configuration" : {
+        "dataMapping" : {
+          "id" : "entityId"
+        },
+        "ignoreNullStrings" : false,
+        "fetchTo" : "METADATA"
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b1356801-3e02-11f1-b4e0-7b34fdcb5ff0"
+      },
+      "name" : "lấy entityId của phòng",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetOriginatorFieldsNode"
     } ],
     "ruleChainConnections" : null
   },
