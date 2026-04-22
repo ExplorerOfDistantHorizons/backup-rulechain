@@ -274,15 +274,15 @@
       "type" : "Success"
     }, {
       "fromIndex" : 57,
-      "toIndex" : 49,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 57,
       "toIndex" : 52,
       "type" : "Success"
     }, {
       "fromIndex" : 57,
       "toIndex" : 53,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 57,
+      "toIndex" : 121,
       "type" : "Success"
     }, {
       "fromIndex" : 59,
@@ -499,6 +499,10 @@
     }, {
       "fromIndex" : 120,
       "toIndex" : 38,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 121,
+      "toIndex" : 49,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 0,
@@ -1705,7 +1709,7 @@
     }, {
       "additionalInfo" : {
         "description" : "Xử lý các danh sách thiết bị, nhóm , cảnh",
-        "layoutX" : 2377,
+        "layoutX" : 2626,
         "layoutY" : 1753
       },
       "configuration" : {
@@ -1823,8 +1827,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2626,
-        "layoutY" : 1753
+        "layoutX" : 2877,
+        "layoutY" : 1754
       },
       "configuration" : {
         "version" : 0
@@ -1923,7 +1927,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2876,
+        "layoutX" : 3126,
         "layoutY" : 1753
       },
       "configuration" : {
@@ -3513,6 +3517,91 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.metadata.TbGetOriginatorFieldsNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2377,
+        "layoutY" : 1753
+      },
+      "configuration" : {
+        "dataMapping" : {
+          "id" : "entityId"
+        },
+        "ignoreNullStrings" : false,
+        "fetchTo" : "METADATA"
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "5d6fc9e0-3e02-11f1-b4e0-7b34fdcb5ff0"
+      },
+      "name" : "lấy entityId của phòng",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetOriginatorFieldsNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 3625,
+        "layoutY" : 1752
+      },
+      "configuration" : {
+        "scope" : "SERVER_SCOPE",
+        "keys" : [ "roomId" ],
+        "sendAttributesDeletedNotification" : false,
+        "notifyDevice" : false
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "5d6ff0f0-3e02-11f1-b4e0-7b34fdcb5ff0"
+      },
+      "name" : "xóa data trong attribute",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgDeleteAttributesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 3376,
+        "layoutY" : 1752
+      },
+      "configuration" : {
+        "originatorSource" : "ENTITY",
+        "entityType" : "DEVICE",
+        "entityNamePattern" : "$[deviceName]",
+        "relationsQuery" : {
+          "direction" : "FROM",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Contains",
+            "entityTypes" : [ ],
+            "negate" : false
+          } ],
+          "fetchLastLevelOnly" : false
+        }
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "5d701800-3e02-11f1-b4e0-7b34fdcb5ff0"
+      },
+      "name" : "Chuyển thực thể gốc sang device",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
     } ],
     "ruleChainConnections" : null
   },
