@@ -2786,7 +2786,7 @@
         "relationType" : "Room_DeviceInDirect",
         "createEntityIfNotExists" : false,
         "removeCurrentRelations" : false,
-        "changeOriginatorToRelatedEntity" : false
+        "changeOriginatorToRelatedEntity" : true
       },
       "configurationVersion" : 1,
       "createdTime" : 0,
