@@ -55,12 +55,12 @@
           "onoff" : 1
         }
       }, {
-        "entityName" : "3fb10870-4374-11f1-b0ec-7fc812fc60db",
+        "entityName" : "30099da5-6922-4c2c-90e3-3808bdb17819",
         "profileName" : "GROUP",
         "index" : 3,
         "delayOutput" : 0,
         "dataAction" : {
-          "onoff" : 0
+          "onoff" : 1
         }
       } ]
     },
@@ -87,9 +87,9 @@
     "SERVER_SCOPE" : [ {
       "booleanValue" : null,
       "doubleValue" : null,
-      "jsonValue" : "{\"activeTimer\":true,\"triggers\":[{\"time\":\"09:35:18\",\"repeat\":127}]}",
+      "jsonValue" : "{\"activeTimer\":true,\"triggers\":[{\"time\":\"Invalid date\",\"repeat\":127}]}",
       "key" : "inputTimer",
-      "lastUpdateTs" : 1777430310425,
+      "lastUpdateTs" : 1777431536329,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -111,9 +111,9 @@
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
-      "jsonValue" : "{\"allDay\":true,\"startTime\":\"00:00:00\",\"endTime\":\"23:59:59\",\"repeat\":127}",
+      "jsonValue" : "{\"allDay\":true,\"startTime\":\"00:00:00\",\"endTime\":\"23:59:59\",\"repeat\":127,\"activationDate\":\"2026-04-29T09:58:56.313Z\"}",
       "key" : "validityPeriod",
-      "lastUpdateTs" : 1777430310425,
+      "lastUpdateTs" : 1777431536329,
       "longValue" : null,
       "strValue" : null
     } ]
