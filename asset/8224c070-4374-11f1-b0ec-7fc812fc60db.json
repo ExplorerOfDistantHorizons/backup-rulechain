@@ -16,7 +16,7 @@
         "inputTimer" : {
           "activeTimer" : true,
           "triggers" : [ {
-            "time" : "09:35:18",
+            "time" : "Invalid date",
             "repeat" : 127
           } ]
         },
@@ -47,20 +47,20 @@
           "onoff" : 0
         }
       }, {
-        "entityName" : "3fb10870-4374-11f1-b0ec-7fc812fc60db",
-        "profileName" : "GROUP",
+        "entityName" : "dev_08d1f99cd188_fa011e38c1a4",
+        "profileName" : "D_CCT-RGB_BLE",
         "index" : 2,
         "delayOutput" : 0,
         "dataAction" : {
           "onoff" : 1
         }
       }, {
-        "entityName" : "dev_08d1f99cd188_fa011e38c1a4",
-        "profileName" : "D_CCT-RGB_BLE",
+        "entityName" : "3fb10870-4374-11f1-b0ec-7fc812fc60db",
+        "profileName" : "GROUP",
         "index" : 3,
         "delayOutput" : 0,
         "dataAction" : {
-          "onoff" : 1
+          "onoff" : 0
         }
       } ]
     },
@@ -79,11 +79,43 @@
       "id" : "8224c070-4374-11f1-b0ec-7fc812fc60db"
     },
     "label" : "ok888",
-    "name" : "4ec40054-270c-4f9c-805a-11ec5475e809",
+    "name" : "8224c070-4374-11f1-b0ec-7fc812fc60db",
     "telemetry" : null,
     "type" : "RULE_CLOUD"
   },
   "attributes" : {
-    "SERVER_SCOPE" : [ ]
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "{\"activeTimer\":true,\"triggers\":[{\"time\":\"09:35:18\",\"repeat\":127}]}",
+      "key" : "inputTimer",
+      "lastUpdateTs" : 1777430310425,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "logic",
+      "lastUpdateTs" : 1777430310425,
+      "longValue" : null,
+      "strValue" : "or"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "status",
+      "lastUpdateTs" : 1777430310425,
+      "longValue" : 1,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "{\"allDay\":true,\"startTime\":\"00:00:00\",\"endTime\":\"23:59:59\",\"repeat\":127}",
+      "key" : "validityPeriod",
+      "lastUpdateTs" : 1777430310425,
+      "longValue" : null,
+      "strValue" : null
+    } ]
   }
 }
