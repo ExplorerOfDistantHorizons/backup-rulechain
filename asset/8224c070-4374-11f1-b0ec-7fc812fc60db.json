@@ -1,0 +1,89 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : "",
+      "entityName_Building" : "ab505c26-9bd3-4ba7-8866-9fa647352907",
+      "status" : 1,
+      "validityPeriod" : {
+        "allDay" : true,
+        "startTime" : "00:00:00",
+        "endTime" : "23:59:59",
+        "repeat" : 127
+      },
+      "inputData" : {
+        "logic" : "or",
+        "inputTimer" : {
+          "activeTimer" : true,
+          "triggers" : [ {
+            "time" : "09:35:18",
+            "repeat" : 127
+          } ]
+        },
+        "listInputDevice" : [ {
+          "entityName" : "dev_c4dd5761c430_e8a88738c1a4",
+          "profileName" : "CTCU_BLE_3",
+          "dataTrigger" : [ {
+            "key" : "bt",
+            "operator" : "=",
+            "value" : 1
+          } ]
+        } ]
+      },
+      "outputRuleValue" : [ {
+        "entityName" : "dev_c4dd5761c430_c66b5538c1a4",
+        "profileName" : "D_CCT-RGB_BLE",
+        "index" : 0,
+        "delayOutput" : 0,
+        "dataAction" : {
+          "onoff" : 0
+        }
+      }, {
+        "entityName" : "dev_08d1f99cd188_c66b5538c1a4",
+        "profileName" : "D_CCT-RGB_BLE",
+        "index" : 1,
+        "delayOutput" : 0,
+        "dataAction" : {
+          "onoff" : 0
+        }
+      }, {
+        "entityName" : "3fb10870-4374-11f1-b0ec-7fc812fc60db",
+        "profileName" : "GROUP",
+        "index" : 2,
+        "delayOutput" : 0,
+        "dataAction" : {
+          "onoff" : 1
+        }
+      }, {
+        "entityName" : "dev_08d1f99cd188_fa011e38c1a4",
+        "profileName" : "D_CCT-RGB_BLE",
+        "index" : 3,
+        "delayOutput" : 0,
+        "dataAction" : {
+          "onoff" : 1
+        }
+      } ]
+    },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "dec52d60-ea9b-11f0-a8cc-49dcc3dac220"
+    },
+    "attributes" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "8224c070-4374-11f1-b0ec-7fc812fc60db"
+    },
+    "label" : "ok888",
+    "name" : "4ec40054-270c-4f9c-805a-11ec5475e809",
+    "telemetry" : null,
+    "type" : "RULE_CLOUD"
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
