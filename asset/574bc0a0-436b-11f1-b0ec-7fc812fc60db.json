@@ -16,7 +16,7 @@
         "inputTimer" : {
           "activeTimer" : true,
           "triggers" : [ {
-            "time" : "08:32:50",
+            "time" : "Invalid date",
             "repeat" : 127
           } ]
         },
@@ -38,6 +38,14 @@
         "dataAction" : {
           "onoff" : 0
         }
+      }, {
+        "entityName" : "31601ac0-3ee9-11f1-b4e0-7b34fdcb5ff0",
+        "profileName" : "GROUP",
+        "index" : 1,
+        "delayOutput" : 0,
+        "dataAction" : {
+          "onoff" : 1
+        }
       } ]
     },
     "assetProfileId" : {
@@ -55,11 +63,43 @@
       "id" : "574bc0a0-436b-11f1-b0ec-7fc812fc60db"
     },
     "label" : "name 123",
-    "name" : "14a2e6b9-cd84-429e-b704-72c27f5016bc",
+    "name" : "574bc0a0-436b-11f1-b0ec-7fc812fc60db",
     "telemetry" : null,
     "type" : "RULE_CLOUD"
   },
   "attributes" : {
-    "SERVER_SCOPE" : [ ]
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "{\"activeTimer\":true,\"triggers\":[{\"time\":\"08:32:50\",\"repeat\":127}]}",
+      "key" : "inputTimer",
+      "lastUpdateTs" : 1777426373144,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "logic",
+      "lastUpdateTs" : 1777426373144,
+      "longValue" : null,
+      "strValue" : "or"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "status",
+      "lastUpdateTs" : 1777426373144,
+      "longValue" : 1,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "{\"allDay\":true,\"startTime\":\"00:00:00\",\"endTime\":\"23:59:59\",\"repeat\":127}",
+      "key" : "validityPeriod",
+      "lastUpdateTs" : 1777426373144,
+      "longValue" : null,
+      "strValue" : null
+    } ]
   }
 }
