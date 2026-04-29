@@ -71,9 +71,9 @@
     "SERVER_SCOPE" : [ {
       "booleanValue" : null,
       "doubleValue" : null,
-      "jsonValue" : "{\"activeTimer\":true,\"triggers\":[{\"time\":\"08:32:50\",\"repeat\":127}]}",
+      "jsonValue" : "{\"activeTimer\":true,\"triggers\":[{\"time\":\"Invalid date\",\"repeat\":127}]}",
       "key" : "inputTimer",
-      "lastUpdateTs" : 1777426373144,
+      "lastUpdateTs" : 1777429801028,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -95,9 +95,9 @@
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
-      "jsonValue" : "{\"allDay\":true,\"startTime\":\"00:00:00\",\"endTime\":\"23:59:59\",\"repeat\":127}",
+      "jsonValue" : "{\"allDay\":true,\"startTime\":\"00:00:00\",\"endTime\":\"23:59:59\",\"repeat\":127,\"activationDate\":\"2026-04-29T09:30:00.997Z\"}",
       "key" : "validityPeriod",
-      "lastUpdateTs" : 1777426373144,
+      "lastUpdateTs" : 1777429801028,
       "longValue" : null,
       "strValue" : null
     } ]
