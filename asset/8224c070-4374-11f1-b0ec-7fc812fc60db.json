@@ -111,9 +111,9 @@
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
-      "jsonValue" : "{\"allDay\":true,\"startTime\":\"00:00:00\",\"endTime\":\"23:59:59\",\"repeat\":127,\"activationDate\":\"2026-04-29T09:58:56.313Z\"}",
+      "jsonValue" : "{\"allDay\":true,\"startTime\":\"00:00:00\",\"endTime\":\"23:59:59\",\"repeat\":127,\"activationDate\":\"2026-04-29T10:42:54.448Z\"}",
       "key" : "validityPeriod",
-      "lastUpdateTs" : 1777431536329,
+      "lastUpdateTs" : 1777434174471,
       "longValue" : null,
       "strValue" : null
     } ]
