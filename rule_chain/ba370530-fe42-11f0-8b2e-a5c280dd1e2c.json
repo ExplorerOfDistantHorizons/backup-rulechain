@@ -638,8 +638,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3777,
-        "layoutY" : 1177
+        "layoutX" : 3776,
+        "layoutY" : 1127
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -660,8 +660,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3528,
-        "layoutY" : 1179
+        "layoutX" : 3527,
+        "layoutY" : 1129
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -2907,8 +2907,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3529,
-        "layoutY" : 1229
+        "layoutX" : 3527,
+        "layoutY" : 1178
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -2941,8 +2941,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3528,
-        "layoutY" : 1279
+        "layoutX" : 3527,
+        "layoutY" : 1227
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -2975,8 +2975,8 @@
     }, {
       "additionalInfo" : {
         "description" : "chuyển đến Rule chain - Room",
-        "layoutX" : 3778,
-        "layoutY" : 1226
+        "layoutX" : 3777,
+        "layoutY" : 1176
       },
       "configuration" : {
         "forwardMsgToDefaultRuleChain" : false,
@@ -2998,8 +2998,8 @@
     }, {
       "additionalInfo" : {
         "description" : "chuyển đến Rule chain - Room",
-        "layoutX" : 3778,
-        "layoutY" : 1277
+        "layoutX" : 3777,
+        "layoutY" : 1227
       },
       "configuration" : {
         "forwardMsgToDefaultRuleChain" : false,
@@ -3050,8 +3050,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 4027,
-        "layoutY" : 1128
+        "layoutX" : 4026,
+        "layoutY" : 1078
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -3072,8 +3072,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3528,
-        "layoutY" : 1127
+        "layoutX" : 3527,
+        "layoutY" : 1077
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -3106,8 +3106,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3777,
-        "layoutY" : 1128
+        "layoutX" : 3776,
+        "layoutY" : 1078
       },
       "configuration" : {
         "originatorSource" : "RELATED",
