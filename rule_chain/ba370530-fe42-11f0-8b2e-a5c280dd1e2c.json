@@ -661,7 +661,7 @@
       "additionalInfo" : {
         "description" : "",
         "layoutX" : 3528,
-        "layoutY" : 1176
+        "layoutY" : 1179
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -2907,8 +2907,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3528,
-        "layoutY" : 1227
+        "layoutX" : 3529,
+        "layoutY" : 1229
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -2942,7 +2942,7 @@
       "additionalInfo" : {
         "description" : "",
         "layoutX" : 3528,
-        "layoutY" : 1277
+        "layoutY" : 1279
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
