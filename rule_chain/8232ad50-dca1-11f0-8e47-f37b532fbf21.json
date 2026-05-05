@@ -552,6 +552,10 @@
       "fromIndex" : 131,
       "toIndex" : 132,
       "type" : "Success"
+    }, {
+      "fromIndex" : 133,
+      "toIndex" : 134,
+      "type" : "Success"
     } ],
     "firstNodeIndex" : 0,
     "nodes" : [ {
@@ -834,7 +838,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1226,
+        "layoutX" : 1229,
         "layoutY" : 453
       },
       "configuration" : {
@@ -2835,7 +2839,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1503,
+        "layoutX" : 1501,
         "layoutY" : 453
       },
       "configuration" : {
@@ -2883,7 +2887,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1502,
+        "layoutX" : 1500,
         "layoutY" : 403
       },
       "configuration" : {
@@ -3852,7 +3856,7 @@
     }, {
       "additionalInfo" : {
         "description" : "Chuyển thực thể gốc tới thiết bị con là Device",
-        "layoutX" : 1227,
+        "layoutX" : 1229,
         "layoutY" : 504
       },
       "configuration" : {
@@ -3899,6 +3903,62 @@
       "id" : {
         "entityType" : "RULE_NODE",
         "id" : "ec73cbd0-4863-11f1-905b-d9c31e94ae99"
+      },
+      "name" : "Rule chain - Group",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "Chuyển thực thể gốc tới thiết bị con là Device",
+        "layoutX" : 1229,
+        "layoutY" : 554
+      },
+      "configuration" : {
+        "originatorSource" : "RELATED",
+        "entityType" : null,
+        "entityNamePattern" : null,
+        "relationsQuery" : {
+          "fetchLastLevelOnly" : true,
+          "direction" : "TO",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Gateway_Room",
+            "entityTypes" : [ "DEVICE" ]
+          } ]
+        }
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "9b7aa1e0-4868-11f1-905b-d9c31e94ae99"
+      },
+      "name" : "Chuyển tới Gateway",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "chuyển đến Rule chain - Group",
+        "layoutX" : 1501,
+        "layoutY" : 554
+      },
+      "configuration" : {
+        "forwardMsgToDefaultRuleChain" : false,
+        "ruleChainId" : "5089d120-dca1-11f0-8e47-f37b532fbf21"
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "9b7ac8f0-4868-11f1-905b-d9c31e94ae99"
       },
       "name" : "Rule chain - Group",
       "queueName" : null,
