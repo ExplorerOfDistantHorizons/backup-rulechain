@@ -864,8 +864,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 645,
-        "layoutY" : 1357
+        "layoutX" : 331,
+        "layoutY" : 1121
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -898,8 +898,8 @@
     }, {
       "additionalInfo" : {
         "description" : "tách lấy mảng để lưu dữ liệu vào ",
-        "layoutX" : 893,
-        "layoutY" : 1357
+        "layoutX" : 579,
+        "layoutY" : 1121
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -1233,8 +1233,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1144,
-        "layoutY" : 1357
+        "layoutX" : 830,
+        "layoutY" : 1121
       },
       "configuration" : {
         "defaultTTL" : 0,
@@ -1383,8 +1383,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 639,
-        "layoutY" : 1503
+        "layoutX" : 329,
+        "layoutY" : 1172
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -1417,8 +1417,8 @@
     }, {
       "additionalInfo" : {
         "description" : "tách lấy mảng để lưu dữ liệu vào ",
-        "layoutX" : 889,
-        "layoutY" : 1503
+        "layoutX" : 579,
+        "layoutY" : 1172
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -1441,8 +1441,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1138,
-        "layoutY" : 1503
+        "layoutX" : 828,
+        "layoutY" : 1172
       },
       "configuration" : {
         "defaultTTL" : 0,
