@@ -333,20 +333,16 @@
       "toIndex" : 76,
       "type" : "Success"
     }, {
-      "fromIndex" : 76,
-      "toIndex" : 78,
-      "type" : "Success"
-    }, {
       "fromIndex" : 77,
       "toIndex" : 74,
       "type" : "Success"
     }, {
-      "fromIndex" : 78,
-      "toIndex" : 79,
-      "type" : "Success"
-    }, {
       "fromIndex" : 79,
       "toIndex" : 80,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 81,
+      "toIndex" : 79,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 0,
@@ -2288,7 +2284,7 @@
       "additionalInfo" : {
         "description" : "",
         "layoutX" : 2379,
-        "layoutY" : 1454
+        "layoutY" : 1405
       },
       "configuration" : {
         "version" : 0
@@ -2309,8 +2305,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Chuyển thực thể gốc tới thiết bị con là Device",
-        "layoutX" : 2628,
-        "layoutY" : 1454
+        "layoutX" : 2626,
+        "layoutY" : 1402
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -2379,8 +2375,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2879,
-        "layoutY" : 1454
+        "layoutX" : 2852,
+        "layoutY" : 1403
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -2403,8 +2399,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3129,
-        "layoutY" : 1455
+        "layoutX" : 2126,
+        "layoutY" : 1454
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -2425,7 +2421,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3378,
+        "layoutX" : 2375,
         "layoutY" : 1454
       },
       "configuration" : {
