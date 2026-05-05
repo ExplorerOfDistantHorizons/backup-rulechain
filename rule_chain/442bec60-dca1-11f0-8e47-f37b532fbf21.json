@@ -682,7 +682,7 @@
     }, {
       "additionalInfo" : {
         "description" : "Tiền sử lý bản tin trước khi gửi xuống HCP",
-        "layoutX" : 2529,
+        "layoutX" : 2528,
         "layoutY" : 1128
       },
       "configuration" : {
@@ -3059,7 +3059,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2526,
+        "layoutX" : 2528,
         "layoutY" : 1078
       },
       "configuration" : {
