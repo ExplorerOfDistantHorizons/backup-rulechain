@@ -97,6 +97,10 @@
       "toIndex" : 131,
       "type" : "createGroup"
     }, {
+      "fromIndex" : 12,
+      "toIndex" : 133,
+      "type" : "createScene"
+    }, {
       "fromIndex" : 13,
       "toIndex" : 8,
       "type" : "Success"
