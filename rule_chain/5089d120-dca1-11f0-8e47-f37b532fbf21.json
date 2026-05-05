@@ -344,6 +344,10 @@
       "fromIndex" : 78,
       "toIndex" : 79,
       "type" : "Success"
+    }, {
+      "fromIndex" : 79,
+      "toIndex" : 80,
+      "type" : "Success"
     } ],
     "firstNodeIndex" : 0,
     "nodes" : [ {
@@ -2283,8 +2287,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2376,
-        "layoutY" : 1458
+        "layoutX" : 2379,
+        "layoutY" : 1454
       },
       "configuration" : {
         "version" : 0
@@ -2305,8 +2309,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Chuyển thực thể gốc tới thiết bị con là Device",
-        "layoutX" : 2652,
-        "layoutY" : 1456
+        "layoutX" : 2628,
+        "layoutY" : 1454
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -2375,7 +2379,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2917,
+        "layoutX" : 2879,
         "layoutY" : 1454
       },
       "configuration" : {
@@ -2399,8 +2403,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3098,
-        "layoutY" : 1460
+        "layoutX" : 3129,
+        "layoutY" : 1455
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -2421,8 +2425,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3343,
-        "layoutY" : 1462
+        "layoutX" : 3378,
+        "layoutY" : 1454
       },
       "configuration" : {
         "serviceIdMetaDataAttribute" : "serviceId",
