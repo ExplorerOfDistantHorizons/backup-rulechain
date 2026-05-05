@@ -93,6 +93,10 @@
       "toIndex" : 11,
       "type" : "controlEntity"
     }, {
+      "fromIndex" : 12,
+      "toIndex" : 131,
+      "type" : "createGroup"
+    }, {
       "fromIndex" : 13,
       "toIndex" : 8,
       "type" : "Success"
@@ -543,6 +547,10 @@
     }, {
       "fromIndex" : 130,
       "toIndex" : 129,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 131,
+      "toIndex" : 132,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 0,
@@ -3841,6 +3849,62 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "Chuyển thực thể gốc tới thiết bị con là Device",
+        "layoutX" : 1227,
+        "layoutY" : 504
+      },
+      "configuration" : {
+        "originatorSource" : "RELATED",
+        "entityType" : null,
+        "entityNamePattern" : null,
+        "relationsQuery" : {
+          "fetchLastLevelOnly" : true,
+          "direction" : "TO",
+          "maxLevel" : 2,
+          "filters" : [ {
+            "relationType" : "Gateway_Room",
+            "entityTypes" : [ "DEVICE" ]
+          } ]
+        }
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "ec73a4c0-4863-11f1-905b-d9c31e94ae99"
+      },
+      "name" : "Chuyển tới Gateway",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "chuyển đến Rule chain - Group",
+        "layoutX" : 1501,
+        "layoutY" : 503
+      },
+      "configuration" : {
+        "forwardMsgToDefaultRuleChain" : false,
+        "ruleChainId" : "5089d120-dca1-11f0-8e47-f37b532fbf21"
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "ec73cbd0-4863-11f1-905b-d9c31e94ae99"
+      },
+      "name" : "Rule chain - Group",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
     } ],
     "ruleChainConnections" : null
   },
