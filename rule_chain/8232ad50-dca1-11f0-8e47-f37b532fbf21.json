@@ -3948,13 +3948,13 @@
       "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
     }, {
       "additionalInfo" : {
-        "description" : "chuyển đến Rule chain - Group",
+        "description" : "chuyển đến Rule chain - Scene",
         "layoutX" : 1501,
         "layoutY" : 554
       },
       "configuration" : {
         "forwardMsgToDefaultRuleChain" : false,
-        "ruleChainId" : "5089d120-dca1-11f0-8e47-f37b532fbf21"
+        "ruleChainId" : "442bec60-dca1-11f0-8e47-f37b532fbf21"
       },
       "configurationVersion" : 1,
       "createdTime" : 0,
@@ -3962,9 +3962,9 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "9b7ac8f0-4868-11f1-905b-d9c31e94ae99"
+        "id" : "c6ff6120-4868-11f1-905b-d9c31e94ae99"
       },
-      "name" : "Rule chain - Group",
+      "name" : "Rule chain - Scene",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
