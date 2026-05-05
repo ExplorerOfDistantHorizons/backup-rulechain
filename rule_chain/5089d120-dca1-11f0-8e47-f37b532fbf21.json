@@ -2448,8 +2448,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Chuyển thực thể gốc tới thiết bị con là Device",
-        "layoutX" : 2628,
-        "layoutY" : 1396
+        "layoutX" : 2096,
+        "layoutY" : 1524
       },
       "configuration" : {
         "originatorSource" : "RELATED",
@@ -2461,7 +2461,7 @@
           "maxLevel" : 2,
           "filters" : [ {
             "relationType" : "Gateway_Room",
-            "entityTypes" : [ ]
+            "entityTypes" : [ "DEVICE" ]
           } ]
         }
       },
@@ -2473,7 +2473,7 @@
         "entityType" : "RULE_NODE",
         "id" : "b7ef0ac0-4861-11f1-905b-d9c31e94ae99"
       },
-      "name" : "originator to Device",
+      "name" : "Chuyển tới Gateway",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
