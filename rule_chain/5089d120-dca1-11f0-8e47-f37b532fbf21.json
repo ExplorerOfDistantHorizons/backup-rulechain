@@ -1243,7 +1243,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1627,
+        "layoutX" : 1630,
         "layoutY" : 1329
       },
       "configuration" : {
@@ -1880,8 +1880,8 @@
     }, {
       "additionalInfo" : {
         "description" : "nếu là nhóm tự tạo  = true, ngược là false",
-        "layoutX" : 1875,
-        "layoutY" : 1328
+        "layoutX" : 1876,
+        "layoutY" : 1329
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -2247,7 +2247,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2126,
+        "layoutX" : 2129,
         "layoutY" : 1454
       },
       "configuration" : {
@@ -2269,7 +2269,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2375,
+        "layoutX" : 2379,
         "layoutY" : 1454
       },
       "configuration" : {
@@ -2292,7 +2292,7 @@
     }, {
       "additionalInfo" : {
         "description" : "Chuyển thực thể gốc tới thiết bị con là Device",
-        "layoutX" : 1876,
+        "layoutX" : 1879,
         "layoutY" : 1453
       },
       "configuration" : {
