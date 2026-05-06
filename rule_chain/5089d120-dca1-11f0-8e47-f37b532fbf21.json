@@ -22,14 +22,6 @@
   "metaData" : {
     "connections" : [ {
       "fromIndex" : 0,
-      "toIndex" : 1,
-      "type" : "REST API request"
-    }, {
-      "fromIndex" : 0,
-      "toIndex" : 1,
-      "type" : "RPC Request to Device"
-    }, {
-      "fromIndex" : 0,
       "toIndex" : 28,
       "type" : "Entity Created"
     }, {
@@ -48,6 +40,14 @@
       "fromIndex" : 0,
       "toIndex" : 68,
       "type" : "REST API request"
+    }, {
+      "fromIndex" : 0,
+      "toIndex" : 80,
+      "type" : "REST API request"
+    }, {
+      "fromIndex" : 0,
+      "toIndex" : 80,
+      "type" : "RPC Request to Device"
     }, {
       "fromIndex" : 1,
       "toIndex" : 2,
@@ -343,6 +343,10 @@
     }, {
       "fromIndex" : 76,
       "toIndex" : 74,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 80,
+      "toIndex" : 1,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 0,
@@ -862,8 +866,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 331,
-        "layoutY" : 1121
+        "layoutX" : 184,
+        "layoutY" : 1506
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -896,8 +900,8 @@
     }, {
       "additionalInfo" : {
         "description" : "tách lấy mảng để lưu dữ liệu vào ",
-        "layoutX" : 579,
-        "layoutY" : 1121
+        "layoutX" : 432,
+        "layoutY" : 1506
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -1231,8 +1235,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 830,
-        "layoutY" : 1121
+        "layoutX" : 683,
+        "layoutY" : 1506
       },
       "configuration" : {
         "defaultTTL" : 0,
@@ -1381,8 +1385,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 329,
-        "layoutY" : 1172
+        "layoutX" : 182,
+        "layoutY" : 1557
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -1415,8 +1419,8 @@
     }, {
       "additionalInfo" : {
         "description" : "tách lấy mảng để lưu dữ liệu vào ",
-        "layoutX" : 579,
-        "layoutY" : 1172
+        "layoutX" : 432,
+        "layoutY" : 1557
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -1439,8 +1443,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 828,
-        "layoutY" : 1172
+        "layoutX" : 681,
+        "layoutY" : 1557
       },
       "configuration" : {
         "defaultTTL" : 0,
@@ -2403,6 +2407,39 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.rest.TbSendRestApiCallReplyNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "Chuyển thực thể gốc tới thiết bị con là Device",
+        "layoutX" : 1001,
+        "layoutY" : 1078
+      },
+      "configuration" : {
+        "originatorSource" : "RELATED",
+        "entityType" : null,
+        "entityNamePattern" : null,
+        "relationsQuery" : {
+          "fetchLastLevelOnly" : true,
+          "direction" : "TO",
+          "maxLevel" : 2,
+          "filters" : [ {
+            "relationType" : "Gateway_Room",
+            "entityTypes" : [ "DEVICE" ]
+          } ]
+        }
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "27441770-48f4-11f1-905b-d9c31e94ae99"
+      },
+      "name" : "Chuyển tới Gateway",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
     } ],
     "ruleChainConnections" : null
   },
