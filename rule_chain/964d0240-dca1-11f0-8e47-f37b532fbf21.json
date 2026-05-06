@@ -330,8 +330,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1275,
-        "layoutY" : 503
+        "layoutX" : 1554,
+        "layoutY" : 553
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -354,8 +354,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1400,
-        "layoutY" : 605
+        "layoutX" : 1629,
+        "layoutY" : 653
       },
       "configuration" : {
         "version" : 0
@@ -376,8 +376,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Chuyển thực thể gốc tới thiết bị con là Device",
-        "layoutX" : 1577,
-        "layoutY" : 502
+        "layoutX" : 1803,
+        "layoutY" : 553
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -410,8 +410,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1003,
-        "layoutY" : 503
+        "layoutX" : 1004,
+        "layoutY" : 554
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -434,8 +434,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 729,
-        "layoutY" : 503
+        "layoutX" : 730,
+        "layoutY" : 554
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -458,7 +458,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1100,
+        "layoutX" : 1279,
         "layoutY" : 603
       },
       "configuration" : {
@@ -494,8 +494,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1676,
-        "layoutY" : 603
+        "layoutX" : 1880,
+        "layoutY" : 654
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -518,8 +518,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1851,
-        "layoutY" : 503
+        "layoutX" : 2053,
+        "layoutY" : 554
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -540,8 +540,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1276,
-        "layoutY" : 452
+        "layoutX" : 1279,
+        "layoutY" : 554
       },
       "configuration" : {
         "serviceIdMetaDataAttribute" : "serviceId",
@@ -563,8 +563,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 726,
-        "layoutY" : 679
+        "layoutX" : 729,
+        "layoutY" : 480
       },
       "configuration" : {
         "relationsQuery" : {
@@ -599,8 +599,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1002,
-        "layoutY" : 678
+        "layoutX" : 1005,
+        "layoutY" : 479
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -623,8 +623,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1275,
-        "layoutY" : 678
+        "layoutX" : 1278,
+        "layoutY" : 479
       },
       "configuration" : {
         "defaultTTL" : 0,
