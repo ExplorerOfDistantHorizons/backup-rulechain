@@ -410,8 +410,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1004,
-        "layoutY" : 554
+        "layoutX" : 1001,
+        "layoutY" : 603
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -434,8 +434,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 730,
-        "layoutY" : 554
+        "layoutX" : 726,
+        "layoutY" : 604
       },
       "configuration" : {
         "scriptLang" : "JS",
