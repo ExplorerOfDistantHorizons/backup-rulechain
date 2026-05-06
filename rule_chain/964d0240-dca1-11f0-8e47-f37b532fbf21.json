@@ -563,8 +563,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 729,
-        "layoutY" : 480
+        "layoutX" : 728,
+        "layoutY" : 479
       },
       "configuration" : {
         "relationsQuery" : {
