@@ -1199,7 +1199,7 @@
         "entityType" : "RULE_NODE",
         "id" : "bb2bd1a0-f690-11f0-8c6e-5381beb8d689"
       },
-      "name" : "Gateway @ Room+>",
+      "name" : "Gateway @ Room",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
