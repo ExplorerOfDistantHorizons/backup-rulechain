@@ -153,12 +153,24 @@
       "toIndex" : 25,
       "type" : "Success"
     }, {
+      "fromIndex" : 20,
+      "toIndex" : 134,
+      "type" : "Success"
+    }, {
       "fromIndex" : 21,
       "toIndex" : 35,
       "type" : "Success"
     }, {
+      "fromIndex" : 21,
+      "toIndex" : 135,
+      "type" : "Success"
+    }, {
       "fromIndex" : 22,
       "toIndex" : 46,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 22,
+      "toIndex" : 136,
       "type" : "Success"
     }, {
       "fromIndex" : 24,
@@ -3936,6 +3948,75 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1878,
+        "layoutY" : 1352
+      },
+      "configuration" : {
+        "serviceIdMetaDataAttribute" : "serviceId",
+        "requestIdMetaDataAttribute" : "requestUUID"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "8d47ba80-4922-11f1-8ecd-fd0f21d425e9"
+      },
+      "name" : "Phản hồi",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.rest.TbSendRestApiCallReplyNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1877,
+        "layoutY" : 1553
+      },
+      "configuration" : {
+        "serviceIdMetaDataAttribute" : "serviceId",
+        "requestIdMetaDataAttribute" : "requestUUID"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "8d47ba81-4922-11f1-8ecd-fd0f21d425e9"
+      },
+      "name" : "Phản hồi",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.rest.TbSendRestApiCallReplyNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1877,
+        "layoutY" : 1753
+      },
+      "configuration" : {
+        "serviceIdMetaDataAttribute" : "serviceId",
+        "requestIdMetaDataAttribute" : "requestUUID"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "8d47e190-4922-11f1-8ecd-fd0f21d425e9"
+      },
+      "name" : "Phản hồi",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.rest.TbSendRestApiCallReplyNode"
     } ],
     "ruleChainConnections" : null
   },
