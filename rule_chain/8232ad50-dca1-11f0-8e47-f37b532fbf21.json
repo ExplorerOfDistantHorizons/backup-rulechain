@@ -35,6 +35,10 @@
     }, {
       "fromIndex" : 0,
       "toIndex" : 15,
+      "type" : "REST API request"
+    }, {
+      "fromIndex" : 0,
+      "toIndex" : 15,
       "type" : "RPC Request to Device"
     }, {
       "fromIndex" : 0,
