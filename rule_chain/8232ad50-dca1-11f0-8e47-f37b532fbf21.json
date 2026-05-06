@@ -4121,8 +4121,8 @@
     }, {
       "additionalInfo" : {
         "description" : "kiểm tra xem loại phòng được tạo là phòng thường hay phòng trống",
-        "layoutX" : 1481,
-        "layoutY" : 1199
+        "layoutX" : 1443,
+        "layoutY" : 1439
       },
       "configuration" : {
         "scriptLang" : "JS",
