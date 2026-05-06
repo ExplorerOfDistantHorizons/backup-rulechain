@@ -95,11 +95,11 @@
     }, {
       "fromIndex" : 12,
       "toIndex" : 131,
-      "type" : "createGroup"
+      "type" : "manageGroup"
     }, {
       "fromIndex" : 12,
       "toIndex" : 133,
-      "type" : "createScene"
+      "type" : "manageScene"
     }, {
       "fromIndex" : 13,
       "toIndex" : 8,
