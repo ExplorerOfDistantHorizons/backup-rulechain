@@ -343,6 +343,10 @@
     }, {
       "fromIndex" : 79,
       "toIndex" : 1,
+      "type" : "Failure"
+    }, {
+      "fromIndex" : 79,
+      "toIndex" : 1,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 0,
