@@ -173,6 +173,10 @@
       "toIndex" : 136,
       "type" : "Success"
     }, {
+      "fromIndex" : 23,
+      "toIndex" : 137,
+      "type" : "Success"
+    }, {
       "fromIndex" : 24,
       "toIndex" : 29,
       "type" : "Success"
@@ -1148,8 +1152,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1604,
-        "layoutY" : 1949
+        "layoutX" : 1603,
+        "layoutY" : 1953
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -3120,8 +3124,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1881,
-        "layoutY" : 1902
+        "layoutX" : 1878,
+        "layoutY" : 1903
       },
       "configuration" : {
         "relationsQuery" : {
@@ -3312,7 +3316,7 @@
       "additionalInfo" : {
         "description" : "",
         "layoutX" : 1604,
-        "layoutY" : 1900
+        "layoutY" : 1904
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -4011,6 +4015,29 @@
       "id" : {
         "entityType" : "RULE_NODE",
         "id" : "8d47e190-4922-11f1-8ecd-fd0f21d425e9"
+      },
+      "name" : "Phản hồi",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.rest.TbSendRestApiCallReplyNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1879,
+        "layoutY" : 1954
+      },
+      "configuration" : {
+        "serviceIdMetaDataAttribute" : "serviceId",
+        "requestIdMetaDataAttribute" : "requestUUID"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "a58ad190-4922-11f1-8ecd-fd0f21d425e9"
       },
       "name" : "Phản hồi",
       "queueName" : null,
