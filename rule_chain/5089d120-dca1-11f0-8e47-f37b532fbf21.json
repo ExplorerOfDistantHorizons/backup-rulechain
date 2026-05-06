@@ -572,7 +572,7 @@
         "entityType" : "RULE_NODE",
         "id" : "b632f4a0-f698-11f0-8c6e-5381beb8d689"
       },
-      "name" : "Tiền sử lý trước khi gửi bản tin.",
+      "name" : "Hậu xử lý sau nhận phản hồi",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
