@@ -130,11 +130,11 @@
       "type" : "Success"
     }, {
       "fromIndex" : 17,
-      "toIndex" : 21,
+      "toIndex" : 138,
       "type" : "Success"
     }, {
       "fromIndex" : 18,
-      "toIndex" : 22,
+      "toIndex" : 140,
       "type" : "Success"
     }, {
       "fromIndex" : 19,
@@ -575,6 +575,14 @@
     }, {
       "fromIndex" : 137,
       "toIndex" : 20,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 138,
+      "toIndex" : 21,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 140,
+      "toIndex" : 22,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 0,
@@ -4047,8 +4055,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Chuyển thực thể gốc tới thiết bị con là Device",
-        "layoutX" : 1587,
-        "layoutY" : 1550
+        "layoutX" : 1603,
+        "layoutY" : 1503
       },
       "configuration" : {
         "originatorSource" : "RELATED",
@@ -4113,8 +4121,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Chuyển thực thể gốc tới thiết bị con là Device",
-        "layoutX" : 1572,
-        "layoutY" : 1761
+        "layoutX" : 1604,
+        "layoutY" : 1702
       },
       "configuration" : {
         "originatorSource" : "RELATED",
