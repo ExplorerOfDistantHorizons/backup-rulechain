@@ -338,8 +338,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1554,
-        "layoutY" : 553
+        "layoutX" : 1527,
+        "layoutY" : 603
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -362,8 +362,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1629,
-        "layoutY" : 653
+        "layoutX" : 1778,
+        "layoutY" : 603
       },
       "configuration" : {
         "version" : 0
@@ -384,8 +384,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Chuyển thực thể gốc tới thiết bị con là Device",
-        "layoutX" : 1803,
-        "layoutY" : 553
+        "layoutX" : 2028,
+        "layoutY" : 603
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -502,8 +502,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1880,
-        "layoutY" : 654
+        "layoutX" : 2277,
+        "layoutY" : 604
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -526,8 +526,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2053,
-        "layoutY" : 554
+        "layoutX" : 2527,
+        "layoutY" : 604
       },
       "configuration" : {
         "timeoutInSeconds" : 0
