@@ -125,6 +125,10 @@
       "toIndex" : 19,
       "type" : "delRoom"
     }, {
+      "fromIndex" : 16,
+      "toIndex" : 140,
+      "type" : "Success"
+    }, {
       "fromIndex" : 17,
       "toIndex" : 137,
       "type" : "Success"
@@ -580,6 +584,10 @@
       "fromIndex" : 139,
       "toIndex" : 22,
       "type" : "Success"
+    }, {
+      "fromIndex" : 140,
+      "toIndex" : 136,
+      "type" : "True"
     } ],
     "firstNodeIndex" : 0,
     "nodes" : [ {
@@ -1090,8 +1098,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1878,
-        "layoutY" : 1353
+        "layoutX" : 1926,
+        "layoutY" : 1404
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -3897,8 +3905,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2152,
-        "layoutY" : 1353
+        "layoutX" : 2200,
+        "layoutY" : 1404
       },
       "configuration" : {
         "serviceIdMetaDataAttribute" : "serviceId",
@@ -3989,8 +3997,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Chuyển thực thể gốc tới thiết bị con là Device",
-        "layoutX" : 1603,
-        "layoutY" : 1352
+        "layoutX" : 1651,
+        "layoutY" : 1403
       },
       "configuration" : {
         "originatorSource" : "RELATED",
@@ -4121,8 +4129,8 @@
     }, {
       "additionalInfo" : {
         "description" : "kiểm tra xem loại phòng được tạo là phòng thường hay phòng trống",
-        "layoutX" : 1443,
-        "layoutY" : 1439
+        "layoutX" : 1601,
+        "layoutY" : 1302
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -4137,7 +4145,7 @@
         "entityType" : "RULE_NODE",
         "id" : "ab568590-4933-11f1-8ecd-fd0f21d425e9"
       },
-      "name" : "Kiểm tra loại phòng được tạo",
+      "name" : "Phòng trống ?",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
