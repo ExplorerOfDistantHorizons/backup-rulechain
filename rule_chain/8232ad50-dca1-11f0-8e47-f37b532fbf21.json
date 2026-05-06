@@ -34,20 +34,20 @@
       "type" : "REST API request"
     }, {
       "fromIndex" : 0,
-      "toIndex" : 15,
-      "type" : "REST API request"
-    }, {
-      "fromIndex" : 0,
-      "toIndex" : 15,
-      "type" : "RPC Request to Device"
-    }, {
-      "fromIndex" : 0,
       "toIndex" : 57,
       "type" : "RPC Request from Device"
     }, {
       "fromIndex" : 0,
       "toIndex" : 97,
       "type" : "Post telemetry"
+    }, {
+      "fromIndex" : 0,
+      "toIndex" : 133,
+      "type" : "REST API request"
+    }, {
+      "fromIndex" : 0,
+      "toIndex" : 133,
+      "type" : "RPC Request to Device"
     }, {
       "fromIndex" : 2,
       "toIndex" : 1,
