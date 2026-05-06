@@ -586,7 +586,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 140,
-      "toIndex" : 24,
+      "toIndex" : 92,
       "type" : "True"
     }, {
       "fromIndex" : 140,
@@ -1190,8 +1190,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Tạo quan hệ cho Room với Gateway",
-        "layoutX" : 2375,
-        "layoutY" : 1252
+        "layoutX" : 2327,
+        "layoutY" : 1327
       },
       "configuration" : {
         "direction" : "FROM",
