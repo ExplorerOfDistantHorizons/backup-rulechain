@@ -970,8 +970,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1327,
-        "layoutY" : 1303
+        "layoutX" : 1329,
+        "layoutY" : 1304
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -1066,7 +1066,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1602,
+        "layoutX" : 1603,
         "layoutY" : 1304
       },
       "configuration" : {
@@ -1154,8 +1154,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Tạo quan hệ cho Room với Gateway",
-        "layoutX" : 2126,
-        "layoutY" : 1305
+        "layoutX" : 2129,
+        "layoutY" : 1302
       },
       "configuration" : {
         "direction" : "FROM",
@@ -1183,8 +1183,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Tiền sử lý bản tin trước khi gửi xuống HCP",
-        "layoutX" : 1878,
-        "layoutY" : 1305
+        "layoutX" : 1879,
+        "layoutY" : 1304
       },
       "configuration" : {
         "scriptLang" : "JS",
