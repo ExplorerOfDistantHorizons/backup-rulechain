@@ -4138,7 +4138,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "return msg.temperature > 20;",
+        "jsScript" : "return msg.params.devices.length == 0;",
         "tbelScript" : "return msg.temperature > 20;"
       },
       "configurationVersion" : 0,
