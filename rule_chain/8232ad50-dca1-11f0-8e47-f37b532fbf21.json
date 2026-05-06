@@ -586,6 +586,10 @@
       "type" : "Success"
     }, {
       "fromIndex" : 140,
+      "toIndex" : 24,
+      "type" : "True"
+    }, {
+      "fromIndex" : 140,
       "toIndex" : 136,
       "type" : "False"
     } ],
@@ -1215,8 +1219,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Tiền sử lý bản tin trước khi gửi xuống HCP",
-        "layoutX" : 2151,
-        "layoutY" : 1303
+        "layoutX" : 2201,
+        "layoutY" : 1350
       },
       "configuration" : {
         "scriptLang" : "JS",
