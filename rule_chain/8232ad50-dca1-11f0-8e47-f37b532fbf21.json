@@ -1102,8 +1102,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1926,
-        "layoutY" : 1404
+        "layoutX" : 1801,
+        "layoutY" : 1328
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -1190,8 +1190,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Tạo quan hệ cho Room với Gateway",
-        "layoutX" : 2402,
-        "layoutY" : 1302
+        "layoutX" : 2375,
+        "layoutY" : 1252
       },
       "configuration" : {
         "direction" : "FROM",
@@ -1219,8 +1219,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Tiền sử lý bản tin trước khi gửi xuống HCP",
-        "layoutX" : 2201,
-        "layoutY" : 1350
+        "layoutX" : 2051,
+        "layoutY" : 1327
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -3909,8 +3909,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2200,
-        "layoutY" : 1404
+        "layoutX" : 2052,
+        "layoutY" : 1402
       },
       "configuration" : {
         "serviceIdMetaDataAttribute" : "serviceId",
@@ -4133,8 +4133,8 @@
     }, {
       "additionalInfo" : {
         "description" : "kiểm tra xem loại phòng được tạo là phòng thường hay phòng trống",
-        "layoutX" : 1601,
-        "layoutY" : 1302
+        "layoutX" : 1600,
+        "layoutY" : 1252
       },
       "configuration" : {
         "scriptLang" : "JS",
