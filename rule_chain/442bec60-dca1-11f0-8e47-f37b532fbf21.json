@@ -22,14 +22,6 @@
   "metaData" : {
     "connections" : [ {
       "fromIndex" : 0,
-      "toIndex" : 1,
-      "type" : "REST API request"
-    }, {
-      "fromIndex" : 0,
-      "toIndex" : 1,
-      "type" : "RPC Request to Device"
-    }, {
-      "fromIndex" : 0,
       "toIndex" : 26,
       "type" : "Entity Created"
     }, {
@@ -48,6 +40,14 @@
       "fromIndex" : 0,
       "toIndex" : 84,
       "type" : "REST API request"
+    }, {
+      "fromIndex" : 0,
+      "toIndex" : 104,
+      "type" : "REST API request"
+    }, {
+      "fromIndex" : 0,
+      "toIndex" : 104,
+      "type" : "RPC Request to Device"
     }, {
       "fromIndex" : 1,
       "toIndex" : 2,
@@ -447,6 +447,10 @@
     }, {
       "fromIndex" : 103,
       "toIndex" : 101,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 104,
+      "toIndex" : 1,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 0,
@@ -3137,6 +3141,39 @@
       "id" : {
         "entityType" : "RULE_NODE",
         "id" : "b0bb0371-486c-11f1-905b-d9c31e94ae99"
+      },
+      "name" : "Chuyển tới Gateway",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "Chuyển thực thể gốc tới thiết bị con là Device",
+        "layoutX" : 1152,
+        "layoutY" : 1129
+      },
+      "configuration" : {
+        "originatorSource" : "RELATED",
+        "entityType" : null,
+        "entityNamePattern" : null,
+        "relationsQuery" : {
+          "fetchLastLevelOnly" : true,
+          "direction" : "TO",
+          "maxLevel" : 2,
+          "filters" : [ {
+            "relationType" : "Gateway_Room",
+            "entityTypes" : [ "DEVICE" ]
+          } ]
+        }
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "f21170e0-48f6-11f1-905b-d9c31e94ae99"
       },
       "name" : "Chuyển tới Gateway",
       "queueName" : null,
