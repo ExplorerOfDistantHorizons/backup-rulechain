@@ -175,6 +175,10 @@
     }, {
       "fromIndex" : 23,
       "toIndex" : 137,
+      "type" : "Failure"
+    }, {
+      "fromIndex" : 23,
+      "toIndex" : 137,
       "type" : "Success"
     }, {
       "fromIndex" : 24,
