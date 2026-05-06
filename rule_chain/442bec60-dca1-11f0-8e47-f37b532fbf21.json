@@ -145,6 +145,10 @@
       "toIndex" : 16,
       "type" : "Success"
     }, {
+      "fromIndex" : 15,
+      "toIndex" : 105,
+      "type" : "Success"
+    }, {
       "fromIndex" : 16,
       "toIndex" : 19,
       "type" : "Success"
@@ -199,6 +203,10 @@
     }, {
       "fromIndex" : 33,
       "toIndex" : 34,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 33,
+      "toIndex" : 104,
       "type" : "Success"
     }, {
       "fromIndex" : 34,
@@ -1294,8 +1302,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Tiền sử lý bản tin trước khi gửi xuống HCP",
-        "layoutX" : 2530,
-        "layoutY" : 1379
+        "layoutX" : 2526,
+        "layoutY" : 1378
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -3143,6 +3151,52 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2526,
+        "layoutY" : 1328
+      },
+      "configuration" : {
+        "serviceIdMetaDataAttribute" : "serviceId",
+        "requestIdMetaDataAttribute" : "requestUUID"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "bc370380-48f7-11f1-905b-d9c31e94ae99"
+      },
+      "name" : "Phản hồi",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.rest.TbSendRestApiCallReplyNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2526,
+        "layoutY" : 1203
+      },
+      "configuration" : {
+        "serviceIdMetaDataAttribute" : "serviceId",
+        "requestIdMetaDataAttribute" : "requestUUID"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "bc372a90-48f7-11f1-905b-d9c31e94ae99"
+      },
+      "name" : "Phản hồi",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.rest.TbSendRestApiCallReplyNode"
     } ],
     "ruleChainConnections" : null
   },
