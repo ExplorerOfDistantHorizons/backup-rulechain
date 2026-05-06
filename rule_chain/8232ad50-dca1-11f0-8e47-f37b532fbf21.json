@@ -1203,8 +1203,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Tiền sử lý bản tin trước khi gửi xuống HCP",
-        "layoutX" : 1879,
-        "layoutY" : 1304
+        "layoutX" : 1878,
+        "layoutY" : 1303
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -1440,8 +1440,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Tiền sử lý bản tin trước khi gửi xuống HCP",
-        "layoutX" : 1877,
-        "layoutY" : 1505
+        "layoutX" : 1879,
+        "layoutY" : 1503
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -3955,8 +3955,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1878,
-        "layoutY" : 1352
+        "layoutX" : 1879,
+        "layoutY" : 1353
       },
       "configuration" : {
         "serviceIdMetaDataAttribute" : "serviceId",
@@ -3978,7 +3978,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1877,
+        "layoutX" : 1879,
         "layoutY" : 1553
       },
       "configuration" : {
@@ -4001,7 +4001,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1877,
+        "layoutX" : 1879,
         "layoutY" : 1753
       },
       "configuration" : {
