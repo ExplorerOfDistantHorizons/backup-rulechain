@@ -42,11 +42,11 @@
       "type" : "REST API request"
     }, {
       "fromIndex" : 0,
-      "toIndex" : 104,
+      "toIndex" : 103,
       "type" : "REST API request"
     }, {
       "fromIndex" : 0,
-      "toIndex" : 104,
+      "toIndex" : 103,
       "type" : "RPC Request to Device"
     }, {
       "fromIndex" : 1,
@@ -90,7 +90,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 4,
-      "toIndex" : 103,
+      "toIndex" : 101,
       "type" : "Success"
     }, {
       "fromIndex" : 5,
@@ -446,10 +446,6 @@
       "type" : "Success"
     }, {
       "fromIndex" : 103,
-      "toIndex" : 101,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 104,
       "toIndex" : 1,
       "type" : "Success"
     } ],
@@ -3072,8 +3068,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2278,
-        "layoutY" : 1453
+        "layoutX" : 2027,
+        "layoutY" : 1454
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -3094,8 +3090,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2528,
-        "layoutY" : 1453
+        "layoutX" : 2277,
+        "layoutY" : 1454
       },
       "configuration" : {
         "serviceIdMetaDataAttribute" : "serviceId",
@@ -3114,39 +3110,6 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.rest.TbSendRestApiCallReplyNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "Chuyển thực thể gốc tới thiết bị con là Device",
-        "layoutX" : 2028,
-        "layoutY" : 1452
-      },
-      "configuration" : {
-        "originatorSource" : "RELATED",
-        "entityType" : null,
-        "entityNamePattern" : null,
-        "relationsQuery" : {
-          "fetchLastLevelOnly" : true,
-          "direction" : "TO",
-          "maxLevel" : 2,
-          "filters" : [ {
-            "relationType" : "Gateway_Room",
-            "entityTypes" : [ "DEVICE" ]
-          } ]
-        }
-      },
-      "configurationVersion" : 0,
-      "createdTime" : 0,
-      "debugMode" : true,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "b0bb0371-486c-11f1-905b-d9c31e94ae99"
-      },
-      "name" : "Chuyển tới Gateway",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
     }, {
       "additionalInfo" : {
         "description" : "Chuyển thực thể gốc tới thiết bị con là Device",
