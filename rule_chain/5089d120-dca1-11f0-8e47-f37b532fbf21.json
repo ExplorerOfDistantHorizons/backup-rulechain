@@ -42,11 +42,11 @@
       "type" : "REST API request"
     }, {
       "fromIndex" : 0,
-      "toIndex" : 80,
+      "toIndex" : 79,
       "type" : "REST API request"
     }, {
       "fromIndex" : 0,
-      "toIndex" : 80,
+      "toIndex" : 79,
       "type" : "RPC Request to Device"
     }, {
       "fromIndex" : 1,
@@ -78,7 +78,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 4,
-      "toIndex" : 76,
+      "toIndex" : 74,
       "type" : "Success"
     }, {
       "fromIndex" : 5,
@@ -90,7 +90,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 6,
-      "toIndex" : 77,
+      "toIndex" : 76,
       "type" : "Success"
     }, {
       "fromIndex" : 7,
@@ -134,7 +134,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 15,
-      "toIndex" : 79,
+      "toIndex" : 78,
       "type" : "Success"
     }, {
       "fromIndex" : 16,
@@ -202,7 +202,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 37,
-      "toIndex" : 78,
+      "toIndex" : 77,
       "type" : "Success"
     }, {
       "fromIndex" : 38,
@@ -341,11 +341,7 @@
       "toIndex" : 75,
       "type" : "Success"
     }, {
-      "fromIndex" : 76,
-      "toIndex" : 74,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 80,
+      "fromIndex" : 79,
       "toIndex" : 1,
       "type" : "Success"
     } ],
@@ -2263,7 +2259,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2129,
+        "layoutX" : 1879,
         "layoutY" : 1454
       },
       "configuration" : {
@@ -2285,7 +2281,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2379,
+        "layoutX" : 2129,
         "layoutY" : 1454
       },
       "configuration" : {
@@ -2305,39 +2301,6 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.rest.TbSendRestApiCallReplyNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "Chuyển thực thể gốc tới thiết bị con là Device",
-        "layoutX" : 1879,
-        "layoutY" : 1453
-      },
-      "configuration" : {
-        "originatorSource" : "RELATED",
-        "entityType" : null,
-        "entityNamePattern" : null,
-        "relationsQuery" : {
-          "fetchLastLevelOnly" : true,
-          "direction" : "TO",
-          "maxLevel" : 2,
-          "filters" : [ {
-            "relationType" : "Gateway_Room",
-            "entityTypes" : [ "DEVICE" ]
-          } ]
-        }
-      },
-      "configurationVersion" : 0,
-      "createdTime" : 0,
-      "debugMode" : true,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "b7ef0ac0-4861-11f1-905b-d9c31e94ae99"
-      },
-      "name" : "Chuyển tới Gateway",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
     }, {
       "additionalInfo" : {
         "description" : "",
