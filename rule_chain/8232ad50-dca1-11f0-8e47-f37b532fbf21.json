@@ -4121,8 +4121,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Chuyển thực thể gốc tới thiết bị con là Device",
-        "layoutX" : 1604,
-        "layoutY" : 1702
+        "layoutX" : 1603,
+        "layoutY" : 1704
       },
       "configuration" : {
         "originatorSource" : "RELATED",
