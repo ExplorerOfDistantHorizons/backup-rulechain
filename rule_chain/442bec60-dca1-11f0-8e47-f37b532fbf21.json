@@ -90,7 +90,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 5,
-      "toIndex" : 7,
+      "toIndex" : 107,
       "type" : "Success"
     }, {
       "fromIndex" : 6,
@@ -246,11 +246,11 @@
       "type" : "Success"
     }, {
       "fromIndex" : 42,
-      "toIndex" : 45,
+      "toIndex" : 109,
       "type" : "Success"
     }, {
       "fromIndex" : 43,
-      "toIndex" : 46,
+      "toIndex" : 108,
       "type" : "Success"
     }, {
       "fromIndex" : 44,
@@ -456,6 +456,18 @@
       "fromIndex" : 101,
       "toIndex" : 102,
       "type" : "Success"
+    }, {
+      "fromIndex" : 107,
+      "toIndex" : 7,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 108,
+      "toIndex" : 46,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 109,
+      "toIndex" : 45,
+      "type" : "Success"
     } ],
     "firstNodeIndex" : 0,
     "nodes" : [ {
@@ -625,8 +637,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2026,
-        "layoutY" : 1878
+        "layoutX" : 2274,
+        "layoutY" : 1877
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -974,8 +986,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2527,
-        "layoutY" : 1879
+        "layoutX" : 2775,
+        "layoutY" : 1878
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -1008,8 +1020,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2777,
-        "layoutY" : 1879
+        "layoutX" : 3025,
+        "layoutY" : 1878
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -1032,8 +1044,8 @@
     }, {
       "additionalInfo" : {
         "description" : null,
-        "layoutX" : 3026,
-        "layoutY" : 1877
+        "layoutX" : 3274,
+        "layoutY" : 1876
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
@@ -1057,8 +1069,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2279,
-        "layoutY" : 1879
+        "layoutX" : 2527,
+        "layoutY" : 1878
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -1586,8 +1598,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2029,
-        "layoutY" : 1629
+        "layoutX" : 2277,
+        "layoutY" : 1628
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -1608,8 +1620,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2027,
-        "layoutY" : 1753
+        "layoutX" : 2275,
+        "layoutY" : 1752
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -2784,8 +2796,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2527,
-        "layoutY" : 1629
+        "layoutX" : 2775,
+        "layoutY" : 1628
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -2808,8 +2820,8 @@
     }, {
       "additionalInfo" : {
         "description" : null,
-        "layoutX" : 3026,
-        "layoutY" : 1630
+        "layoutX" : 3274,
+        "layoutY" : 1629
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
@@ -2833,8 +2845,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2278,
-        "layoutY" : 1629
+        "layoutX" : 2526,
+        "layoutY" : 1628
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -2857,8 +2869,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2779,
-        "layoutY" : 1629
+        "layoutX" : 3027,
+        "layoutY" : 1628
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -2891,8 +2903,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Tạo nhóm và thêm quan hệ của thiệt bị với nhóm này ",
-        "layoutX" : 3027,
-        "layoutY" : 1579
+        "layoutX" : 3275,
+        "layoutY" : 1578
       },
       "configuration" : {
         "direction" : "TO",
@@ -2920,8 +2932,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2528,
-        "layoutY" : 1754
+        "layoutX" : 2776,
+        "layoutY" : 1753
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -2944,8 +2956,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2279,
-        "layoutY" : 1754
+        "layoutX" : 2527,
+        "layoutY" : 1753
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -2968,8 +2980,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2780,
-        "layoutY" : 1754
+        "layoutX" : 3028,
+        "layoutY" : 1753
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -3002,8 +3014,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3027,
-        "layoutY" : 1703
+        "layoutX" : 3275,
+        "layoutY" : 1702
       },
       "configuration" : {
         "deleteForSingleEntity" : false,
@@ -3028,8 +3040,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3027,
-        "layoutY" : 1753
+        "layoutX" : 3275,
+        "layoutY" : 1752
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
@@ -3167,8 +3179,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2277,
-        "layoutY" : 1579
+        "layoutX" : 2525,
+        "layoutY" : 1578
       },
       "configuration" : {
         "serviceIdMetaDataAttribute" : "serviceId",
@@ -3190,8 +3202,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2276,
-        "layoutY" : 1703
+        "layoutX" : 2524,
+        "layoutY" : 1702
       },
       "configuration" : {
         "serviceIdMetaDataAttribute" : "serviceId",
@@ -3210,6 +3222,105 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.rest.TbSendRestApiCallReplyNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "Chuyển thực thể gốc tới thiết bị con là Device",
+        "layoutX" : 2028,
+        "layoutY" : 1878
+      },
+      "configuration" : {
+        "originatorSource" : "RELATED",
+        "entityType" : null,
+        "entityNamePattern" : null,
+        "relationsQuery" : {
+          "fetchLastLevelOnly" : true,
+          "direction" : "TO",
+          "maxLevel" : 2,
+          "filters" : [ {
+            "relationType" : "Gateway_Room",
+            "entityTypes" : [ "DEVICE" ]
+          } ]
+        }
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "7132dae0-49e6-11f1-8ecd-fd0f21d425e9"
+      },
+      "name" : "Chuyển tới Gateway",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "Chuyển thực thể gốc tới thiết bị con là Device",
+        "layoutX" : 2028,
+        "layoutY" : 1753
+      },
+      "configuration" : {
+        "originatorSource" : "RELATED",
+        "entityType" : null,
+        "entityNamePattern" : null,
+        "relationsQuery" : {
+          "fetchLastLevelOnly" : true,
+          "direction" : "TO",
+          "maxLevel" : 2,
+          "filters" : [ {
+            "relationType" : "Gateway_Room",
+            "entityTypes" : [ "DEVICE" ]
+          } ]
+        }
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "713301f0-49e6-11f1-8ecd-fd0f21d425e9"
+      },
+      "name" : "Chuyển tới Gateway",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "Chuyển thực thể gốc tới thiết bị con là Device",
+        "layoutX" : 2027,
+        "layoutY" : 1629
+      },
+      "configuration" : {
+        "originatorSource" : "RELATED",
+        "entityType" : null,
+        "entityNamePattern" : null,
+        "relationsQuery" : {
+          "fetchLastLevelOnly" : true,
+          "direction" : "TO",
+          "maxLevel" : 2,
+          "filters" : [ {
+            "relationType" : "Gateway_Room",
+            "entityTypes" : [ "DEVICE" ]
+          } ]
+        }
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "71332900-49e6-11f1-8ecd-fd0f21d425e9"
+      },
+      "name" : "Chuyển tới Gateway",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
     } ],
     "ruleChainConnections" : null
   },
