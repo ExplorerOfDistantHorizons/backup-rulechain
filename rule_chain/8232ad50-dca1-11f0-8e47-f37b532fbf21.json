@@ -4046,7 +4046,7 @@
         "entityType" : "RULE_NODE",
         "id" : "08e478f0-49c2-11f1-8ecd-fd0f21d425e9"
       },
-      "name" : "Tiền xử lý",
+      "name" : "chuyển mảng thiết bị về dạng chuẩn",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
