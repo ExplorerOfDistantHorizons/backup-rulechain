@@ -1,0 +1,29 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : {
+      "assetNameBuilding" : "ab505c26-9bd3-4ba7-8866-9fa647352907"
+    },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "dc296b40-dca2-11f0-8e47-f37b532fbf21"
+    },
+    "attributes" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "45b8ae50-49b7-11f1-8ecd-fd0f21d425e9"
+    },
+    "label" : "Nhà bếp",
+    "name" : "11b930da-6745-4964-aaaa-d21e0ef275a3",
+    "telemetry" : null,
+    "type" : "ROOM"
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
