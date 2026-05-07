@@ -90,7 +90,7 @@
       "type" : "controlEntity"
     }, {
       "fromIndex" : 13,
-      "toIndex" : 22,
+      "toIndex" : 23,
       "type" : "createRoom"
     }, {
       "fromIndex" : 14,
@@ -111,6 +111,22 @@
     }, {
       "fromIndex" : 22,
       "toIndex" : 21,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 23,
+      "toIndex" : 22,
+      "type" : "False"
+    }, {
+      "fromIndex" : 23,
+      "toIndex" : 26,
+      "type" : "True"
+    }, {
+      "fromIndex" : 25,
+      "toIndex" : 24,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 26,
+      "toIndex" : 25,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 1,
@@ -418,8 +434,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1003,
-        "layoutY" : 603
+        "layoutX" : 1004,
+        "layoutY" : 605
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -442,7 +458,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 726,
+        "layoutX" : 728,
         "layoutY" : 604
       },
       "configuration" : {
@@ -467,7 +483,7 @@
       "additionalInfo" : {
         "description" : "",
         "layoutX" : 1279,
-        "layoutY" : 603
+        "layoutY" : 604
       },
       "configuration" : {
         "relationsQuery" : {
@@ -655,8 +671,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1279,
-        "layoutY" : 653
+        "layoutX" : 1555,
+        "layoutY" : 703
       },
       "configuration" : {
         "forwardMsgToDefaultRuleChain" : false,
@@ -678,8 +694,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1003,
-        "layoutY" : 654
+        "layoutX" : 1279,
+        "layoutY" : 704
       },
       "configuration" : {
         "direction" : "FROM",
@@ -698,6 +714,108 @@
       "id" : {
         "entityType" : "RULE_NODE",
         "id" : "6c7232b0-492f-11f1-8ecd-fd0f21d425e9"
+      },
+      "name" : "Building@Room+>",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.action.TbCreateRelationNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "kiểm tra xem loại phòng được tạo là phòng thường hay phòng trống",
+        "layoutX" : 1004,
+        "layoutY" : 654
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "return msg.params.devices.length == 0;",
+        "tbelScript" : "return msg.temperature > 20;"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "062a5ca0-49af-11f1-8ecd-fd0f21d425e9"
+      },
+      "name" : "Phòng trống ?",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1779,
+        "layoutY" : 654
+      },
+      "configuration" : {
+        "scope" : "SERVER_SCOPE",
+        "notifyDevice" : false,
+        "sendAttributesUpdatedNotification" : false,
+        "updateAttributesOnlyOnValueChange" : false
+      },
+      "configurationVersion" : 2,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "062ad1d0-49af-11f1-8ecd-fd0f21d425e9"
+      },
+      "name" : "lưu vào S attribute",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgAttributesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1529,
+        "layoutY" : 654
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "msg={\n    name : msg.params.name,\n    homeControllerId:metadata.EntityId_Gateway\n}\ndelete metadata.nextData\nmsgType = \"POST_ATTRIBUTES_REQUEST\";\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "062ad1d1-49af-11f1-8ecd-fd0f21d425e9"
+      },
+      "name" : "tiền sử lý",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1279,
+        "layoutY" : 654
+      },
+      "configuration" : {
+        "direction" : "FROM",
+        "entityType" : "ASSET",
+        "entityNamePattern" : "$[params.id]",
+        "entityTypePattern" : "ROOM",
+        "relationType" : "Room",
+        "createEntityIfNotExists" : true,
+        "removeCurrentRelations" : false,
+        "changeOriginatorToRelatedEntity" : true
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "062af8e0-49af-11f1-8ecd-fd0f21d425e9"
       },
       "name" : "Building@Room+>",
       "queueName" : null,
