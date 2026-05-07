@@ -1662,8 +1662,8 @@
     }, {
       "additionalInfo" : {
         "description" : "nếu là nhóm tự tạo  = true, ngược là false",
-        "layoutX" : 1850,
-        "layoutY" : 1280
+        "layoutX" : 1852,
+        "layoutY" : 1277
       },
       "configuration" : {
         "scriptLang" : "JS",
