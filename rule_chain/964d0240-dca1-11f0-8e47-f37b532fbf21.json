@@ -713,7 +713,7 @@
         "relationType" : "Room",
         "createEntityIfNotExists" : true,
         "removeCurrentRelations" : false,
-        "changeOriginatorToRelatedEntity" : true
+        "changeOriginatorToRelatedEntity" : false
       },
       "configurationVersion" : 1,
       "createdTime" : 0,
