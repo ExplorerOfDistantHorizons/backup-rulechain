@@ -73,6 +73,10 @@
       "toIndex" : 33,
       "type" : "delSceneController"
     }, {
+      "fromIndex" : 2,
+      "toIndex" : 98,
+      "type" : "Success"
+    }, {
       "fromIndex" : 3,
       "toIndex" : 96,
       "type" : "Success"
