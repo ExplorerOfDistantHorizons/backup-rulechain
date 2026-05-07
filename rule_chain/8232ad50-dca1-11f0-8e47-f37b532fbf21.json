@@ -1231,8 +1231,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Xử lý các danh sách thiết bị, nhóm , cảnh",
-        "layoutX" : 2898,
-        "layoutY" : 1304
+        "layoutX" : 2901,
+        "layoutY" : 1303
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -1301,8 +1301,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Xử lý các danh sách thiết bị, nhóm , cảnh",
-        "layoutX" : 2649,
-        "layoutY" : 1355
+        "layoutX" : 2650,
+        "layoutY" : 1353
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -1325,8 +1325,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Xử lý các danh sách thiết bị, nhóm , cảnh",
-        "layoutX" : 2650,
-        "layoutY" : 1405
+        "layoutX" : 2651,
+        "layoutY" : 1404
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -1371,8 +1371,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2898,
-        "layoutY" : 1356
+        "layoutX" : 2901,
+        "layoutY" : 1354
       },
       "configuration" : {
         "version" : 0
@@ -1393,8 +1393,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2898,
-        "layoutY" : 1404
+        "layoutX" : 2901,
+        "layoutY" : 1403
       },
       "configuration" : {
         "version" : 0
@@ -3264,7 +3264,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2649,
+        "layoutX" : 2650,
         "layoutY" : 1303
       },
       "configuration" : {
