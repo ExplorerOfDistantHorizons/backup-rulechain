@@ -2269,7 +2269,7 @@
         "entityType" : "RULE_NODE",
         "id" : "84cd3ba1-fa6c-11f0-8c6e-5381beb8d689"
       },
-      "name" : "-> Room",
+      "name" : "Gateway -> Room",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
@@ -2487,7 +2487,7 @@
         "entityType" : "RULE_NODE",
         "id" : "84cd89c2-fa6c-11f0-8c6e-5381beb8d689"
       },
-      "name" : "-> Room",
+      "name" : "Gateway -> Room",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
@@ -2705,7 +2705,7 @@
         "entityType" : "RULE_NODE",
         "id" : "84cdfef0-fa6c-11f0-8c6e-5381beb8d689"
       },
-      "name" : "-> Room",
+      "name" : "Gateway -> Room",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
@@ -4106,7 +4106,7 @@
         "entityType" : "RULE_NODE",
         "id" : "f0ff6af0-49c2-11f1-8ecd-fd0f21d425e9"
       },
-      "name" : "->Gateway",
+      "name" : "Building -> Gateway",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
