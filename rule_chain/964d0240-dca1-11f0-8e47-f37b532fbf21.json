@@ -838,7 +838,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "msg={\n    name : msg.params.name,\n}\ndelete metadata.nextData\nmsgType = \"POST_ATTRIBUTES_REQUEST\";\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "jsScript" : "msg={\n    code : 0,\n    message:\"Tạo phòng trống thành công\"\n}\ndelete metadata.msgType\nmsgType = \"REST_API_REQUEST\";\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
         "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
       },
       "configurationVersion" : 0,
