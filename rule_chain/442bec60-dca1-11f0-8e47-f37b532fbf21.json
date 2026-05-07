@@ -732,8 +732,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3101,
-        "layoutY" : 1107
+        "layoutX" : 3106,
+        "layoutY" : 1104
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -780,8 +780,8 @@
     }, {
       "additionalInfo" : {
         "description" : null,
-        "layoutX" : 3350,
-        "layoutY" : 1106
+        "layoutX" : 3355,
+        "layoutY" : 1103
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
@@ -805,8 +805,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3101,
-        "layoutY" : 1055
+        "layoutX" : 3106,
+        "layoutY" : 1052
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -829,8 +829,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3351,
-        "layoutY" : 1055
+        "layoutX" : 3356,
+        "layoutY" : 1052
       },
       "configuration" : {
         "defaultTTL" : 0,
@@ -899,8 +899,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3102,
-        "layoutY" : 1158
+        "layoutX" : 3107,
+        "layoutY" : 1155
       },
       "configuration" : {
         "version" : 0
@@ -921,8 +921,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Tạo nhóm và thêm quan hệ của thiệt bị với nhóm này ",
-        "layoutX" : 3599,
-        "layoutY" : 1106
+        "layoutX" : 3604,
+        "layoutY" : 1103
       },
       "configuration" : {
         "direction" : "TO",
@@ -1981,8 +1981,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3348,
-        "layoutY" : 1157
+        "layoutX" : 3353,
+        "layoutY" : 1154
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -2015,8 +2015,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3599,
-        "layoutY" : 1158
+        "layoutX" : 3604,
+        "layoutY" : 1155
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -2039,8 +2039,8 @@
     }, {
       "additionalInfo" : {
         "description" : null,
-        "layoutX" : 3848,
-        "layoutY" : 1157
+        "layoutX" : 3853,
+        "layoutY" : 1154
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
