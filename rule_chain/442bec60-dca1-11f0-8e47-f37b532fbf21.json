@@ -1686,8 +1686,8 @@
     }, {
       "additionalInfo" : {
         "description" : "nếu là nhóm tự tạo  = true, ngược là false",
-        "layoutX" : 1849,
-        "layoutY" : 1407
+        "layoutX" : 1851,
+        "layoutY" : 1404
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -3444,7 +3444,7 @@
       "additionalInfo" : {
         "description" : "Chuyển thực thể gốc tới thiết bị con là Device",
         "layoutX" : 1603,
-        "layoutY" : 1406
+        "layoutY" : 1403
       },
       "configuration" : {
         "originatorSource" : "RELATED",
