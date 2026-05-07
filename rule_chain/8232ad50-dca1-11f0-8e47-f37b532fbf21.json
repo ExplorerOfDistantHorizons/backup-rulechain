@@ -2820,7 +2820,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "msg={\n    name : msg.params.name,\n    homeControllerId:metadata.EntityId_Gateway\n}\ndelete metadata.nextData\nmsgType = \"POST_ATTRIBUTES_REQUEST\";\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "jsScript" : "msg={\n    name : msg.params.name,\n}\ndelete metadata.nextData\nmsgType = \"POST_ATTRIBUTES_REQUEST\";\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
         "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
       },
       "configurationVersion" : 0,
