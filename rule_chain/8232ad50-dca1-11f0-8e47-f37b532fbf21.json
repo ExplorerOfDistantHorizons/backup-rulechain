@@ -1250,7 +1250,7 @@
         "entityType" : "RULE_NODE",
         "id" : "21c465b0-f693-11f0-8c6e-5381beb8d689"
       },
-      "name" : "Rule chain - Scene",
+      "name" : "Room -> Scene",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
@@ -1273,7 +1273,7 @@
         "entityType" : "RULE_NODE",
         "id" : "5c966170-f693-11f0-8c6e-5381beb8d689"
       },
-      "name" : "Rule chain - Group",
+      "name" : "Room -> Group",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
@@ -1487,7 +1487,7 @@
         "entityType" : "RULE_NODE",
         "id" : "00efbf61-fa5d-11f0-8c6e-5381beb8d689"
       },
-      "name" : "Rule chain - Scene",
+      "name" : "Room -> Scene",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
@@ -1510,7 +1510,7 @@
         "entityType" : "RULE_NODE",
         "id" : "00efbf62-fa5d-11f0-8c6e-5381beb8d689"
       },
-      "name" : "Rule chain - Group",
+      "name" : "Room -> Group",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
@@ -1758,7 +1758,7 @@
         "entityType" : "RULE_NODE",
         "id" : "c614a671-fa5d-11f0-8c6e-5381beb8d689"
       },
-      "name" : "Rule chain - Scene",
+      "name" : "Room -> Scene",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
@@ -1781,7 +1781,7 @@
         "entityType" : "RULE_NODE",
         "id" : "c614a672-fa5d-11f0-8c6e-5381beb8d689"
       },
-      "name" : "Rule chain - Group",
+      "name" : "Room -> Group",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
