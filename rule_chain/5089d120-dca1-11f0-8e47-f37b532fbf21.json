@@ -22,6 +22,14 @@
   "metaData" : {
     "connections" : [ {
       "fromIndex" : 0,
+      "toIndex" : 1,
+      "type" : "REST API request"
+    }, {
+      "fromIndex" : 0,
+      "toIndex" : 1,
+      "type" : "RPC Request to Device"
+    }, {
+      "fromIndex" : 0,
       "toIndex" : 28,
       "type" : "Entity Created"
     }, {
@@ -40,14 +48,6 @@
       "fromIndex" : 0,
       "toIndex" : 68,
       "type" : "REST API request"
-    }, {
-      "fromIndex" : 0,
-      "toIndex" : 79,
-      "type" : "REST API request"
-    }, {
-      "fromIndex" : 0,
-      "toIndex" : 79,
-      "type" : "RPC Request to Device"
     }, {
       "fromIndex" : 1,
       "toIndex" : 2,
@@ -70,19 +70,19 @@
       "type" : "delDevFromGroup"
     }, {
       "fromIndex" : 2,
-      "toIndex" : 80,
+      "toIndex" : 79,
       "type" : "Success"
     }, {
       "fromIndex" : 3,
-      "toIndex" : 81,
+      "toIndex" : 80,
       "type" : "Success"
     }, {
       "fromIndex" : 4,
-      "toIndex" : 83,
+      "toIndex" : 82,
       "type" : "Success"
     }, {
       "fromIndex" : 5,
-      "toIndex" : 84,
+      "toIndex" : 83,
       "type" : "Success"
     }, {
       "fromIndex" : 6,
@@ -194,7 +194,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 36,
-      "toIndex" : 82,
+      "toIndex" : 81,
       "type" : "Success"
     }, {
       "fromIndex" : 37,
@@ -342,30 +342,22 @@
       "type" : "Success"
     }, {
       "fromIndex" : 79,
-      "toIndex" : 1,
-      "type" : "Failure"
-    }, {
-      "fromIndex" : 79,
-      "toIndex" : 1,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 80,
       "toIndex" : 11,
       "type" : "Success"
     }, {
-      "fromIndex" : 81,
+      "fromIndex" : 80,
       "toIndex" : 59,
       "type" : "Success"
     }, {
-      "fromIndex" : 82,
+      "fromIndex" : 81,
       "toIndex" : 60,
       "type" : "Success"
     }, {
-      "fromIndex" : 83,
+      "fromIndex" : 82,
       "toIndex" : 74,
       "type" : "Success"
     }, {
-      "fromIndex" : 84,
+      "fromIndex" : 83,
       "toIndex" : 7,
       "type" : "Success"
     } ],
@@ -2394,39 +2386,6 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.rest.TbSendRestApiCallReplyNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "Chuyển thực thể gốc tới thiết bị con là Device",
-        "layoutX" : 1001,
-        "layoutY" : 1078
-      },
-      "configuration" : {
-        "originatorSource" : "RELATED",
-        "entityType" : null,
-        "entityNamePattern" : null,
-        "relationsQuery" : {
-          "fetchLastLevelOnly" : true,
-          "direction" : "TO",
-          "maxLevel" : 2,
-          "filters" : [ {
-            "relationType" : "Gateway_Room",
-            "entityTypes" : [ "DEVICE" ]
-          } ]
-        }
-      },
-      "configurationVersion" : 0,
-      "createdTime" : 0,
-      "debugMode" : true,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "27441770-48f4-11f1-905b-d9c31e94ae99"
-      },
-      "name" : "Chuyển tới Gateway",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
     }, {
       "additionalInfo" : {
         "description" : "Chuyển thực thể gốc tới thiết bị con là Device",
