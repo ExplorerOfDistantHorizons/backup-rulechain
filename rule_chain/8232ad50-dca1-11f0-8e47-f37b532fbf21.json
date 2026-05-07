@@ -126,15 +126,15 @@
       "type" : "delRoom"
     }, {
       "fromIndex" : 16,
-      "toIndex" : 135,
+      "toIndex" : 139,
       "type" : "Success"
     }, {
       "fromIndex" : 17,
-      "toIndex" : 136,
+      "toIndex" : 135,
       "type" : "Success"
     }, {
       "fromIndex" : 18,
-      "toIndex" : 138,
+      "toIndex" : 137,
       "type" : "Success"
     }, {
       "fromIndex" : 19,
@@ -142,7 +142,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 19,
-      "toIndex" : 137,
+      "toIndex" : 136,
       "type" : "Success"
     }, {
       "fromIndex" : 20,
@@ -566,18 +566,14 @@
       "type" : "Success"
     }, {
       "fromIndex" : 135,
-      "toIndex" : 20,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 136,
       "toIndex" : 21,
       "type" : "Success"
     }, {
-      "fromIndex" : 137,
+      "fromIndex" : 136,
       "toIndex" : 23,
       "type" : "Success"
     }, {
-      "fromIndex" : 138,
+      "fromIndex" : 137,
       "toIndex" : 22,
       "type" : "Success"
     } ],
@@ -1306,7 +1302,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "msg = JSON.parse(metadata.nextData)\ndelete metadata.nextData\n\nvar listGroupAdd = msg.groups || [];\n\n// Xử lý groupsInRoom\nvar groupsInRoom = [];\nfor (var gi = 0; gi < listGroupAdd.length; gi++) {\n    var group = listGroupAdd[gi];\n    var devs = group.devices || [];\n    var listDevices = [];\n\n    for (var dj = 0; dj < devs.length; dj++) {\n        listDevices.push({\n            id: devs[dj],\n            epId: []\n        });\n    }\n\n    groupsInRoom.push({\n        method:\"createGroup\",\n        params: {\n            id: group.id,\n            name: group.name,\n            dormitoryId: metadata\n                .entityName_Dormitory,\n            room: metadata.entityName,\n            type: group.type,\n            devices: listDevices\n        }\n    });\n}\nmsg = groupsInRoom;\nreturn {\n    msg: msg,\n    metadata: metadata,\n    msgType: msgType\n};",
+        "jsScript" : "msg = JSON.parse(metadata.nextData)\ndelete metadata.nextData\n\nvar listGroupAdd = msg.groups || [];\n\n// Xử lý groupsInRoom\nvar groupsInRoom = [];\nfor (var gi = 0; gi < listGroupAdd.length; gi++) {\n    var group = listGroupAdd[gi];\n    var devs = group.devices || [];\n    var listDevices = [];\n\n    for (var dj = 0; dj < devs.length; dj++) {\n        listDevices.push({\n            id: devs[dj],\n            epId: []\n        });\n    }\n\n    groupsInRoom.push({\n        method:\"createGroup\",\n        params: {\n            id: group.id,\n            name: group.name,\n            dormitoryId: metadata\n                .entityName_Dormitory,\n            room: metadata.entityName,\n            type: group.type,\n            devices: listDevices\n        }\n    });\n}\nmsg = groupsInRoom;\nmetadata.generation = \"ok\"\nreturn {\n    msg: msg,\n    metadata: metadata,\n    msgType: msgType\n};",
         "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
       },
       "configurationVersion" : 0,
@@ -1330,7 +1326,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "msg = JSON.parse(metadata.nextData)\ndelete metadata.nextData\n\nfunction convertCreateRoomToCreateScenes(params) {\n    // var params = input.params;\n\n    // STEP 1: map deviceName -> profileName\n    var deviceProfileMap = {};\n    for (var i = 0; i < params.devices.length; i++) {\n        var d = params.devices[i];\n        deviceProfileMap[d.deviceName] = d.profileName;\n    }\n\n    // STEP 2: map groupId -> device list\n    var groupDeviceMap = {};\n    for (var j = 0; j < params.groups.length; j++) {\n        var g = params.groups[j];\n        groupDeviceMap[g.id] = g.devices;\n    }\n\n    // STEP 3: build createScene messages\n    var result = [];\n\n    for (var s = 0; s < params.scenes.length; s++) {\n        var scene = params.scenes[s];\n\n        var sceneDevices = [];\n\n        for (var k = 0; k < scene.groups.length; k++) {\n            var sceneGroup = scene.groups[k];\n            var deviceIds = groupDeviceMap[sceneGroup.id] || [];\n\n            for (var m = 0; m < deviceIds.length; m++) {\n                var deviceId = deviceIds[m];\n\n                sceneDevices.push({\n                    \"id\": deviceId,\n                    \"profileName\": deviceProfileMap[deviceId],\n                    \"data\": sceneGroup.data\n                });\n            }\n        }\n\n        result.push({\n            \"method\": \"createScene\",\n            \"params\": {\n                \"id\": scene.id,\n                \"dormitoryId\": params.dormitoryId,\n                \"room\": params.id,\n                \"name\": scene.name,\n                \"image\": scene.image,\n                \"devices\": sceneDevices\n            }\n        });\n    }\n\n    return result;\n}\n\nmsg  = convertCreateRoomToCreateScenes(msg);\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "jsScript" : "msg = JSON.parse(metadata.nextData)\ndelete metadata.nextData\n\nfunction convertCreateRoomToCreateScenes(params) {\n    // var params = input.params;\n\n    // STEP 1: map deviceName -> profileName\n    var deviceProfileMap = {};\n    for (var i = 0; i < params.devices.length; i++) {\n        var d = params.devices[i];\n        deviceProfileMap[d.deviceName] = d.profileName;\n    }\n\n    // STEP 2: map groupId -> device list\n    var groupDeviceMap = {};\n    for (var j = 0; j < params.groups.length; j++) {\n        var g = params.groups[j];\n        groupDeviceMap[g.id] = g.devices;\n    }\n\n    // STEP 3: build createScene messages\n    var result = [];\n\n    for (var s = 0; s < params.scenes.length; s++) {\n        var scene = params.scenes[s];\n\n        var sceneDevices = [];\n\n        for (var k = 0; k < scene.groups.length; k++) {\n            var sceneGroup = scene.groups[k];\n            var deviceIds = groupDeviceMap[sceneGroup.id] || [];\n\n            for (var m = 0; m < deviceIds.length; m++) {\n                var deviceId = deviceIds[m];\n\n                sceneDevices.push({\n                    \"id\": deviceId,\n                    \"profileName\": deviceProfileMap[deviceId],\n                    \"data\": sceneGroup.data\n                });\n            }\n        }\n\n        result.push({\n            \"method\": \"createScene\",\n            \"params\": {\n                \"id\": scene.id,\n                \"dormitoryId\": params.dormitoryId,\n                \"room\": params.id,\n                \"name\": scene.name,\n                \"image\": scene.image,\n                \"devices\": sceneDevices\n            }\n        });\n    }\n\n    return result;\n}\n\nmsg  = convertCreateRoomToCreateScenes(msg);\nmetadata.generation = \"ok\"\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
         "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
       },
       "configurationVersion" : 0,
@@ -3955,39 +3951,6 @@
     }, {
       "additionalInfo" : {
         "description" : "Chuyển thực thể gốc tới thiết bị con là Device",
-        "layoutX" : 1601,
-        "layoutY" : 1303
-      },
-      "configuration" : {
-        "originatorSource" : "ENTITY",
-        "entityType" : "DEVICE",
-        "entityNamePattern" : "$[params.gateway]",
-        "relationsQuery" : {
-          "fetchLastLevelOnly" : true,
-          "direction" : "TO",
-          "maxLevel" : 1,
-          "filters" : [ {
-            "relationType" : "Gateway_Room",
-            "entityTypes" : [ "DEVICE" ]
-          } ]
-        }
-      },
-      "configurationVersion" : 0,
-      "createdTime" : 0,
-      "debugMode" : true,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "80836740-492c-11f1-8ecd-fd0f21d425e9"
-      },
-      "name" : "Chuyển tới Gateway",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "Chuyển thực thể gốc tới thiết bị con là Device",
         "layoutX" : 1603,
         "layoutY" : 1503
       },
@@ -4108,6 +4071,28 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1601,
+        "layoutY" : 1303
+      },
+      "configuration" : {
+        "version" : 0
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "8cffe660-49c2-11f1-8ecd-fd0f21d425e9"
+      },
+      "name" : "tách bản tin theo Gateway",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbSplitArrayMsgNode"
     } ],
     "ruleChainConnections" : null
   },
