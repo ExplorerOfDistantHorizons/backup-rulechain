@@ -853,8 +853,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2099,
-        "layoutY" : 1232
+        "layoutX" : 2107,
+        "layoutY" : 1228
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -875,8 +875,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Tiền sử lý bản tin trước khi gửi xuống HCP",
-        "layoutX" : 2351,
-        "layoutY" : 1282
+        "layoutX" : 2359,
+        "layoutY" : 1278
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -950,8 +950,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2602,
-        "layoutY" : 1280
+        "layoutX" : 2610,
+        "layoutY" : 1276
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -984,8 +984,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2850,
-        "layoutY" : 1283
+        "layoutX" : 2858,
+        "layoutY" : 1279
       },
       "configuration" : {
         "version" : 0
@@ -2225,8 +2225,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3099,
-        "layoutY" : 1282
+        "layoutX" : 3107,
+        "layoutY" : 1278
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -3176,8 +3176,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2348,
-        "layoutY" : 1232
+        "layoutX" : 2356,
+        "layoutY" : 1228
       },
       "configuration" : {
         "serviceIdMetaDataAttribute" : "serviceId",
