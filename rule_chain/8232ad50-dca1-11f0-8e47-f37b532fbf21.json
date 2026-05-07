@@ -2534,7 +2534,7 @@
         "entityType" : "RULE_NODE",
         "id" : "84cdb0d1-fa6c-11f0-8c6e-5381beb8d689"
       },
-      "name" : "Rule chain - Scene",
+      "name" : "Room -> Scene",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
@@ -2557,7 +2557,7 @@
         "entityType" : "RULE_NODE",
         "id" : "84cdb0d2-fa6c-11f0-8c6e-5381beb8d689"
       },
-      "name" : "Rule chain - Group",
+      "name" : "Room -> Group",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
@@ -3630,8 +3630,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3129,
-        "layoutY" : 781
+        "layoutX" : 3128,
+        "layoutY" : 778
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
@@ -3655,8 +3655,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Xử lý các danh sách thiết bị, nhóm , cảnh",
-        "layoutX" : 2878,
-        "layoutY" : 781
+        "layoutX" : 2877,
+        "layoutY" : 778
       },
       "configuration" : {
         "scriptLang" : "JS",
