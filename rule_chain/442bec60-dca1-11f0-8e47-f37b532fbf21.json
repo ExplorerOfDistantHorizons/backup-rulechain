@@ -704,8 +704,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Tiền sử lý bản tin trước khi gửi xuống HCP",
-        "layoutX" : 2350,
-        "layoutY" : 1153
+        "layoutX" : 2353,
+        "layoutY" : 1154
       },
       "configuration" : {
         "scriptLang" : "JS",
