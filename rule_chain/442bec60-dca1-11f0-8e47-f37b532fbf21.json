@@ -480,6 +480,10 @@
       "fromIndex" : 113,
       "toIndex" : 48,
       "type" : "Success"
+    }, {
+      "fromIndex" : 114,
+      "toIndex" : 115,
+      "type" : "False"
     } ],
     "firstNodeIndex" : 0,
     "nodes" : [ {
@@ -3492,8 +3496,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1602,
-        "layoutY" : 1253
+        "layoutX" : 1601,
+        "layoutY" : 1304
       },
       "configuration" : {
         "scriptLang" : "JS",
