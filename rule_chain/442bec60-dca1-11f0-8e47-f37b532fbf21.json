@@ -627,8 +627,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2102,
-        "layoutY" : 1103
+        "layoutX" : 2111,
+        "layoutY" : 1056
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -3077,8 +3077,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2352,
-        "layoutY" : 1104
+        "layoutX" : 2361,
+        "layoutY" : 1057
       },
       "configuration" : {
         "serviceIdMetaDataAttribute" : "serviceId",
