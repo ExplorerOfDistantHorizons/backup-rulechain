@@ -574,15 +574,15 @@
       "type" : "Success"
     }, {
       "fromIndex" : 138,
+      "toIndex" : 130,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 138,
       "toIndex" : 139,
       "type" : "Success"
     }, {
       "fromIndex" : 139,
       "toIndex" : 20,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 139,
-      "toIndex" : 130,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 0,
@@ -1094,8 +1094,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2125,
-        "layoutY" : 1248
+        "layoutX" : 2128,
+        "layoutY" : 1303
       },
       "configuration" : {
         "timeoutInSeconds" : 0
