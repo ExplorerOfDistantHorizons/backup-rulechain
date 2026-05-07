@@ -86,7 +86,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 4,
-      "toIndex" : 101,
+      "toIndex" : 110,
       "type" : "Success"
     }, {
       "fromIndex" : 5,
@@ -467,6 +467,10 @@
     }, {
       "fromIndex" : 109,
       "toIndex" : 45,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 110,
+      "toIndex" : 101,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 0,
@@ -3088,7 +3092,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2027,
+        "layoutX" : 2277,
         "layoutY" : 1454
       },
       "configuration" : {
@@ -3110,7 +3114,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2277,
+        "layoutX" : 2527,
         "layoutY" : 1454
       },
       "configuration" : {
@@ -3315,6 +3319,39 @@
       "id" : {
         "entityType" : "RULE_NODE",
         "id" : "71332900-49e6-11f1-8ecd-fd0f21d425e9"
+      },
+      "name" : "Chuyển tới Gateway",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "Chuyển thực thể gốc tới thiết bị con là Device",
+        "layoutX" : 2028,
+        "layoutY" : 1453
+      },
+      "configuration" : {
+        "originatorSource" : "RELATED",
+        "entityType" : null,
+        "entityNamePattern" : null,
+        "relationsQuery" : {
+          "fetchLastLevelOnly" : true,
+          "direction" : "TO",
+          "maxLevel" : 2,
+          "filters" : [ {
+            "relationType" : "Gateway_Room",
+            "entityTypes" : [ "DEVICE" ]
+          } ]
+        }
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "8101f190-49e6-11f1-8ecd-fd0f21d425e9"
       },
       "name" : "Chuyển tới Gateway",
       "queueName" : null,
