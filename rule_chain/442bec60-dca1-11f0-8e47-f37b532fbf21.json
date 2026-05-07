@@ -2329,8 +2329,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1604,
-        "layoutY" : 1531
+        "layoutX" : 1603,
+        "layoutY" : 1527
       },
       "configuration" : {
         "relationsQuery" : {
@@ -2365,7 +2365,7 @@
       "additionalInfo" : {
         "description" : "",
         "layoutX" : 1853,
-        "layoutY" : 1531
+        "layoutY" : 1529
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -2447,7 +2447,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2103,
+        "layoutX" : 2102,
         "layoutY" : 1529
       },
       "configuration" : {
@@ -3104,8 +3104,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1853,
-        "layoutY" : 1481
+        "layoutX" : 1852,
+        "layoutY" : 1478
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -3126,8 +3126,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2103,
-        "layoutY" : 1481
+        "layoutX" : 2102,
+        "layoutY" : 1477
       },
       "configuration" : {
         "serviceIdMetaDataAttribute" : "serviceId",
@@ -3341,7 +3341,7 @@
       "additionalInfo" : {
         "description" : "Chuyển thực thể gốc tới thiết bị con là Device",
         "layoutX" : 1604,
-        "layoutY" : 1480
+        "layoutY" : 1478
       },
       "configuration" : {
         "originatorSource" : "RELATED",
