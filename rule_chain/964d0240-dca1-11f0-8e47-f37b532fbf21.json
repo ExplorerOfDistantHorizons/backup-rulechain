@@ -110,7 +110,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 22,
-      "toIndex" : 21,
+      "toIndex" : 29,
       "type" : "Success"
     }, {
       "fromIndex" : 23,
@@ -135,6 +135,10 @@
     }, {
       "fromIndex" : 27,
       "toIndex" : 28,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 29,
+      "toIndex" : 21,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 1,
@@ -679,7 +683,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1529,
+        "layoutX" : 1777,
         "layoutY" : 702
       },
       "configuration" : {
@@ -877,6 +881,30 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.rest.TbSendRestApiCallReplyNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1526,
+        "layoutY" : 704
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "msg={\n    name : msg.params.name,\n}\ndelete metadata.nextData\nmetadata.msgType = msgType\nmsgType = \"POST_ATTRIBUTES_REQUEST\";\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "0f263dc0-49c7-11f1-8ecd-fd0f21d425e9"
+      },
+      "name" : "tiền sử lý",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
     } ],
     "ruleChainConnections" : null
   },
