@@ -127,11 +127,11 @@
     }, {
       "fromIndex" : 11,
       "toIndex" : 6,
-      "type" : "True"
+      "type" : "False"
     }, {
       "fromIndex" : 11,
       "toIndex" : 9,
-      "type" : "False"
+      "type" : "True"
     }, {
       "fromIndex" : 13,
       "toIndex" : 14,
@@ -753,7 +753,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "return metadata.generation != \"ok\";",
+        "jsScript" : "return metadata.generation === \"ok\";",
         "tbelScript" : "return msg.temperature > 20;"
       },
       "configurationVersion" : 0,
@@ -3369,8 +3369,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Chuyển thực thể gốc tới thiết bị con là Device",
-        "layoutX" : 1854,
-        "layoutY" : 1050
+        "layoutX" : 1678,
+        "layoutY" : 1052
       },
       "configuration" : {
         "originatorSource" : "RELATED",
