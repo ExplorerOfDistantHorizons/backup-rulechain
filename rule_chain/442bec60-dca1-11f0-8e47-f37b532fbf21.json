@@ -635,8 +635,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2100,
-        "layoutY" : 1107
+        "layoutX" : 2102,
+        "layoutY" : 1103
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -679,8 +679,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Tạo nhóm và thêm quan hệ của thiệt bị với nhóm này ",
-        "layoutX" : 2850,
-        "layoutY" : 1158
+        "layoutX" : 2852,
+        "layoutY" : 1154
       },
       "configuration" : {
         "direction" : "FROM",
@@ -709,7 +709,7 @@
       "additionalInfo" : {
         "description" : "Tiền sử lý bản tin trước khi gửi xuống HCP",
         "layoutX" : 2350,
-        "layoutY" : 1157
+        "layoutY" : 1153
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -757,7 +757,7 @@
       "additionalInfo" : {
         "description" : "nếu là nhóm tự tạo  = true, ngược là false",
         "layoutX" : 1853,
-        "layoutY" : 1155
+        "layoutY" : 1154
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -1584,8 +1584,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2600,
-        "layoutY" : 1156
+        "layoutX" : 2601,
+        "layoutY" : 1153
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -3085,8 +3085,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2350,
-        "layoutY" : 1107
+        "layoutX" : 2352,
+        "layoutY" : 1104
       },
       "configuration" : {
         "serviceIdMetaDataAttribute" : "serviceId",
