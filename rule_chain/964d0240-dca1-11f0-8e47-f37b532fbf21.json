@@ -713,7 +713,7 @@
         "relationType" : "Room",
         "createEntityIfNotExists" : true,
         "removeCurrentRelations" : false,
-        "changeOriginatorToRelatedEntity" : false
+        "changeOriginatorToRelatedEntity" : true
       },
       "configurationVersion" : 1,
       "createdTime" : 0,
@@ -723,7 +723,7 @@
         "entityType" : "RULE_NODE",
         "id" : "6c7232b0-492f-11f1-8ecd-fd0f21d425e9"
       },
-      "name" : "Building@Room+",
+      "name" : "Building@Room+>",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
