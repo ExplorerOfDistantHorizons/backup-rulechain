@@ -563,7 +563,7 @@
         "entityType" : "RULE_NODE",
         "id" : "5877d761-f826-11f0-8c6e-5381beb8d689"
       },
-      "name" : "Tiền xử lý",
+      "name" : "room ->Tiền xử lý",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
