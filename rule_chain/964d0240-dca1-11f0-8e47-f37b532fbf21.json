@@ -121,12 +121,20 @@
       "toIndex" : 26,
       "type" : "True"
     }, {
+      "fromIndex" : 24,
+      "toIndex" : 27,
+      "type" : "Success"
+    }, {
       "fromIndex" : 25,
       "toIndex" : 24,
       "type" : "Success"
     }, {
       "fromIndex" : 26,
       "toIndex" : 25,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 27,
+      "toIndex" : 28,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 1,
@@ -822,6 +830,53 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.action.TbCreateRelationNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2027,
+        "layoutY" : 654
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "msg={\n    name : msg.params.name,\n}\ndelete metadata.nextData\nmsgType = \"POST_ATTRIBUTES_REQUEST\";\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "22df13c0-49b1-11f1-8ecd-fd0f21d425e9"
+      },
+      "name" : "tiền sử lý",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2276,
+        "layoutY" : 654
+      },
+      "configuration" : {
+        "serviceIdMetaDataAttribute" : "serviceId",
+        "requestIdMetaDataAttribute" : "requestUUID"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "22df3ad0-49b1-11f1-8ecd-fd0f21d425e9"
+      },
+      "name" : "Phản hồi",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.rest.TbSendRestApiCallReplyNode"
     } ],
     "ruleChainConnections" : null
   },
