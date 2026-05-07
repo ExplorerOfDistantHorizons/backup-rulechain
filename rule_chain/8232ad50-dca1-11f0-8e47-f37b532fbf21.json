@@ -3812,7 +3812,7 @@
         "entityType" : "RULE_NODE",
         "id" : "ec73cbd0-4863-11f1-905b-d9c31e94ae99"
       },
-      "name" : "Rule chain - Group",
+      "name" : "Room -> Group",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
@@ -3835,7 +3835,7 @@
         "entityType" : "RULE_NODE",
         "id" : "c6ff6120-4868-11f1-905b-d9c31e94ae99"
       },
-      "name" : "Rule chain - Scene",
+      "name" : "Room -> Scene",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
