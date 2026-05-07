@@ -73,10 +73,6 @@
       "toIndex" : 43,
       "type" : "delSceneController"
     }, {
-      "fromIndex" : 2,
-      "toIndex" : 111,
-      "type" : "Success"
-    }, {
       "fromIndex" : 3,
       "toIndex" : 112,
       "type" : "Success"
@@ -473,10 +469,6 @@
       "toIndex" : 101,
       "type" : "Success"
     }, {
-      "fromIndex" : 111,
-      "toIndex" : 11,
-      "type" : "Success"
-    }, {
       "fromIndex" : 112,
       "toIndex" : 47,
       "type" : "Success"
@@ -752,8 +744,8 @@
     }, {
       "additionalInfo" : {
         "description" : "nếu là nhóm tự tạo  = true, ngược là false",
-        "layoutX" : 1853,
-        "layoutY" : 1154
+        "layoutX" : 1602,
+        "layoutY" : 1153
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -768,7 +760,7 @@
         "entityType" : "RULE_NODE",
         "id" : "587bf612-f826-11f0-8c6e-5381beb8d689"
       },
-      "name" : "kiểm tra loại Scene được tạo",
+      "name" : "scene mặc định ?",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
@@ -3373,8 +3365,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Chuyển thực thể gốc tới thiết bị con là Device",
-        "layoutX" : 1603,
-        "layoutY" : 1155
+        "layoutX" : 1854,
+        "layoutY" : 1050
       },
       "configuration" : {
         "originatorSource" : "RELATED",
