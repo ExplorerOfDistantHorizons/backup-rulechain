@@ -3959,9 +3959,9 @@
         "layoutY" : 1303
       },
       "configuration" : {
-        "originatorSource" : "RELATED",
-        "entityType" : null,
-        "entityNamePattern" : null,
+        "originatorSource" : "ENTITY",
+        "entityType" : "DEVICE",
+        "entityNamePattern" : "$[params.gateway]",
         "relationsQuery" : {
           "fetchLastLevelOnly" : true,
           "direction" : "TO",
