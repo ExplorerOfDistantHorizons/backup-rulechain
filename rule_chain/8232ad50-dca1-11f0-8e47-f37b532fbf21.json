@@ -574,10 +574,6 @@
       "type" : "Success"
     }, {
       "fromIndex" : 138,
-      "toIndex" : 130,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 138,
       "toIndex" : 139,
       "type" : "Success"
     }, {
@@ -3843,7 +3839,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2377,
+        "layoutX" : 2378,
         "layoutY" : 1354
       },
       "configuration" : {
