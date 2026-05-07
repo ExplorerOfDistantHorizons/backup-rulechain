@@ -3960,7 +3960,7 @@
         "entityType" : "RULE_NODE",
         "id" : "80838e50-492c-11f1-8ecd-fd0f21d425e9"
       },
-      "name" : "Chuyển tới Gateway",
+      "name" : "Room -> Gateway",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
@@ -4026,7 +4026,7 @@
         "entityType" : "RULE_NODE",
         "id" : "80840381-492c-11f1-8ecd-fd0f21d425e9"
       },
-      "name" : "Chuyển tới Gateway",
+      "name" : "Room -> Gateway",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
