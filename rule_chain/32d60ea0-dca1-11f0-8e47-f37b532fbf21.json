@@ -54,15 +54,15 @@
       "type" : "Success"
     }, {
       "fromIndex" : 4,
-      "toIndex" : 64,
+      "toIndex" : 63,
       "type" : "Success"
     }, {
       "fromIndex" : 5,
-      "toIndex" : 24,
+      "toIndex" : 23,
       "type" : "Success"
     }, {
       "fromIndex" : 5,
-      "toIndex" : 67,
+      "toIndex" : 66,
       "type" : "Success"
     }, {
       "fromIndex" : 6,
@@ -70,11 +70,11 @@
       "type" : "Success"
     }, {
       "fromIndex" : 7,
-      "toIndex" : 68,
+      "toIndex" : 67,
       "type" : "Failure"
     }, {
       "fromIndex" : 7,
-      "toIndex" : 68,
+      "toIndex" : 67,
       "type" : "Success"
     }, {
       "fromIndex" : 8,
@@ -86,15 +86,15 @@
       "type" : "Success"
     }, {
       "fromIndex" : 8,
-      "toIndex" : 25,
+      "toIndex" : 24,
       "type" : "Success"
     }, {
       "fromIndex" : 8,
-      "toIndex" : 30,
+      "toIndex" : 29,
       "type" : "Success"
     }, {
       "fromIndex" : 8,
-      "toIndex" : 42,
+      "toIndex" : 41,
       "type" : "Success"
     }, {
       "fromIndex" : 9,
@@ -114,11 +114,11 @@
       "type" : "Success"
     }, {
       "fromIndex" : 14,
-      "toIndex" : 66,
+      "toIndex" : 65,
       "type" : "Failure"
     }, {
       "fromIndex" : 14,
-      "toIndex" : 66,
+      "toIndex" : 65,
       "type" : "Success"
     }, {
       "fromIndex" : 15,
@@ -126,95 +126,99 @@
       "type" : "Success"
     }, {
       "fromIndex" : 16,
-      "toIndex" : 21,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 17,
-      "toIndex" : 22,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 18,
-      "toIndex" : 41,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 19,
       "toIndex" : 20,
       "type" : "Success"
     }, {
-      "fromIndex" : 21,
+      "fromIndex" : 17,
+      "toIndex" : 21,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 18,
+      "toIndex" : 40,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 19,
+      "toIndex" : 69,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 20,
       "toIndex" : 17,
       "type" : "Success"
     }, {
-      "fromIndex" : 22,
-      "toIndex" : 23,
+      "fromIndex" : 21,
+      "toIndex" : 22,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 23,
+      "toIndex" : 62,
       "type" : "Success"
     }, {
       "fromIndex" : 24,
-      "toIndex" : 63,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 25,
       "toIndex" : 16,
       "type" : "Success"
     }, {
+      "fromIndex" : 25,
+      "toIndex" : 30,
+      "type" : "Success"
+    }, {
       "fromIndex" : 26,
-      "toIndex" : 31,
+      "toIndex" : 37,
       "type" : "Success"
     }, {
       "fromIndex" : 27,
-      "toIndex" : 38,
+      "toIndex" : 28,
       "type" : "Success"
     }, {
-      "fromIndex" : 28,
-      "toIndex" : 29,
+      "fromIndex" : 29,
+      "toIndex" : 25,
       "type" : "Success"
     }, {
       "fromIndex" : 30,
       "toIndex" : 26,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 31,
-      "toIndex" : 27,
       "type" : "deviceOut"
     }, {
-      "fromIndex" : 31,
-      "toIndex" : 32,
+      "fromIndex" : 30,
+      "toIndex" : 31,
       "type" : "groupOut"
     }, {
-      "fromIndex" : 31,
-      "toIndex" : 35,
+      "fromIndex" : 30,
+      "toIndex" : 34,
       "type" : "sceneOut"
     }, {
+      "fromIndex" : 31,
+      "toIndex" : 38,
+      "type" : "Success"
+    }, {
       "fromIndex" : 32,
-      "toIndex" : 39,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 33,
-      "toIndex" : 34,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 35,
-      "toIndex" : 40,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 36,
-      "toIndex" : 37,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 38,
-      "toIndex" : 28,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 39,
       "toIndex" : 33,
       "type" : "Success"
     }, {
-      "fromIndex" : 40,
+      "fromIndex" : 34,
+      "toIndex" : 39,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 35,
       "toIndex" : 36,
       "type" : "Success"
     }, {
+      "fromIndex" : 37,
+      "toIndex" : 27,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 38,
+      "toIndex" : 32,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 39,
+      "toIndex" : 35,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 40,
+      "toIndex" : 64,
+      "type" : "Success"
+    }, {
       "fromIndex" : 41,
-      "toIndex" : 65,
+      "toIndex" : 42,
       "type" : "Success"
     }, {
       "fromIndex" : 42,
@@ -222,11 +226,11 @@
       "type" : "Success"
     }, {
       "fromIndex" : 43,
-      "toIndex" : 44,
+      "toIndex" : 47,
       "type" : "Success"
     }, {
-      "fromIndex" : 44,
-      "toIndex" : 48,
+      "fromIndex" : 45,
+      "toIndex" : 44,
       "type" : "Success"
     }, {
       "fromIndex" : 46,
@@ -235,19 +239,19 @@
     }, {
       "fromIndex" : 47,
       "toIndex" : 46,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 48,
-      "toIndex" : 47,
       "type" : "deviceOut"
     }, {
-      "fromIndex" : 48,
-      "toIndex" : 49,
+      "fromIndex" : 47,
+      "toIndex" : 48,
       "type" : "groupOut"
+    }, {
+      "fromIndex" : 47,
+      "toIndex" : 49,
+      "type" : "sceneOut"
     }, {
       "fromIndex" : 48,
       "toIndex" : 50,
-      "type" : "sceneOut"
+      "type" : "Success"
     }, {
       "fromIndex" : 49,
       "toIndex" : 51,
@@ -261,48 +265,56 @@
       "toIndex" : 53,
       "type" : "Success"
     }, {
-      "fromIndex" : 52,
+      "fromIndex" : 55,
       "toIndex" : 54,
       "type" : "Success"
     }, {
       "fromIndex" : 56,
       "toIndex" : 55,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 57,
-      "toIndex" : 56,
       "type" : "deviceOut"
     }, {
-      "fromIndex" : 57,
-      "toIndex" : 58,
+      "fromIndex" : 56,
+      "toIndex" : 57,
       "type" : "groupOut"
+    }, {
+      "fromIndex" : 56,
+      "toIndex" : 58,
+      "type" : "sceneOut"
     }, {
       "fromIndex" : 57,
       "toIndex" : 59,
-      "type" : "sceneOut"
+      "type" : "Success"
     }, {
       "fromIndex" : 58,
       "toIndex" : 60,
       "type" : "Success"
     }, {
-      "fromIndex" : 59,
-      "toIndex" : 61,
+      "fromIndex" : 61,
+      "toIndex" : 56,
       "type" : "Success"
     }, {
       "fromIndex" : 62,
-      "toIndex" : 57,
+      "toIndex" : 61,
       "type" : "Success"
     }, {
       "fromIndex" : 63,
-      "toIndex" : 62,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 64,
       "toIndex" : 14,
       "type" : "Success"
     }, {
-      "fromIndex" : 67,
+      "fromIndex" : 66,
       "toIndex" : 7,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 68,
+      "toIndex" : 70,
+      "type" : "Failure"
+    }, {
+      "fromIndex" : 68,
+      "toIndex" : 70,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 69,
+      "toIndex" : 68,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 1,
@@ -797,28 +809,6 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "",
-        "layoutX" : 1350,
-        "layoutY" : 254
-      },
-      "configuration" : {
-        "timeoutInSeconds" : 0
-      },
-      "configurationVersion" : 0,
-      "createdTime" : 0,
-      "debugMode" : true,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "5a02af11-fbf5-11f0-8c6e-5381beb8d689"
-      },
-      "name" : "gửi bản tin",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.rpc.TbSendRPCRequestNode"
     }, {
       "additionalInfo" : {
         "description" : "",
@@ -2143,6 +2133,84 @@
       "id" : {
         "entityType" : "RULE_NODE",
         "id" : "fc8713e0-4a86-11f1-b1ef-d7e314cac7c6"
+      },
+      "name" : "Phản hồi",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.rest.TbSendRestApiCallReplyNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1601,
+        "layoutY" : 254
+      },
+      "configuration" : {
+        "timeoutInSeconds" : 0
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "9aa1b390-4ac4-11f1-b1ef-d7e314cac7c6"
+      },
+      "name" : "gửi bản tin",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.rpc.TbSendRPCRequestNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1352,
+        "layoutY" : 254
+      },
+      "configuration" : {
+        "originatorSource" : "RELATED",
+        "entityType" : null,
+        "entityNamePattern" : null,
+        "relationsQuery" : {
+          "fetchLastLevelOnly" : false,
+          "direction" : "TO",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Gateway_RuleLocal",
+            "entityTypes" : [ "DEVICE" ]
+          } ]
+        }
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "9aa1daa0-4ac4-11f1-b1ef-d7e314cac7c6"
+      },
+      "name" : "-> Gateaway",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1852,
+        "layoutY" : 254
+      },
+      "configuration" : {
+        "serviceIdMetaDataAttribute" : "serviceId",
+        "requestIdMetaDataAttribute" : "requestUUID"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "9aa1daa1-4ac4-11f1-b1ef-d7e314cac7c6"
       },
       "name" : "Phản hồi",
       "queueName" : null,
