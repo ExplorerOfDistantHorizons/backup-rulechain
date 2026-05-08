@@ -473,7 +473,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1601,
+        "layoutX" : 1605,
         "layoutY" : 604
       },
       "configuration" : {
@@ -905,8 +905,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1601,
-        "layoutY" : 553
+        "layoutX" : 1353,
+        "layoutY" : 554
       },
       "configuration" : {
         "relationsQuery" : {
@@ -1768,8 +1768,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2852,
-        "layoutY" : 553
+        "layoutX" : 2604,
+        "layoutY" : 554
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
@@ -1793,8 +1793,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2603,
-        "layoutY" : 552
+        "layoutX" : 2355,
+        "layoutY" : 553
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -1827,8 +1827,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2351,
-        "layoutY" : 553
+        "layoutX" : 2103,
+        "layoutY" : 554
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -1851,8 +1851,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2604,
-        "layoutY" : 602
+        "layoutX" : 2354,
+        "layoutY" : 603
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -1885,8 +1885,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2603,
-        "layoutY" : 652
+        "layoutX" : 2354,
+        "layoutY" : 654
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -1919,8 +1919,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2851,
-        "layoutY" : 604
+        "layoutX" : 2603,
+        "layoutY" : 605
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
@@ -1944,8 +1944,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2851,
-        "layoutY" : 653
+        "layoutX" : 2603,
+        "layoutY" : 654
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
@@ -1969,8 +1969,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2100,
-        "layoutY" : 553
+        "layoutX" : 1855,
+        "layoutY" : 554
       },
       "configuration" : {
         "version" : 0
@@ -1991,7 +1991,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1850,
+        "layoutX" : 1604,
         "layoutY" : 554
       },
       "configuration" : {
@@ -2129,8 +2129,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1851,
-        "layoutY" : 604
+        "layoutX" : 1855,
+        "layoutY" : 603
       },
       "configuration" : {
         "serviceIdMetaDataAttribute" : "serviceId",
