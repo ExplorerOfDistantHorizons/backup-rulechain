@@ -752,7 +752,7 @@
         "entityType" : "RULE_NODE",
         "id" : "5a028801-fbf5-11f0-8c6e-5381beb8d689"
       },
-      "name" : "Chuyển thực thể gốc Rule",
+      "name" : "-> Rulelocal",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
