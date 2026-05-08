@@ -23,6 +23,10 @@
     "connections" : [ {
       "fromIndex" : 0,
       "toIndex" : 2,
+      "type" : "REST API request"
+    }, {
+      "fromIndex" : 0,
+      "toIndex" : 2,
       "type" : "RPC Request to Device"
     }, {
       "fromIndex" : 1,
