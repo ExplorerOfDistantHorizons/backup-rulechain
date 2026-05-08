@@ -2040,7 +2040,7 @@
         "entityType" : "RULE_NODE",
         "id" : "9cb501d0-4a85-11f1-b1ef-d7e314cac7c6"
       },
-      "name" : "Chuyển thực thể gốc Rule",
+      "name" : "-> Gateaway",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
