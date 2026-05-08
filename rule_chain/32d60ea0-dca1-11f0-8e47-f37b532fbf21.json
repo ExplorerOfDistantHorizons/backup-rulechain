@@ -1,0 +1,2055 @@
+{
+  "entityType" : "RULE_CHAIN",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "configuration" : null,
+    "debugMode" : false,
+    "externalId" : null,
+    "firstRuleNodeId" : {
+      "entityType" : "RULE_NODE",
+      "id" : "3189a643-e559-11f0-878a-3d815772e7fb"
+    },
+    "id" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "32d60ea0-dca1-11f0-8e47-f37b532fbf21"
+    },
+    "name" : "Rule chain - Rulelocal",
+    "root" : false,
+    "type" : "CORE"
+  },
+  "metaData" : {
+    "connections" : [ {
+      "fromIndex" : 0,
+      "toIndex" : 2,
+      "type" : "RPC Request to Device"
+    }, {
+      "fromIndex" : 1,
+      "toIndex" : 0,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 2,
+      "toIndex" : 3,
+      "type" : "createRule_editRule"
+    }, {
+      "fromIndex" : 2,
+      "toIndex" : 4,
+      "type" : "activeRule"
+    }, {
+      "fromIndex" : 2,
+      "toIndex" : 5,
+      "type" : "delRule"
+    }, {
+      "fromIndex" : 2,
+      "toIndex" : 19,
+      "type" : "actionRule"
+    }, {
+      "fromIndex" : 3,
+      "toIndex" : 6,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 4,
+      "toIndex" : 14,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 5,
+      "toIndex" : 7,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 5,
+      "toIndex" : 63,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 9,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 8,
+      "toIndex" : 10,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 8,
+      "toIndex" : 12,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 8,
+      "toIndex" : 25,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 8,
+      "toIndex" : 30,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 8,
+      "toIndex" : 43,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 9,
+      "toIndex" : 8,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 10,
+      "toIndex" : 11,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 12,
+      "toIndex" : 13,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 14,
+      "toIndex" : 15,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 15,
+      "toIndex" : 18,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 16,
+      "toIndex" : 21,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 17,
+      "toIndex" : 22,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 18,
+      "toIndex" : 41,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 19,
+      "toIndex" : 20,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 21,
+      "toIndex" : 17,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 22,
+      "toIndex" : 23,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 24,
+      "toIndex" : 65,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 25,
+      "toIndex" : 16,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 26,
+      "toIndex" : 31,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 27,
+      "toIndex" : 38,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 28,
+      "toIndex" : 29,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 30,
+      "toIndex" : 26,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 31,
+      "toIndex" : 27,
+      "type" : "deviceOut"
+    }, {
+      "fromIndex" : 31,
+      "toIndex" : 32,
+      "type" : "groupOut"
+    }, {
+      "fromIndex" : 31,
+      "toIndex" : 35,
+      "type" : "sceneOut"
+    }, {
+      "fromIndex" : 32,
+      "toIndex" : 39,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 33,
+      "toIndex" : 34,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 35,
+      "toIndex" : 40,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 36,
+      "toIndex" : 37,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 38,
+      "toIndex" : 28,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 39,
+      "toIndex" : 33,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 40,
+      "toIndex" : 36,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 41,
+      "toIndex" : 42,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 43,
+      "toIndex" : 44,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 44,
+      "toIndex" : 45,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 45,
+      "toIndex" : 49,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 47,
+      "toIndex" : 46,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 48,
+      "toIndex" : 47,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 49,
+      "toIndex" : 48,
+      "type" : "deviceOut"
+    }, {
+      "fromIndex" : 49,
+      "toIndex" : 50,
+      "type" : "groupOut"
+    }, {
+      "fromIndex" : 49,
+      "toIndex" : 51,
+      "type" : "sceneOut"
+    }, {
+      "fromIndex" : 50,
+      "toIndex" : 52,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 51,
+      "toIndex" : 53,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 52,
+      "toIndex" : 54,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 53,
+      "toIndex" : 55,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 57,
+      "toIndex" : 56,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 58,
+      "toIndex" : 57,
+      "type" : "deviceOut"
+    }, {
+      "fromIndex" : 58,
+      "toIndex" : 59,
+      "type" : "groupOut"
+    }, {
+      "fromIndex" : 58,
+      "toIndex" : 60,
+      "type" : "sceneOut"
+    }, {
+      "fromIndex" : 59,
+      "toIndex" : 61,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 60,
+      "toIndex" : 62,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 63,
+      "toIndex" : 24,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 64,
+      "toIndex" : 58,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 65,
+      "toIndex" : 64,
+      "type" : "Success"
+    } ],
+    "firstNodeIndex" : 1,
+    "nodes" : [ {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 452,
+        "layoutY" : 703
+      },
+      "configuration" : {
+        "version" : 0
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "31893110-e559-11f0-878a-3d815772e7fb"
+      },
+      "name" : "phân loại",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.filter.TbMsgTypeSwitchNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 280,
+        "layoutY" : 152
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "try {\n    msg.params = JSON.parse(msg.params);\n} catch (e) {}\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "tbelScript" : "metadata.dataNext = JSON.stringify(msg.params);\nvar newParams = {\n    id        : msg.params.id\n}\nmsg.params = newParams;\nreturn {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "3189a643-e559-11f0-878a-3d815772e7fb"
+      },
+      "name" : "Tiền xử lý parse",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 750,
+        "layoutY" : 153
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "function nextRelation(metadata, msg) {\n    var out_list = [];\n    switch (msg.method) {\n        case \"createRule\":\n        case \"editRule\":\n            out_list = ['createRule_editRule']\n            break;\n            \n        case \"actionRule\":\n            out_list = ['actionRule']\n            break;\n            \n        case \"activeRule\":    \n            out_list = ['activeRule']\n            break;\n        \n        case \"delRule\":\n            out_list = ['delRule']\n            break;\n    \n        default:\n            out_list = ['other']\n            break;\n    }\n    return out_list;\n}\nreturn nextRelation(metadata, msg);",
+        "tbelScript" : "function nextRelation(metadata, msg) {\n    return ['one','nine'];\n}\nif(msgType == 'POST_TELEMETRY_REQUEST') {\n    return ['two'];\n}\nreturn nextRelation(metadata, msg);"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "41dae870-e55d-11f0-878a-3d815772e7fb"
+      },
+      "name" : "rule local",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsSwitchNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1103,
+        "layoutY" : 153
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "metadata.method = msg.method\r\nmetadata.entityName = msg.params.id\r\nmetadata.entityName_Dormitory = msg.params.dormitoryId\r\nmetadata.lable = msg.params.name\r\nmetadata.nextData = JSON.stringify(msg)\r\n\r\nreturn { msg: msg, metadata: metadata, msgType: msgType };",
+        "tbelScript" : "var cmd = msg.cmd;\nvar rqi = msg.rqi;\nvar msgType = \"POST_TELEMETRY_REQUEST\";\n\n// // Quét thiết bị: : app->HC\n// if(cmd === \"startScanBleRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Dừng quét thiết bị: : app->HC\n// else if(cmd === \"stopScanBleRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Báo thiết bị mới: HC->app hoặc HC->server\n// else if(cmd === \"newDevRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Xóa thiết bị app -> HC\n// else if(cmd === \"delDevRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Xóa thiết bị HC -> app\n// else if(cmd === \"delDev\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Tạo nhóm: app->HC\n// else if(cmd === \"createGroupRsp\"){\n//     metadata.cmd = cmd;\n// }\n//Thêm thiết bị vào nhóm: app->HC\nif(cmd === \"addDevToGroupRsp\"){\n    // Lấy Asset ID và danh sách Device ID\n    var assetId = msg.data.id; // ID của Asset\n    var deviceIds = msg.data.success; // Danh sách ID của Devices\n\n    // Tạo danh sách quan hệ\n    var relations = deviceIds.map(function(deviceId) {\n        return {\n            from: deviceId, // ID của Device\n            to: assetId,    // ID của Asset\n            type: \"BelongsTo\" // Loại quan hệ (có thể đặt tên khác)\n        };\n    });\n\n    // Gắn danh sách vào metadata\n    metadata.relations = relations;\n}\n//Xóa thiết bị khỏi nhóm: app->HC\nelse if(cmd === \"delDevFromGroupRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa nhóm: app->HC\nelse if(cmd === \"delGroupRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Tạo/sửa cảnh: app->HC\nelse if(cmd === \"createSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa cảnh: app->HC\nelse if(cmd === \"delSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Thêm thiết bị vào cảnh: app->HC\nelse if(cmd === \"addDevToSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa thiết bị trong cảnh: app->HC\nelse if(cmd === \"delDevToSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Tạo kịch bản gọi cảnh: app->HC\nelse if(cmd === \"createSceneControllerRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Xóa kịch bản gọi cảnh: app->HC\nelse if(cmd === \"delSceneControllerRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//tạo kịch bản: app->HC\nelse if(cmd === \"createRuleRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa kịch bản: app->HC\nelse if(cmd === \"delRuleRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Tạo phòng: app->HC\nelse if(cmd === \"createRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Thêm thiết bị vào phòng: app->HC\nelse if(cmd === \"addDevToRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Xóa thiết bị ra khỏi phòng: app->HC\nelse if(cmd === \"delDevToRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa phòng: app->HC\nelse if(cmd === \"delRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Reset HC: app->HC\nelse if(cmd === \"resetHcRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//HC cập nhật trạng thái kết nối với Cloud: HC->server\nelse if(cmd === \"homeControllerRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Bản tin device update: app->HC\nelse if(cmd === \"delDevFromGroupRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\nreturn {msg: msg, metadata: metadata, msgType: msgType};\n"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "5a019da0-fbf5-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "Tiền xử lý",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1103,
+        "layoutY" : 403
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "metadata.entityName = msg.params.id\r\nmetadata.nextData = JSON.stringify(msg.params.devices)\r\n\r\nreturn { msg: msg, metadata: metadata, msgType: msgType };",
+        "tbelScript" : "var cmd = msg.cmd;\nvar rqi = msg.rqi;\nvar msgType = \"POST_TELEMETRY_REQUEST\";\n\n// // Quét thiết bị: : app->HC\n// if(cmd === \"startScanBleRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Dừng quét thiết bị: : app->HC\n// else if(cmd === \"stopScanBleRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Báo thiết bị mới: HC->app hoặc HC->server\n// else if(cmd === \"newDevRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Xóa thiết bị app -> HC\n// else if(cmd === \"delDevRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Xóa thiết bị HC -> app\n// else if(cmd === \"delDev\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Tạo nhóm: app->HC\n// else if(cmd === \"createGroupRsp\"){\n//     metadata.cmd = cmd;\n// }\n//Thêm thiết bị vào nhóm: app->HC\nif(cmd === \"addDevToGroupRsp\"){\n    // Lấy Asset ID và danh sách Device ID\n    var assetId = msg.data.id; // ID của Asset\n    var deviceIds = msg.data.success; // Danh sách ID của Devices\n\n    // Tạo danh sách quan hệ\n    var relations = deviceIds.map(function(deviceId) {\n        return {\n            from: deviceId, // ID của Device\n            to: assetId,    // ID của Asset\n            type: \"BelongsTo\" // Loại quan hệ (có thể đặt tên khác)\n        };\n    });\n\n    // Gắn danh sách vào metadata\n    metadata.relations = relations;\n}\n//Xóa thiết bị khỏi nhóm: app->HC\nelse if(cmd === \"delDevFromGroupRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa nhóm: app->HC\nelse if(cmd === \"delGroupRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Tạo/sửa cảnh: app->HC\nelse if(cmd === \"createSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa cảnh: app->HC\nelse if(cmd === \"delSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Thêm thiết bị vào cảnh: app->HC\nelse if(cmd === \"addDevToSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa thiết bị trong cảnh: app->HC\nelse if(cmd === \"delDevToSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Tạo kịch bản gọi cảnh: app->HC\nelse if(cmd === \"createSceneControllerRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Xóa kịch bản gọi cảnh: app->HC\nelse if(cmd === \"delSceneControllerRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//tạo kịch bản: app->HC\nelse if(cmd === \"createRuleRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa kịch bản: app->HC\nelse if(cmd === \"delRuleRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Tạo phòng: app->HC\nelse if(cmd === \"createRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Thêm thiết bị vào phòng: app->HC\nelse if(cmd === \"addDevToRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Xóa thiết bị ra khỏi phòng: app->HC\nelse if(cmd === \"delDevToRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa phòng: app->HC\nelse if(cmd === \"delRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Reset HC: app->HC\nelse if(cmd === \"resetHcRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//HC cập nhật trạng thái kết nối với Cloud: HC->server\nelse if(cmd === \"homeControllerRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Bản tin device update: app->HC\nelse if(cmd === \"delDevFromGroupRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\nreturn {msg: msg, metadata: metadata, msgType: msgType};\n"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "5a01c4b0-fbf5-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "Tiền xử lý",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1101,
+        "layoutY" : 553
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "metadata.entityName = msg.params.id\r\nmetadata.keyDelInputRule  = \"inputRuleLocal_\"  + msg.params.id\r\nmetadata.keyDelOutputRule = \"outputRuleLocal_\" + msg.params.id\r\nreturn { msg: msg, metadata: metadata, msgType: msgType };",
+        "tbelScript" : "var cmd = msg.cmd;\nvar rqi = msg.rqi;\nvar msgType = \"POST_TELEMETRY_REQUEST\";\n\n// // Quét thiết bị: : app->HC\n// if(cmd === \"startScanBleRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Dừng quét thiết bị: : app->HC\n// else if(cmd === \"stopScanBleRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Báo thiết bị mới: HC->app hoặc HC->server\n// else if(cmd === \"newDevRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Xóa thiết bị app -> HC\n// else if(cmd === \"delDevRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Xóa thiết bị HC -> app\n// else if(cmd === \"delDev\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Tạo nhóm: app->HC\n// else if(cmd === \"createGroupRsp\"){\n//     metadata.cmd = cmd;\n// }\n//Thêm thiết bị vào nhóm: app->HC\nif(cmd === \"addDevToGroupRsp\"){\n    // Lấy Asset ID và danh sách Device ID\n    var assetId = msg.data.id; // ID của Asset\n    var deviceIds = msg.data.success; // Danh sách ID của Devices\n\n    // Tạo danh sách quan hệ\n    var relations = deviceIds.map(function(deviceId) {\n        return {\n            from: deviceId, // ID của Device\n            to: assetId,    // ID của Asset\n            type: \"BelongsTo\" // Loại quan hệ (có thể đặt tên khác)\n        };\n    });\n\n    // Gắn danh sách vào metadata\n    metadata.relations = relations;\n}\n//Xóa thiết bị khỏi nhóm: app->HC\nelse if(cmd === \"delDevFromGroupRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa nhóm: app->HC\nelse if(cmd === \"delGroupRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Tạo/sửa cảnh: app->HC\nelse if(cmd === \"createSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa cảnh: app->HC\nelse if(cmd === \"delSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Thêm thiết bị vào cảnh: app->HC\nelse if(cmd === \"addDevToSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa thiết bị trong cảnh: app->HC\nelse if(cmd === \"delDevToSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Tạo kịch bản gọi cảnh: app->HC\nelse if(cmd === \"createSceneControllerRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Xóa kịch bản gọi cảnh: app->HC\nelse if(cmd === \"delSceneControllerRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//tạo kịch bản: app->HC\nelse if(cmd === \"createRuleRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa kịch bản: app->HC\nelse if(cmd === \"delRuleRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Tạo phòng: app->HC\nelse if(cmd === \"createRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Thêm thiết bị vào phòng: app->HC\nelse if(cmd === \"addDevToRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Xóa thiết bị ra khỏi phòng: app->HC\nelse if(cmd === \"delDevToRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa phòng: app->HC\nelse if(cmd === \"delRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Reset HC: app->HC\nelse if(cmd === \"resetHcRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//HC cập nhật trạng thái kết nối với Cloud: HC->server\nelse if(cmd === \"homeControllerRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Bản tin device update: app->HC\nelse if(cmd === \"delDevFromGroupRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\nreturn {msg: msg, metadata: metadata, msgType: msgType};\n"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "5a01c4b1-fbf5-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "Tiền xử lý",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1352,
+        "layoutY" : 153
+      },
+      "configuration" : {
+        "timeoutInSeconds" : 0
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "5a01ebc0-fbf5-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "gửi bản tin",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.rpc.TbSendRPCRequestNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1350,
+        "layoutY" : 503
+      },
+      "configuration" : {
+        "timeoutInSeconds" : 0
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "5a01ebc1-fbf5-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "gửi bản tin",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.rpc.TbSendRPCRequestNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "Tạo nhóm và thêm quan hệ của thiệt bị với nhóm này ",
+        "layoutX" : 1852,
+        "layoutY" : 154
+      },
+      "configuration" : {
+        "direction" : "FROM",
+        "entityType" : "ASSET",
+        "entityNamePattern" : "${entityName}",
+        "entityTypePattern" : "RULE_LOCAL",
+        "relationType" : "Gateway_RuleLocal",
+        "createEntityIfNotExists" : true,
+        "removeCurrentRelations" : false,
+        "changeOriginatorToRelatedEntity" : true
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "5a01ebc2-fbf5-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "Gateway @ Rule local",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.action.TbCreateRelationNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "Tiền sử lý bản tin trước khi gửi xuống HCP",
+        "layoutX" : 1603,
+        "layoutY" : 154
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "msg = JSON.parse(metadata.nextData)\r\ndelete metadata.nextData\r\nreturn { msg: msg, metadata: metadata, msgType: msgType };",
+        "tbelScript" : "var cmd = msg.cmd;\nvar rqi = msg.rqi;\nvar msgType = \"POST_TELEMETRY_REQUEST\";\n\n// // Quét thiết bị: : app->HC\n// if(cmd === \"startScanBleRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Dừng quét thiết bị: : app->HC\n// else if(cmd === \"stopScanBleRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Báo thiết bị mới: HC->app hoặc HC->server\n// else if(cmd === \"newDevRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Xóa thiết bị app -> HC\n// else if(cmd === \"delDevRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Xóa thiết bị HC -> app\n// else if(cmd === \"delDev\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Tạo nhóm: app->HC\n// else if(cmd === \"createGroupRsp\"){\n//     metadata.cmd = cmd;\n// }\n//Thêm thiết bị vào nhóm: app->HC\nif(cmd === \"addDevToGroupRsp\"){\n    // Lấy Asset ID và danh sách Device ID\n    var assetId = msg.data.id; // ID của Asset\n    var deviceIds = msg.data.success; // Danh sách ID của Devices\n\n    // Tạo danh sách quan hệ\n    var relations = deviceIds.map(function(deviceId) {\n        return {\n            from: deviceId, // ID của Device\n            to: assetId,    // ID của Asset\n            type: \"BelongsTo\" // Loại quan hệ (có thể đặt tên khác)\n        };\n    });\n\n    // Gắn danh sách vào metadata\n    metadata.relations = relations;\n}\n//Xóa thiết bị khỏi nhóm: app->HC\nelse if(cmd === \"delDevFromGroupRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa nhóm: app->HC\nelse if(cmd === \"delGroupRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Tạo/sửa cảnh: app->HC\nelse if(cmd === \"createSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa cảnh: app->HC\nelse if(cmd === \"delSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Thêm thiết bị vào cảnh: app->HC\nelse if(cmd === \"addDevToSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa thiết bị trong cảnh: app->HC\nelse if(cmd === \"delDevToSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Tạo kịch bản gọi cảnh: app->HC\nelse if(cmd === \"createSceneControllerRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Xóa kịch bản gọi cảnh: app->HC\nelse if(cmd === \"delSceneControllerRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//tạo kịch bản: app->HC\nelse if(cmd === \"createRuleRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa kịch bản: app->HC\nelse if(cmd === \"delRuleRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Tạo phòng: app->HC\nelse if(cmd === \"createRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Thêm thiết bị vào phòng: app->HC\nelse if(cmd === \"addDevToRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Xóa thiết bị ra khỏi phòng: app->HC\nelse if(cmd === \"delDevToRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa phòng: app->HC\nelse if(cmd === \"delRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Reset HC: app->HC\nelse if(cmd === \"resetHcRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//HC cập nhật trạng thái kết nối với Cloud: HC->server\nelse if(cmd === \"homeControllerRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Bản tin device update: app->HC\nelse if(cmd === \"delDevFromGroupRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\nreturn {msg: msg, metadata: metadata, msgType: msgType};\n"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "5a0212d0-fbf5-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "Tiền sử lý trước khi gửi bản tin.",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2103,
+        "layoutY" : 103
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "msg = {\r\n    id    : msg.params.id,\r\n    name  : msg.params.name,\r\n    touchToRun: msg.params.touchToRun,\r\n    enable: msg.params.enable,\r\n    type  : msg.params.type,\r\n    time  : msg.params.time,\r\n    input : msg.params.input\r\n}\r\ndelete msg.input.device\r\nmsgType = \"POST_ATTRIBUTES_REQUEST\";\r\nreturn { msg: msg, metadata: metadata, msgType: msgType };",
+        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "5a0212d1-fbf5-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "Xử lý thông tin cơ bản",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 2350,
+        "layoutY" : 103
+      },
+      "configuration" : {
+        "scope" : "SERVER_SCOPE",
+        "notifyDevice" : false,
+        "sendAttributesUpdatedNotification" : true,
+        "updateAttributesOnlyOnValueChange" : false
+      },
+      "configurationVersion" : 2,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "5a0239e0-fbf5-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "Lưu thông tin",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgAttributesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2103,
+        "layoutY" : 51
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "msg = {\r\n    // onoff:1,\r\n    // // dim:100,\r\n    \r\n    completeEntity  : false,\r\n}\r\n\r\nmsgType = \"POST_TELEMETRY_REQUEST\";\r\nreturn { msg: msg, metadata: metadata, msgType: msgType };",
+        "tbelScript" : "var cmd = msg.cmd;\nvar rqi = msg.rqi;\nvar msgType = \"POST_TELEMETRY_REQUEST\";\n\n// // Quét thiết bị: : app->HC\n// if(cmd === \"startScanBleRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Dừng quét thiết bị: : app->HC\n// else if(cmd === \"stopScanBleRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Báo thiết bị mới: HC->app hoặc HC->server\n// else if(cmd === \"newDevRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Xóa thiết bị app -> HC\n// else if(cmd === \"delDevRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Xóa thiết bị HC -> app\n// else if(cmd === \"delDev\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Tạo nhóm: app->HC\n// else if(cmd === \"createGroupRsp\"){\n//     metadata.cmd = cmd;\n// }\n//Thêm thiết bị vào nhóm: app->HC\nif(cmd === \"addDevToGroupRsp\"){\n    // Lấy Asset ID và danh sách Device ID\n    var assetId = msg.data.id; // ID của Asset\n    var deviceIds = msg.data.success; // Danh sách ID của Devices\n\n    // Tạo danh sách quan hệ\n    var relations = deviceIds.map(function(deviceId) {\n        return {\n            from: deviceId, // ID của Device\n            to: assetId,    // ID của Asset\n            type: \"BelongsTo\" // Loại quan hệ (có thể đặt tên khác)\n        };\n    });\n\n    // Gắn danh sách vào metadata\n    metadata.relations = relations;\n}\n//Xóa thiết bị khỏi nhóm: app->HC\nelse if(cmd === \"delDevFromGroupRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa nhóm: app->HC\nelse if(cmd === \"delGroupRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Tạo/sửa cảnh: app->HC\nelse if(cmd === \"createSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa cảnh: app->HC\nelse if(cmd === \"delSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Thêm thiết bị vào cảnh: app->HC\nelse if(cmd === \"addDevToSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa thiết bị trong cảnh: app->HC\nelse if(cmd === \"delDevToSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Tạo kịch bản gọi cảnh: app->HC\nelse if(cmd === \"createSceneControllerRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Xóa kịch bản gọi cảnh: app->HC\nelse if(cmd === \"delSceneControllerRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//tạo kịch bản: app->HC\nelse if(cmd === \"createRuleRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa kịch bản: app->HC\nelse if(cmd === \"delRuleRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Tạo phòng: app->HC\nelse if(cmd === \"createRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Thêm thiết bị vào phòng: app->HC\nelse if(cmd === \"addDevToRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Xóa thiết bị ra khỏi phòng: app->HC\nelse if(cmd === \"delDevToRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa phòng: app->HC\nelse if(cmd === \"delRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Reset HC: app->HC\nelse if(cmd === \"resetHcRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//HC cập nhật trạng thái kết nối với Cloud: HC->server\nelse if(cmd === \"homeControllerRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Bản tin device update: app->HC\nelse if(cmd === \"delDevFromGroupRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\nreturn {msg: msg, metadata: metadata, msgType: msgType};\n"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "5a0239e1-fbf5-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "Sử lý trạng thái điều khiển ban đầu",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2350,
+        "layoutY" : 52
+      },
+      "configuration" : {
+        "defaultTTL" : 0,
+        "skipLatestPersistence" : false,
+        "useServerTs" : false
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "5a0239e2-fbf5-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "lưu vào telemetry",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgTimeseriesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1352,
+        "layoutY" : 402
+      },
+      "configuration" : {
+        "timeoutInSeconds" : 0
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "5a0260f0-fbf5-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "gửi bản tin",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.rpc.TbSendRPCRequestNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "Tiền sử lý bản tin trước khi gửi xuống HCP",
+        "layoutX" : 1602,
+        "layoutY" : 403
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "msg = JSON.parse(metadata.nextData)\r\ndelete metadata.nextData\r\nreturn { msg: msg, metadata: metadata, msgType: msgType };",
+        "tbelScript" : "var cmd = msg.cmd;\nvar rqi = msg.rqi;\nvar msgType = \"POST_TELEMETRY_REQUEST\";\n\n// // Quét thiết bị: : app->HC\n// if(cmd === \"startScanBleRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Dừng quét thiết bị: : app->HC\n// else if(cmd === \"stopScanBleRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Báo thiết bị mới: HC->app hoặc HC->server\n// else if(cmd === \"newDevRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Xóa thiết bị app -> HC\n// else if(cmd === \"delDevRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Xóa thiết bị HC -> app\n// else if(cmd === \"delDev\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Tạo nhóm: app->HC\n// else if(cmd === \"createGroupRsp\"){\n//     metadata.cmd = cmd;\n// }\n//Thêm thiết bị vào nhóm: app->HC\nif(cmd === \"addDevToGroupRsp\"){\n    // Lấy Asset ID và danh sách Device ID\n    var assetId = msg.data.id; // ID của Asset\n    var deviceIds = msg.data.success; // Danh sách ID của Devices\n\n    // Tạo danh sách quan hệ\n    var relations = deviceIds.map(function(deviceId) {\n        return {\n            from: deviceId, // ID của Device\n            to: assetId,    // ID của Asset\n            type: \"BelongsTo\" // Loại quan hệ (có thể đặt tên khác)\n        };\n    });\n\n    // Gắn danh sách vào metadata\n    metadata.relations = relations;\n}\n//Xóa thiết bị khỏi nhóm: app->HC\nelse if(cmd === \"delDevFromGroupRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa nhóm: app->HC\nelse if(cmd === \"delGroupRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Tạo/sửa cảnh: app->HC\nelse if(cmd === \"createSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa cảnh: app->HC\nelse if(cmd === \"delSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Thêm thiết bị vào cảnh: app->HC\nelse if(cmd === \"addDevToSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa thiết bị trong cảnh: app->HC\nelse if(cmd === \"delDevToSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Tạo kịch bản gọi cảnh: app->HC\nelse if(cmd === \"createSceneControllerRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Xóa kịch bản gọi cảnh: app->HC\nelse if(cmd === \"delSceneControllerRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//tạo kịch bản: app->HC\nelse if(cmd === \"createRuleRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa kịch bản: app->HC\nelse if(cmd === \"delRuleRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Tạo phòng: app->HC\nelse if(cmd === \"createRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Thêm thiết bị vào phòng: app->HC\nelse if(cmd === \"addDevToRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Xóa thiết bị ra khỏi phòng: app->HC\nelse if(cmd === \"delDevToRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa phòng: app->HC\nelse if(cmd === \"delRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Reset HC: app->HC\nelse if(cmd === \"resetHcRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//HC cập nhật trạng thái kết nối với Cloud: HC->server\nelse if(cmd === \"homeControllerRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Bản tin device update: app->HC\nelse if(cmd === \"delDevFromGroupRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\nreturn {msg: msg, metadata: metadata, msgType: msgType};\n"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "5a0260f1-fbf5-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "chuẩn bị dữ liệu để thao tác.",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2350,
+        "layoutY" : 154
+      },
+      "configuration" : {
+        "version" : 0
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "5a0260f2-fbf5-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "tách mảng thiết bị",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbSplitArrayMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "Tạo nhóm và thêm quan hệ của thiệt bị với nhóm này ",
+        "layoutX" : 2851,
+        "layoutY" : 154
+      },
+      "configuration" : {
+        "direction" : "TO",
+        "entityType" : "ASSET",
+        "entityNamePattern" : "${entityName}",
+        "entityTypePattern" : "RULE_LOCAL",
+        "relationType" : "RuleLocal_DeviceInDirect",
+        "createEntityIfNotExists" : false,
+        "removeCurrentRelations" : false,
+        "changeOriginatorToRelatedEntity" : false
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "5a028800-fbf5-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "Tạo quan hệ cho Rule local với thiết bị",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.action.TbCreateRelationNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1854,
+        "layoutY" : 402
+      },
+      "configuration" : {
+        "originatorSource" : "ENTITY",
+        "entityType" : "ASSET",
+        "entityNamePattern" : "${entityName}",
+        "relationsQuery" : {
+          "direction" : "FROM",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Contains",
+            "entityTypes" : [ ],
+            "negate" : false
+          } ],
+          "fetchLastLevelOnly" : false
+        }
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "5a028801-fbf5-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "Chuyển thực thể gốc Rule",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1102,
+        "layoutY" : 254
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "metadata.entityName = msg.params.id\r\nmetadata.entityName_Dormitory = msg.params.dormitoryId\r\nmetadata.entityName_Room = msg.params.room\r\nmetadata.lable = msg.params.name\r\nmetadata.nextData = JSON.stringify(msg.params.devices)\r\n\r\nreturn { msg: msg, metadata: metadata, msgType: msgType };",
+        "tbelScript" : "var cmd = msg.cmd;\nvar rqi = msg.rqi;\nvar msgType = \"POST_TELEMETRY_REQUEST\";\n\n// // Quét thiết bị: : app->HC\n// if(cmd === \"startScanBleRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Dừng quét thiết bị: : app->HC\n// else if(cmd === \"stopScanBleRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Báo thiết bị mới: HC->app hoặc HC->server\n// else if(cmd === \"newDevRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Xóa thiết bị app -> HC\n// else if(cmd === \"delDevRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Xóa thiết bị HC -> app\n// else if(cmd === \"delDev\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Tạo nhóm: app->HC\n// else if(cmd === \"createGroupRsp\"){\n//     metadata.cmd = cmd;\n// }\n//Thêm thiết bị vào nhóm: app->HC\nif(cmd === \"addDevToGroupRsp\"){\n    // Lấy Asset ID và danh sách Device ID\n    var assetId = msg.data.id; // ID của Asset\n    var deviceIds = msg.data.success; // Danh sách ID của Devices\n\n    // Tạo danh sách quan hệ\n    var relations = deviceIds.map(function(deviceId) {\n        return {\n            from: deviceId, // ID của Device\n            to: assetId,    // ID của Asset\n            type: \"BelongsTo\" // Loại quan hệ (có thể đặt tên khác)\n        };\n    });\n\n    // Gắn danh sách vào metadata\n    metadata.relations = relations;\n}\n//Xóa thiết bị khỏi nhóm: app->HC\nelse if(cmd === \"delDevFromGroupRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa nhóm: app->HC\nelse if(cmd === \"delGroupRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Tạo/sửa cảnh: app->HC\nelse if(cmd === \"createSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa cảnh: app->HC\nelse if(cmd === \"delSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Thêm thiết bị vào cảnh: app->HC\nelse if(cmd === \"addDevToSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa thiết bị trong cảnh: app->HC\nelse if(cmd === \"delDevToSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Tạo kịch bản gọi cảnh: app->HC\nelse if(cmd === \"createSceneControllerRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Xóa kịch bản gọi cảnh: app->HC\nelse if(cmd === \"delSceneControllerRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//tạo kịch bản: app->HC\nelse if(cmd === \"createRuleRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa kịch bản: app->HC\nelse if(cmd === \"delRuleRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Tạo phòng: app->HC\nelse if(cmd === \"createRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Thêm thiết bị vào phòng: app->HC\nelse if(cmd === \"addDevToRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Xóa thiết bị ra khỏi phòng: app->HC\nelse if(cmd === \"delDevToRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa phòng: app->HC\nelse if(cmd === \"delRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Reset HC: app->HC\nelse if(cmd === \"resetHcRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//HC cập nhật trạng thái kết nối với Cloud: HC->server\nelse if(cmd === \"homeControllerRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Bản tin device update: app->HC\nelse if(cmd === \"delDevFromGroupRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\nreturn {msg: msg, metadata: metadata, msgType: msgType};\n"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "5a02af10-fbf5-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "Tiền xử lý",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1350,
+        "layoutY" : 254
+      },
+      "configuration" : {
+        "timeoutInSeconds" : 0
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "5a02af11-fbf5-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "gửi bản tin",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.rpc.TbSendRPCRequestNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2600,
+        "layoutY" : 154
+      },
+      "configuration" : {
+        "originatorSource" : "ENTITY",
+        "entityType" : "DEVICE",
+        "entityNamePattern" : "$[id]",
+        "relationsQuery" : {
+          "direction" : "FROM",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Contains",
+            "entityTypes" : [ ],
+            "negate" : false
+          } ],
+          "fetchLastLevelOnly" : false
+        }
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "5a02fd32-fbf5-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "-> Device",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 3101,
+        "layoutY" : 152
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "var data = msg.data;\r\nmsg = {}\r\nvar keyInputDevRule = \"inputRuleLocal_\" + metadata.entityName\r\nmsg[keyInputDevRule] = data\r\nmsgType = \"POST_ATTRIBUTES_REQUEST\";\r\nreturn { msg: msg, metadata: metadata, msgType: msgType };",
+        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "5a02fd33-fbf5-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "Xử lý thông tin cơ bản",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 3353,
+        "layoutY" : 154
+      },
+      "configuration" : {
+        "scope" : "SERVER_SCOPE",
+        "notifyDevice" : false,
+        "sendAttributesUpdatedNotification" : true,
+        "updateAttributesOnlyOnValueChange" : false
+      },
+      "configurationVersion" : 2,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "5a032440-fbf5-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "Lưu thông tin",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgAttributesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1601,
+        "layoutY" : 553
+      },
+      "configuration" : {
+        "relationsQuery" : {
+          "fetchLastLevelOnly" : false,
+          "direction" : "FROM",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "RuleLocal_DeviceInDirect",
+            "entityTypes" : [ "DEVICE" ]
+          }, {
+            "relationType" : "RuleLocal_Group",
+            "entityTypes" : [ "ASSET" ]
+          }, {
+            "relationType" : "RuleLocal_Scene",
+            "entityTypes" : [ "ASSET" ]
+          } ]
+        },
+        "dataToFetch" : "FIELDS",
+        "fetchTo" : "DATA",
+        "dataMapping" : {
+          "name" : "entityName",
+          "type" : "profileName"
+        }
+      },
+      "configurationVersion" : 2,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "5a040ea0-fbf5-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "Lấy danh sách các Output rule",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetRelatedEntityDataPlusNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2102,
+        "layoutY" : 154
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "msg = msg.params.input.device\r\nreturn { msg: msg, metadata: metadata, msgType: msgType };",
+        "tbelScript" : "var cmd = msg.cmd;\nvar rqi = msg.rqi;\nvar msgType = \"POST_TELEMETRY_REQUEST\";\n\n// // Quét thiết bị: : app->HC\n// if(cmd === \"startScanBleRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Dừng quét thiết bị: : app->HC\n// else if(cmd === \"stopScanBleRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Báo thiết bị mới: HC->app hoặc HC->server\n// else if(cmd === \"newDevRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Xóa thiết bị app -> HC\n// else if(cmd === \"delDevRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Xóa thiết bị HC -> app\n// else if(cmd === \"delDev\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Tạo nhóm: app->HC\n// else if(cmd === \"createGroupRsp\"){\n//     metadata.cmd = cmd;\n// }\n//Thêm thiết bị vào nhóm: app->HC\nif(cmd === \"addDevToGroupRsp\"){\n    // Lấy Asset ID và danh sách Device ID\n    var assetId = msg.data.id; // ID của Asset\n    var deviceIds = msg.data.success; // Danh sách ID của Devices\n\n    // Tạo danh sách quan hệ\n    var relations = deviceIds.map(function(deviceId) {\n        return {\n            from: deviceId, // ID của Device\n            to: assetId,    // ID của Asset\n            type: \"BelongsTo\" // Loại quan hệ (có thể đặt tên khác)\n        };\n    });\n\n    // Gắn danh sách vào metadata\n    metadata.relations = relations;\n}\n//Xóa thiết bị khỏi nhóm: app->HC\nelse if(cmd === \"delDevFromGroupRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa nhóm: app->HC\nelse if(cmd === \"delGroupRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Tạo/sửa cảnh: app->HC\nelse if(cmd === \"createSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa cảnh: app->HC\nelse if(cmd === \"delSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Thêm thiết bị vào cảnh: app->HC\nelse if(cmd === \"addDevToSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa thiết bị trong cảnh: app->HC\nelse if(cmd === \"delDevToSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Tạo kịch bản gọi cảnh: app->HC\nelse if(cmd === \"createSceneControllerRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Xóa kịch bản gọi cảnh: app->HC\nelse if(cmd === \"delSceneControllerRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//tạo kịch bản: app->HC\nelse if(cmd === \"createRuleRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa kịch bản: app->HC\nelse if(cmd === \"delRuleRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Tạo phòng: app->HC\nelse if(cmd === \"createRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Thêm thiết bị vào phòng: app->HC\nelse if(cmd === \"addDevToRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Xóa thiết bị ra khỏi phòng: app->HC\nelse if(cmd === \"delDevToRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa phòng: app->HC\nelse if(cmd === \"delRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Reset HC: app->HC\nelse if(cmd === \"resetHcRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//HC cập nhật trạng thái kết nối với Cloud: HC->server\nelse if(cmd === \"homeControllerRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Bản tin device update: app->HC\nelse if(cmd === \"delDevFromGroupRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\nreturn {msg: msg, metadata: metadata, msgType: msgType};\n"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "51a2a5b0-fc12-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "Sử lý listDeviceInput",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2350,
+        "layoutY" : 205
+      },
+      "configuration" : {
+        "version" : 0
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b0e824a0-fc12-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "tách mảng entityOutput",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbSplitArrayMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2851,
+        "layoutY" : 205
+      },
+      "configuration" : {
+        "originatorSource" : "ENTITY",
+        "entityType" : "DEVICE",
+        "entityNamePattern" : "$[devId]",
+        "relationsQuery" : {
+          "direction" : "FROM",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Contains",
+            "entityTypes" : [ ],
+            "negate" : false
+          } ],
+          "fetchLastLevelOnly" : false
+        }
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b0e84bb0-fc12-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "->Devcie",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 3352,
+        "layoutY" : 204
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "var object = {\r\n    index : msg.index,\r\n    delay : msg.delay,\r\n    data  : msg.data\r\n}\r\nmsg = {}\r\nvar keyOutputDevRule = \"outputRuleLocal_\" + metadata.entityName\r\nmsg[keyOutputDevRule] = object\r\nmsgType = \"POST_ATTRIBUTES_REQUEST\";\r\nreturn { msg: msg, metadata: metadata, msgType: msgType };",
+        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b0e84bb1-fc12-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "Xử lý thông tin cơ bản",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 3599,
+        "layoutY" : 204
+      },
+      "configuration" : {
+        "scope" : "SERVER_SCOPE",
+        "notifyDevice" : false,
+        "sendAttributesUpdatedNotification" : true,
+        "updateAttributesOnlyOnValueChange" : false
+      },
+      "configurationVersion" : 2,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b0e872c0-fc12-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "Lưu thông tin",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgAttributesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2103,
+        "layoutY" : 204
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "function convertMessage(input) {\r\n    var result = [];\r\n    var index = 0;\r\n\r\n    for (var i = 0; i < input.length; i++) {\r\n        var item = input[i];\r\n\r\n        // xác định đây có phải bản tin điều khiển không\r\n        if (item.devId || item.groupId || item.sceneId) {\r\n\r\n            var obj = {};\r\n\r\n            // copy id\r\n            if (item.devId) {\r\n                obj.devId = item.devId;\r\n            } else if (item.groupId) {\r\n                obj.groupId = item.groupId;\r\n            } else if (item.sceneId) {\r\n                obj.sceneId = item.sceneId;\r\n            }\r\n\r\n            // copy data nếu có\r\n            if (item.data) {\r\n                obj.data = item.data;\r\n            }\r\n\r\n            // mặc định delay = 0\r\n            obj.delay = 0;\r\n\r\n            // nếu phần tử kế tiếp là delay thì gán\r\n            if (input[i + 1] && typeof input[i + 1].delay === \"number\") {\r\n                obj.delay = input[i + 1].delay;\r\n                i++; // skip object delay\r\n            }\r\n\r\n            obj.index = index;\r\n            index++;\r\n\r\n            result.push(obj);\r\n        }\r\n    }\r\n    return result;\r\n}\r\n\r\nmsg = convertMessage(msg.params.output)\r\nreturn { msg: msg, metadata: metadata, msgType: msgType };",
+        "tbelScript" : "var cmd = msg.cmd;\nvar rqi = msg.rqi;\nvar msgType = \"POST_TELEMETRY_REQUEST\";\n\n// // Quét thiết bị: : app->HC\n// if(cmd === \"startScanBleRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Dừng quét thiết bị: : app->HC\n// else if(cmd === \"stopScanBleRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Báo thiết bị mới: HC->app hoặc HC->server\n// else if(cmd === \"newDevRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Xóa thiết bị app -> HC\n// else if(cmd === \"delDevRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Xóa thiết bị HC -> app\n// else if(cmd === \"delDev\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Tạo nhóm: app->HC\n// else if(cmd === \"createGroupRsp\"){\n//     metadata.cmd = cmd;\n// }\n//Thêm thiết bị vào nhóm: app->HC\nif(cmd === \"addDevToGroupRsp\"){\n    // Lấy Asset ID và danh sách Device ID\n    var assetId = msg.data.id; // ID của Asset\n    var deviceIds = msg.data.success; // Danh sách ID của Devices\n\n    // Tạo danh sách quan hệ\n    var relations = deviceIds.map(function(deviceId) {\n        return {\n            from: deviceId, // ID của Device\n            to: assetId,    // ID của Asset\n            type: \"BelongsTo\" // Loại quan hệ (có thể đặt tên khác)\n        };\n    });\n\n    // Gắn danh sách vào metadata\n    metadata.relations = relations;\n}\n//Xóa thiết bị khỏi nhóm: app->HC\nelse if(cmd === \"delDevFromGroupRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa nhóm: app->HC\nelse if(cmd === \"delGroupRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Tạo/sửa cảnh: app->HC\nelse if(cmd === \"createSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa cảnh: app->HC\nelse if(cmd === \"delSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Thêm thiết bị vào cảnh: app->HC\nelse if(cmd === \"addDevToSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa thiết bị trong cảnh: app->HC\nelse if(cmd === \"delDevToSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Tạo kịch bản gọi cảnh: app->HC\nelse if(cmd === \"createSceneControllerRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Xóa kịch bản gọi cảnh: app->HC\nelse if(cmd === \"delSceneControllerRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//tạo kịch bản: app->HC\nelse if(cmd === \"createRuleRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa kịch bản: app->HC\nelse if(cmd === \"delRuleRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Tạo phòng: app->HC\nelse if(cmd === \"createRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Thêm thiết bị vào phòng: app->HC\nelse if(cmd === \"addDevToRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Xóa thiết bị ra khỏi phòng: app->HC\nelse if(cmd === \"delDevToRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa phòng: app->HC\nelse if(cmd === \"delRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Reset HC: app->HC\nelse if(cmd === \"resetHcRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//HC cập nhật trạng thái kết nối với Cloud: HC->server\nelse if(cmd === \"homeControllerRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Bản tin device update: app->HC\nelse if(cmd === \"delDevFromGroupRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\nreturn {msg: msg, metadata: metadata, msgType: msgType};\n"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b0e872c1-fc12-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "Sử lý listDataOutput",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2600,
+        "layoutY" : 204
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "function nextRelation(metadata, msg) {\n    var out_list = [];\n    var entityOut\n    if(msg.devId != null){\n        entityOut = \"deviceOut\"\n    }else if(msg.groupId != null){\n        entityOut = \"groupOut\"\n    }else if(msg.sceneId != null){\n        entityOut = \"sceneOut\"\n    }\n    switch (entityOut) {\n        case \"deviceOut\":\n            out_list = ['deviceOut']\n            break;\n            \n        case \"groupOut\":\n            out_list = ['groupOut']\n            break;\n            \n        case \"sceneOut\":    \n            out_list = ['sceneOut']\n            break;\n        \n        default:\n            out_list = ['other']\n            break;\n    }\n    return out_list;\n}\nreturn nextRelation(metadata, msg);",
+        "tbelScript" : "function nextRelation(metadata, msg) {\n    return ['one','nine'];\n}\nif(msgType == 'POST_TELEMETRY_REQUEST') {\n    return ['two'];\n}\nreturn nextRelation(metadata, msg);"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "c8dff320-fc18-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "Phân loại entity add",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsSwitchNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2851,
+        "layoutY" : 256
+      },
+      "configuration" : {
+        "originatorSource" : "ENTITY",
+        "entityType" : "ASSET",
+        "entityNamePattern" : "$[groupId]",
+        "relationsQuery" : {
+          "direction" : "FROM",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Contains",
+            "entityTypes" : [ ],
+            "negate" : false
+          } ],
+          "fetchLastLevelOnly" : false
+        }
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "a8d70090-fc19-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "Chuyển tới Group",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 3352,
+        "layoutY" : 255
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "var object = {\r\n    index : msg.index,\r\n    delay : msg.delay,\r\n    data  : msg.data\r\n}\r\nmsg = {}\r\nvar keyOutputDevRule = \"outputRuleLocal_\" + metadata.entityName\r\nmsg[keyOutputDevRule] = object\r\nmsgType = \"POST_ATTRIBUTES_REQUEST\";\r\nreturn { msg: msg, metadata: metadata, msgType: msgType };",
+        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "a8d727a0-fc19-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "Xử lý thông tin cơ bản",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 3601,
+        "layoutY" : 255
+      },
+      "configuration" : {
+        "scope" : "SERVER_SCOPE",
+        "notifyDevice" : false,
+        "sendAttributesUpdatedNotification" : true,
+        "updateAttributesOnlyOnValueChange" : false
+      },
+      "configurationVersion" : 2,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "a8d727a1-fc19-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "Lưu thông tin",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgAttributesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2851,
+        "layoutY" : 305
+      },
+      "configuration" : {
+        "originatorSource" : "ENTITY",
+        "entityType" : "ASSET",
+        "entityNamePattern" : "$[sceneId]",
+        "relationsQuery" : {
+          "direction" : "FROM",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Contains",
+            "entityTypes" : [ ],
+            "negate" : false
+          } ],
+          "fetchLastLevelOnly" : false
+        }
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "a8d74eb0-fc19-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "Chuyển tới Scene",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 3352,
+        "layoutY" : 304
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "var object = {\r\n    index : msg.index,\r\n    delay : msg.delay,\r\n    data  : msg.data ||{}\r\n}\r\nmsg = {}\r\nvar keyOutputDevRule = \"outputRuleLocal_\" + metadata.entityName\r\nmsg[keyOutputDevRule] = object\r\nmsgType = \"POST_ATTRIBUTES_REQUEST\";\r\nreturn { msg: msg, metadata: metadata, msgType: msgType };",
+        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "a8d74eb1-fc19-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "Xử lý thông tin cơ bản",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 3601,
+        "layoutY" : 304
+      },
+      "configuration" : {
+        "scope" : "SERVER_SCOPE",
+        "notifyDevice" : false,
+        "sendAttributesUpdatedNotification" : true,
+        "updateAttributesOnlyOnValueChange" : false
+      },
+      "configurationVersion" : 2,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "a8d74eb2-fc19-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "Lưu thông tin",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgAttributesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "Tạo nhóm và thêm quan hệ của thiệt bị với nhóm này ",
+        "layoutX" : 3101,
+        "layoutY" : 203
+      },
+      "configuration" : {
+        "direction" : "TO",
+        "entityType" : "ASSET",
+        "entityNamePattern" : "${entityName}",
+        "entityTypePattern" : "RULE_LOCAL",
+        "relationType" : "RuleLocal_DeviceInDirect",
+        "createEntityIfNotExists" : false,
+        "removeCurrentRelations" : false,
+        "changeOriginatorToRelatedEntity" : false
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "22b19ce0-fc1a-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "Tạo quan hệ cho Rule local với thiết bị",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.action.TbCreateRelationNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "Tạo nhóm và thêm quan hệ của thiệt bị với nhóm này ",
+        "layoutX" : 3101,
+        "layoutY" : 253
+      },
+      "configuration" : {
+        "direction" : "TO",
+        "entityType" : "ASSET",
+        "entityNamePattern" : "${entityName}",
+        "entityTypePattern" : "RULE_LOCAL",
+        "relationType" : "RuleLocal_Group",
+        "createEntityIfNotExists" : false,
+        "removeCurrentRelations" : false,
+        "changeOriginatorToRelatedEntity" : false
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "22b1c3f0-fc1a-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "Tạo quan hệ cho Rule local với Group",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.action.TbCreateRelationNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "Tạo nhóm và thêm quan hệ của thiệt bị với nhóm này ",
+        "layoutX" : 3101,
+        "layoutY" : 303
+      },
+      "configuration" : {
+        "direction" : "TO",
+        "entityType" : "ASSET",
+        "entityNamePattern" : "${entityName}",
+        "entityTypePattern" : "RULE_LOCAL",
+        "relationType" : "RuleLocal_Scene",
+        "createEntityIfNotExists" : false,
+        "removeCurrentRelations" : false,
+        "changeOriginatorToRelatedEntity" : false
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "22b1c3f1-fc1a-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "Tạo quan hệ cho Rule local với Scene",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.action.TbCreateRelationNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2104,
+        "layoutY" : 401
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "msg = {\r\n    // onoff:1,\r\n    // // dim:100,\r\n    enable:msg.params.enable,\r\n    completeEntity  : false,\r\n}\r\n\r\nmsgType = \"POST_TELEMETRY_REQUEST\";\r\nreturn { msg: msg, metadata: metadata, msgType: msgType };",
+        "tbelScript" : "var cmd = msg.cmd;\nvar rqi = msg.rqi;\nvar msgType = \"POST_TELEMETRY_REQUEST\";\n\n// // Quét thiết bị: : app->HC\n// if(cmd === \"startScanBleRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Dừng quét thiết bị: : app->HC\n// else if(cmd === \"stopScanBleRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Báo thiết bị mới: HC->app hoặc HC->server\n// else if(cmd === \"newDevRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Xóa thiết bị app -> HC\n// else if(cmd === \"delDevRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Xóa thiết bị HC -> app\n// else if(cmd === \"delDev\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Tạo nhóm: app->HC\n// else if(cmd === \"createGroupRsp\"){\n//     metadata.cmd = cmd;\n// }\n//Thêm thiết bị vào nhóm: app->HC\nif(cmd === \"addDevToGroupRsp\"){\n    // Lấy Asset ID và danh sách Device ID\n    var assetId = msg.data.id; // ID của Asset\n    var deviceIds = msg.data.success; // Danh sách ID của Devices\n\n    // Tạo danh sách quan hệ\n    var relations = deviceIds.map(function(deviceId) {\n        return {\n            from: deviceId, // ID của Device\n            to: assetId,    // ID của Asset\n            type: \"BelongsTo\" // Loại quan hệ (có thể đặt tên khác)\n        };\n    });\n\n    // Gắn danh sách vào metadata\n    metadata.relations = relations;\n}\n//Xóa thiết bị khỏi nhóm: app->HC\nelse if(cmd === \"delDevFromGroupRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa nhóm: app->HC\nelse if(cmd === \"delGroupRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Tạo/sửa cảnh: app->HC\nelse if(cmd === \"createSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa cảnh: app->HC\nelse if(cmd === \"delSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Thêm thiết bị vào cảnh: app->HC\nelse if(cmd === \"addDevToSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa thiết bị trong cảnh: app->HC\nelse if(cmd === \"delDevToSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Tạo kịch bản gọi cảnh: app->HC\nelse if(cmd === \"createSceneControllerRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Xóa kịch bản gọi cảnh: app->HC\nelse if(cmd === \"delSceneControllerRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//tạo kịch bản: app->HC\nelse if(cmd === \"createRuleRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa kịch bản: app->HC\nelse if(cmd === \"delRuleRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Tạo phòng: app->HC\nelse if(cmd === \"createRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Thêm thiết bị vào phòng: app->HC\nelse if(cmd === \"addDevToRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Xóa thiết bị ra khỏi phòng: app->HC\nelse if(cmd === \"delDevToRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa phòng: app->HC\nelse if(cmd === \"delRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Reset HC: app->HC\nelse if(cmd === \"resetHcRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//HC cập nhật trạng thái kết nối với Cloud: HC->server\nelse if(cmd === \"homeControllerRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Bản tin device update: app->HC\nelse if(cmd === \"delDevFromGroupRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\nreturn {msg: msg, metadata: metadata, msgType: msgType};\n"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b0333610-fc1e-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "Sử lý trạng thái điều khiển ban đầu",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2355,
+        "layoutY" : 402
+      },
+      "configuration" : {
+        "defaultTTL" : 0,
+        "skipLatestPersistence" : false,
+        "useServerTs" : false
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b0335d20-fc1e-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "lưu vào telemetry",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgTimeseriesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2103,
+        "layoutY" : 254
+      },
+      "configuration" : {
+        "relationsQuery" : {
+          "fetchLastLevelOnly" : false,
+          "direction" : "FROM",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "RuleLocal_DeviceInDirect",
+            "entityTypes" : [ "DEVICE" ]
+          }, {
+            "relationType" : "RuleLocal_Group",
+            "entityTypes" : [ "ASSET" ]
+          }, {
+            "relationType" : "RuleLocal_Scene",
+            "entityTypes" : [ "ASSET" ]
+          } ]
+        },
+        "dataToFetch" : "FIELDS",
+        "fetchTo" : "METADATA",
+        "dataMapping" : {
+          "name" : "entityName",
+          "type" : "profileName"
+        }
+      },
+      "configurationVersion" : 2,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "29bfa070-fc21-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "lấy danh sách entityChild hiện tại của Rule",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetRelatedEntityDataPlusNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2351,
+        "layoutY" : 255
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "function findUnusedEntities(input) {\r\n    var usedMap = {};\r\n    var result = [];\r\n\r\n    var params = input.params || {};\r\n\r\n    //  1. thu thập entity từ params.input.device\r\n    if (params.input && params.input.device) {\r\n        for (var i = 0; i < params.input.device.length; i++) {\r\n            var dev = params.input.device[i];\r\n            if (dev.id) {\r\n                usedMap[dev.id] = true;\r\n            }\r\n        }\r\n    }\r\n\r\n    //  2. thu thập entity từ params.output\r\n    if (params.output) {\r\n        for (var j = 0; j < params.output.length; j++) {\r\n            var out = params.output[j];\r\n\r\n            if (out.devId) {\r\n                usedMap[out.devId] = true;\r\n            } else if (out.groupId) {\r\n                usedMap[out.groupId] = true;\r\n            } else if (out.sceneId) {\r\n                usedMap[out.sceneId] = true;\r\n            }\r\n        }\r\n    }\r\n\r\n    //  3. lọc dataResponse\r\n    if (input.dataResponse) {\r\n        for (var k = 0; k < input.dataResponse.length; k++) {\r\n            var entity = input.dataResponse[k];\r\n\r\n            if (!usedMap[entity.entityName]) {\r\n                result.push(entity);\r\n            }\r\n        }\r\n    }\r\n\r\n    return result;\r\n}\r\nmetadata.keyDelInputRule  = \"inputRuleLocal_\"  + metadata.entityName\r\nmetadata.keyDelOutputRule = \"outputRuleLocal_\" + metadata.entityName\r\nif(metadata.method == \"createRule\"){\r\n    msg = []\r\n}else{\r\n    msg = findUnusedEntities(msg)\r\n}\r\nreturn { msg: msg, metadata: metadata, msgType: msgType };",
+        "tbelScript" : "var cmd = msg.cmd;\nvar rqi = msg.rqi;\nvar msgType = \"POST_TELEMETRY_REQUEST\";\n\n// // Quét thiết bị: : app->HC\n// if(cmd === \"startScanBleRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Dừng quét thiết bị: : app->HC\n// else if(cmd === \"stopScanBleRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Báo thiết bị mới: HC->app hoặc HC->server\n// else if(cmd === \"newDevRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Xóa thiết bị app -> HC\n// else if(cmd === \"delDevRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Xóa thiết bị HC -> app\n// else if(cmd === \"delDev\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Tạo nhóm: app->HC\n// else if(cmd === \"createGroupRsp\"){\n//     metadata.cmd = cmd;\n// }\n//Thêm thiết bị vào nhóm: app->HC\nif(cmd === \"addDevToGroupRsp\"){\n    // Lấy Asset ID và danh sách Device ID\n    var assetId = msg.data.id; // ID của Asset\n    var deviceIds = msg.data.success; // Danh sách ID của Devices\n\n    // Tạo danh sách quan hệ\n    var relations = deviceIds.map(function(deviceId) {\n        return {\n            from: deviceId, // ID của Device\n            to: assetId,    // ID của Asset\n            type: \"BelongsTo\" // Loại quan hệ (có thể đặt tên khác)\n        };\n    });\n\n    // Gắn danh sách vào metadata\n    metadata.relations = relations;\n}\n//Xóa thiết bị khỏi nhóm: app->HC\nelse if(cmd === \"delDevFromGroupRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa nhóm: app->HC\nelse if(cmd === \"delGroupRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Tạo/sửa cảnh: app->HC\nelse if(cmd === \"createSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa cảnh: app->HC\nelse if(cmd === \"delSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Thêm thiết bị vào cảnh: app->HC\nelse if(cmd === \"addDevToSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa thiết bị trong cảnh: app->HC\nelse if(cmd === \"delDevToSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Tạo kịch bản gọi cảnh: app->HC\nelse if(cmd === \"createSceneControllerRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Xóa kịch bản gọi cảnh: app->HC\nelse if(cmd === \"delSceneControllerRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//tạo kịch bản: app->HC\nelse if(cmd === \"createRuleRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa kịch bản: app->HC\nelse if(cmd === \"delRuleRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Tạo phòng: app->HC\nelse if(cmd === \"createRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Thêm thiết bị vào phòng: app->HC\nelse if(cmd === \"addDevToRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Xóa thiết bị ra khỏi phòng: app->HC\nelse if(cmd === \"delDevToRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa phòng: app->HC\nelse if(cmd === \"delRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Reset HC: app->HC\nelse if(cmd === \"resetHcRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//HC cập nhật trạng thái kết nối với Cloud: HC->server\nelse if(cmd === \"homeControllerRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Bản tin device update: app->HC\nelse if(cmd === \"delDevFromGroupRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\nreturn {msg: msg, metadata: metadata, msgType: msgType};\n"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "19f84000-fc23-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "tạo danh sách thiết bị cần xóa khi cập nhật rule",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2601,
+        "layoutY" : 255
+      },
+      "configuration" : {
+        "version" : 0
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "38ad45e0-fc23-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "Tách các phần tử trong mảng",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbSplitArrayMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 3601,
+        "layoutY" : 354
+      },
+      "configuration" : {
+        "scope" : "SERVER_SCOPE",
+        "keys" : [ "${keyDelInputRule}", "${keyDelOutputRule}" ],
+        "sendAttributesDeletedNotification" : false,
+        "notifyDevice" : false
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "d3b9a7e0-fc23-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "xóa data input và output của rule trong attribute của thiết bị",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgDeleteAttributesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 3354,
+        "layoutY" : 353
+      },
+      "configuration" : {
+        "deleteForSingleEntity" : true,
+        "direction" : "TO",
+        "entityType" : "ASSET",
+        "entityNamePattern" : "${entityName}",
+        "relationType" : "RuleLocal_DeviceInDirect"
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "d3b9cef0-fc23-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "xóa quan hệ với rule",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.action.TbDeleteRelationNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 3100,
+        "layoutY" : 354
+      },
+      "configuration" : {
+        "originatorSource" : "ENTITY",
+        "entityType" : "DEVICE",
+        "entityNamePattern" : "$[devId]",
+        "relationsQuery" : {
+          "direction" : "FROM",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Contains",
+            "entityTypes" : [ ],
+            "negate" : false
+          } ],
+          "fetchLastLevelOnly" : false
+        }
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "7c7ba7b0-fc2a-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "Chuyển tới thiết bị",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2852,
+        "layoutY" : 354
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "function nextRelation(metadata, msg) {\n    var out_list = [];\n    var entityOut\n    if(msg.profileName == \"GROUP\"){\n        entityOut = \"groupOut\"\n    }else if(msg.profileName == \"SCENE\"){\n        entityOut = \"sceneOut\"\n    }else {\n        entityOut = \"deviceOut\"\n    }\n    switch (entityOut) {\n        case \"deviceOut\":\n            out_list = ['deviceOut']\n            break;\n            \n        case \"groupOut\":\n            out_list = ['groupOut']\n            break;\n            \n        case \"sceneOut\":    \n            out_list = ['sceneOut']\n            break;\n        \n        default:\n            out_list = ['other']\n            break;\n    }\n    return out_list;\n}\nreturn nextRelation(metadata, msg);",
+        "tbelScript" : "function nextRelation(metadata, msg) {\n    return ['one','nine'];\n}\nif(msgType == 'POST_TELEMETRY_REQUEST') {\n    return ['two'];\n}\nreturn nextRelation(metadata, msg);"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "7c7bcec0-fc2a-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "Phân loại entity del",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsSwitchNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 3101,
+        "layoutY" : 404
+      },
+      "configuration" : {
+        "originatorSource" : "ENTITY",
+        "entityType" : "ASSET",
+        "entityNamePattern" : "$[groupId]",
+        "relationsQuery" : {
+          "direction" : "FROM",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Contains",
+            "entityTypes" : [ ],
+            "negate" : false
+          } ],
+          "fetchLastLevelOnly" : false
+        }
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "7c7bcec1-fc2a-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "Chuyển tới Group",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 3100,
+        "layoutY" : 454
+      },
+      "configuration" : {
+        "originatorSource" : "ENTITY",
+        "entityType" : "ASSET",
+        "entityNamePattern" : "$[sceneId]",
+        "relationsQuery" : {
+          "direction" : "FROM",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Contains",
+            "entityTypes" : [ ],
+            "negate" : false
+          } ],
+          "fetchLastLevelOnly" : false
+        }
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "7c7bcec2-fc2a-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "Chuyển tới Scene",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 3355,
+        "layoutY" : 403
+      },
+      "configuration" : {
+        "deleteForSingleEntity" : true,
+        "direction" : "TO",
+        "entityType" : "ASSET",
+        "entityNamePattern" : "${entityName}",
+        "relationType" : "RuleLocal_Group"
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "c7ae99e1-fc2a-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "xóa quan hệ với rule",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.action.TbDeleteRelationNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 3354,
+        "layoutY" : 452
+      },
+      "configuration" : {
+        "deleteForSingleEntity" : true,
+        "direction" : "TO",
+        "entityType" : "ASSET",
+        "entityNamePattern" : "${entityName}",
+        "relationType" : "RuleLocal_Scene"
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "c7ae99e3-fc2a-11f0-8c6e-5381beb8d689"
+      },
+      "name" : "xóa quan hệ với rule",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.action.TbDeleteRelationNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 3602,
+        "layoutY" : 404
+      },
+      "configuration" : {
+        "scope" : "SERVER_SCOPE",
+        "keys" : [ "${keyDelOutputRule}" ],
+        "sendAttributesDeletedNotification" : false,
+        "notifyDevice" : false
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "185844e0-fe42-11f0-8b2e-a5c280dd1e2c"
+      },
+      "name" : "xóa data output của rule trong attribute của Group",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgDeleteAttributesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 3602,
+        "layoutY" : 454
+      },
+      "configuration" : {
+        "scope" : "SERVER_SCOPE",
+        "keys" : [ "${keyDelOutputRule}" ],
+        "sendAttributesDeletedNotification" : false,
+        "notifyDevice" : false
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "1858e120-fe42-11f0-8b2e-a5c280dd1e2c"
+      },
+      "name" : "xóa data output của rule trong attribute của Scene",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgDeleteAttributesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2852,
+        "layoutY" : 553
+      },
+      "configuration" : {
+        "scope" : "SERVER_SCOPE",
+        "keys" : [ "${keyDelInputRule}", "${keyDelOutputRule}" ],
+        "sendAttributesDeletedNotification" : false,
+        "notifyDevice" : false
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "5c26ea40-fe48-11f0-8b2e-a5c280dd1e2c"
+      },
+      "name" : "xóa data input và output của rule trong attribute của thiết bị",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgDeleteAttributesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2603,
+        "layoutY" : 552
+      },
+      "configuration" : {
+        "originatorSource" : "ENTITY",
+        "entityType" : "DEVICE",
+        "entityNamePattern" : "$[entityName]",
+        "relationsQuery" : {
+          "direction" : "FROM",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Contains",
+            "entityTypes" : [ ],
+            "negate" : false
+          } ],
+          "fetchLastLevelOnly" : false
+        }
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "5c271150-fe48-11f0-8b2e-a5c280dd1e2c"
+      },
+      "name" : "Chuyển tới thiết bị",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2351,
+        "layoutY" : 553
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "function nextRelation(metadata, msg) {\n    var out_list = [];\n    var entityOut\n    if(msg.profileName == \"GROUP\"){\n        entityOut = \"groupOut\"\n    }else if(msg.profileName == \"SCENE\"){\n        entityOut = \"sceneOut\"\n    }else {\n        entityOut = \"deviceOut\"\n    }\n    switch (entityOut) {\n        case \"deviceOut\":\n            out_list = ['deviceOut']\n            break;\n            \n        case \"groupOut\":\n            out_list = ['groupOut']\n            break;\n            \n        case \"sceneOut\":    \n            out_list = ['sceneOut']\n            break;\n        \n        default:\n            out_list = ['other']\n            break;\n    }\n    return out_list;\n}\nreturn nextRelation(metadata, msg);",
+        "tbelScript" : "function nextRelation(metadata, msg) {\n    return ['one','nine'];\n}\nif(msgType == 'POST_TELEMETRY_REQUEST') {\n    return ['two'];\n}\nreturn nextRelation(metadata, msg);"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "5c273860-fe48-11f0-8b2e-a5c280dd1e2c"
+      },
+      "name" : "Phân loại entity del",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsSwitchNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2604,
+        "layoutY" : 602
+      },
+      "configuration" : {
+        "originatorSource" : "ENTITY",
+        "entityType" : "ASSET",
+        "entityNamePattern" : "$[entityName]",
+        "relationsQuery" : {
+          "direction" : "FROM",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Contains",
+            "entityTypes" : [ ],
+            "negate" : false
+          } ],
+          "fetchLastLevelOnly" : false
+        }
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "5c273861-fe48-11f0-8b2e-a5c280dd1e2c"
+      },
+      "name" : "Chuyển tới Group",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2603,
+        "layoutY" : 652
+      },
+      "configuration" : {
+        "originatorSource" : "ENTITY",
+        "entityType" : "ASSET",
+        "entityNamePattern" : "$[entityName]",
+        "relationsQuery" : {
+          "direction" : "FROM",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Contains",
+            "entityTypes" : [ ],
+            "negate" : false
+          } ],
+          "fetchLastLevelOnly" : false
+        }
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "5c273862-fe48-11f0-8b2e-a5c280dd1e2c"
+      },
+      "name" : "Chuyển tới Scene",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2851,
+        "layoutY" : 604
+      },
+      "configuration" : {
+        "scope" : "SERVER_SCOPE",
+        "keys" : [ "${keyDelOutputRule}" ],
+        "sendAttributesDeletedNotification" : false,
+        "notifyDevice" : false
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "5c275f70-fe48-11f0-8b2e-a5c280dd1e2c"
+      },
+      "name" : "xóa data output của rule trong attribute của Group",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgDeleteAttributesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2851,
+        "layoutY" : 653
+      },
+      "configuration" : {
+        "scope" : "SERVER_SCOPE",
+        "keys" : [ "${keyDelOutputRule}" ],
+        "sendAttributesDeletedNotification" : false,
+        "notifyDevice" : false
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "5c275f71-fe48-11f0-8b2e-a5c280dd1e2c"
+      },
+      "name" : "xóa data output của rule trong attribute của Scene",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgDeleteAttributesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1351,
+        "layoutY" : 553
+      },
+      "configuration" : {
+        "originatorSource" : "ENTITY",
+        "entityType" : "ASSET",
+        "entityNamePattern" : "${entityName}",
+        "relationsQuery" : {
+          "direction" : "FROM",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Contains",
+            "entityTypes" : [ ],
+            "negate" : false
+          } ],
+          "fetchLastLevelOnly" : false
+        }
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "325f4960-022f-11f1-a4ee-8575c523c112"
+      },
+      "name" : "Chuyển thực thể gốc Rule",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2100,
+        "layoutY" : 553
+      },
+      "configuration" : {
+        "version" : 0
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "d17043b0-022f-11f1-a4ee-8575c523c112"
+      },
+      "name" : "tách mảng thiết bị",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbSplitArrayMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1850,
+        "layoutY" : 554
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "msg = msg.dataResponse\r\nreturn { msg: msg, metadata: metadata, msgType: msgType };",
+        "tbelScript" : "var cmd = msg.cmd;\nvar rqi = msg.rqi;\nvar msgType = \"POST_TELEMETRY_REQUEST\";\n\n// // Quét thiết bị: : app->HC\n// if(cmd === \"startScanBleRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Dừng quét thiết bị: : app->HC\n// else if(cmd === \"stopScanBleRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Báo thiết bị mới: HC->app hoặc HC->server\n// else if(cmd === \"newDevRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Xóa thiết bị app -> HC\n// else if(cmd === \"delDevRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Xóa thiết bị HC -> app\n// else if(cmd === \"delDev\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Tạo nhóm: app->HC\n// else if(cmd === \"createGroupRsp\"){\n//     metadata.cmd = cmd;\n// }\n//Thêm thiết bị vào nhóm: app->HC\nif(cmd === \"addDevToGroupRsp\"){\n    // Lấy Asset ID và danh sách Device ID\n    var assetId = msg.data.id; // ID của Asset\n    var deviceIds = msg.data.success; // Danh sách ID của Devices\n\n    // Tạo danh sách quan hệ\n    var relations = deviceIds.map(function(deviceId) {\n        return {\n            from: deviceId, // ID của Device\n            to: assetId,    // ID của Asset\n            type: \"BelongsTo\" // Loại quan hệ (có thể đặt tên khác)\n        };\n    });\n\n    // Gắn danh sách vào metadata\n    metadata.relations = relations;\n}\n//Xóa thiết bị khỏi nhóm: app->HC\nelse if(cmd === \"delDevFromGroupRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa nhóm: app->HC\nelse if(cmd === \"delGroupRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Tạo/sửa cảnh: app->HC\nelse if(cmd === \"createSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa cảnh: app->HC\nelse if(cmd === \"delSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Thêm thiết bị vào cảnh: app->HC\nelse if(cmd === \"addDevToSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa thiết bị trong cảnh: app->HC\nelse if(cmd === \"delDevToSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Tạo kịch bản gọi cảnh: app->HC\nelse if(cmd === \"createSceneControllerRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Xóa kịch bản gọi cảnh: app->HC\nelse if(cmd === \"delSceneControllerRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//tạo kịch bản: app->HC\nelse if(cmd === \"createRuleRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa kịch bản: app->HC\nelse if(cmd === \"delRuleRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Tạo phòng: app->HC\nelse if(cmd === \"createRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Thêm thiết bị vào phòng: app->HC\nelse if(cmd === \"addDevToRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Xóa thiết bị ra khỏi phòng: app->HC\nelse if(cmd === \"delDevToRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa phòng: app->HC\nelse if(cmd === \"delRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Reset HC: app->HC\nelse if(cmd === \"resetHcRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//HC cập nhật trạng thái kết nối với Cloud: HC->server\nelse if(cmd === \"homeControllerRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Bản tin device update: app->HC\nelse if(cmd === \"delDevFromGroupRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\nreturn {msg: msg, metadata: metadata, msgType: msgType};\n"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "d17043b1-022f-11f1-a4ee-8575c523c112"
+      },
+      "name" : "Sử lý listDeviceInput",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    } ],
+    "ruleChainConnections" : null
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
