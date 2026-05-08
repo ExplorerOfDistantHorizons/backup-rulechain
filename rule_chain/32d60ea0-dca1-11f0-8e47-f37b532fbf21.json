@@ -54,7 +54,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 4,
-      "toIndex" : 66,
+      "toIndex" : 65,
       "type" : "Success"
     }, {
       "fromIndex" : 5,
@@ -62,7 +62,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 5,
-      "toIndex" : 63,
+      "toIndex" : 62,
       "type" : "Success"
     }, {
       "fromIndex" : 6,
@@ -86,7 +86,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 8,
-      "toIndex" : 43,
+      "toIndex" : 42,
       "type" : "Success"
     }, {
       "fromIndex" : 9,
@@ -134,7 +134,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 24,
-      "toIndex" : 65,
+      "toIndex" : 64,
       "type" : "Success"
     }, {
       "fromIndex" : 25,
@@ -198,7 +198,11 @@
       "type" : "Success"
     }, {
       "fromIndex" : 41,
-      "toIndex" : 42,
+      "toIndex" : 66,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 42,
+      "toIndex" : 43,
       "type" : "Success"
     }, {
       "fromIndex" : 43,
@@ -206,11 +210,11 @@
       "type" : "Success"
     }, {
       "fromIndex" : 44,
-      "toIndex" : 45,
+      "toIndex" : 48,
       "type" : "Success"
     }, {
-      "fromIndex" : 45,
-      "toIndex" : 49,
+      "fromIndex" : 46,
+      "toIndex" : 45,
       "type" : "Success"
     }, {
       "fromIndex" : 47,
@@ -219,19 +223,19 @@
     }, {
       "fromIndex" : 48,
       "toIndex" : 47,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 49,
-      "toIndex" : 48,
       "type" : "deviceOut"
     }, {
-      "fromIndex" : 49,
-      "toIndex" : 50,
+      "fromIndex" : 48,
+      "toIndex" : 49,
       "type" : "groupOut"
+    }, {
+      "fromIndex" : 48,
+      "toIndex" : 50,
+      "type" : "sceneOut"
     }, {
       "fromIndex" : 49,
       "toIndex" : 51,
-      "type" : "sceneOut"
+      "type" : "Success"
     }, {
       "fromIndex" : 50,
       "toIndex" : 52,
@@ -245,47 +249,43 @@
       "toIndex" : 54,
       "type" : "Success"
     }, {
-      "fromIndex" : 53,
+      "fromIndex" : 56,
       "toIndex" : 55,
       "type" : "Success"
     }, {
       "fromIndex" : 57,
       "toIndex" : 56,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 58,
-      "toIndex" : 57,
       "type" : "deviceOut"
     }, {
-      "fromIndex" : 58,
-      "toIndex" : 59,
+      "fromIndex" : 57,
+      "toIndex" : 58,
       "type" : "groupOut"
+    }, {
+      "fromIndex" : 57,
+      "toIndex" : 59,
+      "type" : "sceneOut"
     }, {
       "fromIndex" : 58,
       "toIndex" : 60,
-      "type" : "sceneOut"
+      "type" : "Success"
     }, {
       "fromIndex" : 59,
       "toIndex" : 61,
       "type" : "Success"
     }, {
-      "fromIndex" : 60,
-      "toIndex" : 62,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 63,
+      "fromIndex" : 62,
       "toIndex" : 24,
       "type" : "Success"
     }, {
+      "fromIndex" : 63,
+      "toIndex" : 57,
+      "type" : "Success"
+    }, {
       "fromIndex" : 64,
-      "toIndex" : 58,
+      "toIndex" : 63,
       "type" : "Success"
     }, {
       "fromIndex" : 65,
-      "toIndex" : 64,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 66,
       "toIndex" : 14,
       "type" : "Success"
     } ],
@@ -1385,30 +1385,6 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2604,
-        "layoutY" : 403
-      },
-      "configuration" : {
-        "defaultTTL" : 0,
-        "skipLatestPersistence" : false,
-        "useServerTs" : false
-      },
-      "configurationVersion" : 0,
-      "createdTime" : 0,
-      "debugMode" : true,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "b0335d20-fc1e-11f0-8c6e-5381beb8d689"
-      },
-      "name" : "lưu vào telemetry",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgTimeseriesNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "",
         "layoutX" : 2103,
         "layoutY" : 254
       },
@@ -2087,6 +2063,31 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 2602,
+        "layoutY" : 402
+      },
+      "configuration" : {
+        "scope" : "SERVER_SCOPE",
+        "notifyDevice" : false,
+        "sendAttributesUpdatedNotification" : true,
+        "updateAttributesOnlyOnValueChange" : false
+      },
+      "configurationVersion" : 2,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "657b5290-4a86-11f1-b1ef-d7e314cac7c6"
+      },
+      "name" : "Lưu thông tin",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgAttributesNode"
     } ],
     "ruleChainConnections" : null
   },
