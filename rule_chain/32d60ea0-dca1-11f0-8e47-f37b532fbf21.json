@@ -457,8 +457,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1350,
-        "layoutY" : 503
+        "layoutX" : 1351,
+        "layoutY" : 603
       },
       "configuration" : {
         "timeoutInSeconds" : 0
