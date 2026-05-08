@@ -50,7 +50,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 4,
-      "toIndex" : 14,
+      "toIndex" : 66,
       "type" : "Success"
     }, {
       "fromIndex" : 5,
@@ -279,6 +279,10 @@
     }, {
       "fromIndex" : 65,
       "toIndex" : 64,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 66,
+      "toIndex" : 14,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 1,
@@ -621,8 +625,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1352,
-        "layoutY" : 402
+        "layoutX" : 1601,
+        "layoutY" : 403
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -643,8 +647,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Tiền sử lý bản tin trước khi gửi xuống HCP",
-        "layoutX" : 1602,
-        "layoutY" : 403
+        "layoutX" : 1851,
+        "layoutY" : 404
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -718,8 +722,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1854,
-        "layoutY" : 402
+        "layoutX" : 2103,
+        "layoutY" : 403
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -1353,8 +1357,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2104,
-        "layoutY" : 401
+        "layoutX" : 2353,
+        "layoutY" : 402
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -1377,8 +1381,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2355,
-        "layoutY" : 402
+        "layoutX" : 2604,
+        "layoutY" : 403
       },
       "configuration" : {
         "defaultTTL" : 0,
@@ -2046,6 +2050,39 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1352,
+        "layoutY" : 404
+      },
+      "configuration" : {
+        "originatorSource" : "RELATED",
+        "entityType" : null,
+        "entityNamePattern" : null,
+        "relationsQuery" : {
+          "fetchLastLevelOnly" : false,
+          "direction" : "TO",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Gateway_RuleLocal",
+            "entityTypes" : [ "DEVICE" ]
+          } ]
+        }
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "9cb501d0-4a85-11f1-b1ef-d7e314cac7c6"
+      },
+      "name" : "Chuyển thực thể gốc Rule",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
     } ],
     "ruleChainConnections" : null
   },
