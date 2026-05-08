@@ -427,8 +427,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1101,
-        "layoutY" : 553
+        "layoutX" : 1100,
+        "layoutY" : 503
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -473,8 +473,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1605,
-        "layoutY" : 604
+        "layoutX" : 1604,
+        "layoutY" : 554
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -905,8 +905,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1353,
-        "layoutY" : 554
+        "layoutX" : 1352,
+        "layoutY" : 504
       },
       "configuration" : {
         "relationsQuery" : {
@@ -1768,8 +1768,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2604,
-        "layoutY" : 554
+        "layoutX" : 2603,
+        "layoutY" : 504
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
@@ -1793,8 +1793,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2355,
-        "layoutY" : 553
+        "layoutX" : 2354,
+        "layoutY" : 503
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -1827,8 +1827,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2103,
-        "layoutY" : 554
+        "layoutX" : 2102,
+        "layoutY" : 504
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -1851,8 +1851,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2354,
-        "layoutY" : 603
+        "layoutX" : 2353,
+        "layoutY" : 553
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -1885,8 +1885,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2354,
-        "layoutY" : 654
+        "layoutX" : 2353,
+        "layoutY" : 604
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -1919,8 +1919,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2603,
-        "layoutY" : 605
+        "layoutX" : 2602,
+        "layoutY" : 555
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
@@ -1944,8 +1944,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2603,
-        "layoutY" : 654
+        "layoutX" : 2602,
+        "layoutY" : 604
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
@@ -1969,8 +1969,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1855,
-        "layoutY" : 554
+        "layoutX" : 1854,
+        "layoutY" : 504
       },
       "configuration" : {
         "version" : 0
@@ -1991,8 +1991,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1604,
-        "layoutY" : 554
+        "layoutX" : 1603,
+        "layoutY" : 504
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -2096,8 +2096,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1354,
-        "layoutY" : 603
+        "layoutX" : 1353,
+        "layoutY" : 553
       },
       "configuration" : {
         "originatorSource" : "RELATED",
@@ -2129,8 +2129,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1855,
-        "layoutY" : 603
+        "layoutX" : 1854,
+        "layoutY" : 553
       },
       "configuration" : {
         "serviceIdMetaDataAttribute" : "serviceId",
