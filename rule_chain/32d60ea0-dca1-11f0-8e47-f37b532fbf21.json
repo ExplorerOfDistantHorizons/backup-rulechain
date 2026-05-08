@@ -54,15 +54,15 @@
       "type" : "Success"
     }, {
       "fromIndex" : 4,
-      "toIndex" : 65,
+      "toIndex" : 64,
       "type" : "Success"
     }, {
       "fromIndex" : 5,
-      "toIndex" : 7,
+      "toIndex" : 24,
       "type" : "Success"
     }, {
       "fromIndex" : 5,
-      "toIndex" : 62,
+      "toIndex" : 67,
       "type" : "Success"
     }, {
       "fromIndex" : 6,
@@ -106,11 +106,11 @@
       "type" : "Success"
     }, {
       "fromIndex" : 14,
-      "toIndex" : 67,
+      "toIndex" : 66,
       "type" : "Failure"
     }, {
       "fromIndex" : 14,
-      "toIndex" : 67,
+      "toIndex" : 66,
       "type" : "Success"
     }, {
       "fromIndex" : 15,
@@ -142,7 +142,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 24,
-      "toIndex" : 64,
+      "toIndex" : 63,
       "type" : "Success"
     }, {
       "fromIndex" : 25,
@@ -206,7 +206,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 41,
-      "toIndex" : 66,
+      "toIndex" : 65,
       "type" : "Success"
     }, {
       "fromIndex" : 42,
@@ -282,19 +282,19 @@
       "type" : "Success"
     }, {
       "fromIndex" : 62,
-      "toIndex" : 24,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 63,
       "toIndex" : 57,
       "type" : "Success"
     }, {
-      "fromIndex" : 64,
-      "toIndex" : 63,
+      "fromIndex" : 63,
+      "toIndex" : 62,
       "type" : "Success"
     }, {
-      "fromIndex" : 65,
+      "fromIndex" : 64,
       "toIndex" : 14,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 67,
+      "toIndex" : 7,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 1,
@@ -465,8 +465,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1351,
-        "layoutY" : 603
+        "layoutX" : 1601,
+        "layoutY" : 604
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -1961,40 +1961,6 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1351,
-        "layoutY" : 553
-      },
-      "configuration" : {
-        "originatorSource" : "ENTITY",
-        "entityType" : "ASSET",
-        "entityNamePattern" : "${entityName}",
-        "relationsQuery" : {
-          "direction" : "FROM",
-          "maxLevel" : 1,
-          "filters" : [ {
-            "relationType" : "Contains",
-            "entityTypes" : [ ],
-            "negate" : false
-          } ],
-          "fetchLastLevelOnly" : false
-        }
-      },
-      "configurationVersion" : 0,
-      "createdTime" : 0,
-      "debugMode" : true,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "325f4960-022f-11f1-a4ee-8575c523c112"
-      },
-      "name" : "Chuyển thực thể gốc Rule",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "",
         "layoutX" : 2100,
         "layoutY" : 553
       },
@@ -2119,6 +2085,39 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.rest.TbSendRestApiCallReplyNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1354,
+        "layoutY" : 603
+      },
+      "configuration" : {
+        "originatorSource" : "RELATED",
+        "entityType" : null,
+        "entityNamePattern" : null,
+        "relationsQuery" : {
+          "fetchLastLevelOnly" : false,
+          "direction" : "TO",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Gateway_RuleLocal",
+            "entityTypes" : [ "DEVICE" ]
+          } ]
+        }
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "f118bf40-4a86-11f1-b1ef-d7e314cac7c6"
+      },
+      "name" : "Chuyển thực thể gốc Rule",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
     } ],
     "ruleChainConnections" : null
   },
