@@ -559,8 +559,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1546,
-        "layoutY" : 2187
+        "layoutX" : 1278,
+        "layoutY" : 1529
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -1893,8 +1893,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1793,
-        "layoutY" : 2185
+        "layoutX" : 1525,
+        "layoutY" : 1527
       },
       "configuration" : {
         "relationsQuery" : {
@@ -1928,8 +1928,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2043,
-        "layoutY" : 2187
+        "layoutX" : 1775,
+        "layoutY" : 1529
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -1952,8 +1952,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2544,
-        "layoutY" : 2188
+        "layoutX" : 2278,
+        "layoutY" : 1529
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -1986,8 +1986,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2795,
-        "layoutY" : 2188
+        "layoutX" : 2526,
+        "layoutY" : 1529
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
@@ -2011,8 +2011,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2292,
-        "layoutY" : 2187
+        "layoutX" : 2024,
+        "layoutY" : 1529
       },
       "configuration" : {
         "version" : 0
@@ -2645,8 +2645,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2042,
-        "layoutY" : 2136
+        "layoutX" : 1774,
+        "layoutY" : 1478
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -2667,8 +2667,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2292,
-        "layoutY" : 2135
+        "layoutX" : 2024,
+        "layoutY" : 1477
       },
       "configuration" : {
         "serviceIdMetaDataAttribute" : "serviceId",
@@ -2881,8 +2881,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Chuyển thực thể gốc tới thiết bị con là Device",
-        "layoutX" : 1794,
-        "layoutY" : 2136
+        "layoutX" : 1526,
+        "layoutY" : 1478
       },
       "configuration" : {
         "originatorSource" : "RELATED",
