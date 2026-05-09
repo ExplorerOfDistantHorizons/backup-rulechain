@@ -73,10 +73,6 @@
       "toIndex" : 33,
       "type" : "delSceneController"
     }, {
-      "fromIndex" : 2,
-      "toIndex" : 98,
-      "type" : "Success"
-    }, {
       "fromIndex" : 3,
       "toIndex" : 96,
       "type" : "Success"
@@ -423,46 +419,42 @@
     }, {
       "fromIndex" : 98,
       "toIndex" : 99,
-      "type" : "True"
+      "type" : "Success"
     }, {
       "fromIndex" : 98,
-      "toIndex" : 109,
-      "type" : "False"
+      "toIndex" : 101,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 98,
+      "toIndex" : 103,
+      "type" : "Success"
     }, {
       "fromIndex" : 99,
       "toIndex" : 100,
       "type" : "Success"
     }, {
-      "fromIndex" : 99,
+      "fromIndex" : 101,
       "toIndex" : 102,
       "type" : "Success"
     }, {
-      "fromIndex" : 99,
+      "fromIndex" : 103,
+      "toIndex" : 105,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 105,
       "toIndex" : 104,
       "type" : "Success"
     }, {
-      "fromIndex" : 100,
-      "toIndex" : 101,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 102,
-      "toIndex" : 103,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 104,
+      "fromIndex" : 105,
       "toIndex" : 106,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 106,
-      "toIndex" : 105,
       "type" : "Success"
     }, {
       "fromIndex" : 106,
       "toIndex" : 107,
       "type" : "Success"
     }, {
-      "fromIndex" : 107,
-      "toIndex" : 108,
+      "fromIndex" : 108,
+      "toIndex" : 110,
       "type" : "Success"
     }, {
       "fromIndex" : 109,
@@ -470,31 +462,27 @@
       "type" : "Success"
     }, {
       "fromIndex" : 110,
-      "toIndex" : 112,
+      "toIndex" : 109,
       "type" : "Success"
     }, {
       "fromIndex" : 111,
-      "toIndex" : 110,
+      "toIndex" : 112,
       "type" : "Success"
     }, {
       "fromIndex" : 112,
       "toIndex" : 113,
       "type" : "Success"
     }, {
-      "fromIndex" : 113,
+      "fromIndex" : 112,
       "toIndex" : 114,
       "type" : "Success"
     }, {
-      "fromIndex" : 113,
+      "fromIndex" : 114,
       "toIndex" : 115,
       "type" : "Success"
     }, {
       "fromIndex" : 115,
-      "toIndex" : 116,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 116,
-      "toIndex" : 99,
+      "toIndex" : 98,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 0,
@@ -3063,33 +3051,9 @@
       "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
     }, {
       "additionalInfo" : {
-        "description" : "nếu là nhóm tự tạo  = true, ngược là false",
-        "layoutX" : 1603,
-        "layoutY" : 1152
-      },
-      "configuration" : {
-        "scriptLang" : "JS",
-        "jsScript" : "return metadata.generation === \"ok\";",
-        "tbelScript" : "return msg.temperature > 20;"
-      },
-      "configurationVersion" : 0,
-      "createdTime" : 0,
-      "debugMode" : true,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "9da9fa50-49ef-11f1-8ecd-fd0f21d425e9"
-      },
-      "name" : "scene mặc định ?",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
-    }, {
-      "additionalInfo" : {
         "description" : "Tạo nhóm và thêm quan hệ của thiệt bị với nhóm này ",
-        "layoutX" : 2756,
-        "layoutY" : 1151
+        "layoutX" : 2429,
+        "layoutY" : 1253
       },
       "configuration" : {
         "direction" : "FROM",
@@ -3117,8 +3081,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3028,
-        "layoutY" : 1255
+        "layoutX" : 2701,
+        "layoutY" : 1254
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -3141,8 +3105,8 @@
     }, {
       "additionalInfo" : {
         "description" : null,
-        "layoutX" : 3277,
-        "layoutY" : 1254
+        "layoutX" : 2950,
+        "layoutY" : 1253
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
@@ -3166,8 +3130,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3028,
-        "layoutY" : 1203
+        "layoutX" : 2701,
+        "layoutY" : 1202
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -3190,8 +3154,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3278,
-        "layoutY" : 1203
+        "layoutX" : 2951,
+        "layoutY" : 1202
       },
       "configuration" : {
         "defaultTTL" : 0,
@@ -3214,8 +3178,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3028,
-        "layoutY" : 1154
+        "layoutX" : 2701,
+        "layoutY" : 1153
       },
       "configuration" : {
         "version" : 0
@@ -3236,8 +3200,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Tạo nhóm và thêm quan hệ của thiệt bị với nhóm này ",
-        "layoutX" : 3526,
-        "layoutY" : 1204
+        "layoutX" : 3199,
+        "layoutY" : 1203
       },
       "configuration" : {
         "direction" : "TO",
@@ -3265,8 +3229,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3278,
-        "layoutY" : 1153
+        "layoutX" : 2951,
+        "layoutY" : 1152
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -3299,8 +3263,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3525,
-        "layoutY" : 1154
+        "layoutX" : 3198,
+        "layoutY" : 1153
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -3323,8 +3287,8 @@
     }, {
       "additionalInfo" : {
         "description" : null,
-        "layoutX" : 3774,
-        "layoutY" : 1153
+        "layoutX" : 3447,
+        "layoutY" : 1152
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
@@ -3348,8 +3312,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1730,
-        "layoutY" : 1302
+        "layoutX" : 1502,
+        "layoutY" : 1252
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -3372,8 +3336,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1955,
-        "layoutY" : 1303
+        "layoutX" : 1727,
+        "layoutY" : 1253
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -3396,8 +3360,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1805,
-        "layoutY" : 1202
+        "layoutX" : 1577,
+        "layoutY" : 1152
       },
       "configuration" : {
         "version" : 0
@@ -3418,8 +3382,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2028,
-        "layoutY" : 1202
+        "layoutX" : 1800,
+        "layoutY" : 1152
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -3452,8 +3416,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2179,
-        "layoutY" : 1303
+        "layoutX" : 1951,
+        "layoutY" : 1253
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -3474,8 +3438,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2254,
-        "layoutY" : 1203
+        "layoutX" : 2026,
+        "layoutY" : 1153
       },
       "configuration" : {
         "serviceIdMetaDataAttribute" : "serviceId",
@@ -3497,8 +3461,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Tiền sử lý bản tin trước khi gửi xuống HCP",
-        "layoutX" : 2428,
-        "layoutY" : 1301
+        "layoutX" : 2200,
+        "layoutY" : 1251
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -3521,8 +3485,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Chuyển thực thể gốc tới thiết bị con là Device",
-        "layoutX" : 2502,
-        "layoutY" : 1202
+        "layoutX" : 2274,
+        "layoutY" : 1152
       },
       "configuration" : {
         "originatorSource" : "RELATED",
