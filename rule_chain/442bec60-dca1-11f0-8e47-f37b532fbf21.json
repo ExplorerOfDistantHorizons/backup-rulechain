@@ -3058,7 +3058,7 @@
       "additionalInfo" : {
         "description" : "",
         "layoutX" : 3303,
-        "layoutY" : 1255
+        "layoutY" : 1105
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -3082,7 +3082,7 @@
       "additionalInfo" : {
         "description" : null,
         "layoutX" : 3552,
-        "layoutY" : 1254
+        "layoutY" : 1104
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
@@ -3107,7 +3107,7 @@
       "additionalInfo" : {
         "description" : "",
         "layoutX" : 3303,
-        "layoutY" : 1203
+        "layoutY" : 1053
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -3131,7 +3131,7 @@
       "additionalInfo" : {
         "description" : "",
         "layoutX" : 3553,
-        "layoutY" : 1203
+        "layoutY" : 1053
       },
       "configuration" : {
         "defaultTTL" : 0,
@@ -3177,7 +3177,7 @@
       "additionalInfo" : {
         "description" : "Tạo nhóm và thêm quan hệ của thiệt bị với nhóm này ",
         "layoutX" : 3801,
-        "layoutY" : 1204
+        "layoutY" : 1102
       },
       "configuration" : {
         "direction" : "TO",
