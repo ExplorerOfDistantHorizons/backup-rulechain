@@ -543,7 +543,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 980,
+        "layoutX" : 927,
         "layoutY" : 1154
       },
       "configuration" : {
@@ -1197,8 +1197,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 977,
-        "layoutY" : 903
+        "layoutX" : 924,
+        "layoutY" : 902
       },
       "configuration" : {
         "scriptLang" : "TBEL",
