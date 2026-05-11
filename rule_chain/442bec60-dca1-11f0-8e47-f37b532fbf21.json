@@ -2515,7 +2515,7 @@
     }, {
       "additionalInfo" : {
         "description" : "Tạo nhóm và thêm quan hệ của thiệt bị với nhóm này ",
-        "layoutX" : 3305,
+        "layoutX" : 3303,
         "layoutY" : 1603
       },
       "configuration" : {
