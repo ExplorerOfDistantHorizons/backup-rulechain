@@ -3780,8 +3780,7 @@
         "dataToFetch" : "FIELDS",
         "fetchTo" : "DATA",
         "dataMapping" : {
-          "name" : "entityName_Gateway",
-          "type" : "profileName_Gateway"
+          "name" : "entityName_Gateway"
         }
       },
       "configurationVersion" : 2,
