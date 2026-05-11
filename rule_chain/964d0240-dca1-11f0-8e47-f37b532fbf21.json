@@ -114,12 +114,12 @@
       "type" : "Success"
     }, {
       "fromIndex" : 23,
-      "toIndex" : 22,
-      "type" : "False"
-    }, {
-      "fromIndex" : 23,
       "toIndex" : 26,
       "type" : "True"
+    }, {
+      "fromIndex" : 23,
+      "toIndex" : 30,
+      "type" : "False"
     }, {
       "fromIndex" : 24,
       "toIndex" : 27,
@@ -366,8 +366,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1527,
-        "layoutY" : 603
+        "layoutX" : 1529,
+        "layoutY" : 604
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -683,8 +683,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1777,
-        "layoutY" : 702
+        "layoutX" : 2364,
+        "layoutY" : 716
       },
       "configuration" : {
         "forwardMsgToDefaultRuleChain" : false,
@@ -706,8 +706,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1279,
-        "layoutY" : 704
+        "layoutX" : 1866,
+        "layoutY" : 718
       },
       "configuration" : {
         "direction" : "FROM",
@@ -884,8 +884,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1526,
-        "layoutY" : 704
+        "layoutX" : 2113,
+        "layoutY" : 718
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -905,6 +905,41 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1279,
+        "layoutY" : 704
+      },
+      "configuration" : {
+        "relationsQuery" : {
+          "fetchLastLevelOnly" : false,
+          "direction" : "FROM",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Contains",
+            "entityTypes" : [ "DEVICE" ]
+          } ]
+        },
+        "dataToFetch" : "FIELDS",
+        "fetchTo" : "DATA",
+        "dataMapping" : {
+          "name" : "entityName"
+        }
+      },
+      "configurationVersion" : 2,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "7692cb20-4d20-11f1-9f99-fd9d066e72c2"
+      },
+      "name" : "lấy danh sách gateway trong nhà để check xem có cái nào ngoại lai không",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetRelatedEntityDataPlusNode"
     } ],
     "ruleChainConnections" : null
   },
