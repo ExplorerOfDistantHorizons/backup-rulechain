@@ -1094,8 +1094,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2380,
-        "layoutY" : 1431
+        "layoutX" : 2376,
+        "layoutY" : 1429
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -1182,8 +1182,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Tạo quan hệ cho Room với Gateway",
-        "layoutX" : 2629,
-        "layoutY" : 1431
+        "layoutX" : 2628,
+        "layoutY" : 1428
       },
       "configuration" : {
         "direction" : "FROM",
@@ -3843,8 +3843,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2630,
-        "layoutY" : 1482
+        "layoutX" : 2629,
+        "layoutY" : 1479
       },
       "configuration" : {
         "serviceIdMetaDataAttribute" : "serviceId",
