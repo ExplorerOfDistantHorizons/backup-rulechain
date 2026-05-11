@@ -1956,7 +1956,7 @@
         "entityType" : "RULE_NODE",
         "id" : "c31aeac0-fb97-11f0-8c6e-5381beb8d689"
       },
-      "name" : "Lấy danh sách các thiết bị trong cảnh",
+      "name" : "Scene - G_Devices",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
