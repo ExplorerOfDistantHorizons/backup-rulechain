@@ -536,8 +536,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Tiền sử lý bản tin trước khi gửi xuống HCP",
-        "layoutX" : 2905,
-        "layoutY" : 1081
+        "layoutX" : 2903,
+        "layoutY" : 1080
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -2088,8 +2088,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2904,
-        "layoutY" : 1031
+        "layoutX" : 2903,
+        "layoutY" : 1028
       },
       "configuration" : {
         "serviceIdMetaDataAttribute" : "serviceId",
