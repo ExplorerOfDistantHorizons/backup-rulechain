@@ -3486,8 +3486,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2026,
-        "layoutY" : 1479
+        "layoutX" : 2025,
+        "layoutY" : 1476
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
