@@ -3769,18 +3769,19 @@
       },
       "configuration" : {
         "relationsQuery" : {
-          "fetchLastLevelOnly" : false,
-          "direction" : "FROM",
-          "maxLevel" : 1,
+          "fetchLastLevelOnly" : true,
+          "direction" : "TO",
+          "maxLevel" : 2,
           "filters" : [ {
-            "relationType" : "Scene_DeviceInDirect",
+            "relationType" : "Gateway_Room",
             "entityTypes" : [ "DEVICE" ]
           } ]
         },
         "dataToFetch" : "FIELDS",
         "fetchTo" : "DATA",
         "dataMapping" : {
-          "name" : "entityName_Dev"
+          "name" : "entityName_Gateway",
+          "type" : "profileName_Gateway"
         }
       },
       "configurationVersion" : 2,
