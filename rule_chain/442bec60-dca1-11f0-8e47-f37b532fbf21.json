@@ -3715,9 +3715,9 @@
         "relationsQuery" : {
           "fetchLastLevelOnly" : true,
           "direction" : "TO",
-          "maxLevel" : 2,
+          "maxLevel" : 1,
           "filters" : [ {
-            "relationType" : "Gateway_Room",
+            "relationType" : "Gateway_Scene",
             "entityTypes" : [ "DEVICE" ]
           } ]
         },
