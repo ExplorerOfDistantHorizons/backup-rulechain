@@ -140,6 +140,14 @@
       "fromIndex" : 29,
       "toIndex" : 21,
       "type" : "Success"
+    }, {
+      "fromIndex" : 30,
+      "toIndex" : 31,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 31,
+      "toIndex" : 22,
+      "type" : "False"
     } ],
     "firstNodeIndex" : 1,
     "nodes" : [ {
@@ -683,8 +691,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2364,
-        "layoutY" : 716
+        "layoutX" : 2277,
+        "layoutY" : 704
       },
       "configuration" : {
         "forwardMsgToDefaultRuleChain" : false,
@@ -706,8 +714,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1866,
-        "layoutY" : 718
+        "layoutX" : 1776,
+        "layoutY" : 704
       },
       "configuration" : {
         "direction" : "FROM",
@@ -884,8 +892,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2113,
-        "layoutY" : 718
+        "layoutX" : 2026,
+        "layoutY" : 702
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -940,6 +948,30 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.metadata.TbGetRelatedEntityDataPlusNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1528,
+        "layoutY" : 704
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "return msg.temperature > 20;",
+        "tbelScript" : "return msg.temperature > 20;"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b7301570-4d20-11f1-9f99-fd9d066e72c2"
+      },
+      "name" : "gateway ngoại lai ?",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
     } ],
     "ruleChainConnections" : null
   },
