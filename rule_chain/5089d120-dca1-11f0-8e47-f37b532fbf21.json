@@ -42,11 +42,11 @@
       "type" : "RPC Request from Device"
     }, {
       "fromIndex" : 0,
-      "toIndex" : 53,
+      "toIndex" : 51,
       "type" : "Post telemetry"
     }, {
       "fromIndex" : 0,
-      "toIndex" : 60,
+      "toIndex" : 58,
       "type" : "REST API request"
     }, {
       "fromIndex" : 1,
@@ -66,19 +66,19 @@
       "type" : "delDevFromGroup"
     }, {
       "fromIndex" : 1,
-      "toIndex" : 75,
+      "toIndex" : 73,
       "type" : "createGroup"
     }, {
       "fromIndex" : 2,
-      "toIndex" : 71,
+      "toIndex" : 69,
       "type" : "Success"
     }, {
       "fromIndex" : 3,
-      "toIndex" : 73,
+      "toIndex" : 71,
       "type" : "Success"
     }, {
       "fromIndex" : 4,
-      "toIndex" : 74,
+      "toIndex" : 72,
       "type" : "Success"
     }, {
       "fromIndex" : 5,
@@ -86,7 +86,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 5,
-      "toIndex" : 68,
+      "toIndex" : 66,
       "type" : "Success"
     }, {
       "fromIndex" : 6,
@@ -122,7 +122,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 13,
-      "toIndex" : 70,
+      "toIndex" : 68,
       "type" : "Success"
     }, {
       "fromIndex" : 14,
@@ -174,7 +174,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 31,
-      "toIndex" : 72,
+      "toIndex" : 70,
       "type" : "Success"
     }, {
       "fromIndex" : 32,
@@ -182,7 +182,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 32,
-      "toIndex" : 69,
+      "toIndex" : 67,
       "type" : "Success"
     }, {
       "fromIndex" : 33,
@@ -250,95 +250,75 @@
       "type" : "Success"
     }, {
       "fromIndex" : 51,
-      "toIndex" : 13,
-      "type" : "True"
-    }, {
-      "fromIndex" : 51,
-      "toIndex" : 14,
-      "type" : "False"
+      "toIndex" : 52,
+      "type" : "Success"
     }, {
       "fromIndex" : 52,
-      "toIndex" : 32,
-      "type" : "True"
-    }, {
-      "fromIndex" : 52,
-      "toIndex" : 33,
-      "type" : "False"
-    }, {
-      "fromIndex" : 53,
-      "toIndex" : 54,
+      "toIndex" : 53,
       "type" : "Success"
     }, {
       "fromIndex" : 54,
       "toIndex" : 55,
       "type" : "Success"
     }, {
-      "fromIndex" : 56,
-      "toIndex" : 57,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 57,
-      "toIndex" : 58,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 58,
-      "toIndex" : 62,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 59,
-      "toIndex" : 63,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 59,
-      "toIndex" : 65,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 60,
-      "toIndex" : 59,
-      "type" : "controlEntity"
-    }, {
-      "fromIndex" : 61,
+      "fromIndex" : 55,
       "toIndex" : 56,
       "type" : "Success"
     }, {
-      "fromIndex" : 62,
-      "toIndex" : 64,
+      "fromIndex" : 56,
+      "toIndex" : 60,
       "type" : "Success"
     }, {
-      "fromIndex" : 63,
+      "fromIndex" : 57,
       "toIndex" : 61,
       "type" : "Success"
     }, {
-      "fromIndex" : 66,
-      "toIndex" : 67,
+      "fromIndex" : 57,
+      "toIndex" : 63,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 58,
+      "toIndex" : 57,
+      "type" : "controlEntity"
+    }, {
+      "fromIndex" : 59,
+      "toIndex" : 54,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 60,
+      "toIndex" : 62,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 61,
+      "toIndex" : 59,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 64,
+      "toIndex" : 65,
       "type" : "Success"
     }, {
       "fromIndex" : 71,
-      "toIndex" : 51,
+      "toIndex" : 64,
       "type" : "Success"
     }, {
       "fromIndex" : 72,
-      "toIndex" : 52,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 73,
-      "toIndex" : 66,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 74,
       "toIndex" : 6,
       "type" : "Success"
     }, {
+      "fromIndex" : 73,
+      "toIndex" : 75,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 74,
+      "toIndex" : 76,
+      "type" : "Success"
+    }, {
       "fromIndex" : 75,
-      "toIndex" : 77,
+      "toIndex" : 74,
       "type" : "Success"
     }, {
       "fromIndex" : 76,
-      "toIndex" : 78,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 77,
-      "toIndex" : 76,
+      "toIndex" : 5,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 0,
@@ -657,8 +637,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2378,
-        "layoutY" : 1152
+        "layoutX" : 2626,
+        "layoutY" : 1206
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -679,7 +659,7 @@
     }, {
       "additionalInfo" : {
         "description" : "Tiền sử lý bản tin trước khi gửi xuống HCP",
-        "layoutX" : 2632,
+        "layoutX" : 2904,
         "layoutY" : 1204
       },
       "configuration" : {
@@ -754,8 +734,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2882,
-        "layoutY" : 1204
+        "layoutX" : 3179,
+        "layoutY" : 1205
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -788,7 +768,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3132,
+        "layoutX" : 3426,
         "layoutY" : 1204
       },
       "configuration" : {
@@ -1092,7 +1072,7 @@
     }, {
       "additionalInfo" : {
         "description" : "Tạo nhóm và thêm quan hệ của thiệt bị với nhóm này ",
-        "layoutX" : 3379,
+        "layoutX" : 3703,
         "layoutY" : 1204
       },
       "configuration" : {
@@ -1145,8 +1125,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2379,
-        "layoutY" : 1277
+        "layoutX" : 2627,
+        "layoutY" : 1328
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -1167,7 +1147,7 @@
     }, {
       "additionalInfo" : {
         "description" : "Tiền sử lý bản tin trước khi gửi xuống HCP",
-        "layoutX" : 2632,
+        "layoutX" : 2904,
         "layoutY" : 1329
       },
       "configuration" : {
@@ -1191,8 +1171,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2882,
-        "layoutY" : 1329
+        "layoutX" : 3179,
+        "layoutY" : 1330
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -1225,7 +1205,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3132,
+        "layoutX" : 3426,
         "layoutY" : 1329
       },
       "configuration" : {
@@ -1592,7 +1572,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3380,
+        "layoutX" : 3704,
         "layoutY" : 1329
       },
       "configuration" : {
@@ -1649,54 +1629,6 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "nếu là nhóm tự tạo  = true, ngược là false",
-        "layoutX" : 2128,
-        "layoutY" : 1202
-      },
-      "configuration" : {
-        "scriptLang" : "JS",
-        "jsScript" : "return metadata.generation != \"ok\";",
-        "tbelScript" : "return msg.temperature > 20;"
-      },
-      "configurationVersion" : 0,
-      "createdTime" : 0,
-      "debugMode" : true,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "a3dc9020-fa64-11f0-8c6e-5381beb8d689"
-      },
-      "name" : "kiểm tra loại Nhóm được tạo",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "nếu là nhóm tự tạo  = true, ngược là false",
-        "layoutX" : 2129,
-        "layoutY" : 1329
-      },
-      "configuration" : {
-        "scriptLang" : "JS",
-        "jsScript" : "return metadata.generation != \"ok\";",
-        "tbelScript" : "return msg.temperature > 20;"
-      },
-      "configurationVersion" : 0,
-      "createdTime" : 0,
-      "debugMode" : true,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "01926e60-fa65-11f0-8c6e-5381beb8d689"
-      },
-      "name" : "kiểm tra loại Nhóm được tạo",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
     }, {
       "additionalInfo" : {
         "description" : "",
@@ -2111,7 +2043,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2632,
+        "layoutX" : 2904,
         "layoutY" : 1279
       },
       "configuration" : {
@@ -2134,7 +2066,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2630,
+        "layoutX" : 2902,
         "layoutY" : 1154
       },
       "configuration" : {
