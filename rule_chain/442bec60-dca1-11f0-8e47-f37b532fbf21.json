@@ -2626,8 +2626,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3305,
-        "layoutY" : 1727
+        "layoutX" : 3303,
+        "layoutY" : 1728
       },
       "configuration" : {
         "deleteForSingleEntity" : false,
@@ -2652,8 +2652,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3305,
-        "layoutY" : 1777
+        "layoutX" : 3303,
+        "layoutY" : 1778
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
