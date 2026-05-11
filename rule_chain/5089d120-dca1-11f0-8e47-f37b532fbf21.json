@@ -2533,7 +2533,7 @@
         "entityType" : "RULE_NODE",
         "id" : "551d8a40-4d14-11f1-9f99-fd9d066e72c2"
       },
-      "name" : "G_Gateways - Scene",
+      "name" : "G_Gateways - Group",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
