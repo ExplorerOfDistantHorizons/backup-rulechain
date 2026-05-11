@@ -3791,7 +3791,7 @@
         "entityType" : "RULE_NODE",
         "id" : "2b3961a0-4cd2-11f1-b1ef-d7e314cac7c6"
       },
-      "name" : "Lấy danh sách các thiết bị trong cảnh",
+      "name" : "List Gateway - Scene",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
