@@ -840,8 +840,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2880,
-        "layoutY" : 1582
+        "layoutX" : 2901,
+        "layoutY" : 1577
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -864,8 +864,8 @@
     }, {
       "additionalInfo" : {
         "description" : null,
-        "layoutX" : 3129,
-        "layoutY" : 1580
+        "layoutX" : 3176,
+        "layoutY" : 1577
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
