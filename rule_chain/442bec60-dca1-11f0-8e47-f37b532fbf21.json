@@ -3600,7 +3600,7 @@
         "entityType" : "RULE_NODE",
         "id" : "57e91bc0-4bb3-11f1-b1ef-d7e314cac7c6"
       },
-      "name" : "Room -> Gateway",
+      "name" : "Scene -> Gateway",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
@@ -3680,7 +3680,7 @@
         "entityType" : "RULE_NODE",
         "id" : "57e969e0-4bb3-11f1-b1ef-d7e314cac7c6"
       },
-      "name" : "Room -> Gateway",
+      "name" : "Scene -> Gateway",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
