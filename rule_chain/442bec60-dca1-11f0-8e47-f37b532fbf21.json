@@ -1171,8 +1171,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3275,
-        "layoutY" : 1404
+        "layoutX" : 3304,
+        "layoutY" : 1403
       },
       "configuration" : {
         "deleteForSingleEntity" : true,
