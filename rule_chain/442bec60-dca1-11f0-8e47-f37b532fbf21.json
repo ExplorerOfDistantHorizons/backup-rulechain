@@ -429,6 +429,10 @@
       "toIndex" : 105,
       "type" : "Success"
     }, {
+      "fromIndex" : 105,
+      "toIndex" : 124,
+      "type" : "Success"
+    }, {
       "fromIndex" : 106,
       "toIndex" : 108,
       "type" : "Success"
@@ -499,6 +503,10 @@
     }, {
       "fromIndex" : 123,
       "toIndex" : 83,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 124,
+      "toIndex" : 89,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 0,
@@ -3723,6 +3731,35 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "Tạo nhóm và thêm quan hệ của thiệt bị với nhóm này ",
+        "layoutX" : 2778,
+        "layoutY" : 1153
+      },
+      "configuration" : {
+        "direction" : "FROM",
+        "entityType" : "ASSET",
+        "entityNamePattern" : "${entityName}",
+        "entityTypePattern" : "GROUP",
+        "relationType" : "Gateway_Group",
+        "createEntityIfNotExists" : true,
+        "removeCurrentRelations" : false,
+        "changeOriginatorToRelatedEntity" : true
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "6110b420-4db5-11f1-91bc-af21420ef882"
+      },
+      "name" : "Gateway@Scene+>",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.action.TbCreateRelationNode"
     } ],
     "ruleChainConnections" : null
   },
