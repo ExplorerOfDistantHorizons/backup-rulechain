@@ -1074,8 +1074,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1329,
-        "layoutY" : 2031
+        "layoutX" : 1328,
+        "layoutY" : 2028
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -1165,7 +1165,7 @@
       "additionalInfo" : {
         "description" : "",
         "layoutX" : 1879,
-        "layoutY" : 2081
+        "layoutY" : 2079
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -3083,8 +3083,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1604,
-        "layoutY" : 2030
+        "layoutX" : 1603,
+        "layoutY" : 2028
       },
       "configuration" : {
         "relationsQuery" : {
@@ -3120,7 +3120,7 @@
       "additionalInfo" : {
         "description" : "",
         "layoutX" : 1879,
-        "layoutY" : 2031
+        "layoutY" : 2029
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -3143,8 +3143,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2379,
-        "layoutY" : 2031
+        "layoutX" : 2378,
+        "layoutY" : 2028
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -3178,7 +3178,7 @@
       "additionalInfo" : {
         "description" : "",
         "layoutX" : 2629,
-        "layoutY" : 2031
+        "layoutY" : 2028
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
@@ -3203,7 +3203,7 @@
       "additionalInfo" : {
         "description" : "",
         "layoutX" : 2129,
-        "layoutY" : 2030
+        "layoutY" : 2028
       },
       "configuration" : {
         "version" : 0
@@ -3274,8 +3274,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2629,
-        "layoutY" : 2081
+        "layoutX" : 2628,
+        "layoutY" : 2078
       },
       "configuration" : {
         "tellFailureIfAbsent" : false,
@@ -3302,8 +3302,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2880,
-        "layoutY" : 2080
+        "layoutX" : 2879,
+        "layoutY" : 2078
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -3349,7 +3349,7 @@
       "additionalInfo" : {
         "description" : "",
         "layoutX" : 3378,
-        "layoutY" : 2079
+        "layoutY" : 2078
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
@@ -3917,7 +3917,7 @@
       "additionalInfo" : {
         "description" : "",
         "layoutX" : 2128,
-        "layoutY" : 2080
+        "layoutY" : 2078
       },
       "configuration" : {
         "serviceIdMetaDataAttribute" : "serviceId",
@@ -3972,8 +3972,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Chuyển thực thể gốc tới thiết bị con là Device",
-        "layoutX" : 1604,
-        "layoutY" : 2081
+        "layoutX" : 1603,
+        "layoutY" : 2079
       },
       "configuration" : {
         "originatorSource" : "RELATED",
