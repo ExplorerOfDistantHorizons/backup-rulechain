@@ -26,23 +26,23 @@
       "type" : "REST API request"
     }, {
       "fromIndex" : 0,
-      "toIndex" : 9,
+      "toIndex" : 8,
       "type" : "Entity Created"
     }, {
       "fromIndex" : 0,
-      "toIndex" : 11,
+      "toIndex" : 10,
       "type" : "Entity Updated"
     }, {
       "fromIndex" : 0,
-      "toIndex" : 21,
+      "toIndex" : 20,
       "type" : "RPC Request from Device"
     }, {
       "fromIndex" : 0,
-      "toIndex" : 54,
+      "toIndex" : 53,
       "type" : "Post telemetry"
     }, {
       "fromIndex" : 0,
-      "toIndex" : 61,
+      "toIndex" : 60,
       "type" : "REST API request"
     }, {
       "fromIndex" : 1,
@@ -54,31 +54,31 @@
       "type" : "delScene"
     }, {
       "fromIndex" : 1,
-      "toIndex" : 15,
+      "toIndex" : 14,
       "type" : "delDevFromScene"
     }, {
       "fromIndex" : 1,
-      "toIndex" : 25,
+      "toIndex" : 24,
       "type" : "createSceneController"
     }, {
       "fromIndex" : 1,
-      "toIndex" : 26,
+      "toIndex" : 25,
       "type" : "delSceneController"
     }, {
       "fromIndex" : 1,
-      "toIndex" : 93,
+      "toIndex" : 92,
       "type" : "createScene"
     }, {
       "fromIndex" : 2,
-      "toIndex" : 101,
+      "toIndex" : 100,
       "type" : "Success"
     }, {
       "fromIndex" : 3,
-      "toIndex" : 49,
+      "toIndex" : 48,
       "type" : "Success"
     }, {
       "fromIndex" : 3,
-      "toIndex" : 113,
+      "toIndex" : 112,
       "type" : "Success"
     }, {
       "fromIndex" : 4,
@@ -86,51 +86,47 @@
       "type" : "Success"
     }, {
       "fromIndex" : 4,
-      "toIndex" : 80,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 5,
-      "toIndex" : 6,
+      "toIndex" : 79,
       "type" : "Success"
     }, {
       "fromIndex" : 6,
+      "toIndex" : 44,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 8,
       "toIndex" : 7,
       "type" : "Success"
     }, {
-      "fromIndex" : 7,
-      "toIndex" : 45,
+      "fromIndex" : 8,
+      "toIndex" : 11,
       "type" : "Success"
     }, {
-      "fromIndex" : 9,
-      "toIndex" : 8,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 9,
+      "fromIndex" : 8,
       "toIndex" : 12,
       "type" : "Success"
     }, {
-      "fromIndex" : 9,
+      "fromIndex" : 10,
+      "toIndex" : 9,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 12,
       "toIndex" : 13,
       "type" : "Success"
     }, {
-      "fromIndex" : 11,
-      "toIndex" : 10,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 13,
-      "toIndex" : 14,
+      "fromIndex" : 14,
+      "toIndex" : 103,
       "type" : "Success"
     }, {
       "fromIndex" : 15,
-      "toIndex" : 104,
+      "toIndex" : 16,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 15,
+      "toIndex" : 78,
       "type" : "Success"
     }, {
       "fromIndex" : 16,
       "toIndex" : 17,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 16,
-      "toIndex" : 79,
       "type" : "Success"
     }, {
       "fromIndex" : 17,
@@ -141,40 +137,44 @@
       "toIndex" : 19,
       "type" : "Success"
     }, {
-      "fromIndex" : 19,
-      "toIndex" : 20,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 21,
-      "toIndex" : 22,
+      "fromIndex" : 20,
+      "toIndex" : 21,
       "type" : "delDevFromSceneRspComplete"
     }, {
-      "fromIndex" : 21,
-      "toIndex" : 23,
+      "fromIndex" : 20,
+      "toIndex" : 22,
       "type" : "addDevToSceneRspComplete"
     }, {
-      "fromIndex" : 21,
-      "toIndex" : 24,
+      "fromIndex" : 20,
+      "toIndex" : 23,
       "type" : "createSceneRspComplete"
     }, {
-      "fromIndex" : 22,
-      "toIndex" : 29,
+      "fromIndex" : 21,
+      "toIndex" : 28,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 21,
+      "toIndex" : 35,
       "type" : "Success"
     }, {
       "fromIndex" : 22,
-      "toIndex" : 36,
+      "toIndex" : 40,
       "type" : "Success"
     }, {
       "fromIndex" : 23,
-      "toIndex" : 41,
+      "toIndex" : 30,
       "type" : "Success"
     }, {
-      "fromIndex" : 24,
-      "toIndex" : 31,
+      "fromIndex" : 26,
+      "toIndex" : 68,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 26,
+      "toIndex" : 80,
       "type" : "Success"
     }, {
       "fromIndex" : 27,
-      "toIndex" : 69,
+      "toIndex" : 72,
       "type" : "Success"
     }, {
       "fromIndex" : 27,
@@ -182,95 +182,91 @@
       "type" : "Success"
     }, {
       "fromIndex" : 28,
-      "toIndex" : 73,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 28,
-      "toIndex" : 82,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 29,
-      "toIndex" : 34,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 30,
-      "toIndex" : 32,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 30,
-      "toIndex" : 39,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 31,
-      "toIndex" : 30,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 33,
-      "toIndex" : 35,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 34,
       "toIndex" : 33,
       "type" : "Success"
     }, {
-      "fromIndex" : 36,
+      "fromIndex" : 29,
+      "toIndex" : 31,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 29,
       "toIndex" : 38,
       "type" : "Success"
     }, {
-      "fromIndex" : 37,
-      "toIndex" : 48,
+      "fromIndex" : 30,
+      "toIndex" : 29,
       "type" : "Success"
     }, {
-      "fromIndex" : 38,
+      "fromIndex" : 32,
+      "toIndex" : 34,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 33,
+      "toIndex" : 32,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 35,
       "toIndex" : 37,
       "type" : "Success"
     }, {
-      "fromIndex" : 40,
+      "fromIndex" : 36,
+      "toIndex" : 47,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 37,
+      "toIndex" : 36,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 39,
+      "toIndex" : 41,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 39,
       "toIndex" : 42,
       "type" : "Success"
     }, {
       "fromIndex" : 40,
+      "toIndex" : 39,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 44,
       "toIndex" : 43,
       "type" : "Success"
     }, {
-      "fromIndex" : 41,
-      "toIndex" : 40,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 45,
-      "toIndex" : 44,
+      "fromIndex" : 44,
+      "toIndex" : 45,
       "type" : "Success"
     }, {
       "fromIndex" : 45,
       "toIndex" : 46,
       "type" : "Success"
     }, {
-      "fromIndex" : 46,
-      "toIndex" : 47,
+      "fromIndex" : 48,
+      "toIndex" : 49,
       "type" : "Success"
     }, {
       "fromIndex" : 49,
-      "toIndex" : 50,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 50,
-      "toIndex" : 53,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 51,
       "toIndex" : 52,
       "type" : "Success"
     }, {
-      "fromIndex" : 53,
+      "fromIndex" : 50,
       "toIndex" : 51,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 52,
+      "toIndex" : 50,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 53,
+      "toIndex" : 54,
       "type" : "Success"
     }, {
       "fromIndex" : 54,
       "toIndex" : 55,
       "type" : "Success"
     }, {
-      "fromIndex" : 55,
-      "toIndex" : 56,
+      "fromIndex" : 56,
+      "toIndex" : 57,
       "type" : "Success"
     }, {
       "fromIndex" : 57,
@@ -278,107 +274,107 @@
       "type" : "Success"
     }, {
       "fromIndex" : 58,
-      "toIndex" : 59,
+      "toIndex" : 62,
       "type" : "Success"
     }, {
       "fromIndex" : 59,
       "toIndex" : 63,
       "type" : "Success"
     }, {
-      "fromIndex" : 60,
-      "toIndex" : 64,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 60,
-      "toIndex" : 66,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 61,
-      "toIndex" : 60,
-      "type" : "controlEntity"
-    }, {
-      "fromIndex" : 62,
-      "toIndex" : 57,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 63,
+      "fromIndex" : 59,
       "toIndex" : 65,
       "type" : "Success"
     }, {
-      "fromIndex" : 64,
-      "toIndex" : 62,
+      "fromIndex" : 60,
+      "toIndex" : 59,
+      "type" : "controlEntity"
+    }, {
+      "fromIndex" : 61,
+      "toIndex" : 56,
       "type" : "Success"
     }, {
-      "fromIndex" : 67,
-      "toIndex" : 70,
+      "fromIndex" : 62,
+      "toIndex" : 64,
       "type" : "Success"
+    }, {
+      "fromIndex" : 63,
+      "toIndex" : 61,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 66,
+      "toIndex" : 69,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 68,
+      "toIndex" : 66,
+      "type" : "True"
     }, {
       "fromIndex" : 69,
       "toIndex" : 67,
-      "type" : "True"
-    }, {
-      "fromIndex" : 70,
-      "toIndex" : 68,
       "type" : "Success"
     }, {
-      "fromIndex" : 70,
-      "toIndex" : 71,
+      "fromIndex" : 69,
+      "toIndex" : 70,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 71,
+      "toIndex" : 73,
       "type" : "Success"
     }, {
       "fromIndex" : 72,
+      "toIndex" : 71,
+      "type" : "True"
+    }, {
+      "fromIndex" : 73,
       "toIndex" : 74,
       "type" : "Success"
     }, {
       "fromIndex" : 73,
-      "toIndex" : 72,
-      "type" : "True"
-    }, {
-      "fromIndex" : 74,
       "toIndex" : 75,
       "type" : "Success"
     }, {
-      "fromIndex" : 74,
-      "toIndex" : 76,
+      "fromIndex" : 76,
+      "toIndex" : 77,
       "type" : "Success"
     }, {
-      "fromIndex" : 77,
-      "toIndex" : 78,
+      "fromIndex" : 82,
+      "toIndex" : 83,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 82,
+      "toIndex" : 85,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 82,
+      "toIndex" : 87,
       "type" : "Success"
     }, {
       "fromIndex" : 83,
       "toIndex" : 84,
       "type" : "Success"
     }, {
-      "fromIndex" : 83,
+      "fromIndex" : 85,
       "toIndex" : 86,
       "type" : "Success"
     }, {
-      "fromIndex" : 83,
+      "fromIndex" : 87,
+      "toIndex" : 89,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 89,
       "toIndex" : 88,
       "type" : "Success"
     }, {
-      "fromIndex" : 84,
-      "toIndex" : 85,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 86,
-      "toIndex" : 87,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 88,
+      "fromIndex" : 89,
       "toIndex" : 90,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 90,
-      "toIndex" : 89,
       "type" : "Success"
     }, {
       "fromIndex" : 90,
       "toIndex" : 91,
       "type" : "Success"
     }, {
-      "fromIndex" : 91,
-      "toIndex" : 92,
+      "fromIndex" : 92,
+      "toIndex" : 94,
       "type" : "Success"
     }, {
       "fromIndex" : 93,
@@ -386,51 +382,51 @@
       "type" : "Success"
     }, {
       "fromIndex" : 94,
-      "toIndex" : 96,
+      "toIndex" : 93,
       "type" : "Success"
     }, {
       "fromIndex" : 95,
-      "toIndex" : 94,
+      "toIndex" : 96,
       "type" : "Success"
     }, {
       "fromIndex" : 96,
       "toIndex" : 97,
       "type" : "Success"
     }, {
-      "fromIndex" : 97,
+      "fromIndex" : 96,
       "toIndex" : 98,
       "type" : "Success"
     }, {
-      "fromIndex" : 97,
-      "toIndex" : 99,
+      "fromIndex" : 98,
+      "toIndex" : 114,
       "type" : "Success"
     }, {
       "fromIndex" : 99,
-      "toIndex" : 115,
+      "toIndex" : 101,
       "type" : "Success"
     }, {
       "fromIndex" : 100,
-      "toIndex" : 102,
+      "toIndex" : 99,
       "type" : "Success"
     }, {
       "fromIndex" : 101,
-      "toIndex" : 100,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 102,
       "toIndex" : 4,
       "type" : "Success"
     }, {
+      "fromIndex" : 102,
+      "toIndex" : 104,
+      "type" : "Success"
+    }, {
       "fromIndex" : 103,
-      "toIndex" : 105,
+      "toIndex" : 102,
       "type" : "Success"
     }, {
       "fromIndex" : 104,
-      "toIndex" : 103,
+      "toIndex" : 15,
       "type" : "Success"
     }, {
       "fromIndex" : 105,
-      "toIndex" : 16,
+      "toIndex" : 106,
       "type" : "Success"
     }, {
       "fromIndex" : 106,
@@ -438,39 +434,35 @@
       "type" : "Success"
     }, {
       "fromIndex" : 107,
-      "toIndex" : 108,
+      "toIndex" : 113,
       "type" : "Success"
     }, {
       "fromIndex" : 108,
-      "toIndex" : 114,
+      "toIndex" : 109,
       "type" : "Success"
     }, {
       "fromIndex" : 109,
-      "toIndex" : 110,
+      "toIndex" : 26,
       "type" : "Success"
     }, {
       "fromIndex" : 110,
-      "toIndex" : 27,
+      "toIndex" : 111,
       "type" : "Success"
     }, {
       "fromIndex" : 111,
-      "toIndex" : 112,
+      "toIndex" : 27,
       "type" : "Success"
     }, {
       "fromIndex" : 112,
-      "toIndex" : 28,
+      "toIndex" : 105,
       "type" : "Success"
     }, {
       "fromIndex" : 113,
-      "toIndex" : 106,
+      "toIndex" : 76,
       "type" : "Success"
     }, {
       "fromIndex" : 114,
-      "toIndex" : 77,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 115,
-      "toIndex" : 83,
+      "toIndex" : 82,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 0,
@@ -617,41 +609,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2775,
-        "layoutY" : 1276
-      },
-      "configuration" : {
-        "originatorSource" : "ENTITY",
-        "entityType" : "ASSET",
-        "entityNamePattern" : "${entityName}",
-        "relationsQuery" : {
-          "direction" : "FROM",
-          "maxLevel" : 1,
-          "filters" : [ {
-            "relationType" : "Contains",
-            "entityTypes" : [ ],
-            "negate" : false
-          } ],
-          "fetchLastLevelOnly" : false
-        }
-      },
-      "configurationVersion" : 0,
-      "createdTime" : 0,
-      "debugMode" : false,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "587c6b40-f826-11f0-8c6e-5381beb8d689"
-      },
-      "name" : "-> Scene",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "",
-        "layoutX" : 3026,
+        "layoutX" : 3302,
         "layoutY" : 1278
       },
       "configuration" : {
@@ -1591,8 +1549,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Tạo nhóm và thêm quan hệ của thiệt bị với nhóm này ",
-        "layoutX" : 3551,
-        "layoutY" : 1227
+        "layoutX" : 3802,
+        "layoutY" : 1229
       },
       "configuration" : {
         "direction" : "TO",
@@ -1620,8 +1578,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3303,
-        "layoutY" : 1278
+        "layoutX" : 3551,
+        "layoutY" : 1277
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -1654,8 +1612,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3552,
-        "layoutY" : 1277
+        "layoutX" : 3803,
+        "layoutY" : 1279
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -1678,8 +1636,8 @@
     }, {
       "additionalInfo" : {
         "description" : null,
-        "layoutX" : 3803,
-        "layoutY" : 1278
+        "layoutX" : 4054,
+        "layoutY" : 1280
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
