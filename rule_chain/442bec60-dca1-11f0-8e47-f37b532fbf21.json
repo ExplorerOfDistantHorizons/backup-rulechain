@@ -3009,7 +3009,7 @@
         "entityType" : "RULE_NODE",
         "id" : "ef301dd3-49f1-11f1-8ecd-fd0f21d425e9"
       },
-      "name" : "-> Device",
+      "name" : "Scene -> Device",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
