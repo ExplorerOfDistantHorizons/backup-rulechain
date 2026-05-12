@@ -3741,8 +3741,8 @@
         "direction" : "FROM",
         "entityType" : "ASSET",
         "entityNamePattern" : "${entityName}",
-        "entityTypePattern" : "GROUP",
-        "relationType" : "Gateway_Group",
+        "entityTypePattern" : "SCENE",
+        "relationType" : "Gateway_Scene",
         "createEntityIfNotExists" : true,
         "removeCurrentRelations" : false,
         "changeOriginatorToRelatedEntity" : true
