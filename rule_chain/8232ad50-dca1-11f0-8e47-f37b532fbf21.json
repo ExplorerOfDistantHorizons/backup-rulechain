@@ -529,6 +529,10 @@
       "toIndex" : 23,
       "type" : "Success"
     }, {
+      "fromIndex" : 127,
+      "toIndex" : 143,
+      "type" : "Failure"
+    }, {
       "fromIndex" : 128,
       "toIndex" : 130,
       "type" : "Success"
@@ -4188,6 +4192,29 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.action.TbCreateRelationNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1877,
+        "layoutY" : 2127
+      },
+      "configuration" : {
+        "serviceIdMetaDataAttribute" : "serviceId",
+        "requestIdMetaDataAttribute" : "requestUUID"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "ede76220-4dcb-11f1-91bc-af21420ef882"
+      },
+      "name" : "Phản hồi",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.rest.TbSendRestApiCallReplyNode"
     } ],
     "ruleChainConnections" : null
   },
