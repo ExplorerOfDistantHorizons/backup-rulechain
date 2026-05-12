@@ -4123,7 +4123,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "msg={\n    code : 0,\n    message:\"Tạo phòng trống thành công\"\n}\ndelete metadata.msgType\nmsgType = \"REST_API_REQUEST\";\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "jsScript" : "msg={\n    code : 0,\n    message:\"Tạo phòng thành công\"\n}\ndelete metadata.msgType\nmsgType = \"REST_API_REQUEST\";\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
         "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
       },
       "configurationVersion" : 0,
@@ -4132,7 +4132,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "02f94c60-4d9e-11f1-91bc-af21420ef882"
+        "id" : "0ab40ee0-4d9e-11f1-91bc-af21420ef882"
       },
       "name" : "tiền sử lý",
       "queueName" : null,
