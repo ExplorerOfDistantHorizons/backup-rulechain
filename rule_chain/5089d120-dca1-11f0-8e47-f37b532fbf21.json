@@ -2540,7 +2540,7 @@
         "entityType" : "RULE_NODE",
         "id" : "18c84dd0-4dac-11f1-91bc-af21420ef882"
       },
-      "name" : "Room@Group+>",
+      "name" : "Room@Group",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
