@@ -3058,8 +3058,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 4155,
-        "layoutY" : 1431
+        "layoutX" : 4152,
+        "layoutY" : 1429
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
@@ -3224,8 +3224,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Xử lý các danh sách thiết bị, nhóm , cảnh",
-        "layoutX" : 3904,
-        "layoutY" : 1431
+        "layoutX" : 3902,
+        "layoutY" : 1428
       },
       "configuration" : {
         "scriptLang" : "JS",
