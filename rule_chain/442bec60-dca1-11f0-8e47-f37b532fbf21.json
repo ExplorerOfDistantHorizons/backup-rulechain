@@ -2812,12 +2812,12 @@
       "configuration" : {
         "direction" : "FROM",
         "entityType" : "ASSET",
-        "entityNamePattern" : "${entityName}",
+        "entityNamePattern" : "${entityName_Room}",
         "entityTypePattern" : "ROOM",
         "relationType" : "Room_Scene",
-        "createEntityIfNotExists" : true,
+        "createEntityIfNotExists" : false,
         "removeCurrentRelations" : false,
-        "changeOriginatorToRelatedEntity" : true
+        "changeOriginatorToRelatedEntity" : false
       },
       "configurationVersion" : 1,
       "createdTime" : 0,
