@@ -1136,7 +1136,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2402,
+        "layoutX" : 2376,
         "layoutY" : 1628
       },
       "configuration" : {
@@ -1158,7 +1158,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2402,
+        "layoutX" : 2376,
         "layoutY" : 1829
       },
       "configuration" : {
@@ -1444,7 +1444,7 @@
     }, {
       "additionalInfo" : {
         "description" : "Tiền sử lý bản tin trước khi gửi xuống HCP",
-        "layoutX" : 2654,
+        "layoutX" : 2628,
         "layoutY" : 1629
       },
       "configuration" : {
@@ -1715,7 +1715,7 @@
     }, {
       "additionalInfo" : {
         "description" : "Tiền sử lý bản tin trước khi gửi xuống HCP",
-        "layoutX" : 2654,
+        "layoutX" : 2628,
         "layoutY" : 1829
       },
       "configuration" : {
@@ -3886,7 +3886,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2654,
+        "layoutX" : 2628,
         "layoutY" : 1679
       },
       "configuration" : {
@@ -3909,7 +3909,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2654,
+        "layoutX" : 2628,
         "layoutY" : 1879
       },
       "configuration" : {
