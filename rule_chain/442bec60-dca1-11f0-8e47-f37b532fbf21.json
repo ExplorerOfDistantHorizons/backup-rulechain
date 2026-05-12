@@ -958,7 +958,7 @@
         "entityType" : "RULE_NODE",
         "id" : "587da3c4-f826-11f0-8c6e-5381beb8d689"
       },
-      "name" : "Xóa quan hệ của Device với Scene",
+      "name" : "Scene%DeviceInDirect",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
