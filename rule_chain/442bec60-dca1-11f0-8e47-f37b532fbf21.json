@@ -129,10 +129,6 @@
       "toIndex" : 78,
       "type" : "Success"
     }, {
-      "fromIndex" : 16,
-      "toIndex" : 17,
-      "type" : "Success"
-    }, {
       "fromIndex" : 17,
       "toIndex" : 18,
       "type" : "Success"
@@ -910,7 +906,7 @@
         "entityType" : "RULE_NODE",
         "id" : "587d7cb3-f826-11f0-8c6e-5381beb8d689"
       },
-      "name" : "Chuyển thực thể gốc tới Scene",
+      "name" : "-> Scene",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
@@ -918,7 +914,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3027,
+        "layoutX" : 3304,
         "layoutY" : 1403
       },
       "configuration" : {
@@ -940,7 +936,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3304,
+        "layoutX" : 3581,
         "layoutY" : 1403
       },
       "configuration" : {
