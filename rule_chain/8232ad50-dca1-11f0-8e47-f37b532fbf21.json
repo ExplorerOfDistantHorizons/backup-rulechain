@@ -126,15 +126,15 @@
       "type" : "delRoom"
     }, {
       "fromIndex" : 16,
-      "toIndex" : 138,
+      "toIndex" : 136,
       "type" : "Success"
     }, {
       "fromIndex" : 17,
-      "toIndex" : 142,
+      "toIndex" : 140,
       "type" : "Success"
     }, {
       "fromIndex" : 18,
-      "toIndex" : 144,
+      "toIndex" : 142,
       "type" : "Success"
     }, {
       "fromIndex" : 19,
@@ -142,7 +142,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 19,
-      "toIndex" : 135,
+      "toIndex" : 134,
       "type" : "Success"
     }, {
       "fromIndex" : 20,
@@ -450,7 +450,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 90,
-      "toIndex" : 140,
+      "toIndex" : 138,
       "type" : "Success"
     }, {
       "fromIndex" : 91,
@@ -562,35 +562,35 @@
       "type" : "Success"
     }, {
       "fromIndex" : 134,
-      "toIndex" : 21,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 135,
       "toIndex" : 23,
       "type" : "Success"
     }, {
-      "fromIndex" : 136,
-      "toIndex" : 22,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 137,
-      "toIndex" : 139,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 138,
+      "fromIndex" : 135,
       "toIndex" : 137,
       "type" : "Success"
     }, {
-      "fromIndex" : 139,
+      "fromIndex" : 136,
+      "toIndex" : 135,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 137,
       "toIndex" : 20,
       "type" : "Success"
     }, {
-      "fromIndex" : 140,
+      "fromIndex" : 138,
       "toIndex" : 130,
       "type" : "Success"
     }, {
+      "fromIndex" : 139,
+      "toIndex" : 143,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 140,
+      "toIndex" : 139,
+      "type" : "Success"
+    }, {
       "fromIndex" : 141,
-      "toIndex" : 134,
+      "toIndex" : 144,
       "type" : "Success"
     }, {
       "fromIndex" : 142,
@@ -598,11 +598,11 @@
       "type" : "Success"
     }, {
       "fromIndex" : 143,
-      "toIndex" : 136,
+      "toIndex" : 21,
       "type" : "Success"
     }, {
       "fromIndex" : 144,
-      "toIndex" : 143,
+      "toIndex" : 22,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 0,
@@ -3955,39 +3955,6 @@
     }, {
       "additionalInfo" : {
         "description" : "Chuyển thực thể gốc tới thiết bị con là Device",
-        "layoutX" : 2128,
-        "layoutY" : 1629
-      },
-      "configuration" : {
-        "originatorSource" : "RELATED",
-        "entityType" : null,
-        "entityNamePattern" : null,
-        "relationsQuery" : {
-          "fetchLastLevelOnly" : true,
-          "direction" : "TO",
-          "maxLevel" : 1,
-          "filters" : [ {
-            "relationType" : "Gateway_Room",
-            "entityTypes" : [ "DEVICE" ]
-          } ]
-        }
-      },
-      "configurationVersion" : 0,
-      "createdTime" : 0,
-      "debugMode" : true,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "80838e50-492c-11f1-8ecd-fd0f21d425e9"
-      },
-      "name" : "Room -> Gateway",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "Chuyển thực thể gốc tới thiết bị con là Device",
         "layoutX" : 1603,
         "layoutY" : 2079
       },
@@ -4014,39 +3981,6 @@
         "id" : "80840380-492c-11f1-8ecd-fd0f21d425e9"
       },
       "name" : "Chuyển tới Gateway",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "Chuyển thực thể gốc tới thiết bị con là Device",
-        "layoutX" : 2128,
-        "layoutY" : 1830
-      },
-      "configuration" : {
-        "originatorSource" : "RELATED",
-        "entityType" : null,
-        "entityNamePattern" : null,
-        "relationsQuery" : {
-          "fetchLastLevelOnly" : true,
-          "direction" : "TO",
-          "maxLevel" : 1,
-          "filters" : [ {
-            "relationType" : "Gateway_Room",
-            "entityTypes" : [ "DEVICE" ]
-          } ]
-        }
-      },
-      "configurationVersion" : 0,
-      "createdTime" : 0,
-      "debugMode" : true,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "80840381-492c-11f1-8ecd-fd0f21d425e9"
-      },
-      "name" : "Room -> Gateway",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
@@ -4250,8 +4184,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2140,
-        "layoutY" : 1696
+        "layoutX" : 2128,
+        "layoutY" : 1629
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -4284,8 +4218,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2131,
-        "layoutY" : 1893
+        "layoutX" : 2128,
+        "layoutY" : 1828
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
