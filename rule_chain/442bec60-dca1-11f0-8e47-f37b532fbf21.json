@@ -3192,8 +3192,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2528,
-        "layoutY" : 1100
+        "layoutX" : 2529,
+        "layoutY" : 1104
       },
       "configuration" : {
         "serviceIdMetaDataAttribute" : "serviceId",
@@ -3215,7 +3215,7 @@
     }, {
       "additionalInfo" : {
         "description" : "Tiền sử lý bản tin trước khi gửi xuống HCP",
-        "layoutX" : 2527,
+        "layoutX" : 2528,
         "layoutY" : 1153
       },
       "configuration" : {
