@@ -1399,8 +1399,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3654,
-        "layoutY" : 1431
+        "layoutX" : 3652,
+        "layoutY" : 1429
       },
       "configuration" : {
         "direction" : "FROM",
