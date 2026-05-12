@@ -42,11 +42,11 @@
       "type" : "RPC Request from Device"
     }, {
       "fromIndex" : 0,
-      "toIndex" : 49,
+      "toIndex" : 48,
       "type" : "Post telemetry"
     }, {
       "fromIndex" : 0,
-      "toIndex" : 56,
+      "toIndex" : 55,
       "type" : "REST API request"
     }, {
       "fromIndex" : 1,
@@ -58,23 +58,23 @@
       "type" : "updateGroupName"
     }, {
       "fromIndex" : 1,
-      "toIndex" : 66,
+      "toIndex" : 65,
       "type" : "createGroup"
     }, {
       "fromIndex" : 1,
-      "toIndex" : 70,
+      "toIndex" : 69,
       "type" : "addDevToGroup"
     }, {
       "fromIndex" : 1,
-      "toIndex" : 74,
+      "toIndex" : 73,
       "type" : "delDevFromGroup"
     }, {
       "fromIndex" : 2,
-      "toIndex" : 83,
+      "toIndex" : 82,
       "type" : "Success"
     }, {
       "fromIndex" : 3,
-      "toIndex" : 65,
+      "toIndex" : 64,
       "type" : "Success"
     }, {
       "fromIndex" : 4,
@@ -82,27 +82,15 @@
       "type" : "Success"
     }, {
       "fromIndex" : 4,
-      "toIndex" : 62,
+      "toIndex" : 61,
       "type" : "Success"
     }, {
       "fromIndex" : 5,
       "toIndex" : 21,
       "type" : "Success"
     }, {
-      "fromIndex" : 6,
-      "toIndex" : 8,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 6,
-      "toIndex" : 10,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 6,
-      "toIndex" : 14,
-      "type" : "Success"
-    }, {
       "fromIndex" : 7,
-      "toIndex" : 48,
+      "toIndex" : 6,
       "type" : "Success"
     }, {
       "fromIndex" : 8,
@@ -118,7 +106,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 12,
-      "toIndex" : 64,
+      "toIndex" : 63,
       "type" : "Success"
     }, {
       "fromIndex" : 13,
@@ -174,7 +162,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 30,
-      "toIndex" : 63,
+      "toIndex" : 62,
       "type" : "Success"
     }, {
       "fromIndex" : 31,
@@ -238,15 +226,15 @@
       "type" : "Success"
     }, {
       "fromIndex" : 48,
-      "toIndex" : 6,
+      "toIndex" : 49,
       "type" : "Success"
     }, {
       "fromIndex" : 49,
       "toIndex" : 50,
       "type" : "Success"
     }, {
-      "fromIndex" : 50,
-      "toIndex" : 51,
+      "fromIndex" : 51,
+      "toIndex" : 52,
       "type" : "Success"
     }, {
       "fromIndex" : 52,
@@ -254,39 +242,39 @@
       "type" : "Success"
     }, {
       "fromIndex" : 53,
-      "toIndex" : 54,
+      "toIndex" : 57,
       "type" : "Success"
     }, {
       "fromIndex" : 54,
       "toIndex" : 58,
       "type" : "Success"
     }, {
-      "fromIndex" : 55,
-      "toIndex" : 59,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 55,
-      "toIndex" : 61,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 56,
-      "toIndex" : 55,
-      "type" : "controlEntity"
-    }, {
-      "fromIndex" : 57,
-      "toIndex" : 52,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 58,
+      "fromIndex" : 54,
       "toIndex" : 60,
       "type" : "Success"
     }, {
-      "fromIndex" : 59,
-      "toIndex" : 57,
+      "fromIndex" : 55,
+      "toIndex" : 54,
+      "type" : "controlEntity"
+    }, {
+      "fromIndex" : 56,
+      "toIndex" : 51,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 57,
+      "toIndex" : 59,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 58,
+      "toIndex" : 56,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 64,
+      "toIndex" : 5,
       "type" : "Success"
     }, {
       "fromIndex" : 65,
-      "toIndex" : 5,
+      "toIndex" : 67,
       "type" : "Success"
     }, {
       "fromIndex" : 66,
@@ -294,15 +282,15 @@
       "type" : "Success"
     }, {
       "fromIndex" : 67,
-      "toIndex" : 69,
+      "toIndex" : 66,
       "type" : "Success"
     }, {
       "fromIndex" : 68,
-      "toIndex" : 67,
+      "toIndex" : 4,
       "type" : "Success"
     }, {
       "fromIndex" : 69,
-      "toIndex" : 4,
+      "toIndex" : 71,
       "type" : "Success"
     }, {
       "fromIndex" : 70,
@@ -310,15 +298,15 @@
       "type" : "Success"
     }, {
       "fromIndex" : 71,
-      "toIndex" : 73,
+      "toIndex" : 70,
       "type" : "Success"
     }, {
       "fromIndex" : 72,
-      "toIndex" : 71,
+      "toIndex" : 12,
       "type" : "Success"
     }, {
       "fromIndex" : 73,
-      "toIndex" : 12,
+      "toIndex" : 75,
       "type" : "Success"
     }, {
       "fromIndex" : 74,
@@ -326,19 +314,19 @@
       "type" : "Success"
     }, {
       "fromIndex" : 75,
-      "toIndex" : 77,
+      "toIndex" : 74,
       "type" : "Success"
     }, {
       "fromIndex" : 76,
-      "toIndex" : 75,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 77,
       "toIndex" : 30,
       "type" : "Success"
     }, {
-      "fromIndex" : 78,
-      "toIndex" : 79,
+      "fromIndex" : 77,
+      "toIndex" : 78,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 79,
+      "toIndex" : 80,
       "type" : "Success"
     }, {
       "fromIndex" : 80,
@@ -346,19 +334,15 @@
       "type" : "Success"
     }, {
       "fromIndex" : 81,
-      "toIndex" : 82,
+      "toIndex" : 83,
       "type" : "Success"
     }, {
       "fromIndex" : 82,
-      "toIndex" : 84,
+      "toIndex" : 79,
       "type" : "Success"
     }, {
       "fromIndex" : 83,
-      "toIndex" : 80,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 84,
-      "toIndex" : 78,
+      "toIndex" : 77,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 0,
@@ -503,7 +487,7 @@
     }, {
       "additionalInfo" : {
         "description" : "Tạo nhóm và thêm quan hệ của thiệt bị với nhóm này ",
-        "layoutX" : 3428,
+        "layoutX" : 3175,
         "layoutY" : 1078
       },
       "configuration" : {
@@ -511,7 +495,7 @@
         "entityType" : "ASSET",
         "entityNamePattern" : "${entityName}",
         "entityTypePattern" : "GROUP",
-        "relationType" : "Room_Group",
+        "relationType" : "Gateway_Group",
         "createEntityIfNotExists" : true,
         "removeCurrentRelations" : false,
         "changeOriginatorToRelatedEntity" : true
@@ -524,7 +508,7 @@
         "entityType" : "RULE_NODE",
         "id" : "b6319510-f698-11f0-8c6e-5381beb8d689"
       },
-      "name" : "Room@Group+>",
+      "name" : "Gateway@Group+>",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
@@ -1590,40 +1574,6 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3176,
-        "layoutY" : 1079
-      },
-      "configuration" : {
-        "originatorSource" : "ENTITY",
-        "entityType" : "ASSET",
-        "entityNamePattern" : "${entityName_Room}",
-        "relationsQuery" : {
-          "direction" : "FROM",
-          "maxLevel" : 1,
-          "filters" : [ {
-            "relationType" : "Contains",
-            "entityTypes" : [ ],
-            "negate" : false
-          } ],
-          "fetchLastLevelOnly" : false
-        }
-      },
-      "configurationVersion" : 0,
-      "createdTime" : 0,
-      "debugMode" : true,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "38862d80-f9c0-11f0-8c6e-5381beb8d689"
-      },
-      "name" : "->Room",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "",
         "layoutX" : 827,
         "layoutY" : 303
       },
@@ -2562,6 +2512,35 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "Tạo nhóm và thêm quan hệ của thiệt bị với nhóm này ",
+        "layoutX" : 3427,
+        "layoutY" : 1078
+      },
+      "configuration" : {
+        "direction" : "FROM",
+        "entityType" : "ASSET",
+        "entityNamePattern" : "${entityName}",
+        "entityTypePattern" : "GROUP",
+        "relationType" : "Room_Group",
+        "createEntityIfNotExists" : true,
+        "removeCurrentRelations" : false,
+        "changeOriginatorToRelatedEntity" : true
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "18c84dd0-4dac-11f1-91bc-af21420ef882"
+      },
+      "name" : "Room@Group+>",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.action.TbCreateRelationNode"
     } ],
     "ruleChainConnections" : null
   },
