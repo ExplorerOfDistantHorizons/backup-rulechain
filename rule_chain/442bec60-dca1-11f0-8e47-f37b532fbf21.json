@@ -3204,7 +3204,7 @@
         "entityType" : "RULE_NODE",
         "id" : "146f6570-4bb3-11f1-b1ef-d7e314cac7c6"
       },
-      "name" : "chuyển mảng thiết bị về dạng chuẩn",
+      "name" : "->dataResponse",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
