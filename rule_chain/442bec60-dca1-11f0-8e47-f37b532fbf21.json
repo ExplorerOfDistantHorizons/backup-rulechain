@@ -1838,7 +1838,7 @@
         "entityType" : "RULE_NODE",
         "id" : "0582e2f1-fb98-11f0-8c6e-5381beb8d689"
       },
-      "name" : "Tách mảng thiết bị",
+      "name" : "[][][] Device",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
@@ -3226,7 +3226,7 @@
         "entityType" : "RULE_NODE",
         "id" : "146f8c80-4bb3-11f1-b1ef-d7e314cac7c6"
       },
-      "name" : "tách bản tin theo Gateway",
+      "name" : "[][][] Gateway",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
