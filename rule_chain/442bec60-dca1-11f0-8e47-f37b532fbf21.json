@@ -2813,7 +2813,7 @@
         "direction" : "FROM",
         "entityType" : "ASSET",
         "entityNamePattern" : "${entityName}",
-        "entityTypePattern" : "SCENE",
+        "entityTypePattern" : "ROOM",
         "relationType" : "Room_Scene",
         "createEntityIfNotExists" : true,
         "removeCurrentRelations" : false,
@@ -2827,7 +2827,7 @@
         "entityType" : "RULE_NODE",
         "id" : "ef2fcfb0-49f1-11f1-8ecd-fd0f21d425e9"
       },
-      "name" : "Room@Scene+>",
+      "name" : "Room@Scene",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
