@@ -1612,7 +1612,7 @@
         "entityType" : "RULE_NODE",
         "id" : "ab24b0a0-fb96-11f0-8c6e-5381beb8d689"
       },
-      "name" : "Tạo quan hệ cho Scene với thiết bị",
+      "name" : "Scene@DeviceInDirect",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
