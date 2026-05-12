@@ -38,11 +38,11 @@
       "type" : "REST API request"
     }, {
       "fromIndex" : 0,
-      "toIndex" : 54,
+      "toIndex" : 50,
       "type" : "RPC Request from Device"
     }, {
       "fromIndex" : 0,
-      "toIndex" : 93,
+      "toIndex" : 89,
       "type" : "Post telemetry"
     }, {
       "fromIndex" : 2,
@@ -82,11 +82,11 @@
       "type" : "Success"
     }, {
       "fromIndex" : 11,
-      "toIndex" : 90,
+      "toIndex" : 86,
       "type" : "Success"
     }, {
       "fromIndex" : 11,
-      "toIndex" : 92,
+      "toIndex" : 88,
       "type" : "Success"
     }, {
       "fromIndex" : 12,
@@ -94,11 +94,11 @@
       "type" : "controlEntity"
     }, {
       "fromIndex" : 12,
-      "toIndex" : 126,
+      "toIndex" : 122,
       "type" : "manageGroup"
     }, {
       "fromIndex" : 12,
-      "toIndex" : 127,
+      "toIndex" : 123,
       "type" : "manageScene"
     }, {
       "fromIndex" : 13,
@@ -106,7 +106,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 14,
-      "toIndex" : 91,
+      "toIndex" : 87,
       "type" : "Success"
     }, {
       "fromIndex" : 15,
@@ -126,23 +126,23 @@
       "type" : "delRoom"
     }, {
       "fromIndex" : 16,
-      "toIndex" : 134,
+      "toIndex" : 130,
       "type" : "Success"
     }, {
       "fromIndex" : 17,
-      "toIndex" : 138,
+      "toIndex" : 134,
       "type" : "Success"
     }, {
       "fromIndex" : 18,
-      "toIndex" : 140,
+      "toIndex" : 136,
       "type" : "Success"
     }, {
       "fromIndex" : 19,
-      "toIndex" : 99,
+      "toIndex" : 95,
       "type" : "Success"
     }, {
       "fromIndex" : 19,
-      "toIndex" : 132,
+      "toIndex" : 128,
       "type" : "Success"
     }, {
       "fromIndex" : 20,
@@ -150,27 +150,27 @@
       "type" : "Success"
     }, {
       "fromIndex" : 21,
-      "toIndex" : 43,
+      "toIndex" : 41,
       "type" : "Success"
     }, {
       "fromIndex" : 21,
-      "toIndex" : 129,
+      "toIndex" : 125,
       "type" : "Success"
     }, {
       "fromIndex" : 22,
-      "toIndex" : 52,
+      "toIndex" : 48,
       "type" : "Success"
     }, {
       "fromIndex" : 22,
-      "toIndex" : 130,
+      "toIndex" : 126,
       "type" : "Success"
     }, {
       "fromIndex" : 23,
-      "toIndex" : 131,
+      "toIndex" : 127,
       "type" : "Failure"
     }, {
       "fromIndex" : 23,
-      "toIndex" : 131,
+      "toIndex" : 127,
       "type" : "Success"
     }, {
       "fromIndex" : 24,
@@ -182,11 +182,11 @@
       "type" : "Success"
     }, {
       "fromIndex" : 24,
-      "toIndex" : 89,
+      "toIndex" : 85,
       "type" : "Success"
     }, {
       "fromIndex" : 24,
-      "toIndex" : 105,
+      "toIndex" : 101,
       "type" : "Success"
     }, {
       "fromIndex" : 25,
@@ -214,11 +214,11 @@
       "type" : "Success"
     }, {
       "fromIndex" : 33,
-      "toIndex" : 104,
+      "toIndex" : 100,
       "type" : "Success"
     }, {
       "fromIndex" : 34,
-      "toIndex" : 39,
+      "toIndex" : 37,
       "type" : "Success"
     }, {
       "fromIndex" : 37,
@@ -226,243 +226,235 @@
       "type" : "Success"
     }, {
       "fromIndex" : 38,
-      "toIndex" : 41,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 39,
-      "toIndex" : 42,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 40,
       "toIndex" : 36,
       "type" : "Success"
     }, {
-      "fromIndex" : 41,
+      "fromIndex" : 39,
       "toIndex" : 35,
       "type" : "Success"
     }, {
+      "fromIndex" : 40,
+      "toIndex" : 108,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 41,
+      "toIndex" : 109,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 41,
+      "toIndex" : 139,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 41,
+      "toIndex" : 140,
+      "type" : "Success"
+    }, {
       "fromIndex" : 42,
-      "toIndex" : 112,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 43,
-      "toIndex" : 37,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 43,
-      "toIndex" : 38,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 43,
-      "toIndex" : 113,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 44,
-      "toIndex" : 49,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 47,
-      "toIndex" : 50,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 48,
-      "toIndex" : 51,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 49,
-      "toIndex" : 53,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 50,
-      "toIndex" : 46,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 51,
       "toIndex" : 45,
       "type" : "Success"
     }, {
-      "fromIndex" : 52,
-      "toIndex" : 47,
+      "fromIndex" : 45,
+      "toIndex" : 49,
       "type" : "Success"
     }, {
-      "fromIndex" : 52,
-      "toIndex" : 48,
+      "fromIndex" : 46,
+      "toIndex" : 44,
       "type" : "Success"
     }, {
-      "fromIndex" : 52,
-      "toIndex" : 114,
+      "fromIndex" : 47,
+      "toIndex" : 43,
       "type" : "Success"
     }, {
-      "fromIndex" : 53,
-      "toIndex" : 116,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 54,
-      "toIndex" : 55,
-      "type" : "delDevFromRoomRspComplete"
-    }, {
-      "fromIndex" : 54,
-      "toIndex" : 56,
-      "type" : "addDevToRoomRspComplete"
-    }, {
-      "fromIndex" : 54,
-      "toIndex" : 57,
-      "type" : "createRoomRspComplete"
-    }, {
-      "fromIndex" : 55,
-      "toIndex" : 84,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 56,
-      "toIndex" : 75,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 57,
-      "toIndex" : 66,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 58,
-      "toIndex" : 63,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 61,
-      "toIndex" : 64,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 62,
-      "toIndex" : 65,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 63,
-      "toIndex" : 85,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 64,
-      "toIndex" : 60,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 65,
-      "toIndex" : 59,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 66,
-      "toIndex" : 61,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 66,
-      "toIndex" : 62,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 66,
-      "toIndex" : 117,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 67,
-      "toIndex" : 72,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 70,
-      "toIndex" : 73,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 71,
-      "toIndex" : 74,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 72,
-      "toIndex" : 86,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 73,
-      "toIndex" : 69,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 74,
-      "toIndex" : 68,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 75,
-      "toIndex" : 70,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 75,
-      "toIndex" : 71,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 75,
-      "toIndex" : 118,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 76,
-      "toIndex" : 81,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 79,
-      "toIndex" : 82,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 80,
-      "toIndex" : 83,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 81,
-      "toIndex" : 87,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 82,
-      "toIndex" : 78,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 83,
-      "toIndex" : 77,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 84,
-      "toIndex" : 79,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 84,
-      "toIndex" : 80,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 84,
-      "toIndex" : 119,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 85,
-      "toIndex" : 125,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 86,
-      "toIndex" : 123,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 87,
-      "toIndex" : 121,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 88,
-      "toIndex" : 136,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 89,
-      "toIndex" : 88,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 90,
-      "toIndex" : 13,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 91,
+      "fromIndex" : 48,
       "toIndex" : 110,
       "type" : "Success"
     }, {
-      "fromIndex" : 93,
-      "toIndex" : 94,
+      "fromIndex" : 48,
+      "toIndex" : 141,
       "type" : "Success"
     }, {
-      "fromIndex" : 94,
-      "toIndex" : 95,
+      "fromIndex" : 48,
+      "toIndex" : 142,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 49,
+      "toIndex" : 112,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 50,
+      "toIndex" : 51,
+      "type" : "delDevFromRoomRspComplete"
+    }, {
+      "fromIndex" : 50,
+      "toIndex" : 52,
+      "type" : "addDevToRoomRspComplete"
+    }, {
+      "fromIndex" : 50,
+      "toIndex" : 53,
+      "type" : "createRoomRspComplete"
+    }, {
+      "fromIndex" : 51,
+      "toIndex" : 80,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 52,
+      "toIndex" : 71,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 53,
+      "toIndex" : 62,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 54,
+      "toIndex" : 59,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 57,
+      "toIndex" : 60,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 58,
+      "toIndex" : 61,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 59,
+      "toIndex" : 81,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 60,
+      "toIndex" : 56,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 61,
+      "toIndex" : 55,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 62,
+      "toIndex" : 57,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 62,
+      "toIndex" : 58,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 62,
+      "toIndex" : 113,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 63,
+      "toIndex" : 68,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 66,
+      "toIndex" : 69,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 67,
+      "toIndex" : 70,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 68,
+      "toIndex" : 82,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 69,
+      "toIndex" : 65,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 70,
+      "toIndex" : 64,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 71,
+      "toIndex" : 66,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 71,
+      "toIndex" : 67,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 71,
+      "toIndex" : 114,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 72,
+      "toIndex" : 77,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 75,
+      "toIndex" : 78,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 76,
+      "toIndex" : 79,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 77,
+      "toIndex" : 83,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 78,
+      "toIndex" : 74,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 79,
+      "toIndex" : 73,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 80,
+      "toIndex" : 75,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 80,
+      "toIndex" : 76,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 80,
+      "toIndex" : 115,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 81,
+      "toIndex" : 121,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 82,
+      "toIndex" : 119,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 83,
+      "toIndex" : 117,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 84,
+      "toIndex" : 132,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 85,
+      "toIndex" : 84,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 86,
+      "toIndex" : 13,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 87,
+      "toIndex" : 106,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 89,
+      "toIndex" : 90,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 90,
+      "toIndex" : 91,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 91,
+      "toIndex" : 92,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 92,
+      "toIndex" : 93,
       "type" : "Success"
     }, {
       "fromIndex" : 95,
@@ -470,47 +462,51 @@
       "type" : "Success"
     }, {
       "fromIndex" : 96,
-      "toIndex" : 97,
+      "toIndex" : 99,
       "type" : "Success"
     }, {
-      "fromIndex" : 99,
-      "toIndex" : 100,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 100,
-      "toIndex" : 103,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 101,
-      "toIndex" : 102,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 101,
-      "toIndex" : 106,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 103,
-      "toIndex" : 101,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 104,
+      "fromIndex" : 97,
       "toIndex" : 98,
       "type" : "Success"
     }, {
-      "fromIndex" : 105,
+      "fromIndex" : 97,
+      "toIndex" : 102,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 99,
+      "toIndex" : 97,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 100,
+      "toIndex" : 94,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 101,
       "toIndex" : 25,
       "type" : "Success"
     }, {
-      "fromIndex" : 106,
-      "toIndex" : 107,
+      "fromIndex" : 102,
+      "toIndex" : 103,
       "type" : "Success"
     }, {
-      "fromIndex" : 107,
-      "toIndex" : 108,
+      "fromIndex" : 103,
+      "toIndex" : 104,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 104,
+      "toIndex" : 105,
       "type" : "Success"
     }, {
       "fromIndex" : 108,
-      "toIndex" : 109,
+      "toIndex" : 107,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 109,
+      "toIndex" : 34,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 110,
+      "toIndex" : 42,
       "type" : "Success"
     }, {
       "fromIndex" : 112,
@@ -518,47 +514,51 @@
       "type" : "Success"
     }, {
       "fromIndex" : 113,
-      "toIndex" : 34,
+      "toIndex" : 54,
       "type" : "Success"
     }, {
       "fromIndex" : 114,
-      "toIndex" : 44,
+      "toIndex" : 63,
       "type" : "Success"
     }, {
-      "fromIndex" : 116,
-      "toIndex" : 115,
+      "fromIndex" : 115,
+      "toIndex" : 72,
       "type" : "Success"
     }, {
       "fromIndex" : 117,
-      "toIndex" : 58,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 118,
-      "toIndex" : 67,
+      "toIndex" : 116,
       "type" : "Success"
     }, {
       "fromIndex" : 119,
-      "toIndex" : 76,
+      "toIndex" : 118,
       "type" : "Success"
     }, {
       "fromIndex" : 121,
       "toIndex" : 120,
       "type" : "Success"
     }, {
-      "fromIndex" : 123,
-      "toIndex" : 122,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 125,
-      "toIndex" : 124,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 132,
+      "fromIndex" : 128,
       "toIndex" : 23,
       "type" : "Success"
     }, {
+      "fromIndex" : 129,
+      "toIndex" : 131,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 130,
+      "toIndex" : 129,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 131,
+      "toIndex" : 20,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 132,
+      "toIndex" : 124,
+      "type" : "Success"
+    }, {
       "fromIndex" : 133,
-      "toIndex" : 135,
+      "toIndex" : 137,
       "type" : "Success"
     }, {
       "fromIndex" : 134,
@@ -566,35 +566,35 @@
       "type" : "Success"
     }, {
       "fromIndex" : 135,
-      "toIndex" : 20,
+      "toIndex" : 138,
       "type" : "Success"
     }, {
       "fromIndex" : 136,
-      "toIndex" : 128,
+      "toIndex" : 135,
       "type" : "Success"
     }, {
       "fromIndex" : 137,
-      "toIndex" : 141,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 138,
-      "toIndex" : 137,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 139,
-      "toIndex" : 142,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 140,
-      "toIndex" : 139,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 141,
       "toIndex" : 21,
       "type" : "Success"
     }, {
-      "fromIndex" : 142,
+      "fromIndex" : 138,
       "toIndex" : 22,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 139,
+      "toIndex" : 38,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 140,
+      "toIndex" : 39,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 141,
+      "toIndex" : 46,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 142,
+      "toIndex" : 47,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 0,
@@ -1505,54 +1505,6 @@
       "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
     }, {
       "additionalInfo" : {
-        "description" : "Xử lý các danh sách thiết bị, nhóm , cảnh",
-        "layoutX" : 2901,
-        "layoutY" : 1679
-      },
-      "configuration" : {
-        "scriptLang" : "JS",
-        "jsScript" : "msg = JSON.parse(metadata.nextData)\ndelete metadata.nextData\n\nvar listGroupAdd = msg.groups || [];\n\n// Xử lý groupsInRoom\nvar groupsInRoom = [];\nfor (var gi = 0; gi < listGroupAdd.length; gi++) {\n    var group = listGroupAdd[gi];\n    var devs = group.devices || [];\n    var listDevices = [];\n\n    for (var dj = 0; dj < devs.length; dj++) {\n        listDevices.push({\n            id: devs[dj],\n            epId: []\n        });\n    }\n\n    groupsInRoom.push({\n        method:\"addDevToGroup\",\n        params: {\n            id: group.id,\n            name: group.name,\n            dormitoryId: metadata\n                .entityName_Dormitory,\n            room: metadata.entityName,\n            type: group.type,\n            devices: listDevices\n        }\n    });\n}\nmsg = groupsInRoom;\nreturn {\n    msg: msg,\n    metadata: metadata,\n    msgType: msgType\n};",
-        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
-      },
-      "configurationVersion" : 0,
-      "createdTime" : 0,
-      "debugMode" : false,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "00efbf63-fa5d-11f0-8c6e-5381beb8d689"
-      },
-      "name" : "Xử lý danh sách Group",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "Xử lý các danh sách thiết bị, nhóm , cảnh",
-        "layoutX" : 2901,
-        "layoutY" : 1729
-      },
-      "configuration" : {
-        "scriptLang" : "JS",
-        "jsScript" : "msg = JSON.parse(metadata.nextData)\ndelete metadata.nextData\n\nfunction convertCreateRoomToCreateScenes(params) {\n    // var params = input.params;\n\n    // STEP 1: map deviceName -> profileName\n    var deviceProfileMap = {};\n    for (var i = 0; i < params.devices.length; i++) {\n        var d = params.devices[i];\n        deviceProfileMap[d.deviceName] = d.profileName;\n    }\n\n    // STEP 2: map groupId -> device list\n    var groupDeviceMap = {};\n    for (var j = 0; j < params.groups.length; j++) {\n        var g = params.groups[j];\n        groupDeviceMap[g.id] = g.devices;\n    }\n\n    // STEP 3: build createScene messages\n    var result = [];\n\n    for (var s = 0; s < params.scenes.length; s++) {\n        var scene = params.scenes[s];\n\n        var sceneDevices = [];\n\n        for (var k = 0; k < scene.groups.length; k++) {\n            var sceneGroup = scene.groups[k];\n            var deviceIds = groupDeviceMap[sceneGroup.id] || [];\n\n            for (var m = 0; m < deviceIds.length; m++) {\n                var deviceId = deviceIds[m];\n\n                sceneDevices.push({\n                    \"id\": deviceId,\n                    \"profileName\": deviceProfileMap[deviceId],\n                    \"data\": sceneGroup.data\n                });\n            }\n        }\n\n        result.push({\n            \"method\": \"addDevToScene\",\n            \"params\": {\n                \"id\": scene.id,\n                \"dormitoryId\": params.dormitoryId,\n                \"room\": params.id,\n                \"name\": scene.name,\n                \"image\": scene.image,\n                \"devices\": sceneDevices\n            }\n        });\n    }\n\n    return result;\n}\n\nmsg  = convertCreateRoomToCreateScenes(msg);\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
-        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
-      },
-      "configurationVersion" : 0,
-      "createdTime" : 0,
-      "debugMode" : false,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "00efe670-fa5d-11f0-8c6e-5381beb8d689"
-      },
-      "name" : "Xử lý danh sách Scene",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
-    }, {
-      "additionalInfo" : {
         "description" : "",
         "layoutX" : 3407,
         "layoutY" : 1627
@@ -1750,54 +1702,6 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "Xử lý các danh sách thiết bị, nhóm , cảnh",
-        "layoutX" : 2901,
-        "layoutY" : 1879
-      },
-      "configuration" : {
-        "scriptLang" : "JS",
-        "jsScript" : "msg = JSON.parse(metadata.nextData)\ndelete metadata.nextData\n\nvar listGroupAdd = msg.groups || [];\n\n// Xử lý groupsInRoom\nvar groupsInRoom = [];\nfor (var gi = 0; gi < listGroupAdd.length; gi++) {\n    var group = listGroupAdd[gi];\n    var devs = group.devices || [];\n    var listDevices = [];\n\n    for (var dj = 0; dj < devs.length; dj++) {\n        listDevices.push({\n            id: devs[dj],\n            epId: []\n        });\n    }\n\n    groupsInRoom.push({\n        method:\"delDevFromGroup\",\n        params: {\n            id: group.id,\n            name: group.name,\n            dormitoryId: metadata.entityName_Dormitory,\n            room: metadata.entityName,\n            type: group.type,\n            devices: listDevices\n        }\n    });\n}\nmsg = groupsInRoom;\nreturn {\n    msg: msg,\n    metadata: metadata,\n    msgType: msgType\n};",
-        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
-      },
-      "configurationVersion" : 0,
-      "createdTime" : 0,
-      "debugMode" : false,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "c614a673-fa5d-11f0-8c6e-5381beb8d689"
-      },
-      "name" : "Xử lý danh sách Group",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "Xử lý các danh sách thiết bị, nhóm , cảnh",
-        "layoutX" : 2903,
-        "layoutY" : 1930
-      },
-      "configuration" : {
-        "scriptLang" : "JS",
-        "jsScript" : "msg = JSON.parse(metadata.nextData)\ndelete metadata.nextData\n\nfunction convertCreateRoomToCreateScenes(params) {\n    // var params = input.params;\n\n    // STEP 1: map deviceName -> profileName\n    var deviceProfileMap = {};\n    for (var i = 0; i < params.devices.length; i++) {\n        var d = params.devices[i];\n        deviceProfileMap[d.deviceName] = d.profileName;\n    }\n\n    // STEP 2: map groupId -> device list\n    var groupDeviceMap = {};\n    for (var j = 0; j < params.groups.length; j++) {\n        var g = params.groups[j];\n        groupDeviceMap[g.id] = g.devices;\n    }\n\n    // STEP 3: build createScene messages\n    var result = [];\n\n    for (var s = 0; s < params.scenes.length; s++) {\n        var scene = params.scenes[s];\n\n        var sceneDevices = [];\n\n        for (var k = 0; k < scene.groups.length; k++) {\n            var sceneGroup = scene.groups[k];\n            var deviceIds = groupDeviceMap[sceneGroup.id] || [];\n\n            for (var m = 0; m < deviceIds.length; m++) {\n                var deviceId = deviceIds[m];\n\n                sceneDevices.push({\n                    \"id\": deviceId,\n                    \"profileName\": deviceProfileMap[deviceId],\n                    \"data\": sceneGroup.data\n                });\n            }\n        }\n\n        result.push({\n            \"method\": \"delDevFromScene\",\n            \"params\": {\n                \"id\": scene.id,\n                \"dormitoryId\": params.dormitoryId,\n                \"room\": params.id,\n                \"name\": scene.name,\n                \"image\": scene.image,\n                \"devices\": sceneDevices\n            }\n        });\n    }\n\n    return result;\n}\n\nmsg  = convertCreateRoomToCreateScenes(msg);\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
-        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
-      },
-      "configurationVersion" : 0,
-      "createdTime" : 0,
-      "debugMode" : false,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "c614cd80-fa5d-11f0-8c6e-5381beb8d689"
-      },
-      "name" : "Xử lý danh sách Scene",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
     }, {
       "additionalInfo" : {
         "description" : "",
@@ -4193,6 +4097,102 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "Xử lý các danh sách thiết bị, nhóm , cảnh",
+        "layoutX" : 2901,
+        "layoutY" : 1678
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "var gateway = msg.params.gateway\nmsg = JSON.parse(metadata.nextData)\ndelete metadata.nextData\nvar listGroupAdd = msg.groups || [];\n\n// Xử lý groupsInRoom\nvar groupsInRoom = [];\nfor (var gi = 0; gi < listGroupAdd.length; gi++) {\n    var group = listGroupAdd[gi];\n    var deviceDetails = group.deviceDetails || [];\n\n    groupsInRoom.push({\n        method:\"createGroup\",\n        params: {\n            id: group.id,\n            name: group.name,\n            dormitoryId: metadata.entityName_Dormitory,\n            room: metadata.entityName,\n            type: group.type,\n            devices: deviceDetails\n        }\n    });\n}\nmsg = groupsInRoom;\nreturn {\n    msg: msg,\n    metadata: metadata,\n    msgType: msgType\n};",
+        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "f0044b80-4dc7-11f1-91bc-af21420ef882"
+      },
+      "name" : "Xử lý danh sách Group",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "Xử lý các danh sách thiết bị, nhóm , cảnh",
+        "layoutX" : 2902,
+        "layoutY" : 1729
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "msg = JSON.parse(metadata.nextData)\ndelete metadata.nextData\n\nfunction convertCreateRoomToCreateScenes(params) {\n    // var params = input.params;\n\n    // STEP 1: map deviceName -> profileName\n    var deviceProfileMap = {};\n    for (var i = 0; i < params.devices.length; i++) {\n        var d = params.devices[i];\n        deviceProfileMap[d.deviceName] = d.profileName;\n    }\n\n    // STEP 2: map groupId -> device list\n    var groupDeviceMap = {};\n    for (var j = 0; j < params.groups.length; j++) {\n        var g = params.groups[j];\n        groupDeviceMap[g.id] = g.devices;\n    }\n\n    // STEP 3: build createScene messages\n    var result = [];\n\n    for (var s = 0; s < params.scenes.length; s++) {\n        var scene = params.scenes[s];\n        var gateway  = params.gateway\n        var sceneDevices = [];\n\n        for (var k = 0; k < scene.groups.length; k++) {\n            var sceneGroup = scene.groups[k];\n            var deviceIds = groupDeviceMap[sceneGroup.id] || [];\n\n            for (var m = 0; m < deviceIds.length; m++) {\n                var deviceId = deviceIds[m];\n                sceneDevices.push({\n                    \"id\": deviceId,\n                    \"profileName\": deviceProfileMap[deviceId],\n                    \"gateway\":gateway,\n                    \"data\": sceneGroup.data\n                });\n            }\n        }\n\n        result.push({\n            \"method\": \"createScene\",\n            \"params\": {\n                \"id\": scene.id,\n                \"dormitoryId\": params.dormitoryId,\n                \"room\": params.id,\n                \"name\": scene.name,\n                \"image\": scene.image,\n                \"devices\": sceneDevices\n            }\n        });\n    }\n\n    return result;\n}\n\nmsg  = convertCreateRoomToCreateScenes(msg);\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "f0044b81-4dc7-11f1-91bc-af21420ef882"
+      },
+      "name" : "Xử lý danh sách Scene",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "Xử lý các danh sách thiết bị, nhóm , cảnh",
+        "layoutX" : 2902,
+        "layoutY" : 1879
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "var gateway = msg.params.gateway\nmsg = JSON.parse(metadata.nextData)\ndelete metadata.nextData\nvar listGroupAdd = msg.groups || [];\n\n// Xử lý groupsInRoom\nvar groupsInRoom = [];\nfor (var gi = 0; gi < listGroupAdd.length; gi++) {\n    var group = listGroupAdd[gi];\n    var deviceDetails = group.deviceDetails || [];\n\n    groupsInRoom.push({\n        method:\"createGroup\",\n        params: {\n            id: group.id,\n            name: group.name,\n            dormitoryId: metadata.entityName_Dormitory,\n            room: metadata.entityName,\n            type: group.type,\n            devices: deviceDetails\n        }\n    });\n}\nmsg = groupsInRoom;\nreturn {\n    msg: msg,\n    metadata: metadata,\n    msgType: msgType\n};",
+        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "f0047290-4dc7-11f1-91bc-af21420ef882"
+      },
+      "name" : "Xử lý danh sách Group",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "Xử lý các danh sách thiết bị, nhóm , cảnh",
+        "layoutX" : 2903,
+        "layoutY" : 1930
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "msg = JSON.parse(metadata.nextData)\ndelete metadata.nextData\n\nfunction convertCreateRoomToCreateScenes(params) {\n    // var params = input.params;\n\n    // STEP 1: map deviceName -> profileName\n    var deviceProfileMap = {};\n    for (var i = 0; i < params.devices.length; i++) {\n        var d = params.devices[i];\n        deviceProfileMap[d.deviceName] = d.profileName;\n    }\n\n    // STEP 2: map groupId -> device list\n    var groupDeviceMap = {};\n    for (var j = 0; j < params.groups.length; j++) {\n        var g = params.groups[j];\n        groupDeviceMap[g.id] = g.devices;\n    }\n\n    // STEP 3: build createScene messages\n    var result = [];\n\n    for (var s = 0; s < params.scenes.length; s++) {\n        var scene = params.scenes[s];\n        var gateway  = params.gateway\n        var sceneDevices = [];\n\n        for (var k = 0; k < scene.groups.length; k++) {\n            var sceneGroup = scene.groups[k];\n            var deviceIds = groupDeviceMap[sceneGroup.id] || [];\n\n            for (var m = 0; m < deviceIds.length; m++) {\n                var deviceId = deviceIds[m];\n                sceneDevices.push({\n                    \"id\": deviceId,\n                    \"profileName\": deviceProfileMap[deviceId],\n                    \"gateway\":gateway,\n                    \"data\": sceneGroup.data\n                });\n            }\n        }\n\n        result.push({\n            \"method\": \"createScene\",\n            \"params\": {\n                \"id\": scene.id,\n                \"dormitoryId\": params.dormitoryId,\n                \"room\": params.id,\n                \"name\": scene.name,\n                \"image\": scene.image,\n                \"devices\": sceneDevices\n            }\n        });\n    }\n\n    return result;\n}\n\nmsg  = convertCreateRoomToCreateScenes(msg);\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "f0047291-4dc7-11f1-91bc-af21420ef882"
+      },
+      "name" : "Xử lý danh sách Scene",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
     } ],
     "ruleChainConnections" : null
   },
