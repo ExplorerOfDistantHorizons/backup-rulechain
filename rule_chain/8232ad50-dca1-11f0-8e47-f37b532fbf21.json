@@ -149,10 +149,6 @@
       "toIndex" : 24,
       "type" : "Success"
     }, {
-      "fromIndex" : 20,
-      "toIndex" : 130,
-      "type" : "Success"
-    }, {
       "fromIndex" : 21,
       "toIndex" : 34,
       "type" : "Success"
@@ -453,6 +449,10 @@
       "toIndex" : 123,
       "type" : "Success"
     }, {
+      "fromIndex" : 90,
+      "toIndex" : 140,
+      "type" : "Success"
+    }, {
       "fromIndex" : 91,
       "toIndex" : 90,
       "type" : "Success"
@@ -583,6 +583,10 @@
     }, {
       "fromIndex" : 139,
       "toIndex" : 20,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 140,
+      "toIndex" : 130,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 0,
@@ -3843,8 +3847,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2629,
-        "layoutY" : 1479
+        "layoutX" : 3651,
+        "layoutY" : 1378
       },
       "configuration" : {
         "serviceIdMetaDataAttribute" : "serviceId",
@@ -4111,6 +4115,30 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 3401,
+        "layoutY" : 1378
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "msg={\n    code : 0,\n    message:\"Tạo phòng trống thành công\"\n}\ndelete metadata.msgType\nmsgType = \"REST_API_REQUEST\";\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "02f94c60-4d9e-11f1-91bc-af21420ef882"
+      },
+      "name" : "tiền sử lý",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
     } ],
     "ruleChainConnections" : null
   },
