@@ -4070,7 +4070,7 @@
         "entityType" : "RULE_NODE",
         "id" : "08e478f0-49c2-11f1-8ecd-fd0f21d425e9"
       },
-      "name" : "chuyển mảng thiết bị về dạng chuẩn",
+      "name" : "Chuẩn hóa msg",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
@@ -4174,7 +4174,7 @@
         "entityType" : "RULE_NODE",
         "id" : "d7115750-4dc5-11f1-91bc-af21420ef882"
       },
-      "name" : "chuyển mảng thiết bị về dạng chuẩn",
+      "name" : "Chuẩn hóa msg",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
@@ -4220,7 +4220,7 @@
         "entityType" : "RULE_NODE",
         "id" : "d7117e61-4dc5-11f1-91bc-af21420ef882"
       },
-      "name" : "chuyển mảng thiết bị về dạng chuẩn",
+      "name" : "Chuẩn hóa msg",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
