@@ -1757,7 +1757,7 @@
         "entityType" : "RULE_NODE",
         "id" : "0582bbe0-fb98-11f0-8c6e-5381beb8d689"
       },
-      "name" : "Chuẩn bị dữ liệu để xóa",
+      "name" : "->dataResponse",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
