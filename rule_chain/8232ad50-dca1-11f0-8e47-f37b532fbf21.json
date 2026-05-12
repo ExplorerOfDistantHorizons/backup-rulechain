@@ -4060,7 +4060,7 @@
         "entityType" : "RULE_NODE",
         "id" : "f0ff6af0-49c2-11f1-8ecd-fd0f21d425e9"
       },
-      "name" : "Gateway",
+      "name" : "-> Gateway",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
@@ -4210,7 +4210,7 @@
         "entityType" : "RULE_NODE",
         "id" : "076e5d20-4dc7-11f1-91bc-af21420ef882"
       },
-      "name" : "Gateway",
+      "name" : "-> Gateway",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
@@ -4244,7 +4244,7 @@
         "entityType" : "RULE_NODE",
         "id" : "076e8430-4dc7-11f1-91bc-af21420ef882"
       },
-      "name" : "Building -> Gateway",
+      "name" : "-> Gateway",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
