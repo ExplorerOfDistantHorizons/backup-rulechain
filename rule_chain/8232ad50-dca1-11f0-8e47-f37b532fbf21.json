@@ -1707,7 +1707,7 @@
         "entityType" : "RULE_NODE",
         "id" : "00f00d80-fa5d-11f0-8c6e-5381beb8d689"
       },
-      "name" : "Chuyển thực thể gốc sang Room",
+      "name" : "-> Room",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
