@@ -3266,7 +3266,7 @@
         "entityType" : "RULE_NODE",
         "id" : "7e8bd480-03f5-11f1-86b8-d52a0a0e6635"
       },
-      "name" : "lấy entityId của phòng",
+      "name" : "lấy entityId_Room",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
