@@ -89,6 +89,10 @@
       "toIndex" : 21,
       "type" : "Success"
     }, {
+      "fromIndex" : 6,
+      "toIndex" : 84,
+      "type" : "Success"
+    }, {
       "fromIndex" : 7,
       "toIndex" : 6,
       "type" : "Success"
@@ -2524,7 +2528,7 @@
         "entityNamePattern" : "${entityName}",
         "entityTypePattern" : "GROUP",
         "relationType" : "Room_Group",
-        "createEntityIfNotExists" : true,
+        "createEntityIfNotExists" : false,
         "removeCurrentRelations" : false,
         "changeOriginatorToRelatedEntity" : true
       },
