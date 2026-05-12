@@ -897,7 +897,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "metadata.entityName = msg.params.id\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "jsScript" : "metadata.entityName = msg.params.id\ndelete msg.dataResponse\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
         "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
       },
       "configurationVersion" : 0,
