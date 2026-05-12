@@ -4276,7 +4276,7 @@
         "entityType" : "RULE_NODE",
         "id" : "076e5d20-4dc7-11f1-91bc-af21420ef882"
       },
-      "name" : "Building -> Gateway",
+      "name" : "Gateway",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
