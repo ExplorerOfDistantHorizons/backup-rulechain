@@ -1,0 +1,59 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : { },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "a107a1d0-dca2-11f0-8e47-f37b532fbf21"
+    },
+    "attributes" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "d1213b70-4eb1-11f1-af0b-cd0e00deb45b"
+    },
+    "label" : "nhóm thứ ok123",
+    "name" : "824ba8bd-e906-4fd3-889e-59cc91c4b362",
+    "telemetry" : null,
+    "type" : "GROUP"
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "entityType",
+      "lastUpdateTs" : 1778666106954,
+      "longValue" : null,
+      "strValue" : "ASSET"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "groupTypeId",
+      "lastUpdateTs" : 1778666107258,
+      "longValue" : 1,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "id",
+      "lastUpdateTs" : 1778666107258,
+      "longValue" : null,
+      "strValue" : "824ba8bd-e906-4fd3-889e-59cc91c4b362"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "name",
+      "lastUpdateTs" : 1778666107258,
+      "longValue" : null,
+      "strValue" : "gbb"
+    } ]
+  }
+}
