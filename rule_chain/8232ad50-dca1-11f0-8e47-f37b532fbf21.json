@@ -4460,8 +4460,8 @@
         "direction" : "FROM",
         "entityType" : "ASSET",
         "entityNamePattern" : "$[params.id]",
-        "entityTypePattern" : "ROOM",
-        "relationType" : "Room",
+        "entityTypePattern" : "GROUP",
+        "relationType" : "Room_Group",
         "createEntityIfNotExists" : true,
         "removeCurrentRelations" : false,
         "changeOriginatorToRelatedEntity" : true
