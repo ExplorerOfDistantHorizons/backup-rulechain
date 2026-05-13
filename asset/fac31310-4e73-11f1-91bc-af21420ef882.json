@@ -1,0 +1,43 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : { },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "dc296b40-dca2-11f0-8e47-f37b532fbf21"
+    },
+    "attributes" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "fac31310-4e73-11f1-91bc-af21420ef882"
+    },
+    "label" : "Tên hiển thị của phòng cho người dùng",
+    "name" : "d1dacc0b-7d28-4950-898c-ed8ae50912a7",
+    "telemetry" : null,
+    "type" : "ROOM"
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "entityType",
+      "lastUpdateTs" : 1778639546086,
+      "longValue" : null,
+      "strValue" : "ASSET"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "name",
+      "lastUpdateTs" : 1778639546245,
+      "longValue" : null,
+      "strValue" : "Phòng ăn"
+    } ]
+  }
+}
