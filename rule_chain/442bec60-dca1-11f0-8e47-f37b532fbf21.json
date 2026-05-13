@@ -1824,7 +1824,7 @@
         "entityType" : "RULE_NODE",
         "id" : "0582e2f0-fb98-11f0-8c6e-5381beb8d689"
       },
-      "name" : "DelSceneData",
+      "name" : "DelSceneData In Device",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
