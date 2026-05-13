@@ -970,7 +970,7 @@
         "entityType" : "RULE_NODE",
         "id" : "8872e7f2-f733-11f0-8c6e-5381beb8d689"
       },
-      "name" : "Chuyển thực thể gốc tới Group",
+      "name" : "-> Group",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
