@@ -330,10 +330,6 @@
       "type" : "Success"
     }, {
       "fromIndex" : 77,
-      "toIndex" : 78,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 78,
       "toIndex" : 14,
       "type" : "Success"
     } ],
@@ -2338,35 +2334,6 @@
         "id" : "d425bdf0-4e66-11f1-91bc-af21420ef882"
       },
       "name" : "Gateway@Group+>",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.action.TbCreateRelationNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "Tạo nhóm và thêm quan hệ của thiệt bị với nhóm này ",
-        "layoutX" : 3428,
-        "layoutY" : 1203
-      },
-      "configuration" : {
-        "direction" : "TO",
-        "entityType" : "ASSET",
-        "entityNamePattern" : "${entityName_Room}",
-        "entityTypePattern" : "ROOM",
-        "relationType" : "Room_Group",
-        "createEntityIfNotExists" : false,
-        "removeCurrentRelations" : false,
-        "changeOriginatorToRelatedEntity" : false
-      },
-      "configurationVersion" : 1,
-      "createdTime" : 0,
-      "debugMode" : true,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "d425e500-4e66-11f1-91bc-af21420ef882"
-      },
-      "name" : "Room@Group",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
