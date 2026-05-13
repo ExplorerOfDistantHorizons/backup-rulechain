@@ -3635,7 +3635,7 @@
         "entityType" : "RULE_NODE",
         "id" : "57a04590-4e69-11f1-91bc-af21420ef882"
       },
-      "name" : "Gateway%Group",
+      "name" : "Gateway%Scene",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
