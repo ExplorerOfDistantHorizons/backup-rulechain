@@ -86,7 +86,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 11,
-      "toIndex" : 146,
+      "toIndex" : 145,
       "type" : "Success"
     }, {
       "fromIndex" : 12,
@@ -95,11 +95,11 @@
     }, {
       "fromIndex" : 12,
       "toIndex" : 121,
-      "type" : "manageGroup"
+      "type" : "manageScene"
     }, {
       "fromIndex" : 12,
-      "toIndex" : 122,
-      "type" : "manageScene"
+      "toIndex" : 148,
+      "type" : "manageGroup"
     }, {
       "fromIndex" : 13,
       "toIndex" : 8,
@@ -126,15 +126,15 @@
       "type" : "delRoom"
     }, {
       "fromIndex" : 16,
-      "toIndex" : 127,
+      "toIndex" : 126,
       "type" : "Success"
     }, {
       "fromIndex" : 17,
-      "toIndex" : 131,
+      "toIndex" : 130,
       "type" : "Success"
     }, {
       "fromIndex" : 18,
-      "toIndex" : 133,
+      "toIndex" : 132,
       "type" : "Success"
     }, {
       "fromIndex" : 19,
@@ -142,7 +142,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 19,
-      "toIndex" : 125,
+      "toIndex" : 124,
       "type" : "Success"
     }, {
       "fromIndex" : 20,
@@ -150,15 +150,15 @@
       "type" : "Success"
     }, {
       "fromIndex" : 21,
-      "toIndex" : 140,
+      "toIndex" : 139,
       "type" : "Success"
     }, {
       "fromIndex" : 21,
-      "toIndex" : 143,
+      "toIndex" : 142,
       "type" : "Failure"
     }, {
       "fromIndex" : 21,
-      "toIndex" : 143,
+      "toIndex" : 142,
       "type" : "Success"
     }, {
       "fromIndex" : 22,
@@ -166,15 +166,15 @@
       "type" : "Success"
     }, {
       "fromIndex" : 22,
-      "toIndex" : 145,
+      "toIndex" : 144,
       "type" : "Success"
     }, {
       "fromIndex" : 23,
-      "toIndex" : 141,
+      "toIndex" : 140,
       "type" : "Failure"
     }, {
       "fromIndex" : 23,
-      "toIndex" : 141,
+      "toIndex" : 140,
       "type" : "Success"
     }, {
       "fromIndex" : 24,
@@ -262,11 +262,11 @@
       "type" : "Success"
     }, {
       "fromIndex" : 47,
-      "toIndex" : 138,
+      "toIndex" : 137,
       "type" : "Success"
     }, {
       "fromIndex" : 47,
-      "toIndex" : 139,
+      "toIndex" : 138,
       "type" : "Success"
     }, {
       "fromIndex" : 48,
@@ -418,7 +418,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 83,
-      "toIndex" : 129,
+      "toIndex" : 128,
       "type" : "Success"
     }, {
       "fromIndex" : 84,
@@ -529,112 +529,116 @@
       "toIndex" : 119,
       "type" : "Success"
     }, {
-      "fromIndex" : 125,
+      "fromIndex" : 124,
       "toIndex" : 23,
       "type" : "Success"
     }, {
-      "fromIndex" : 125,
-      "toIndex" : 141,
+      "fromIndex" : 124,
+      "toIndex" : 140,
       "type" : "Failure"
     }, {
+      "fromIndex" : 125,
+      "toIndex" : 127,
+      "type" : "Success"
+    }, {
       "fromIndex" : 126,
-      "toIndex" : 128,
+      "toIndex" : 125,
       "type" : "Success"
     }, {
       "fromIndex" : 127,
-      "toIndex" : 126,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 128,
       "toIndex" : 20,
       "type" : "Success"
     }, {
+      "fromIndex" : 128,
+      "toIndex" : 122,
+      "type" : "Success"
+    }, {
       "fromIndex" : 129,
-      "toIndex" : 123,
+      "toIndex" : 133,
       "type" : "Success"
     }, {
       "fromIndex" : 130,
-      "toIndex" : 134,
+      "toIndex" : 129,
       "type" : "Success"
     }, {
       "fromIndex" : 131,
-      "toIndex" : 130,
+      "toIndex" : 134,
       "type" : "Success"
     }, {
       "fromIndex" : 132,
-      "toIndex" : 135,
+      "toIndex" : 131,
       "type" : "Success"
     }, {
       "fromIndex" : 133,
-      "toIndex" : 132,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 134,
       "toIndex" : 21,
       "type" : "Success"
     }, {
-      "fromIndex" : 135,
+      "fromIndex" : 134,
       "toIndex" : 22,
       "type" : "Success"
     }, {
-      "fromIndex" : 136,
+      "fromIndex" : 135,
       "toIndex" : 38,
       "type" : "Success"
     }, {
-      "fromIndex" : 137,
+      "fromIndex" : 136,
       "toIndex" : 39,
       "type" : "Success"
     }, {
-      "fromIndex" : 138,
+      "fromIndex" : 137,
       "toIndex" : 45,
       "type" : "Success"
     }, {
-      "fromIndex" : 139,
+      "fromIndex" : 138,
       "toIndex" : 46,
       "type" : "Success"
     }, {
-      "fromIndex" : 140,
+      "fromIndex" : 139,
       "toIndex" : 108,
       "type" : "Success"
     }, {
-      "fromIndex" : 140,
+      "fromIndex" : 139,
+      "toIndex" : 135,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 139,
       "toIndex" : 136,
       "type" : "Success"
     }, {
       "fromIndex" : 140,
-      "toIndex" : 137,
+      "toIndex" : 123,
       "type" : "Success"
     }, {
-      "fromIndex" : 141,
-      "toIndex" : 124,
+      "fromIndex" : 142,
+      "toIndex" : 141,
       "type" : "Success"
     }, {
-      "fromIndex" : 143,
-      "toIndex" : 142,
+      "fromIndex" : 144,
+      "toIndex" : 143,
       "type" : "Success"
     }, {
       "fromIndex" : 145,
-      "toIndex" : 144,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 146,
       "toIndex" : 87,
       "type" : "Success"
     }, {
+      "fromIndex" : 147,
+      "toIndex" : 154,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 148,
+      "toIndex" : 151,
+      "type" : "True"
+    }, {
       "fromIndex" : 148,
       "toIndex" : 155,
-      "type" : "Success"
+      "type" : "False"
     }, {
       "fromIndex" : 149,
       "toIndex" : 152,
-      "type" : "True"
-    }, {
-      "fromIndex" : 149,
-      "toIndex" : 156,
-      "type" : "False"
+      "type" : "Success"
     }, {
       "fromIndex" : 150,
-      "toIndex" : 153,
+      "toIndex" : 149,
       "type" : "Success"
     }, {
       "fromIndex" : 151,
@@ -642,23 +646,19 @@
       "type" : "Success"
     }, {
       "fromIndex" : 152,
-      "toIndex" : 151,
+      "toIndex" : 153,
       "type" : "Success"
     }, {
-      "fromIndex" : 153,
-      "toIndex" : 154,
+      "fromIndex" : 154,
+      "toIndex" : 146,
       "type" : "Success"
     }, {
       "fromIndex" : 155,
-      "toIndex" : 147,
+      "toIndex" : 156,
       "type" : "Success"
     }, {
       "fromIndex" : 156,
-      "toIndex" : 157,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 157,
-      "toIndex" : 148,
+      "toIndex" : 147,
       "type" : "False"
     } ],
     "firstNodeIndex" : 0,
@@ -3694,29 +3694,6 @@
       "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
     }, {
       "additionalInfo" : {
-        "description" : "chuyển đến Rule chain - Group",
-        "layoutX" : 1228,
-        "layoutY" : 504
-      },
-      "configuration" : {
-        "forwardMsgToDefaultRuleChain" : false,
-        "ruleChainId" : "5089d120-dca1-11f0-8e47-f37b532fbf21"
-      },
-      "configurationVersion" : 1,
-      "createdTime" : 0,
-      "debugMode" : false,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "ec73cbd0-4863-11f1-905b-d9c31e94ae99"
-      },
-      "name" : "Room -> Group",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
-    }, {
-      "additionalInfo" : {
         "description" : "chuyển đến Rule chain - Scene",
         "layoutX" : 1228,
         "layoutY" : 555
@@ -4351,8 +4328,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2506,
-        "layoutY" : 678
+        "layoutX" : 2501,
+        "layoutY" : 556
       },
       "configuration" : {
         "forwardMsgToDefaultRuleChain" : false,
@@ -4374,8 +4351,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2006,
-        "layoutY" : 677
+        "layoutX" : 2001,
+        "layoutY" : 555
       },
       "configuration" : {
         "direction" : "FROM",
@@ -4403,8 +4380,8 @@
     }, {
       "additionalInfo" : {
         "description" : "kiểm tra xem loại phòng được tạo là phòng thường hay phòng trống",
-        "layoutX" : 1233,
-        "layoutY" : 628
+        "layoutX" : 1228,
+        "layoutY" : 506
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -4419,7 +4396,7 @@
         "entityType" : "RULE_NODE",
         "id" : "1a265220-4ea7-11f1-91bc-af21420ef882"
       },
-      "name" : "Phòng trống ?",
+      "name" : "Nhóm trống ?",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
@@ -4427,8 +4404,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2006,
-        "layoutY" : 628
+        "layoutX" : 2001,
+        "layoutY" : 506
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
@@ -4452,8 +4429,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1756,
-        "layoutY" : 628
+        "layoutX" : 1751,
+        "layoutY" : 506
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -4476,8 +4453,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1508,
-        "layoutY" : 628
+        "layoutX" : 1503,
+        "layoutY" : 506
       },
       "configuration" : {
         "direction" : "FROM",
@@ -4505,8 +4482,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2256,
-        "layoutY" : 628
+        "layoutX" : 2251,
+        "layoutY" : 506
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -4529,8 +4506,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2505,
-        "layoutY" : 628
+        "layoutX" : 2500,
+        "layoutY" : 506
       },
       "configuration" : {
         "serviceIdMetaDataAttribute" : "serviceId",
@@ -4552,8 +4529,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2257,
-        "layoutY" : 678
+        "layoutX" : 2252,
+        "layoutY" : 556
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -4576,8 +4553,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1508,
-        "layoutY" : 678
+        "layoutX" : 1503,
+        "layoutY" : 556
       },
       "configuration" : {
         "relationsQuery" : {
@@ -4611,8 +4588,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1756,
-        "layoutY" : 678
+        "layoutX" : 1751,
+        "layoutY" : 556
       },
       "configuration" : {
         "scriptLang" : "JS",
