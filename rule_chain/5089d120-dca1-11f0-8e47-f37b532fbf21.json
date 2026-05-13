@@ -367,7 +367,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1253,
+        "layoutX" : 830,
         "layoutY" : 1078
       },
       "configuration" : {
@@ -391,7 +391,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1628,
+        "layoutX" : 1205,
         "layoutY" : 1454
       },
       "configuration" : {
@@ -415,7 +415,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2627,
+        "layoutX" : 2204,
         "layoutY" : 1078
       },
       "configuration" : {
@@ -437,7 +437,7 @@
     }, {
       "additionalInfo" : {
         "description" : "Tạo nhóm và thêm quan hệ của thiệt bị với nhóm này ",
-        "layoutX" : 3175,
+        "layoutX" : 2752,
         "layoutY" : 1078
       },
       "configuration" : {
@@ -466,7 +466,7 @@
     }, {
       "additionalInfo" : {
         "description" : "Tiền sử lý bản tin trước khi gửi xuống HCP",
-        "layoutX" : 2901,
+        "layoutX" : 2478,
         "layoutY" : 1079
       },
       "configuration" : {
@@ -490,7 +490,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3702,
+        "layoutX" : 3279,
         "layoutY" : 1029
       },
       "configuration" : {
@@ -514,7 +514,7 @@
     }, {
       "additionalInfo" : {
         "description" : null,
-        "layoutX" : 3951,
+        "layoutX" : 3528,
         "layoutY" : 1028
       },
       "configuration" : {
@@ -539,7 +539,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3702,
+        "layoutX" : 3279,
         "layoutY" : 977
       },
       "configuration" : {
@@ -563,7 +563,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3952,
+        "layoutX" : 3529,
         "layoutY" : 977
       },
       "configuration" : {
@@ -587,7 +587,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2628,
+        "layoutX" : 2205,
         "layoutY" : 1203
       },
       "configuration" : {
@@ -609,7 +609,7 @@
     }, {
       "additionalInfo" : {
         "description" : "Tiền sử lý bản tin trước khi gửi xuống HCP",
-        "layoutX" : 2902,
+        "layoutX" : 2479,
         "layoutY" : 1204
       },
       "configuration" : {
@@ -633,7 +633,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3702,
+        "layoutX" : 3279,
         "layoutY" : 1079
       },
       "configuration" : {
@@ -655,7 +655,7 @@
     }, {
       "additionalInfo" : {
         "description" : "Tạo nhóm và thêm quan hệ của thiệt bị với nhóm này ",
-        "layoutX" : 3952,
+        "layoutX" : 3529,
         "layoutY" : 1079
       },
       "configuration" : {
@@ -684,7 +684,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3702,
+        "layoutX" : 3279,
         "layoutY" : 1204
       },
       "configuration" : {
@@ -881,7 +881,7 @@
     }, {
       "additionalInfo" : {
         "description" : "Tạo nhóm và thêm quan hệ của thiệt bị với nhóm này ",
-        "layoutX" : 3951,
+        "layoutX" : 3528,
         "layoutY" : 1203
       },
       "configuration" : {
@@ -910,7 +910,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2627,
+        "layoutX" : 2204,
         "layoutY" : 1328
       },
       "configuration" : {
@@ -932,7 +932,7 @@
     }, {
       "additionalInfo" : {
         "description" : "Tiền sử lý bản tin trước khi gửi xuống HCP",
-        "layoutX" : 2904,
+        "layoutX" : 2481,
         "layoutY" : 1329
       },
       "configuration" : {
@@ -956,7 +956,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3179,
+        "layoutX" : 2756,
         "layoutY" : 1330
       },
       "configuration" : {
@@ -990,7 +990,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3702,
+        "layoutX" : 3279,
         "layoutY" : 1328
       },
       "configuration" : {
@@ -1012,7 +1012,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1252,
+        "layoutX" : 829,
         "layoutY" : 829
       },
       "configuration" : {
@@ -1036,7 +1036,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1628,
+        "layoutX" : 1205,
         "layoutY" : 577
       },
       "configuration" : {
@@ -1060,7 +1060,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1629,
+        "layoutX" : 1206,
         "layoutY" : 702
       },
       "configuration" : {
@@ -1084,7 +1084,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1628,
+        "layoutX" : 1205,
         "layoutY" : 829
       },
       "configuration" : {
@@ -1108,7 +1108,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1877,
+        "layoutX" : 1454,
         "layoutY" : 827
       },
       "configuration" : {
@@ -1142,7 +1142,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2126,
+        "layoutX" : 1703,
         "layoutY" : 827
       },
       "configuration" : {
@@ -1164,7 +1164,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2377,
+        "layoutX" : 1954,
         "layoutY" : 827
       },
       "configuration" : {
@@ -1190,7 +1190,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1877,
+        "layoutX" : 1454,
         "layoutY" : 579
       },
       "configuration" : {
@@ -1224,7 +1224,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2127,
+        "layoutX" : 1704,
         "layoutY" : 579
       },
       "configuration" : {
@@ -1246,7 +1246,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1877,
+        "layoutX" : 1454,
         "layoutY" : 702
       },
       "configuration" : {
@@ -1280,7 +1280,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2127,
+        "layoutX" : 1704,
         "layoutY" : 702
       },
       "configuration" : {
@@ -1302,7 +1302,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2375,
+        "layoutX" : 1952,
         "layoutY" : 702
       },
       "configuration" : {
@@ -1328,7 +1328,7 @@
     }, {
       "additionalInfo" : {
         "description" : "Tạo nhóm và thêm quan hệ của thiệt bị với nhóm này ",
-        "layoutX" : 2376,
+        "layoutX" : 1953,
         "layoutY" : 579
       },
       "configuration" : {
@@ -1357,7 +1357,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3952,
+        "layoutX" : 3529,
         "layoutY" : 1328
       },
       "configuration" : {
@@ -1726,7 +1726,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2903,
+        "layoutX" : 2480,
         "layoutY" : 1028
       },
       "configuration" : {
@@ -1749,7 +1749,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2904,
+        "layoutX" : 2481,
         "layoutY" : 1279
       },
       "configuration" : {
@@ -1772,7 +1772,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2902,
+        "layoutX" : 2479,
         "layoutY" : 1154
       },
       "configuration" : {
@@ -1795,7 +1795,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1628,
+        "layoutX" : 1205,
         "layoutY" : 1078
       },
       "configuration" : {
@@ -1819,7 +1819,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2126,
+        "layoutX" : 1703,
         "layoutY" : 1078
       },
       "configuration" : {
@@ -1843,7 +1843,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1876,
+        "layoutX" : 1453,
         "layoutY" : 1078
       },
       "configuration" : {
@@ -1865,7 +1865,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2379,
+        "layoutX" : 1956,
         "layoutY" : 1077
       },
       "configuration" : {
@@ -1899,7 +1899,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1627,
+        "layoutX" : 1204,
         "layoutY" : 1204
       },
       "configuration" : {
@@ -1923,7 +1923,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2125,
+        "layoutX" : 1702,
         "layoutY" : 1204
       },
       "configuration" : {
@@ -1947,7 +1947,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1877,
+        "layoutX" : 1454,
         "layoutY" : 1204
       },
       "configuration" : {
@@ -1969,7 +1969,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2378,
+        "layoutX" : 1955,
         "layoutY" : 1203
       },
       "configuration" : {
@@ -2003,7 +2003,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1628,
+        "layoutX" : 1205,
         "layoutY" : 1329
       },
       "configuration" : {
@@ -2027,7 +2027,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2126,
+        "layoutX" : 1703,
         "layoutY" : 1329
       },
       "configuration" : {
@@ -2051,7 +2051,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1876,
+        "layoutX" : 1453,
         "layoutY" : 1329
       },
       "configuration" : {
@@ -2073,7 +2073,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2379,
+        "layoutX" : 1956,
         "layoutY" : 1328
       },
       "configuration" : {
@@ -2107,7 +2107,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3178,
+        "layoutX" : 2755,
         "layoutY" : 1453
       },
       "configuration" : {
@@ -2129,7 +2129,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3426,
+        "layoutX" : 3003,
         "layoutY" : 1452
       },
       "configuration" : {
@@ -2152,7 +2152,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2128,
+        "layoutX" : 1705,
         "layoutY" : 1453
       },
       "configuration" : {
@@ -2176,7 +2176,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2378,
+        "layoutX" : 1955,
         "layoutY" : 1453
       },
       "configuration" : {
@@ -2198,7 +2198,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2628,
+        "layoutX" : 2205,
         "layoutY" : 1452
       },
       "configuration" : {
@@ -2232,7 +2232,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1877,
+        "layoutX" : 1454,
         "layoutY" : 1453
       },
       "configuration" : {
@@ -2267,7 +2267,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2901,
+        "layoutX" : 2478,
         "layoutY" : 1452
       },
       "configuration" : {
@@ -2291,7 +2291,7 @@
     }, {
       "additionalInfo" : {
         "description" : "Tạo nhóm và thêm quan hệ của thiệt bị với nhóm này ",
-        "layoutX" : 3427,
+        "layoutX" : 3004,
         "layoutY" : 1078
       },
       "configuration" : {
@@ -2320,7 +2320,7 @@
     }, {
       "additionalInfo" : {
         "description" : "Tạo nhóm và thêm quan hệ của thiệt bị với nhóm này ",
-        "layoutX" : 3177,
+        "layoutX" : 2754,
         "layoutY" : 1204
       },
       "configuration" : {
@@ -2349,7 +2349,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3178,
+        "layoutX" : 2755,
         "layoutY" : 1279
       },
       "configuration" : {
@@ -2373,7 +2373,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3427,
+        "layoutX" : 3004,
         "layoutY" : 1277
       },
       "configuration" : {
