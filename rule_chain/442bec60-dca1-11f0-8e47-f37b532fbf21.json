@@ -2511,8 +2511,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2527,
-        "layoutY" : 1354
+        "layoutX" : 2526,
+        "layoutY" : 1353
       },
       "configuration" : {
         "serviceIdMetaDataAttribute" : "serviceId",
