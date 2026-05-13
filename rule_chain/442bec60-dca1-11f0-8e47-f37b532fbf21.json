@@ -3268,7 +3268,7 @@
         "entityType" : "RULE_NODE",
         "id" : "146fb390-4bb3-11f1-b1ef-d7e314cac7c6"
       },
-      "name" : "Scene -> Gateway",
+      "name" : "-> Gateway",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
