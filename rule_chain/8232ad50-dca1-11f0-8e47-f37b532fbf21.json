@@ -1220,7 +1220,7 @@
       "configuration" : {
         "direction" : "FROM",
         "entityType" : "ASSET",
-        "entityNamePattern" : "${entityName}",
+        "entityNamePattern" : "${entityName_Room}",
         "entityTypePattern" : "ROOM",
         "relationType" : "Gateway_Room",
         "createEntityIfNotExists" : false,
@@ -1763,7 +1763,7 @@
       "configuration" : {
         "originatorSource" : "ENTITY",
         "entityType" : "ASSET",
-        "entityNamePattern" : "${entityName}",
+        "entityNamePattern" : "${entityName_Room}",
         "relationsQuery" : {
           "direction" : "FROM",
           "maxLevel" : 1,
