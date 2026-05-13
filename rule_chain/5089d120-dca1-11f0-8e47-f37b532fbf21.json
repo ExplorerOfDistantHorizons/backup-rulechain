@@ -145,10 +145,6 @@
       "toIndex" : 25,
       "type" : "Success"
     }, {
-      "fromIndex" : 25,
-      "toIndex" : 26,
-      "type" : "Success"
-    }, {
       "fromIndex" : 26,
       "toIndex" : 40,
       "type" : "Success"
@@ -982,8 +978,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3426,
-        "layoutY" : 1329
+        "layoutX" : 3702,
+        "layoutY" : 1328
       },
       "configuration" : {
         "version" : 0
@@ -1349,8 +1345,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3704,
-        "layoutY" : 1329
+        "layoutX" : 3952,
+        "layoutY" : 1328
       },
       "configuration" : {
         "deleteForSingleEntity" : true,
