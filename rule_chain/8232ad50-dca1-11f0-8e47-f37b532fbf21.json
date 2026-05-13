@@ -150,10 +150,6 @@
       "type" : "Success"
     }, {
       "fromIndex" : 21,
-      "toIndex" : 124,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 21,
       "toIndex" : 142,
       "type" : "Failure"
     }, {
@@ -227,6 +223,10 @@
     }, {
       "fromIndex" : 34,
       "toIndex" : 37,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 34,
+      "toIndex" : 145,
       "type" : "Success"
     }, {
       "fromIndex" : 37,
@@ -611,6 +611,10 @@
     }, {
       "fromIndex" : 143,
       "toIndex" : 126,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 145,
+      "toIndex" : 144,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 0,
@@ -3716,8 +3720,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2628,
-        "layoutY" : 1679
+        "layoutX" : 2621,
+        "layoutY" : 1719
       },
       "configuration" : {
         "serviceIdMetaDataAttribute" : "serviceId",
@@ -4224,6 +4228,53 @@
         "id" : "9dd51290-4dcc-11f1-91bc-af21420ef882"
       },
       "name" : "trỏ vào mảng thiết bị",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 3904,
+        "layoutY" : 1579
+      },
+      "configuration" : {
+        "serviceIdMetaDataAttribute" : "serviceId",
+        "requestIdMetaDataAttribute" : "requestUUID"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "479c90b0-4e71-11f1-91bc-af21420ef882"
+      },
+      "name" : "Phản hồi",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.rest.TbSendRestApiCallReplyNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 3654,
+        "layoutY" : 1579
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "msg={\n    code : 0,\n    message:\"Tạo phòng thành công\"\n}\nmsgType = \"REST_API_REQUEST\";\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "479cb7c0-4e71-11f1-91bc-af21420ef882"
+      },
+      "name" : "tiền sử lý",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
