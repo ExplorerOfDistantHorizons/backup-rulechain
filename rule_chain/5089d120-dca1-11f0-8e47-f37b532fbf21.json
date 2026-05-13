@@ -145,6 +145,10 @@
       "toIndex" : 25,
       "type" : "Success"
     }, {
+      "fromIndex" : 24,
+      "toIndex" : 78,
+      "type" : "Success"
+    }, {
       "fromIndex" : 25,
       "toIndex" : 26,
       "type" : "Success"
@@ -332,6 +336,10 @@
       "fromIndex" : 77,
       "toIndex" : 14,
       "type" : "Success"
+    }, {
+      "fromIndex" : 78,
+      "toIndex" : 79,
+      "type" : "True"
     } ],
     "firstNodeIndex" : 0,
     "nodes" : [ {
@@ -2338,6 +2346,57 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.action.TbCreateRelationNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 3178,
+        "layoutY" : 1279
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "return msg.temperature > 20;",
+        "tbelScript" : "return msg.temperature > 20;"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "d472fe20-4e67-11f1-91bc-af21420ef882"
+      },
+      "name" : "Device in HC end ?",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 3427,
+        "layoutY" : 1277
+      },
+      "configuration" : {
+        "direction" : "FROM",
+        "relationType" : "Contains",
+        "entityType" : null,
+        "entityNamePattern" : "",
+        "entityTypePattern" : null,
+        "deleteForSingleEntity" : false
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "d4732530-4e67-11f1-91bc-af21420ef882"
+      },
+      "name" : "Gateway%Group",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.action.TbDeleteRelationNode"
     } ],
     "ruleChainConnections" : null
   },
