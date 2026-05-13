@@ -86,7 +86,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 11,
-      "toIndex" : 87,
+      "toIndex" : 146,
       "type" : "Success"
     }, {
       "fromIndex" : 12,
@@ -2745,7 +2745,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1500,
+        "layoutX" : 1752,
         "layoutY" : 403
       },
       "configuration" : {
@@ -4276,6 +4276,30 @@
         "id" : "f7a9c850-4e77-11f1-91bc-af21420ef882"
       },
       "name" : "tiền sử lý",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1502,
+        "layoutY" : 404
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "\nmsg = {\n    \n}\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "88e79240-4e94-11f1-91bc-af21420ef882"
+      },
+      "name" : "xử lý cập nhật telemetry",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
