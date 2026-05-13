@@ -1835,7 +1835,7 @@
         "entityType" : "RULE_NODE",
         "id" : "3a45db10-4d13-11f1-9f99-fd9d066e72c2"
       },
-      "name" : "chuyển mảng thiết bị về dạng chuẩn",
+      "name" : "JSON.stringify",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
