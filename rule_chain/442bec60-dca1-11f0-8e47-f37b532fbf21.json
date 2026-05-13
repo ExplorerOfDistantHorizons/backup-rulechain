@@ -1799,7 +1799,7 @@
         "entityType" : "RULE_NODE",
         "id" : "0582bbe1-fb98-11f0-8c6e-5381beb8d689"
       },
-      "name" : "Chuyển thực thể gốc tới Device",
+      "name" : "-> Device",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
