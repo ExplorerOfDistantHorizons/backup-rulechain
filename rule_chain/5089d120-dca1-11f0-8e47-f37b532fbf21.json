@@ -94,7 +94,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 10,
-      "toIndex" : 55,
+      "toIndex" : 81,
       "type" : "Success"
     }, {
       "fromIndex" : 11,
@@ -339,6 +339,10 @@
     }, {
       "fromIndex" : 80,
       "toIndex" : 79,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 81,
+      "toIndex" : 55,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 0,
@@ -609,7 +613,7 @@
     }, {
       "additionalInfo" : {
         "description" : "Tiền sử lý bản tin trước khi gửi xuống HCP",
-        "layoutX" : 2479,
+        "layoutX" : 2475,
         "layoutY" : 1204
       },
       "configuration" : {
@@ -1749,8 +1753,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2479,
-        "layoutY" : 1154
+        "layoutX" : 2752,
+        "layoutY" : 1153
       },
       "configuration" : {
         "serviceIdMetaDataAttribute" : "serviceId",
@@ -2297,7 +2301,7 @@
     }, {
       "additionalInfo" : {
         "description" : "Tạo nhóm và thêm quan hệ của thiệt bị với nhóm này ",
-        "layoutX" : 2754,
+        "layoutX" : 2751,
         "layoutY" : 1204
       },
       "configuration" : {
@@ -2415,6 +2419,30 @@
       "id" : {
         "entityType" : "RULE_NODE",
         "id" : "afd90130-4ea9-11f1-91bc-af21420ef882"
+      },
+      "name" : "tiền sử lý",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2476,
+        "layoutY" : 1153
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "var message = \"\";\r\nvar code = msg.params.code;\r\n\r\nif (msg.params && msg.params.code === 0) {\r\n    message = \"Thêm thiết bị vào nhóm thành công\";\r\n    code = 0;\r\n} else {\r\n    message = \"Thêm thiết bị vào nhóm thất bại\";\r\n}\r\n\r\nmsg = {\r\n    code: code,\r\n    message: message\r\n};\r\n\r\nmsgType = \"REST_API_REQUEST\";\r\n\r\nreturn {\r\n    msg: msg,\r\n    metadata: metadata,\r\n    msgType: msgType\r\n};",
+        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "08d5cec0-4eab-11f1-91bc-af21420ef882"
       },
       "name" : "tiền sử lý",
       "queueName" : null,
