@@ -442,7 +442,7 @@
         "entityNamePattern" : "${entityName}",
         "entityTypePattern" : "GROUP",
         "relationType" : "Gateway_Group",
-        "createEntityIfNotExists" : true,
+        "createEntityIfNotExists" : false,
         "removeCurrentRelations" : false,
         "changeOriginatorToRelatedEntity" : true
       },
