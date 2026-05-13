@@ -4288,7 +4288,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "\nmsg = {\n    \n}\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "jsScript" : "msg = {\n    code:0,\n    message:\"Điều khiển phòng thành công\"\n}\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
         "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
       },
       "configurationVersion" : 0,
