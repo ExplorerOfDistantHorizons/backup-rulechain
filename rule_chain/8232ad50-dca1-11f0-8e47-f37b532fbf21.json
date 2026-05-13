@@ -4045,7 +4045,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "var gateway = msg.params.gateway\nmsg = JSON.parse(metadata.nextData)\ndelete metadata.nextData\nvar listGroupAdd = msg.groups || [];\n\n// Xử lý groupsInRoom\nvar groupsInRoom = [];\nfor (var gi = 0; gi < listGroupAdd.length; gi++) {\n    var group = listGroupAdd[gi];\n    var deviceDetails = group.deviceDetails || [];\n\n    groupsInRoom.push({\n        method:\"createGroup\",\n        params: {\n            id: group.id,\n            name: group.name,\n            dormitoryId: metadata.entityName_Dormitory,\n            room: metadata.entityName,\n            type: group.type,\n            devices: deviceDetails\n        }\n    });\n}\nmsg = groupsInRoom;\nreturn {\n    msg: msg,\n    metadata: metadata,\n    msgType: msgType\n};",
+        "jsScript" : "var gateway = msg.params.gateway\nmsg = JSON.parse(metadata.nextData)\ndelete metadata.nextData\nvar listGroupAdd = msg.groups || [];\n\n// Xử lý groupsInRoom\nvar groupsInRoom = [];\nfor (var gi = 0; gi < listGroupAdd.length; gi++) {\n    var group = listGroupAdd[gi];\n    var deviceDetails = group.deviceDetails || [];\n\n    groupsInRoom.push({\n        method:\"addDevToGroup\",\n        params: {\n            id: group.id,\n            name: group.name,\n            dormitoryId: metadata.entityName_Dormitory,\n            room: metadata.entityName,\n            type: group.type,\n            devices: deviceDetails\n        }\n    });\n}\nmsg = groupsInRoom;\nreturn {\n    msg: msg,\n    metadata: metadata,\n    msgType: msgType\n};",
         "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
       },
       "configurationVersion" : 0,
