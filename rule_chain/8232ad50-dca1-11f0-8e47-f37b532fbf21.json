@@ -4474,7 +4474,7 @@
         "entityType" : "RULE_NODE",
         "id" : "1a267931-4ea7-11f1-91bc-af21420ef882"
       },
-      "name" : "Building@Room+>",
+      "name" : "Room@Group+>",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
