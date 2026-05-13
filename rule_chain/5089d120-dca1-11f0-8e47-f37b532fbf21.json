@@ -26,10 +26,6 @@
       "type" : "REST API request"
     }, {
       "fromIndex" : 0,
-      "toIndex" : 1,
-      "type" : "RPC Request to Device"
-    }, {
-      "fromIndex" : 0,
       "toIndex" : 16,
       "type" : "Entity Created"
     }, {
