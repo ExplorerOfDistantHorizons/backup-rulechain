@@ -3584,7 +3584,7 @@
         "entityType" : "RULE_NODE",
         "id" : "ee6062e1-4df0-11f1-91bc-af21420ef882"
       },
-      "name" : "Xóa dữ liệu trong scene",
+      "name" : "DelSceneData In Device",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
