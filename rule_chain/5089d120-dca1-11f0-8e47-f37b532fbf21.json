@@ -226,7 +226,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 47,
-      "toIndex" : 53,
+      "toIndex" : 83,
       "type" : "Success"
     }, {
       "fromIndex" : 48,
@@ -347,6 +347,10 @@
     }, {
       "fromIndex" : 82,
       "toIndex" : 54,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 83,
+      "toIndex" : 53,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 0,
@@ -1711,8 +1715,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1377,
-        "layoutY" : 430
+        "layoutX" : 1651,
+        "layoutY" : 428
       },
       "configuration" : {
         "serviceIdMetaDataAttribute" : "serviceId",
@@ -2473,6 +2477,30 @@
         "id" : "3c0aa220-4eab-11f1-91bc-af21420ef882"
       },
       "name" : "tiền sử lý",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1376,
+        "layoutY" : 429
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "metadata.nextData = JSON.stringify(msg)\nmsg = {}\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "0d566c80-4eb9-11f1-af0b-cd0e00deb45b"
+      },
+      "name" : "xử lý cập nhật telemetry",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
