@@ -415,8 +415,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2204,
-        "layoutY" : 1078
+        "layoutX" : 2203,
+        "layoutY" : 1079
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -1842,8 +1842,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1956,
-        "layoutY" : 1077
+        "layoutX" : 1953,
+        "layoutY" : 1079
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
