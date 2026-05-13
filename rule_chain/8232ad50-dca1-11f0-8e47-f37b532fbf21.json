@@ -4380,7 +4380,7 @@
       "additionalInfo" : {
         "description" : "",
         "layoutX" : 2001,
-        "layoutY" : 506
+        "layoutY" : 503
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
@@ -4457,8 +4457,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2251,
-        "layoutY" : 506
+        "layoutX" : 2250,
+        "layoutY" : 504
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -4481,8 +4481,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2500,
-        "layoutY" : 506
+        "layoutX" : 2502,
+        "layoutY" : 505
       },
       "configuration" : {
         "serviceIdMetaDataAttribute" : "serviceId",
