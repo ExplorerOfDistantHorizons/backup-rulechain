@@ -2489,7 +2489,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "metadata.nextData = JSON.stringify(msg)\nmsg = {}\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "jsScript" : "msg = {\n    code:0,\n    message:\"Điều khiển nhóm thành công\"\n}\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
         "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
       },
       "configurationVersion" : 0,
