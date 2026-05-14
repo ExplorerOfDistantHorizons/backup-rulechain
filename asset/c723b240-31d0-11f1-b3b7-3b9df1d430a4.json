@@ -1,0 +1,37 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : {
+      "assetNameBuilding" : "{{entityName_Buiding}}"
+    },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "cb504220-dca3-11f0-8e47-f37b532fbf21"
+    },
+    "attributes" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "c723b240-31d0-11f1-b3b7-3b9df1d430a4"
+    },
+    "label" : "Tầng 88",
+    "name" : "6a3a1d7c-c07b-43ea-ab01-a6d5fb37ac64",
+    "telemetry" : null,
+    "type" : "FLOOR"
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "entityType",
+      "lastUpdateTs" : 1775490819032,
+      "longValue" : null,
+      "strValue" : "ASSET"
+    } ]
+  }
+}
