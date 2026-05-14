@@ -1,0 +1,138 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : true,
+      "overwriteActivityTime" : false,
+      "description" : "",
+      "assetNameBuilding" : "{{entityName_Buiding}}",
+      "assetNameFloor" : "6a3a1d7c-c07b-43ea-ab01-a6d5fb37ac64",
+      "assetNameRoom" : "49bb983f-311d-4c5f-af23-643a0eeda113"
+    },
+    "attributes" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "MQTT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "a4180430-dca4-11f0-8e47-f37b532fbf21"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "d4d48740-fda3-11f0-8b2e-a5c280dd1e2c"
+    },
+    "label" : "test nào",
+    "name" : "HC02",
+    "softwareId" : null,
+    "telemetry" : null,
+    "type" : "GATEWAY_HC02"
+  },
+  "credentials" : {
+    "credentialsId" : "4cee39db43b4bc60d6af2ed51e31336ddd01137f0269466af2ee5c20f4ef8e87",
+    "credentialsType" : "MQTT_BASIC",
+    "credentialsValue" : "{\"clientId\":\"hc02_08d1f99cd188\",\"userName\":\"hc02_08d1f99cd188\",\"password\":\"hc02_08d1f99cd188\"}"
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1778721112824,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "entityType",
+      "lastUpdateTs" : 1769754054201,
+      "longValue" : null,
+      "strValue" : "DEVICE"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1778670733476,
+      "longValue" : 1778670733475,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1778755063050,
+      "longValue" : 1778755062509,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1778721112824,
+      "longValue" : 1778721112824,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1778670097072,
+      "longValue" : 1778670097072,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "[{\"id\":\"dev_08d1f99cd188_c66b5538c1a4\",\"name\":\"Downlight màu_c66b5538c1a4\",\"type\":\"D_CCT-RGB_BLE\",\"version\":\"3.0\",\"listEpId\":[116,117],\"data\":{\"devicekey\":\"fd830f83-c779-f43c-9d82-b45de7874964\"}},{\"id\":\"dev_08d1f99cd188_fbd8ed38c1a4\",\"name\":\"Cảm biến chuyển động CB015 rada_fbd8ed38c1a4\",\"type\":\"CB15_BLE\",\"version\":\"1.2\",\"listEpId\":[12],\"data\":{\"devicekey\":\"f3f86f7f-56b6-173e-8c34-39f98572c517\"}},{\"id\":\"dev_08d1f99cd188_b66cbd38c1a4\",\"name\":\"Công tắc 3 nút_b66cbd38c1a4\",\"type\":\"CTCU_BLE_3\",\"version\":\"1.0\",\"listEpId\":[15,16,17],\"data\":{\"devicekey\":\"e5e2d86d-3253-6c2e-9d99-d21314a0bd40\"}}]",
+      "key" : "devices",
+      "lastUpdateTs" : 1770796778176,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "[]",
+      "key" : "groups",
+      "lastUpdateTs" : 1770796778176,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "[]",
+      "key" : "rooms",
+      "lastUpdateTs" : 1770796778176,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "[]",
+      "key" : "rules",
+      "lastUpdateTs" : 1770796778176,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "[]",
+      "key" : "scenes",
+      "lastUpdateTs" : 1770796778176,
+      "longValue" : null,
+      "strValue" : null
+    } ]
+  }
+}
