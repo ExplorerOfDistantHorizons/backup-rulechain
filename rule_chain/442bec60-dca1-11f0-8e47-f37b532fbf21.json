@@ -2249,8 +2249,8 @@
     }, {
       "additionalInfo" : {
         "description" : null,
-        "layoutX" : 2803,
-        "layoutY" : 1729
+        "layoutX" : 2778,
+        "layoutY" : 1728
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
@@ -2332,8 +2332,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Tạo nhóm và thêm quan hệ của thiệt bị với nhóm này ",
-        "layoutX" : 2802,
-        "layoutY" : 1678
+        "layoutX" : 2777,
+        "layoutY" : 1677
       },
       "configuration" : {
         "direction" : "TO",
@@ -2443,8 +2443,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2802,
-        "layoutY" : 1803
+        "layoutX" : 2777,
+        "layoutY" : 1802
       },
       "configuration" : {
         "deleteForSingleEntity" : false,
@@ -2469,8 +2469,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2802,
-        "layoutY" : 1853
+        "layoutX" : 2777,
+        "layoutY" : 1852
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
