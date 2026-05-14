@@ -2500,7 +2500,7 @@
         "entityType" : "RULE_NODE",
         "id" : "0d566c80-4eb9-11f1-af0b-cd0e00deb45b"
       },
-      "name" : "xử lý cập nhật telemetry",
+      "name" : "Chuẩn bị bản tin phản hồi",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
