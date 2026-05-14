@@ -3712,7 +3712,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "var message = \"\";\r\nvar code = msg.params.code;\r\n\r\nif (msg.params && msg.params.code === 0) {\r\n    message = \"Thêm thiết bị vào nhóm thành công\";\r\n    code = 0;\r\n} else {\r\n    message = \"Thêm thiết bị vào nhóm thất bại\";\r\n}\r\n\r\nmsg = {\r\n    code: code,\r\n    message: message\r\n};\r\n\r\nmsgType = \"REST_API_REQUEST\";\r\n\r\nreturn {\r\n    msg: msg,\r\n    metadata: metadata,\r\n    msgType: msgType\r\n};",
+        "jsScript" : "var message = \"\";\r\nvar code = msg.params.code;\r\n\r\nif (msg.params && msg.params.code === 0) {\r\n    message = \"Thêm thiết bị vào cảnh thành công\";\r\n    code = 0;\r\n} else {\r\n    message = \"Thêm thiết bị vào cảnh thất bại\";\r\n}\r\n\r\nmsg = {\r\n    code: code,\r\n    message: message\r\n};\r\n\r\nmsgType = \"REST_API_REQUEST\";\r\n\r\nreturn {\r\n    msg: msg,\r\n    metadata: metadata,\r\n    msgType: msgType\r\n};",
         "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
       },
       "configurationVersion" : 0,
