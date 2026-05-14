@@ -4642,7 +4642,7 @@
       },
       "configuration" : {
         "forwardMsgToDefaultRuleChain" : false,
-        "ruleChainId" : "5089d120-dca1-11f0-8e47-f37b532fbf21"
+        "ruleChainId" : "442bec60-dca1-11f0-8e47-f37b532fbf21"
       },
       "configurationVersion" : 1,
       "createdTime" : 0,
@@ -4652,7 +4652,7 @@
         "entityType" : "RULE_NODE",
         "id" : "ce4f4690-4f3c-11f1-af0b-cd0e00deb45b"
       },
-      "name" : "Room -> Group",
+      "name" : "Room -> Scene",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
