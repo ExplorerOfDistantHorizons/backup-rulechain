@@ -4893,14 +4893,14 @@
       "additionalInfo" : {
         "description" : "",
         "layoutX" : 2001,
-        "layoutY" : 652
+        "layoutY" : 653
       },
       "configuration" : {
         "direction" : "FROM",
         "entityType" : "ASSET",
         "entityNamePattern" : "$[params.id]",
-        "entityTypePattern" : "GROUP",
-        "relationType" : "Room_Group",
+        "entityTypePattern" : "SCENE",
+        "relationType" : "Room_Scene",
         "createEntityIfNotExists" : true,
         "removeCurrentRelations" : false,
         "changeOriginatorToRelatedEntity" : true
@@ -4911,9 +4911,9 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "ce507f10-4f3c-11f1-af0b-cd0e00deb45b"
+        "id" : "dcc8b850-4f3c-11f1-af0b-cd0e00deb45b"
       },
-      "name" : "Room@Group+>",
+      "name" : "Room@Scene+>",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
