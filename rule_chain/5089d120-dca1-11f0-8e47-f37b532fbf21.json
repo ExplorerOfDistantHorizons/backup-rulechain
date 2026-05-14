@@ -968,8 +968,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2756,
-        "layoutY" : 1330
+        "layoutX" : 2750,
+        "layoutY" : 1328
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -2338,8 +2338,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2754,
-        "layoutY" : 1380
+        "layoutX" : 2750,
+        "layoutY" : 1379
       },
       "configuration" : {
         "scriptLang" : "JS",
