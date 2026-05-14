@@ -82,7 +82,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 12,
-      "toIndex" : 17,
+      "toIndex" : 32,
       "type" : "Success"
     }, {
       "fromIndex" : 13,
@@ -148,6 +148,10 @@
       "fromIndex" : 31,
       "toIndex" : 22,
       "type" : "False"
+    }, {
+      "fromIndex" : 32,
+      "toIndex" : 17,
+      "type" : "Success"
     } ],
     "firstNodeIndex" : 1,
     "nodes" : [ {
@@ -584,8 +588,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1279,
-        "layoutY" : 554
+        "layoutX" : 1526,
+        "layoutY" : 552
       },
       "configuration" : {
         "serviceIdMetaDataAttribute" : "serviceId",
@@ -972,6 +976,30 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1276,
+        "layoutY" : 552
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "msg={\n    code : 0,\n    message:\"Điều khiển nhà thành công\"\n}\ndelete metadata.msgType\nmsgType = \"REST_API_REQUEST\";\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b7b8be80-4f72-11f1-af0b-cd0e00deb45b"
+      },
+      "name" : "tiền sử lý",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
     } ],
     "ruleChainConnections" : null
   },
