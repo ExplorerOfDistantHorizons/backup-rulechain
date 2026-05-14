@@ -173,6 +173,10 @@
       "toIndex" : 30,
       "type" : "Success"
     }, {
+      "fromIndex" : 24,
+      "toIndex" : 125,
+      "type" : "Success"
+    }, {
       "fromIndex" : 26,
       "toIndex" : 68,
       "type" : "Success"
@@ -3756,6 +3760,74 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1528,
+        "layoutY" : 1728
+      },
+      "configuration" : {
+        "originatorSource" : "ENTITY",
+        "entityType" : "DEVICE",
+        "entityNamePattern" : "$[params.gateway]",
+        "relationsQuery" : {
+          "direction" : "FROM",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Contains",
+            "entityTypes" : [ ],
+            "negate" : false
+          } ],
+          "fetchLastLevelOnly" : false
+        }
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "089cc8e0-4f65-11f1-af0b-cd0e00deb45b"
+      },
+      "name" : "-> Gateway",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1526,
+        "layoutY" : 1856
+      },
+      "configuration" : {
+        "originatorSource" : "ENTITY",
+        "entityType" : "DEVICE",
+        "entityNamePattern" : "$[params.gateway]",
+        "relationsQuery" : {
+          "direction" : "FROM",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Contains",
+            "entityTypes" : [ ],
+            "negate" : false
+          } ],
+          "fetchLastLevelOnly" : false
+        }
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "089d1700-4f65-11f1-af0b-cd0e00deb45b"
+      },
+      "name" : "-> Gateway",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
     } ],
     "ruleChainConnections" : null
   },
