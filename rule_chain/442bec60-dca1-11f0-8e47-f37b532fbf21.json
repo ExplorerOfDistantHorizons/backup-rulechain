@@ -398,11 +398,11 @@
       "type" : "Success"
     }, {
       "fromIndex" : 96,
-      "toIndex" : 97,
+      "toIndex" : 98,
       "type" : "Success"
     }, {
       "fromIndex" : 96,
-      "toIndex" : 98,
+      "toIndex" : 122,
       "type" : "Success"
     }, {
       "fromIndex" : 98,
@@ -2993,8 +2993,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2529,
-        "layoutY" : 1104
+        "layoutX" : 2779,
+        "layoutY" : 1103
       },
       "configuration" : {
         "serviceIdMetaDataAttribute" : "serviceId",
@@ -3664,6 +3664,30 @@
         "id" : "35d70f10-4f5f-11f1-af0b-cd0e00deb45b"
       },
       "name" : "Chuẩn hóa bản tin xóa",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2529,
+        "layoutY" : 1104
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "var message = \"\";\r\nvar code = msg.params.code;\r\n\r\nif (msg.params && msg.params.code === 0) {\r\n    message = \"Thêm thiết bị vào nhóm thành công\";\r\n    code = 0;\r\n} else {\r\n    message = \"Thêm thiết bị vào nhóm thất bại\";\r\n}\r\n\r\nmsg = {\r\n    code: code,\r\n    message: message\r\n};\r\n\r\nmsgType = \"REST_API_REQUEST\";\r\n\r\nreturn {\r\n    msg: msg,\r\n    metadata: metadata,\r\n    msgType: msgType\r\n};",
+        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "98403c30-4f5f-11f1-af0b-cd0e00deb45b"
+      },
+      "name" : "tiền sử lý",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
