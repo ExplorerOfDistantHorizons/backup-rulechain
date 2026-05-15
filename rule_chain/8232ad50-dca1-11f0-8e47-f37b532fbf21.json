@@ -4676,7 +4676,7 @@
         "entityType" : "RULE_NODE",
         "id" : "ce4f6da0-4f3c-11f1-af0b-cd0e00deb45b"
       },
-      "name" : "Nhóm trống ?",
+      "name" : "Cảnh trống ?",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
