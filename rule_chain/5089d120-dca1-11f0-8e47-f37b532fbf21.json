@@ -494,7 +494,7 @@
         "entityType" : "RULE_NODE",
         "id" : "b632f4a0-f698-11f0-8c6e-5381beb8d689"
       },
-      "name" : "-> devices",
+      "name" : "msg = devices",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
