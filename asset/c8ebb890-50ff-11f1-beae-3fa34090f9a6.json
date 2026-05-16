@@ -1,0 +1,29 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : {
+      "assetNameBuilding" : "c6034c32-702b-4204-b1e1-cf24b4eaca69"
+    },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "dc296b40-dca2-11f0-8e47-f37b532fbf21"
+    },
+    "attributes" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "c8ebb890-50ff-11f1-beae-3fa34090f9a6"
+    },
+    "label" : "Ban công",
+    "name" : "d1021150-f1a3-4618-a15f-e0ba03d06581",
+    "telemetry" : null,
+    "type" : "ROOM"
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
