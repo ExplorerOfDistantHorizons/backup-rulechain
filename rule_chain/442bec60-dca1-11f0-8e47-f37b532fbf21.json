@@ -1615,7 +1615,7 @@
       "configuration" : {
         "direction" : "TO",
         "entityType" : "ASSET",
-        "entityNamePattern" : "$[entityName]",
+        "entityNamePattern" : "${entityName}",
         "entityTypePattern" : "SCENE",
         "relationType" : "Scene_DeviceInDirect",
         "createEntityIfNotExists" : false,
