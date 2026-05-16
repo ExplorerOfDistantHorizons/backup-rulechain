@@ -997,9 +997,9 @@
       },
       "configuration" : {
         "deleteForSingleEntity" : true,
-        "direction" : "FROM",
-        "entityType" : "DEVICE",
-        "entityNamePattern" : "$[id]",
+        "direction" : "TO",
+        "entityType" : "ASSET",
+        "entityNamePattern" : "${entityName}",
         "relationType" : "Scene_DeviceInDirect"
       },
       "configurationVersion" : 1,
