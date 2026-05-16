@@ -1,0 +1,122 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : false,
+      "overwriteActivityTime" : false,
+      "description" : ""
+    },
+    "attributes" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "MQTT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "828ea8a0-dca4-11f0-8e47-f37b532fbf21"
+    },
+    "externalId" : null,
+    "firmwareId" : {
+      "entityType" : "OTA_PACKAGE",
+      "id" : "9135d110-50d7-11f1-beae-3fa34090f9a6"
+    },
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "ab175b10-114b-11f1-af6a-69ceae7c9dfc"
+    },
+    "label" : "",
+    "name" : "dev_rd_10003bb86428",
+    "softwareId" : null,
+    "telemetry" : null,
+    "type" : "CTCU_WIFI_3"
+  },
+  "credentials" : {
+    "credentialsId" : "e072d16e2c66c3637f65dcd5cbeb26de3c6756f7f03eaaadd06f18067c7115b9",
+    "credentialsType" : "MQTT_BASIC",
+    "credentialsValue" : "{\"clientId\":\"rd_10003bb86428\",\"userName\":\"rd_10003bb86428\",\"password\":\"rd_10003bb86428\"}"
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1778901874889,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "entityType",
+      "lastUpdateTs" : 1771915211775,
+      "longValue" : null,
+      "strValue" : "DEVICE"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1778901873964,
+      "longValue" : 1778901873964,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1778901874889,
+      "longValue" : 1778901874337,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1778901272825,
+      "longValue" : 1778901272825,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1778901874343,
+      "longValue" : 1778901874343,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "fw_title",
+      "lastUpdateTs" : 1778902263111,
+      "longValue" : null,
+      "strValue" : "FirmUpdateCTCU3"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "fw_version",
+      "lastUpdateTs" : 1778902263111,
+      "longValue" : null,
+      "strValue" : "v1.0.1"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "statusStartup",
+      "lastUpdateTs" : 1778898803630,
+      "longValue" : 1,
+      "strValue" : null
+    } ]
+  }
+}
