@@ -21,46 +21,6 @@
     "telemetry" : null,
     "type" : "SCENE"
   },
-  "relations" : [ {
-    "additionalInfo" : null,
-    "from" : {
-      "entityType" : "DEVICE",
-      "id" : "8470b860-500e-11f1-beae-3fa34090f9a6"
-    },
-    "to" : {
-      "entityType" : "ASSET",
-      "id" : "1e57a5c0-50d6-11f1-beae-3fa34090f9a6"
-    },
-    "type" : "Gateway_Scene",
-    "typeGroup" : "COMMON",
-    "version" : 2228696
-  }, {
-    "additionalInfo" : null,
-    "from" : {
-      "entityType" : "ASSET",
-      "id" : "a6093670-50cf-11f1-beae-3fa34090f9a6"
-    },
-    "to" : {
-      "entityType" : "ASSET",
-      "id" : "1e57a5c0-50d6-11f1-beae-3fa34090f9a6"
-    },
-    "type" : "Room_Scene",
-    "typeGroup" : "COMMON",
-    "version" : 2228695
-  }, {
-    "additionalInfo" : null,
-    "from" : {
-      "entityType" : "ASSET",
-      "id" : "1e57a5c0-50d6-11f1-beae-3fa34090f9a6"
-    },
-    "to" : {
-      "entityType" : "DEVICE",
-      "id" : "31ca33f0-5010-11f1-beae-3fa34090f9a6"
-    },
-    "type" : "Scene_DeviceInDirect",
-    "typeGroup" : "COMMON",
-    "version" : 2228697
-  } ],
   "attributes" : {
     "SERVER_SCOPE" : [ {
       "booleanValue" : null,
