@@ -1,0 +1,59 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : null,
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "a951d310-dca2-11f0-8e47-f37b532fbf21"
+    },
+    "attributes" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "1e57a5c0-50d6-11f1-beae-3fa34090f9a6"
+    },
+    "label" : null,
+    "name" : "953917e7-e782-4419-a7f8-7df0e56d4de2",
+    "telemetry" : null,
+    "type" : "SCENE"
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "entityType",
+      "lastUpdateTs" : 1778901598788,
+      "longValue" : null,
+      "strValue" : "ASSET"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "id",
+      "lastUpdateTs" : 1778901598930,
+      "longValue" : null,
+      "strValue" : "953917e7-e782-4419-a7f8-7df0e56d4de2"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "name",
+      "lastUpdateTs" : 1778901598930,
+      "longValue" : null,
+      "strValue" : "tghjo"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "sceneTypeId",
+      "lastUpdateTs" : 1778901598930,
+      "longValue" : 1,
+      "strValue" : null
+    } ]
+  }
+}
