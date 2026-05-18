@@ -1359,8 +1359,8 @@
     }, {
       "additionalInfo" : {
         "description" : "chuyển đến Rule chain - Scene",
-        "layoutX" : 3402,
-        "layoutY" : 1533
+        "layoutX" : 3404,
+        "layoutY" : 1529
       },
       "configuration" : {
         "forwardMsgToDefaultRuleChain" : false,
@@ -1382,8 +1382,8 @@
     }, {
       "additionalInfo" : {
         "description" : "chuyển đến Rule chain - Group",
-        "layoutX" : 3402,
-        "layoutY" : 1484
+        "layoutX" : 3404,
+        "layoutY" : 1479
       },
       "configuration" : {
         "forwardMsgToDefaultRuleChain" : false,
@@ -1405,8 +1405,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Xử lý các danh sách thiết bị, nhóm , cảnh",
-        "layoutX" : 2902,
-        "layoutY" : 1481
+        "layoutX" : 2903,
+        "layoutY" : 1480
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -1429,8 +1429,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Xử lý các danh sách thiết bị, nhóm , cảnh",
-        "layoutX" : 2903,
-        "layoutY" : 1532
+        "layoutX" : 2904,
+        "layoutY" : 1530
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -1453,8 +1453,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3401,
-        "layoutY" : 1432
+        "layoutX" : 3404,
+        "layoutY" : 1429
       },
       "configuration" : {
         "version" : 0
@@ -1475,8 +1475,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3153,
-        "layoutY" : 1482
+        "layoutX" : 3154,
+        "layoutY" : 1480
       },
       "configuration" : {
         "version" : 0
@@ -1497,8 +1497,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3153,
-        "layoutY" : 1531
+        "layoutX" : 3154,
+        "layoutY" : 1529
       },
       "configuration" : {
         "version" : 0
@@ -3902,7 +3902,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3401,
+        "layoutX" : 3404,
         "layoutY" : 1378
       },
       "configuration" : {
