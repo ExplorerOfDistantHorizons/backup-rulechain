@@ -1456,9 +1456,9 @@
         "layoutY" : 53
       },
       "configuration" : {
-        "scriptLang" : "TBEL",
-        "jsScript" : "function nextRelation(metadata, msg) {\n    return ['one','nine'];\n}\nif(msgType === 'POST_TELEMETRY_REQUEST') {\n    return ['two'];\n}\nreturn nextRelation(metadata, msg);",
-        "tbelScript" : "function nextRelation(metadata, msg) {\r\n    var out_list = [];\r\n    switch (msg.method) {\r\n        case \"resetDeviceWifi\":\r\n            out_list = ['resetDeviceWifi']\r\n            break;\r\n            \r\n        case \"configThresholdComplete\":\r\n            out_list = ['configThresholdComplete']\r\n            break;\r\n    \r\n        default:\r\n            out_list = ['otherMethod']\r\n            break;\r\n    }\r\n    return out_list;\r\n}\r\nreturn nextRelation(metadata, msg);"
+        "scriptLang" : "JS",
+        "jsScript" : "function nextRelation(metadata, msg) {\r\n    var out_list = [];\r\n    switch (metadata.entityType) {\r\n        case \"resetDeviceWifi\":\r\n            out_list = ['resetDeviceWifi']\r\n            break;\r\n            \r\n        case \"configThresholdComplete\":\r\n            out_list = ['configThresholdComplete']\r\n            break;\r\n    \r\n        default:\r\n            out_list = ['otherMethod']\r\n            break;\r\n    }\r\n    return out_list;\r\n}\r\nreturn nextRelation(metadata, msg);",
+        "tbelScript" : ""
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
