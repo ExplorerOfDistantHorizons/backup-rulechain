@@ -424,7 +424,7 @@
         "entityType" : "RULE_NODE",
         "id" : "6eda6fe1-dca1-11f0-8e47-f37b532fbf21"
       },
-      "name" : "chuyển hcp về trạng thái offline",
+      "name" : "đưa thiết bị về trạng thái mặc định",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
