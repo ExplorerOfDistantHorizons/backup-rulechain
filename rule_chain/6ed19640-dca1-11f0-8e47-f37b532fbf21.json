@@ -232,6 +232,10 @@
       "fromIndex" : 50,
       "toIndex" : 49,
       "type" : "DEVICE"
+    }, {
+      "fromIndex" : 51,
+      "toIndex" : 52,
+      "type" : "Success"
     } ],
     "firstNodeIndex" : 32,
     "nodes" : [ {
@@ -1518,18 +1522,17 @@
         "layoutY" : 903
       },
       "configuration" : {
-        "originatorSource" : "ENTITY",
-        "entityType" : "ASSET",
-        "entityNamePattern" : "list_dev_wifi",
+        "originatorSource" : "RELATED",
+        "entityType" : null,
+        "entityNamePattern" : null,
         "relationsQuery" : {
+          "fetchLastLevelOnly" : false,
           "direction" : "FROM",
           "maxLevel" : 1,
           "filters" : [ {
-            "relationType" : "Contains",
-            "entityTypes" : [ ],
-            "negate" : false
-          } ],
-          "fetchLastLevelOnly" : false
+            "relationType" : "${mac}",
+            "entityTypes" : [ "DEVICE" ]
+          } ]
         }
       },
       "configurationVersion" : 0,
@@ -1540,7 +1543,7 @@
         "entityType" : "RULE_NODE",
         "id" : "6652b5a0-526f-11f1-8a6b-41c92db668c6"
       },
-      "name" : "-> list_dev_wifi",
+      "name" : "-> device by mac",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
