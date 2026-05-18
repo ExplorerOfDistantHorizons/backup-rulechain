@@ -1080,7 +1080,7 @@
         "entityType" : "RULE_NODE",
         "id" : "629b8490-5270-11f1-8a6b-41c92db668c6"
       },
-      "name" : "lấy entityName của tòa nhà",
+      "name" : "G entityName_Building",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
