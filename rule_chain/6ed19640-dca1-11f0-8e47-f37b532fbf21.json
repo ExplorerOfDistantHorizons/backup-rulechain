@@ -228,6 +228,10 @@
       "fromIndex" : 46,
       "toIndex" : 22,
       "type" : "Success"
+    }, {
+      "fromIndex" : 50,
+      "toIndex" : 49,
+      "type" : "DEVICE"
     } ],
     "firstNodeIndex" : 32,
     "nodes" : [ {
@@ -1050,13 +1054,13 @@
       "type" : "org.thingsboard.rule.engine.telemetry.TbMsgAttributesNode"
     }, {
       "additionalInfo" : {
-        "description" : "",
+        "description" : "Nếu nhập sai mac từ bước này thì đừng hòng thêm được vào nhà",
         "layoutX" : 1030,
         "layoutY" : 104
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "msg = {\n    entityType: \"DEVICE\"\n}\nmsgType = \"POST_ATTRIBUTES_REQUEST\";\n\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "jsScript" : "// Lấy name\nvar deviceName = msg.name || \"\";\n// Tách chuỗi theo \"_\"\nvar arr = deviceName.split(\"_\");\nmetadata.mac =  arr.length >= 3 ? arr[2] : \"\";\nmsg = {\n    entityType: \"DEVICE\"\n}\nmsgType = \"POST_ATTRIBUTES_REQUEST\";\n\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
         "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
       },
       "configurationVersion" : 0,
@@ -1067,7 +1071,7 @@
         "entityType" : "RULE_NODE",
         "id" : "6eddf252-dca1-11f0-8e47-f37b532fbf21"
       },
-      "name" : "xử lý khởi tạo",
+      "name" : "Lấy mac từ entityName của thiết bị.",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
@@ -1431,9 +1435,9 @@
         "entityType" : "ASSET",
         "entityNamePattern" : "LIST_DEV_WIFI",
         "entityTypePattern" : "LIST_DEV_WIFI",
-        "relationType" : "${params.mac}",
+        "relationType" : "${mac}",
         "createEntityIfNotExists" : true,
-        "removeCurrentRelations" : false,
+        "removeCurrentRelations" : true,
         "changeOriginatorToRelatedEntity" : false
       },
       "configurationVersion" : 1,
@@ -1457,7 +1461,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "function nextRelation(metadata, msg) {\r\n    var out_list = [];\r\n    switch (metadata.entityType) {\r\n        case \"resetDeviceWifi\":\r\n            out_list = ['resetDeviceWifi']\r\n            break;\r\n            \r\n        case \"configThresholdComplete\":\r\n            out_list = ['configThresholdComplete']\r\n            break;\r\n    \r\n        default:\r\n            out_list = ['otherMethod']\r\n            break;\r\n    }\r\n    return out_list;\r\n}\r\nreturn nextRelation(metadata, msg);",
+        "jsScript" : "function nextRelation(metadata, msg) {\r\n    var out_list = [];\r\n    switch (metadata.entityType) {\r\n        case \"DEVICE\":\r\n            out_list = ['DEVICE']\r\n            break;\r\n    \r\n        default:\r\n            out_list = ['otherMethod']\r\n            break;\r\n    }\r\n    return out_list;\r\n}\r\nreturn nextRelation(metadata, msg);",
         "tbelScript" : ""
       },
       "configurationVersion" : 0,
