@@ -1679,7 +1679,7 @@
       "configuration" : {
         "direction" : "FROM",
         "entityType" : "ASSET",
-        "entityNamePattern" : "${DD}",
+        "entityNamePattern" : "${entityName_Building}",
         "entityTypePattern" : "BUILDING",
         "relationType" : "Building",
         "createEntityIfNotExists" : false,
