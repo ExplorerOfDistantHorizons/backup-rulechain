@@ -1682,7 +1682,7 @@
         "entityType" : "ASSET",
         "entityNamePattern" : "${entityName_Building}",
         "entityTypePattern" : "BUILDING",
-        "relationType" : "Building",
+        "relationType" : "Building_${profileName}",
         "createEntityIfNotExists" : false,
         "removeCurrentRelations" : false,
         "changeOriginatorToRelatedEntity" : false
