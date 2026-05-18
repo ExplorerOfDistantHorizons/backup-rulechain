@@ -177,10 +177,6 @@
       "toIndex" : 1,
       "type" : "Success"
     }, {
-      "fromIndex" : 30,
-      "toIndex" : 2,
-      "type" : "Success"
-    }, {
       "fromIndex" : 31,
       "toIndex" : 5,
       "type" : "Success"
@@ -281,8 +277,8 @@
     }, {
       "additionalInfo" : {
         "description" : null,
-        "layoutX" : 1577,
-        "layoutY" : 903
+        "layoutX" : 2079,
+        "layoutY" : 906
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -303,8 +299,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2077,
-        "layoutY" : 903
+        "layoutX" : 2579,
+        "layoutY" : 906
       },
       "configuration" : {
         "dataMapping" : {
@@ -330,8 +326,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1828,
-        "layoutY" : 903
+        "layoutX" : 2330,
+        "layoutY" : 906
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -376,8 +372,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2325,
-        "layoutY" : 902
+        "layoutX" : 2827,
+        "layoutY" : 905
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -400,8 +396,8 @@
     }, {
       "additionalInfo" : {
         "description" : null,
-        "layoutX" : 2853,
-        "layoutY" : 906
+        "layoutX" : 3355,
+        "layoutY" : 909
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
@@ -522,8 +518,8 @@
     }, {
       "additionalInfo" : {
         "description" : null,
-        "layoutX" : 2853,
-        "layoutY" : 950
+        "layoutX" : 3355,
+        "layoutY" : 953
       },
       "configuration" : {
         "scope" : "SHARED_SCOPE",
@@ -547,8 +543,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2604,
-        "layoutY" : 994
+        "layoutX" : 3106,
+        "layoutY" : 997
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -571,8 +567,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2852,
-        "layoutY" : 994
+        "layoutX" : 3354,
+        "layoutY" : 997
       },
       "configuration" : {
         "defaultTTL" : 0,
@@ -595,8 +591,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2603,
-        "layoutY" : 949
+        "layoutX" : 3105,
+        "layoutY" : 952
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -619,8 +615,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2603,
-        "layoutY" : 904
+        "layoutX" : 3105,
+        "layoutY" : 907
       },
       "configuration" : {
         "scriptLang" : "JS",
