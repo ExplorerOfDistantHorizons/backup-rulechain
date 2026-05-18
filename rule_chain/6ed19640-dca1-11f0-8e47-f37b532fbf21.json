@@ -1670,6 +1670,35 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2826,
+        "layoutY" : 853
+      },
+      "configuration" : {
+        "direction" : "FROM",
+        "entityType" : "ASSET",
+        "entityNamePattern" : "${DD}",
+        "entityTypePattern" : "BUILDING",
+        "relationType" : "Building",
+        "createEntityIfNotExists" : false,
+        "removeCurrentRelations" : false,
+        "changeOriginatorToRelatedEntity" : false
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b4f58f50-5271-11f1-8a6b-41c92db668c6"
+      },
+      "name" : "Building@Devcie",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.action.TbCreateRelationNode"
     } ],
     "ruleChainConnections" : null
   },
