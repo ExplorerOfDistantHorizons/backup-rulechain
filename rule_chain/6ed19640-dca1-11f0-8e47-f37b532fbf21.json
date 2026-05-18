@@ -197,10 +197,6 @@
       "toIndex" : 33,
       "type" : "Success"
     }, {
-      "fromIndex" : 34,
-      "toIndex" : 49,
-      "type" : "Success"
-    }, {
       "fromIndex" : 36,
       "toIndex" : 35,
       "type" : "Success"
@@ -1423,7 +1419,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1301,
+        "layoutX" : 1550,
         "layoutY" : 53
       },
       "configuration" : {
@@ -1449,6 +1445,30 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.action.TbCreateRelationNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1305,
+        "layoutY" : 53
+      },
+      "configuration" : {
+        "scriptLang" : "TBEL",
+        "jsScript" : "function nextRelation(metadata, msg) {\n    return ['one','nine'];\n}\nif(msgType === 'POST_TELEMETRY_REQUEST') {\n    return ['two'];\n}\nreturn nextRelation(metadata, msg);",
+        "tbelScript" : "function nextRelation(metadata, msg) {\r\n    var out_list = [];\r\n    switch (msg.method) {\r\n        case \"resetDeviceWifi\":\r\n            out_list = ['resetDeviceWifi']\r\n            break;\r\n            \r\n        case \"configThresholdComplete\":\r\n            out_list = ['configThresholdComplete']\r\n            break;\r\n    \r\n        default:\r\n            out_list = ['otherMethod']\r\n            break;\r\n    }\r\n    return out_list;\r\n}\r\nreturn nextRelation(metadata, msg);"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "1c5c9090-526c-11f1-8a6b-41c92db668c6"
+      },
+      "name" : "lọc bản tin",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsSwitchNode"
     } ],
     "ruleChainConnections" : null
   },
