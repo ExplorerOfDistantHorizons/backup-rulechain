@@ -236,6 +236,10 @@
       "fromIndex" : 51,
       "toIndex" : 52,
       "type" : "Success"
+    }, {
+      "fromIndex" : 52,
+      "toIndex" : 2,
+      "type" : "Success"
     } ],
     "firstNodeIndex" : 32,
     "nodes" : [ {
@@ -285,8 +289,8 @@
     }, {
       "additionalInfo" : {
         "description" : null,
-        "layoutX" : 2079,
-        "layoutY" : 906
+        "layoutX" : 2077,
+        "layoutY" : 904
       },
       "configuration" : {
         "timeoutInSeconds" : 0
