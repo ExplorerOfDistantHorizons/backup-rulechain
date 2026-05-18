@@ -197,6 +197,10 @@
       "toIndex" : 33,
       "type" : "Success"
     }, {
+      "fromIndex" : 34,
+      "toIndex" : 49,
+      "type" : "Success"
+    }, {
       "fromIndex" : 36,
       "toIndex" : 35,
       "type" : "Success"
@@ -1416,6 +1420,35 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.action.TbClearAlarmNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1301,
+        "layoutY" : 53
+      },
+      "configuration" : {
+        "direction" : "TO",
+        "entityType" : "ASSET",
+        "entityNamePattern" : "LIST_DEV_WIFI",
+        "entityTypePattern" : "LIST_DEV_WIFI",
+        "relationType" : "${params.mac}",
+        "createEntityIfNotExists" : true,
+        "removeCurrentRelations" : false,
+        "changeOriginatorToRelatedEntity" : false
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "0593c4d0-5269-11f1-8a6b-41c92db668c6"
+      },
+      "name" : "Thêm vào danh sách thiết bị wif",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.action.TbCreateRelationNode"
     } ],
     "ruleChainConnections" : null
   },
