@@ -1884,7 +1884,7 @@
         "entityType" : "RULE_NODE",
         "id" : "3a460221-4d13-11f1-9f99-fd9d066e72c2"
       },
-      "name" : "Room -> Gateway",
+      "name" : "-> Gateway",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
