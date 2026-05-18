@@ -341,7 +341,8 @@
       "configuration" : {
         "dataMapping" : {
           "id" : "idThingsDeviceWifi",
-          "name" : "originatorName"
+          "name" : "originatorName",
+          "type" : "profileName"
         },
         "ignoreNullStrings" : false,
         "fetchTo" : "METADATA"
