@@ -1020,7 +1020,7 @@
       },
       "configuration" : {
         "forwardMsgToDefaultRuleChain" : false,
-        "ruleChainId" : "8232ad50-dca1-11f0-8e47-f37b532fbf21"
+        "ruleChainId" : "6ed19640-dca1-11f0-8e47-f37b532fbf21"
       },
       "configurationVersion" : 1,
       "createdTime" : 0,
@@ -1030,7 +1030,7 @@
         "entityType" : "RULE_NODE",
         "id" : "629b0f60-5270-11f1-8a6b-41c92db668c6"
       },
-      "name" : "Rule chain - Room",
+      "name" : "Rule chain - DeviceDirect",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
