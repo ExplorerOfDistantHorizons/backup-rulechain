@@ -58,7 +58,7 @@
       "type" : "Entity Updated"
     }, {
       "fromIndex" : 0,
-      "toIndex" : 47,
+      "toIndex" : 46,
       "type" : "Post telemetry"
     }, {
       "fromIndex" : 1,
@@ -78,15 +78,15 @@
       "type" : "True"
     }, {
       "fromIndex" : 5,
-      "toIndex" : 44,
+      "toIndex" : 43,
       "type" : "Failure"
     }, {
       "fromIndex" : 5,
-      "toIndex" : 44,
+      "toIndex" : 43,
       "type" : "Success"
     }, {
       "fromIndex" : 5,
-      "toIndex" : 46,
+      "toIndex" : 45,
       "type" : "Success"
     }, {
       "fromIndex" : 6,
@@ -138,11 +138,11 @@
       "type" : "Success"
     }, {
       "fromIndex" : 23,
-      "toIndex" : 48,
+      "toIndex" : 47,
       "type" : "Success"
     }, {
       "fromIndex" : 24,
-      "toIndex" : 49,
+      "toIndex" : 48,
       "type" : "Success"
     }, {
       "fromIndex" : 25,
@@ -158,7 +158,7 @@
       "type" : "delDeviceWifi"
     }, {
       "fromIndex" : 25,
-      "toIndex" : 41,
+      "toIndex" : 40,
       "type" : "configDev"
     }, {
       "fromIndex" : 26,
@@ -166,7 +166,7 @@
       "type" : "resetDeviceWifi"
     }, {
       "fromIndex" : 26,
-      "toIndex" : 43,
+      "toIndex" : 42,
       "type" : "configThresholdComplete"
     }, {
       "fromIndex" : 28,
@@ -201,31 +201,27 @@
       "toIndex" : 35,
       "type" : "Success"
     }, {
-      "fromIndex" : 36,
+      "fromIndex" : 38,
+      "toIndex" : 39,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 40,
       "toIndex" : 37,
       "type" : "Success"
     }, {
-      "fromIndex" : 39,
-      "toIndex" : 40,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 41,
-      "toIndex" : 38,
+      "fromIndex" : 42,
+      "toIndex" : 41,
       "type" : "Success"
     }, {
       "fromIndex" : 43,
-      "toIndex" : 42,
+      "toIndex" : 44,
       "type" : "Success"
     }, {
-      "fromIndex" : 44,
-      "toIndex" : 45,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 46,
+      "fromIndex" : 45,
       "toIndex" : 9,
       "type" : "True"
     }, {
-      "fromIndex" : 47,
+      "fromIndex" : 46,
       "toIndex" : 22,
       "type" : "Success"
     } ],
@@ -1121,35 +1117,6 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "",
-        "layoutX" : 1301,
-        "layoutY" : 154
-      },
-      "configuration" : {
-        "direction" : "TO",
-        "entityType" : "ASSET",
-        "entityNamePattern" : "${assetNameChosce}",
-        "entityTypePattern" : "${profileNameRoot}",
-        "relationType" : "Contains",
-        "createEntityIfNotExists" : false,
-        "removeCurrentRelations" : true,
-        "changeOriginatorToRelatedEntity" : false
-      },
-      "configurationVersion" : 1,
-      "createdTime" : 0,
-      "debugMode" : false,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "6edf03c0-dca1-11f0-8e47-f37b532fbf21"
-      },
-      "name" : "gắn quan hệ",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.action.TbCreateRelationNode"
     }, {
       "additionalInfo" : {
         "description" : null,
