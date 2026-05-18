@@ -1,0 +1,29 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : "Nhan vien"
+    },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "be7290e0-5295-11f1-8a6b-41c92db668c6"
+    },
+    "attributes" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "be76d6a0-5295-11f1-8a6b-41c92db668c6"
+    },
+    "label" : "Kinh doanh",
+    "name" : "1001",
+    "telemetry" : null,
+    "type" : "Nguyen Van A"
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
