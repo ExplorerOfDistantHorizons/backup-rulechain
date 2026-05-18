@@ -441,8 +441,8 @@
     }, {
       "additionalInfo" : {
         "description" : null,
-        "layoutX" : 3355,
-        "layoutY" : 909
+        "layoutX" : 3352,
+        "layoutY" : 903
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
@@ -563,8 +563,8 @@
     }, {
       "additionalInfo" : {
         "description" : null,
-        "layoutX" : 3355,
-        "layoutY" : 953
+        "layoutX" : 3352,
+        "layoutY" : 952
       },
       "configuration" : {
         "scope" : "SHARED_SCOPE",
@@ -588,8 +588,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3106,
-        "layoutY" : 997
+        "layoutX" : 3102,
+        "layoutY" : 1003
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -612,8 +612,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3354,
-        "layoutY" : 997
+        "layoutX" : 3352,
+        "layoutY" : 1002
       },
       "configuration" : {
         "defaultTTL" : 0,
@@ -636,8 +636,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3105,
-        "layoutY" : 952
+        "layoutX" : 3101,
+        "layoutY" : 954
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -660,8 +660,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3105,
-        "layoutY" : 907
+        "layoutX" : 3101,
+        "layoutY" : 903
       },
       "configuration" : {
         "scriptLang" : "JS",
