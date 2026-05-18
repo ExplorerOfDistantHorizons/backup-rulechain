@@ -93,6 +93,10 @@
       "toIndex" : 23,
       "type" : "createRoom"
     }, {
+      "fromIndex" : 13,
+      "toIndex" : 35,
+      "type" : "registerDev"
+    }, {
       "fromIndex" : 14,
       "toIndex" : 9,
       "type" : "Success"
@@ -151,6 +155,14 @@
     }, {
       "fromIndex" : 32,
       "toIndex" : 17,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 34,
+      "toIndex" : 33,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 35,
+      "toIndex" : 34,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 1,
@@ -1000,6 +1012,79 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1526,
+        "layoutY" : 754
+      },
+      "configuration" : {
+        "forwardMsgToDefaultRuleChain" : false,
+        "ruleChainId" : "8232ad50-dca1-11f0-8e47-f37b532fbf21"
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "629b0f60-5270-11f1-8a6b-41c92db668c6"
+      },
+      "name" : "Rule chain - Room",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1278,
+        "layoutY" : 754
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "629b5d80-5270-11f1-8a6b-41c92db668c6"
+      },
+      "name" : "tiền sử lý",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1003,
+        "layoutY" : 755
+      },
+      "configuration" : {
+        "dataMapping" : {
+          "name" : "entityName_Building"
+        },
+        "ignoreNullStrings" : false,
+        "fetchTo" : "METADATA"
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "629b8490-5270-11f1-8a6b-41c92db668c6"
+      },
+      "name" : "lấy entityName của tòa nhà",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetOriginatorFieldsNode"
     } ],
     "ruleChainConnections" : null
   },
