@@ -1433,7 +1433,7 @@
       "configuration" : {
         "direction" : "TO",
         "entityType" : "ASSET",
-        "entityNamePattern" : "LIST_DEV_WIFI",
+        "entityNamePattern" : "list_dev_wifi",
         "entityTypePattern" : "LIST_DEV_WIFI",
         "relationType" : "${mac}",
         "createEntityIfNotExists" : true,
