@@ -1281,7 +1281,7 @@
       "additionalInfo" : {
         "description" : "",
         "layoutX" : 3151,
-        "layoutY" : 2128
+        "layoutY" : 2127
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -3762,8 +3762,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3649,
-        "layoutY" : 2079
+        "layoutX" : 3400,
+        "layoutY" : 2080
       },
       "configuration" : {
         "requestIdMetaDataAttribute" : "requestUUID_API",
@@ -4207,8 +4207,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3401,
-        "layoutY" : 2079
+        "layoutX" : 3152,
+        "layoutY" : 2080
       },
       "configuration" : {
         "scriptLang" : "JS",
