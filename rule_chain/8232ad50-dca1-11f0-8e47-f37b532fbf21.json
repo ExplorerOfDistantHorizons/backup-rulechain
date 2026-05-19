@@ -3652,7 +3652,7 @@
       "configuration" : {
         "originatorSource" : "ENTITY",
         "entityType" : "DEVICE",
-        "entityNamePattern" : "$[deviceName]",
+        "entityNamePattern" : "$[id]",
         "relationsQuery" : {
           "direction" : "FROM",
           "maxLevel" : 1,
