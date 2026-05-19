@@ -165,14 +165,6 @@
       "toIndex" : 143,
       "type" : "Success"
     }, {
-      "fromIndex" : 23,
-      "toIndex" : 139,
-      "type" : "Failure"
-    }, {
-      "fromIndex" : 23,
-      "toIndex" : 139,
-      "type" : "Success"
-    }, {
       "fromIndex" : 24,
       "toIndex" : 28,
       "type" : "Success"
@@ -535,7 +527,7 @@
     }, {
       "fromIndex" : 123,
       "toIndex" : 139,
-      "type" : "Failure"
+      "type" : "Success"
     }, {
       "fromIndex" : 124,
       "toIndex" : 126,
@@ -1288,8 +1280,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3149,
-        "layoutY" : 2127
+        "layoutX" : 3151,
+        "layoutY" : 2128
       },
       "configuration" : {
         "timeoutInSeconds" : 0
