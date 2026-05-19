@@ -3244,8 +3244,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3177,
-        "layoutY" : 2029
+        "layoutX" : 3154,
+        "layoutY" : 2030
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -3268,8 +3268,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3427,
-        "layoutY" : 2029
+        "layoutX" : 3401,
+        "layoutY" : 2030
       },
       "configuration" : {
         "version" : 0
@@ -3290,8 +3290,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3676,
-        "layoutY" : 2031
+        "layoutX" : 3651,
+        "layoutY" : 2029
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
@@ -3766,8 +3766,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3427,
-        "layoutY" : 2078
+        "layoutX" : 3402,
+        "layoutY" : 2079
       },
       "configuration" : {
         "requestIdMetaDataAttribute" : "requestUUID_API",
@@ -4211,8 +4211,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3153,
-        "layoutY" : 2078
+        "layoutX" : 3154,
+        "layoutY" : 2079
       },
       "configuration" : {
         "scriptLang" : "JS",
