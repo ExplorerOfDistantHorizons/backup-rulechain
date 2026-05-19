@@ -1568,7 +1568,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "metadata.nextData = JSON.stringify(msg)\nmsg = {}\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "jsScript" : "metadata.nextData = JSON.stringify(msg)\n\nmetadata.originServiceId = metadata.serviceId\nmetadata.requestUUID_API = metadata.requestUUID\ndelete metadata.requestUUID\n\nmsg = {}\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
         "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
       },
       "configurationVersion" : 0,
