@@ -1978,7 +1978,7 @@
       "additionalInfo" : {
         "description" : "",
         "layoutX" : 1329,
-        "layoutY" : 1181
+        "layoutY" : 1179
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -2002,7 +2002,7 @@
       "additionalInfo" : {
         "description" : "Xử lý các danh sách thiết bị, nhóm , cảnh",
         "layoutX" : 2128,
-        "layoutY" : 1181
+        "layoutY" : 1179
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -2026,7 +2026,7 @@
       "additionalInfo" : {
         "description" : "chuyển đến Rule chain - Scene",
         "layoutX" : 2376,
-        "layoutY" : 1283
+        "layoutY" : 1281
       },
       "configuration" : {
         "forwardMsgToDefaultRuleChain" : false,
@@ -2049,7 +2049,7 @@
       "additionalInfo" : {
         "description" : "chuyển đến Rule chain - Group",
         "layoutX" : 2377,
-        "layoutY" : 1231
+        "layoutY" : 1229
       },
       "configuration" : {
         "forwardMsgToDefaultRuleChain" : false,
@@ -2072,7 +2072,7 @@
       "additionalInfo" : {
         "description" : "Xử lý các danh sách thiết bị, nhóm , cảnh",
         "layoutX" : 1878,
-        "layoutY" : 1231
+        "layoutY" : 1229
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -2096,7 +2096,7 @@
       "additionalInfo" : {
         "description" : "Xử lý các danh sách thiết bị, nhóm , cảnh",
         "layoutX" : 1879,
-        "layoutY" : 1281
+        "layoutY" : 1279
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -2120,7 +2120,7 @@
       "additionalInfo" : {
         "description" : "",
         "layoutX" : 2377,
-        "layoutY" : 1182
+        "layoutY" : 1180
       },
       "configuration" : {
         "version" : 0
@@ -2142,7 +2142,7 @@
       "additionalInfo" : {
         "description" : "",
         "layoutX" : 2127,
-        "layoutY" : 1230
+        "layoutY" : 1228
       },
       "configuration" : {
         "version" : 0
@@ -2164,7 +2164,7 @@
       "additionalInfo" : {
         "description" : "",
         "layoutX" : 2127,
-        "layoutY" : 1281
+        "layoutY" : 1279
       },
       "configuration" : {
         "version" : 0
@@ -2186,7 +2186,7 @@
       "additionalInfo" : {
         "description" : "",
         "layoutX" : 1602,
-        "layoutY" : 1181
+        "layoutY" : 1179
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -3495,7 +3495,7 @@
       "additionalInfo" : {
         "description" : "",
         "layoutX" : 1878,
-        "layoutY" : 1182
+        "layoutY" : 1180
       },
       "configuration" : {
         "dataMapping" : {
