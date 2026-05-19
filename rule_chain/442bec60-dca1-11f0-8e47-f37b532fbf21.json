@@ -2524,8 +2524,8 @@
         "layoutY" : 1551
       },
       "configuration" : {
-        "serviceIdMetaDataAttribute" : "serviceId",
-        "requestIdMetaDataAttribute" : "requestUUID"
+        "requestIdMetaDataAttribute" : "requestUUID_API",
+        "serviceIdMetaDataAttribute" : "serviceId"
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
