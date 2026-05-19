@@ -3801,7 +3801,7 @@
           "direction" : "TO",
           "maxLevel" : 1,
           "filters" : [ {
-            "relationType" : "Gateway_Room",
+            "relationType" : "Device",
             "entityTypes" : [ "DEVICE" ]
           } ]
         }
