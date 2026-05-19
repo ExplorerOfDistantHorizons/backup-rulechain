@@ -141,10 +141,6 @@
       "toIndex" : 94,
       "type" : "Success"
     }, {
-      "fromIndex" : 19,
-      "toIndex" : 123,
-      "type" : "Success"
-    }, {
       "fromIndex" : 20,
       "toIndex" : 24,
       "type" : "Success"
@@ -1284,8 +1280,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1876,
-        "layoutY" : 2128
+        "layoutX" : 2132,
+        "layoutY" : 2241
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -3119,8 +3115,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2629,
-        "layoutY" : 2028
+        "layoutX" : 2626,
+        "layoutY" : 2078
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
@@ -3216,8 +3212,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2628,
-        "layoutY" : 2078
+        "layoutX" : 2627,
+        "layoutY" : 2028
       },
       "configuration" : {
         "tellFailureIfAbsent" : false,
@@ -3244,8 +3240,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2904,
-        "layoutY" : 2080
+        "layoutX" : 2902,
+        "layoutY" : 2028
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -3268,8 +3264,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3153,
-        "layoutY" : 2080
+        "layoutX" : 3152,
+        "layoutY" : 2028
       },
       "configuration" : {
         "version" : 0
@@ -3290,8 +3286,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3402,
-        "layoutY" : 2076
+        "layoutX" : 3401,
+        "layoutY" : 2030
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
@@ -3766,8 +3762,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2378,
-        "layoutY" : 2081
+        "layoutX" : 2634,
+        "layoutY" : 2194
       },
       "configuration" : {
         "requestIdMetaDataAttribute" : "requestUUID_API",
@@ -3789,8 +3785,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Chuyển thực thể gốc tới thiết bị con là Device",
-        "layoutX" : 1603,
-        "layoutY" : 2079
+        "layoutX" : 1859,
+        "layoutY" : 2192
       },
       "configuration" : {
         "originatorSource" : "RELATED",
@@ -4211,8 +4207,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2128,
-        "layoutY" : 2078
+        "layoutX" : 2384,
+        "layoutY" : 2191
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -4918,6 +4914,29 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.action.TbCreateRelationNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2363,
+        "layoutY" : 2677
+      },
+      "configuration" : {
+        "detailsList" : [ "TITLE" ],
+        "fetchTo" : "METADATA"
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "d0a42200-532c-11f1-8136-316f1ea6e0b3"
+      },
+      "name" : "sss",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetTenantDetailsNode"
     } ],
     "ruleChainConnections" : null
   },
