@@ -3572,7 +3572,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3128,
+        "layoutX" : 3150,
         "layoutY" : 778
       },
       "configuration" : {
@@ -3597,7 +3597,7 @@
     }, {
       "additionalInfo" : {
         "description" : "Xử lý các danh sách thiết bị, nhóm , cảnh",
-        "layoutX" : 2877,
+        "layoutX" : 2902,
         "layoutY" : 778
       },
       "configuration" : {
@@ -3621,7 +3621,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3126,
+        "layoutX" : 3151,
         "layoutY" : 979
       },
       "configuration" : {
@@ -3646,7 +3646,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2877,
+        "layoutX" : 2902,
         "layoutY" : 979
       },
       "configuration" : {
@@ -3680,7 +3680,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3127,
+        "layoutX" : 3152,
         "layoutY" : 1179
       },
       "configuration" : {
@@ -3705,7 +3705,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2878,
+        "layoutX" : 2903,
         "layoutY" : 1179
       },
       "configuration" : {
