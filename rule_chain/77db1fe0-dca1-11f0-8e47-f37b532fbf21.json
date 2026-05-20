@@ -93,6 +93,10 @@
       "toIndex" : 6,
       "type" : "Success"
     }, {
+      "fromIndex" : 12,
+      "toIndex" : 81,
+      "type" : "Success"
+    }, {
       "fromIndex" : 17,
       "toIndex" : 19,
       "type" : "deviceMessage"
@@ -2356,6 +2360,32 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.action.TbDeleteRelationNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1626,
+        "layoutY" : 1003
+      },
+      "configuration" : {
+        "deleteForSingleEntity" : false,
+        "direction" : "FROM",
+        "entityType" : null,
+        "entityNamePattern" : null,
+        "relationType" : "full_relation"
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "6872b6b0-53f4-11f1-8136-316f1ea6e0b3"
+      },
+      "name" : "Xóa hết dữ liệu cũ",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.action.TbDeleteRelationPlusNode"
     } ],
     "ruleChainConnections" : null
   },
