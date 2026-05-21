@@ -431,8 +431,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2203,
-        "layoutY" : 1079
+        "layoutX" : 2477,
+        "layoutY" : 1078
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -453,8 +453,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Tạo nhóm và thêm quan hệ của thiệt bị với nhóm này ",
-        "layoutX" : 2752,
-        "layoutY" : 1078
+        "layoutX" : 3026,
+        "layoutY" : 1077
       },
       "configuration" : {
         "direction" : "FROM",
@@ -482,8 +482,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Tiền sử lý bản tin trước khi gửi xuống HCP",
-        "layoutX" : 2478,
-        "layoutY" : 1079
+        "layoutX" : 2752,
+        "layoutY" : 1078
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -506,8 +506,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3279,
-        "layoutY" : 1182
+        "layoutX" : 3553,
+        "layoutY" : 1181
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -530,8 +530,8 @@
     }, {
       "additionalInfo" : {
         "description" : null,
-        "layoutX" : 3528,
-        "layoutY" : 1181
+        "layoutX" : 3802,
+        "layoutY" : 1180
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
@@ -555,8 +555,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3279,
-        "layoutY" : 1130
+        "layoutX" : 3553,
+        "layoutY" : 1129
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -579,8 +579,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3529,
-        "layoutY" : 1130
+        "layoutX" : 3803,
+        "layoutY" : 1129
       },
       "configuration" : {
         "defaultTTL" : 0,
@@ -603,8 +603,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2204,
-        "layoutY" : 1253
+        "layoutX" : 2478,
+        "layoutY" : 1252
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -625,8 +625,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Tiền sử lý bản tin trước khi gửi xuống HCP",
-        "layoutX" : 2478,
-        "layoutY" : 1253
+        "layoutX" : 2752,
+        "layoutY" : 1252
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -649,8 +649,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3279,
-        "layoutY" : 1079
+        "layoutX" : 3553,
+        "layoutY" : 1078
       },
       "configuration" : {
         "version" : 0
@@ -671,8 +671,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Tạo nhóm và thêm quan hệ của thiệt bị với nhóm này ",
-        "layoutX" : 3529,
-        "layoutY" : 1079
+        "layoutX" : 3803,
+        "layoutY" : 1078
       },
       "configuration" : {
         "direction" : "FROM",
@@ -700,8 +700,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3278,
-        "layoutY" : 1254
+        "layoutX" : 3552,
+        "layoutY" : 1253
       },
       "configuration" : {
         "version" : 0
@@ -897,8 +897,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Tạo nhóm và thêm quan hệ của thiệt bị với nhóm này ",
-        "layoutX" : 3527,
-        "layoutY" : 1253
+        "layoutX" : 3801,
+        "layoutY" : 1252
       },
       "configuration" : {
         "direction" : "FROM",
@@ -926,8 +926,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2203,
-        "layoutY" : 1378
+        "layoutX" : 2477,
+        "layoutY" : 1377
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -948,8 +948,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Tiền sử lý bản tin trước khi gửi xuống HCP",
-        "layoutX" : 2476,
-        "layoutY" : 1379
+        "layoutX" : 2750,
+        "layoutY" : 1378
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -972,8 +972,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2749,
-        "layoutY" : 1378
+        "layoutX" : 3023,
+        "layoutY" : 1377
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -1006,8 +1006,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3278,
-        "layoutY" : 1378
+        "layoutX" : 3552,
+        "layoutY" : 1377
       },
       "configuration" : {
         "version" : 0
@@ -1373,8 +1373,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3528,
-        "layoutY" : 1378
+        "layoutX" : 3802,
+        "layoutY" : 1377
       },
       "configuration" : {
         "deleteForSingleEntity" : true,
@@ -1742,8 +1742,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2751,
-        "layoutY" : 1478
+        "layoutX" : 3025,
+        "layoutY" : 1477
       },
       "configuration" : {
         "requestIdMetaDataAttribute" : "requestUUID_API",
@@ -1765,8 +1765,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2752,
-        "layoutY" : 1304
+        "layoutX" : 3026,
+        "layoutY" : 1303
       },
       "configuration" : {
         "requestIdMetaDataAttribute" : "requestUUID_API",
@@ -2284,8 +2284,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Tạo nhóm và thêm quan hệ của thiệt bị với nhóm này ",
-        "layoutX" : 3004,
-        "layoutY" : 1078
+        "layoutX" : 3278,
+        "layoutY" : 1077
       },
       "configuration" : {
         "direction" : "TO",
@@ -2313,8 +2313,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Tạo nhóm và thêm quan hệ của thiệt bị với nhóm này ",
-        "layoutX" : 2752,
-        "layoutY" : 1254
+        "layoutX" : 3026,
+        "layoutY" : 1253
       },
       "configuration" : {
         "direction" : "FROM",
@@ -2342,8 +2342,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2749,
-        "layoutY" : 1429
+        "layoutX" : 3023,
+        "layoutY" : 1428
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -2366,8 +2366,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3002,
-        "layoutY" : 1428
+        "layoutX" : 3276,
+        "layoutY" : 1427
       },
       "configuration" : {
         "direction" : "FROM",
@@ -2393,8 +2393,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2753,
-        "layoutY" : 1129
+        "layoutX" : 3027,
+        "layoutY" : 1128
       },
       "configuration" : {
         "requestIdMetaDataAttribute" : "requestUUID_API",
@@ -2416,8 +2416,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2478,
-        "layoutY" : 1130
+        "layoutX" : 2752,
+        "layoutY" : 1129
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -2440,8 +2440,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2476,
-        "layoutY" : 1304
+        "layoutX" : 2750,
+        "layoutY" : 1303
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -2464,8 +2464,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2475,
-        "layoutY" : 1429
+        "layoutX" : 2749,
+        "layoutY" : 1428
       },
       "configuration" : {
         "scriptLang" : "JS",
