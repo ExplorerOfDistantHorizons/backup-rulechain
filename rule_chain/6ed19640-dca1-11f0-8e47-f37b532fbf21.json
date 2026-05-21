@@ -1746,7 +1746,7 @@
         "msgCount" : 0,
         "periodInSeconds" : 5,
         "scriptLang" : "JS",
-        "jsScript" : "var msg = {\n    \"method\": \"registerDev\",\n    \"params\": {\n        \"mac\": \"0892729d5a98\"\n    }\n};\nvar metadata = { data: 40 };\nmetadata.originServiceId = \"thingsboarddev\"\nmetadata.expirationTime  = Date.now() +30000,\nmetadata.oneway          = false\nvar msgType = \"RPC_CALL_FROM_SERVER_TO_DEVICE\"\n\nreturn { msg: msg, metadata: metadata, msgType: msgType };",
+        "jsScript" : "var msg = {\n    \"method\": \"registerDev\",\n    \"params\": {\n        \"mac\": \"0892729d5a98\"\n    }\n};\nvar metadata = {};\nmetadata.originServiceId = \"thingsboarddev\"\nmetadata.expirationTime  = Date.now() +30000,\nmetadata.oneway          = false\nvar msgType = \"RPC_CALL_FROM_SERVER_TO_DEVICE\"\n\nreturn { msg: msg, metadata: metadata, msgType: msgType };",
         "tbelScript" : "var msg = { temp: 42, humidity: 77 };\nvar metadata = { data: 40 };\nvar msgType = \"POST_TELEMETRY_REQUEST\";\n\nreturn { msg: msg, metadata: metadata, msgType: msgType };",
         "originatorId" : "b179b130-54f1-11f1-ad24-0fa2d544f4f5",
         "originatorType" : "DEVICE"
