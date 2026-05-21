@@ -1568,10 +1568,10 @@
         "entityNamePattern" : null,
         "relationsQuery" : {
           "fetchLastLevelOnly" : false,
-          "direction" : "TO",
+          "direction" : "FROM",
           "maxLevel" : 1,
           "filters" : [ {
-            "relationType" : "$[params.mac]",
+            "relationType" : "ưertytterweq",
             "entityTypes" : [ "DEVICE" ]
           } ]
         }
