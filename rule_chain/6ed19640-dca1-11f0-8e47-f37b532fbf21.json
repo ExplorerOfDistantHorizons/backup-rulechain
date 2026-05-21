@@ -1563,9 +1563,9 @@
         "layoutY" : 903
       },
       "configuration" : {
-        "originatorSource" : "RELATED",
-        "entityType" : null,
-        "entityNamePattern" : null,
+        "originatorSource" : "ENTITY",
+        "entityType" : "DEVICE",
+        "entityNamePattern" : "${entityName}",
         "relationsQuery" : {
           "fetchLastLevelOnly" : false,
           "direction" : "FROM",
