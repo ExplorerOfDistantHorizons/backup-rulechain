@@ -996,8 +996,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3023,
-        "layoutY" : 1377
+        "layoutX" : 3028,
+        "layoutY" : 1378
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -1766,8 +1766,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3025,
-        "layoutY" : 1477
+        "layoutX" : 3028,
+        "layoutY" : 1479
       },
       "configuration" : {
         "requestIdMetaDataAttribute" : "requestUUID_API",
@@ -2366,8 +2366,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3023,
-        "layoutY" : 1428
+        "layoutX" : 3027,
+        "layoutY" : 1429
       },
       "configuration" : {
         "scriptLang" : "JS",
