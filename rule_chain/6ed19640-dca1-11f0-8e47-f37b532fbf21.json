@@ -1748,8 +1748,8 @@
         "scriptLang" : "JS",
         "jsScript" : "var msg = {\n    \"method\": \"registerDev\",\n    \"params\": {\n        \"mac\": \"0892729d5a98\"\n    }\n};\nvar metadata = { data: 40 };\nvar msgType = \"POST_TELEMETRY_REQUEST\";\n\nreturn { msg: msg, metadata: metadata, msgType: msgType };",
         "tbelScript" : "var msg = { temp: 42, humidity: 77 };\nvar metadata = { data: 40 };\nvar msgType = \"POST_TELEMETRY_REQUEST\";\n\nreturn { msg: msg, metadata: metadata, msgType: msgType };",
-        "originatorId" : null,
-        "originatorType" : "RULE_NODE"
+        "originatorId" : "994f97c0-532d-11f1-8136-316f1ea6e0b3",
+        "originatorType" : "ASSET"
       },
       "configurationVersion" : 2,
       "createdTime" : 0,
