@@ -2544,8 +2544,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3302,
-        "layoutY" : 1601
+        "layoutX" : 3278,
+        "layoutY" : 1605
       },
       "configuration" : {
         "requestIdMetaDataAttribute" : "requestUUID_API",
