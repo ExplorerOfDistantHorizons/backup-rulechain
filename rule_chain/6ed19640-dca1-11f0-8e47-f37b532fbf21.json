@@ -1744,7 +1744,7 @@
       },
       "configuration" : {
         "msgCount" : 0,
-        "periodInSeconds" : 1,
+        "periodInSeconds" : 5,
         "scriptLang" : "JS",
         "jsScript" : "var msg = {\n    \"method\": \"registerDev\",\n    \"params\": {\n        \"mac\": \"0892729d5a98\"\n    }\n};\nvar metadata = { data: 40 };\nvar msgType = \"POST_TELEMETRY_REQUEST\";\n\nreturn { msg: msg, metadata: metadata, msgType: msgType };",
         "tbelScript" : "var msg = { temp: 42, humidity: 77 };\nvar metadata = { data: 40 };\nvar msgType = \"POST_TELEMETRY_REQUEST\";\n\nreturn { msg: msg, metadata: metadata, msgType: msgType };",
