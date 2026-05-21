@@ -407,8 +407,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1205,
-        "layoutY" : 1454
+        "layoutX" : 1202,
+        "layoutY" : 1604
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -2100,8 +2100,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2755,
-        "layoutY" : 1453
+        "layoutX" : 2752,
+        "layoutY" : 1603
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -2122,8 +2122,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3003,
-        "layoutY" : 1452
+        "layoutX" : 3000,
+        "layoutY" : 1602
       },
       "configuration" : {
         "requestIdMetaDataAttribute" : "requestUUID_API",
@@ -2145,8 +2145,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1705,
-        "layoutY" : 1453
+        "layoutX" : 1702,
+        "layoutY" : 1603
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -2169,8 +2169,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1955,
-        "layoutY" : 1453
+        "layoutX" : 1952,
+        "layoutY" : 1603
       },
       "configuration" : {
         "version" : 0
@@ -2191,8 +2191,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2205,
-        "layoutY" : 1452
+        "layoutX" : 2202,
+        "layoutY" : 1602
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -2225,8 +2225,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1454,
-        "layoutY" : 1453
+        "layoutX" : 1451,
+        "layoutY" : 1603
       },
       "configuration" : {
         "relationsQuery" : {
@@ -2260,8 +2260,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2478,
-        "layoutY" : 1452
+        "layoutX" : 2475,
+        "layoutY" : 1602
       },
       "configuration" : {
         "scriptLang" : "JS",
