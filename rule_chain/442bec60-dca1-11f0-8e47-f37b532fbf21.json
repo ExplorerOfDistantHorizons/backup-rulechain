@@ -693,8 +693,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3553,
-        "layoutY" : 1355
+        "layoutX" : 3550,
+        "layoutY" : 1352
       },
       "configuration" : {
         "version" : 0
@@ -1633,8 +1633,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Tạo nhóm và thêm quan hệ của thiệt bị với nhóm này ",
-        "layoutX" : 4054,
-        "layoutY" : 1406
+        "layoutX" : 4051,
+        "layoutY" : 1403
       },
       "configuration" : {
         "direction" : "TO",
@@ -1662,8 +1662,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3802,
-        "layoutY" : 1354
+        "layoutX" : 3801,
+        "layoutY" : 1352
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -1696,8 +1696,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 4054,
-        "layoutY" : 1356
+        "layoutX" : 4051,
+        "layoutY" : 1353
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -1720,8 +1720,8 @@
     }, {
       "additionalInfo" : {
         "description" : null,
-        "layoutX" : 4305,
-        "layoutY" : 1357
+        "layoutX" : 4302,
+        "layoutY" : 1354
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
