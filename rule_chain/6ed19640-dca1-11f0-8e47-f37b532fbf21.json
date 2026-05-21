@@ -1567,7 +1567,7 @@
           "direction" : "FROM",
           "maxLevel" : 1,
           "filters" : [ {
-            "relationType" : "${mac}",
+            "relationType" : "$[params.mac]",
             "entityTypes" : [ "DEVICE" ]
           } ]
         }
