@@ -262,7 +262,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 59,
-      "toIndex" : 3,
+      "toIndex" : 84,
       "type" : "Success"
     }, {
       "fromIndex" : 60,
@@ -278,7 +278,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 63,
-      "toIndex" : 10,
+      "toIndex" : 85,
       "type" : "Success"
     }, {
       "fromIndex" : 64,
@@ -294,7 +294,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 67,
-      "toIndex" : 23,
+      "toIndex" : 86,
       "type" : "Success"
     }, {
       "fromIndex" : 68,
@@ -356,6 +356,30 @@
       "fromIndex" : 83,
       "toIndex" : 53,
       "type" : "Success"
+    }, {
+      "fromIndex" : 84,
+      "toIndex" : 3,
+      "type" : "False"
+    }, {
+      "fromIndex" : 84,
+      "toIndex" : 5,
+      "type" : "True"
+    }, {
+      "fromIndex" : 85,
+      "toIndex" : 10,
+      "type" : "False"
+    }, {
+      "fromIndex" : 85,
+      "toIndex" : 11,
+      "type" : "True"
+    }, {
+      "fromIndex" : 86,
+      "toIndex" : 23,
+      "type" : "False"
+    }, {
+      "fromIndex" : 86,
+      "toIndex" : 24,
+      "type" : "True"
     } ],
     "firstNodeIndex" : 0,
     "nodes" : [ {
@@ -431,8 +455,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2477,
-        "layoutY" : 1078
+        "layoutX" : 2479,
+        "layoutY" : 1130
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -603,8 +627,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2478,
-        "layoutY" : 1252
+        "layoutX" : 2477,
+        "layoutY" : 1304
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -927,7 +951,7 @@
       "additionalInfo" : {
         "description" : "",
         "layoutX" : 2477,
-        "layoutY" : 1377
+        "layoutY" : 1429
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -2464,8 +2488,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2749,
-        "layoutY" : 1428
+        "layoutX" : 2752,
+        "layoutY" : 1430
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -2509,6 +2533,78 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2226,
+        "layoutY" : 1078
+      },
+      "configuration" : {
+        "scriptLang" : "TBEL",
+        "jsScript" : "return msg.temperature > 20;",
+        "tbelScript" : "return metadata.generate === \"ok\""
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "a34b36b0-54e7-11f1-ad24-0fa2d544f4f5"
+      },
+      "name" : "generate ?",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2226,
+        "layoutY" : 1252
+      },
+      "configuration" : {
+        "scriptLang" : "TBEL",
+        "jsScript" : "return msg.temperature > 20;",
+        "tbelScript" : "return metadata.generate === \"ok\""
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "a34b84d0-54e7-11f1-ad24-0fa2d544f4f5"
+      },
+      "name" : "generate ?",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2227,
+        "layoutY" : 1379
+      },
+      "configuration" : {
+        "scriptLang" : "TBEL",
+        "jsScript" : "return msg.temperature > 20;",
+        "tbelScript" : "return metadata.generate === \"ok\""
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "a34b84d1-54e7-11f1-ad24-0fa2d544f4f5"
+      },
+      "name" : "generate ?",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
     } ],
     "ruleChainConnections" : null
   },
