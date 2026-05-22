@@ -189,10 +189,6 @@
       "toIndex" : 1,
       "type" : "Success"
     }, {
-      "fromIndex" : 30,
-      "toIndex" : 60,
-      "type" : "Success"
-    }, {
       "fromIndex" : 31,
       "toIndex" : 5,
       "type" : "Success"
@@ -1742,40 +1738,6 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "",
-        "layoutX" : 1577,
-        "layoutY" : 904
-      },
-      "configuration" : {
-        "originatorSource" : "ENTITY",
-        "entityType" : "ASSET",
-        "entityNamePattern" : "list_dev_wifi",
-        "relationsQuery" : {
-          "direction" : "FROM",
-          "maxLevel" : 1,
-          "filters" : [ {
-            "relationType" : "Contains",
-            "entityTypes" : [ ],
-            "negate" : false
-          } ],
-          "fetchLastLevelOnly" : false
-        }
-      },
-      "configurationVersion" : 0,
-      "createdTime" : 0,
-      "debugMode" : true,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "da28d970-5579-11f1-ad24-0fa2d544f4f5"
-      },
-      "name" : "-> list_dev_wifi",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
     } ],
     "ruleChainConnections" : null
   },
