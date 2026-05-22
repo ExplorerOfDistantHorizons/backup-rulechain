@@ -5205,12 +5205,11 @@
         "layoutY" : 1928
       },
       "configuration" : {
+        "deleteForSingleEntity" : true,
         "direction" : "FROM",
-        "relationType" : "Contains",
-        "entityType" : null,
-        "entityNamePattern" : "",
-        "entityTypePattern" : null,
-        "deleteForSingleEntity" : false
+        "entityType" : "DEVICE",
+        "entityNamePattern" : "${entityName_DeviceWifi}",
+        "relationType" : "Room@DeviceDirect"
       },
       "configurationVersion" : 1,
       "createdTime" : 0,
