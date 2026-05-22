@@ -379,7 +379,7 @@
         "entityType" : "RULE_NODE",
         "id" : "6eda48d0-dca1-11f0-8e47-f37b532fbf21"
       },
-      "name" : "lấy thông tin về id và id things của thiết bị wifi",
+      "name" : "G info Device wifi",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
