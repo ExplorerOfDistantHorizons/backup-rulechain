@@ -146,11 +146,11 @@
       "type" : "Success"
     }, {
       "fromIndex" : 20,
-      "toIndex" : 174,
+      "toIndex" : 173,
       "type" : "Failure"
     }, {
       "fromIndex" : 20,
-      "toIndex" : 174,
+      "toIndex" : 173,
       "type" : "Success"
     }, {
       "fromIndex" : 21,
@@ -721,20 +721,32 @@
       "toIndex" : 125,
       "type" : "True"
     }, {
+      "fromIndex" : 169,
+      "toIndex" : 174,
+      "type" : "False"
+    }, {
       "fromIndex" : 170,
       "toIndex" : 130,
       "type" : "True"
     }, {
+      "fromIndex" : 170,
+      "toIndex" : 175,
+      "type" : "False"
+    }, {
       "fromIndex" : 171,
       "toIndex" : 131,
       "type" : "True"
+    }, {
+      "fromIndex" : 173,
+      "toIndex" : 172,
+      "type" : "Success"
     }, {
       "fromIndex" : 174,
       "toIndex" : 173,
       "type" : "Success"
     }, {
       "fromIndex" : 175,
-      "toIndex" : 174,
+      "toIndex" : 139,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 0,
@@ -5072,30 +5084,6 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1877,
-        "layoutY" : 1529
-      },
-      "configuration" : {
-        "scriptLang" : "JS",
-        "jsScript" : "return metadata.typeMessage == \"true\";",
-        "tbelScript" : "return msg.temperature > 20;"
-      },
-      "configurationVersion" : 0,
-      "createdTime" : 0,
-      "debugMode" : false,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "9e7ac730-55c9-11f1-ad24-0fa2d544f4f5"
-      },
-      "name" : "is Gateway ?",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "",
         "layoutX" : 2876,
         "layoutY" : 1528
       },
@@ -5163,6 +5151,35 @@
       "id" : {
         "entityType" : "RULE_NODE",
         "id" : "efba2fa0-55c9-11f1-ad24-0fa2d544f4f5"
+      },
+      "name" : "Room@DeviceDirect",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.action.TbCreateRelationNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "Tạo quan hệ cho Room với Gateway",
+        "layoutX" : 2377,
+        "layoutY" : 1727
+      },
+      "configuration" : {
+        "direction" : "FROM",
+        "entityType" : "ASSET",
+        "entityNamePattern" : "${entityName_Room}",
+        "entityTypePattern" : "ROOM",
+        "relationType" : "Room@DeviceDirect",
+        "createEntityIfNotExists" : false,
+        "removeCurrentRelations" : false,
+        "changeOriginatorToRelatedEntity" : true
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "03b64e30-55ca-11f1-ad24-0fa2d544f4f5"
       },
       "name" : "Room@DeviceDirect",
       "queueName" : null,
