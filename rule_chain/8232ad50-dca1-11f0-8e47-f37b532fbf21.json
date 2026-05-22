@@ -4945,7 +4945,7 @@
         "entityType" : "RULE_NODE",
         "id" : "0ae52230-534a-11f1-8136-316f1ea6e0b3"
       },
-      "name" : "trỏ vào mảng thiết bị",
+      "name" : "lấy bản tin ban đầu",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
