@@ -90,14 +90,6 @@
       "type" : "True"
     }, {
       "fromIndex" : 5,
-      "toIndex" : 9,
-      "type" : "Failure"
-    }, {
-      "fromIndex" : 5,
-      "toIndex" : 9,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 5,
       "toIndex" : 43,
       "type" : "Failure"
     }, {
@@ -231,6 +223,10 @@
     }, {
       "fromIndex" : 42,
       "toIndex" : 41,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 43,
+      "toIndex" : 9,
       "type" : "Success"
     }, {
       "fromIndex" : 43,
@@ -505,8 +501,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1829,
-        "layoutY" : 1128
+        "layoutX" : 2076,
+        "layoutY" : 1127
       },
       "configuration" : {
         "deleteForSingleEntity" : false,
@@ -1327,8 +1323,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1827,
-        "layoutY" : 1178
+        "layoutX" : 1825,
+        "layoutY" : 1129
       },
       "configuration" : {
         "scriptLang" : "JS",
