@@ -264,10 +264,6 @@
       "fromIndex" : 59,
       "toIndex" : 2,
       "type" : "Success"
-    }, {
-      "fromIndex" : 60,
-      "toIndex" : 61,
-      "type" : "Success"
     } ],
     "firstNodeIndex" : 32,
     "nodes" : [ {
@@ -1780,41 +1776,6 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "",
-        "layoutX" : 1827,
-        "layoutY" : 903
-      },
-      "configuration" : {
-        "relationsQuery" : {
-          "fetchLastLevelOnly" : false,
-          "direction" : "FROM",
-          "maxLevel" : 1,
-          "filters" : [ {
-            "relationType" : "${mac}",
-            "entityTypes" : [ "DEVICE" ]
-          } ]
-        },
-        "dataToFetch" : "FIELDS",
-        "fetchTo" : "METADATA",
-        "dataMapping" : {
-          "name" : "entityName_Device"
-        }
-      },
-      "configurationVersion" : 2,
-      "createdTime" : 0,
-      "debugMode" : true,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "267a5b00-557a-11f1-ad24-0fa2d544f4f5"
-      },
-      "name" : "G info Device wifi",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.metadata.TbGetRelatedEntityDataPlusNode"
     } ],
     "ruleChainConnections" : null
   },
