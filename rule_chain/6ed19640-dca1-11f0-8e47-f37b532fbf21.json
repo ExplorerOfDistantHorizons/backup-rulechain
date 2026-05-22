@@ -189,6 +189,10 @@
       "toIndex" : 1,
       "type" : "Success"
     }, {
+      "fromIndex" : 30,
+      "toIndex" : 60,
+      "type" : "Success"
+    }, {
       "fromIndex" : 31,
       "toIndex" : 5,
       "type" : "Success"
@@ -259,6 +263,10 @@
     }, {
       "fromIndex" : 59,
       "toIndex" : 2,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 60,
+      "toIndex" : 61,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 32,
@@ -1509,8 +1517,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1961,
-        "layoutY" : 888
+        "layoutX" : 2118,
+        "layoutY" : 808
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -1542,8 +1550,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2015,
-        "layoutY" : 794
+        "layoutX" : 2172,
+        "layoutY" : 714
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -1566,8 +1574,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2265,
-        "layoutY" : 794
+        "layoutX" : 2422,
+        "layoutY" : 714
       },
       "configuration" : {
         "requestIdMetaDataAttribute" : "requestUUID_API",
@@ -1772,6 +1780,41 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1827,
+        "layoutY" : 903
+      },
+      "configuration" : {
+        "relationsQuery" : {
+          "fetchLastLevelOnly" : false,
+          "direction" : "FROM",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "${mac}",
+            "entityTypes" : [ "DEVICE" ]
+          } ]
+        },
+        "dataToFetch" : "ATTRIBUTES",
+        "fetchTo" : "METADATA",
+        "dataMapping" : {
+          "serialNumber" : "sn"
+        }
+      },
+      "configurationVersion" : 2,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "267a5b00-557a-11f1-ad24-0fa2d544f4f5"
+      },
+      "name" : "G info Device wifi",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetRelatedEntityDataPlusNode"
     } ],
     "ruleChainConnections" : null
   },
