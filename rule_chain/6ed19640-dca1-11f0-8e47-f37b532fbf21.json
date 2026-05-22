@@ -250,7 +250,7 @@
       "type" : "Failure"
     }, {
       "fromIndex" : 51,
-      "toIndex" : 59,
+      "toIndex" : 60,
       "type" : "Success"
     }, {
       "fromIndex" : 52,
@@ -267,6 +267,10 @@
     }, {
       "fromIndex" : 59,
       "toIndex" : 2,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 60,
+      "toIndex" : 59,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 32,
@@ -317,7 +321,7 @@
     }, {
       "additionalInfo" : {
         "description" : null,
-        "layoutX" : 2077,
+        "layoutX" : 2327,
         "layoutY" : 904
       },
       "configuration" : {
@@ -339,7 +343,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2579,
+        "layoutX" : 2829,
         "layoutY" : 906
       },
       "configuration" : {
@@ -367,7 +371,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2329,
+        "layoutX" : 2579,
         "layoutY" : 905
       },
       "configuration" : {
@@ -413,7 +417,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2827,
+        "layoutX" : 3077,
         "layoutY" : 905
       },
       "configuration" : {
@@ -437,7 +441,7 @@
     }, {
       "additionalInfo" : {
         "description" : null,
-        "layoutX" : 3352,
+        "layoutX" : 3602,
         "layoutY" : 903
       },
       "configuration" : {
@@ -559,7 +563,7 @@
     }, {
       "additionalInfo" : {
         "description" : null,
-        "layoutX" : 3352,
+        "layoutX" : 3602,
         "layoutY" : 952
       },
       "configuration" : {
@@ -584,7 +588,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3102,
+        "layoutX" : 3352,
         "layoutY" : 1003
       },
       "configuration" : {
@@ -608,7 +612,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3352,
+        "layoutX" : 3602,
         "layoutY" : 1002
       },
       "configuration" : {
@@ -632,7 +636,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3101,
+        "layoutX" : 3351,
         "layoutY" : 954
       },
       "configuration" : {
@@ -656,7 +660,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3101,
+        "layoutX" : 3351,
         "layoutY" : 903
       },
       "configuration" : {
@@ -1550,8 +1554,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1827,
-        "layoutY" : 853
+        "layoutX" : 1823,
+        "layoutY" : 731
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -1574,8 +1578,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2077,
-        "layoutY" : 853
+        "layoutX" : 2073,
+        "layoutY" : 731
       },
       "configuration" : {
         "requestIdMetaDataAttribute" : "requestUUID_API",
@@ -1597,7 +1601,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2580,
+        "layoutX" : 2830,
         "layoutY" : 854
       },
       "configuration" : {
@@ -1620,7 +1624,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2328,
+        "layoutX" : 2578,
         "layoutY" : 855
       },
       "configuration" : {
@@ -1644,7 +1648,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3102,
+        "layoutX" : 3352,
         "layoutY" : 854
       },
       "configuration" : {
@@ -1673,7 +1677,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2828,
+        "layoutX" : 3078,
         "layoutY" : 855
       },
       "configuration" : {
@@ -1725,7 +1729,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1828,
+        "layoutX" : 2078,
         "layoutY" : 903
       },
       "configuration" : {
@@ -1746,6 +1750,32 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1826,
+        "layoutY" : 905
+      },
+      "configuration" : {
+        "dataMapping" : {
+          "name" : "entityName_Device"
+        },
+        "ignoreNullStrings" : false,
+        "fetchTo" : "METADATA"
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "89f27200-5578-11f1-ad24-0fa2d544f4f5"
+      },
+      "name" : "G entityName_Device",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetOriginatorFieldsNode"
     } ],
     "ruleChainConnections" : null
   },
