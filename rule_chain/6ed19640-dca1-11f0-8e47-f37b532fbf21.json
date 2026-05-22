@@ -272,6 +272,18 @@
       "fromIndex" : 59,
       "toIndex" : 60,
       "type" : "Success"
+    }, {
+      "fromIndex" : 60,
+      "toIndex" : 58,
+      "type" : "True"
+    }, {
+      "fromIndex" : 60,
+      "toIndex" : 61,
+      "type" : "False"
+    }, {
+      "fromIndex" : 61,
+      "toIndex" : 62,
+      "type" : "Success"
     } ],
     "firstNodeIndex" : 32,
     "nodes" : [ {
@@ -321,8 +333,8 @@
     }, {
       "additionalInfo" : {
         "description" : null,
-        "layoutX" : 2780,
-        "layoutY" : 902
+        "layoutX" : 2579,
+        "layoutY" : 905
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -343,8 +355,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3282,
-        "layoutY" : 904
+        "layoutX" : 3081,
+        "layoutY" : 907
       },
       "configuration" : {
         "dataMapping" : {
@@ -371,8 +383,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3032,
-        "layoutY" : 903
+        "layoutX" : 2831,
+        "layoutY" : 906
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -417,8 +429,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3530,
-        "layoutY" : 903
+        "layoutX" : 3329,
+        "layoutY" : 906
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -441,8 +453,8 @@
     }, {
       "additionalInfo" : {
         "description" : null,
-        "layoutX" : 4055,
-        "layoutY" : 901
+        "layoutX" : 3854,
+        "layoutY" : 904
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
@@ -563,8 +575,8 @@
     }, {
       "additionalInfo" : {
         "description" : null,
-        "layoutX" : 4055,
-        "layoutY" : 950
+        "layoutX" : 3854,
+        "layoutY" : 953
       },
       "configuration" : {
         "scope" : "SHARED_SCOPE",
@@ -588,8 +600,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3805,
-        "layoutY" : 1001
+        "layoutX" : 3604,
+        "layoutY" : 1004
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -612,8 +624,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 4055,
-        "layoutY" : 1000
+        "layoutX" : 3854,
+        "layoutY" : 1003
       },
       "configuration" : {
         "defaultTTL" : 0,
@@ -636,8 +648,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3804,
-        "layoutY" : 952
+        "layoutX" : 3603,
+        "layoutY" : 955
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -660,8 +672,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3804,
-        "layoutY" : 901
+        "layoutX" : 3603,
+        "layoutY" : 904
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -1601,8 +1613,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3283,
-        "layoutY" : 852
+        "layoutX" : 3082,
+        "layoutY" : 855
       },
       "configuration" : {
         "serviceIdMetaDataAttribute" : "serviceId",
@@ -1624,8 +1636,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3031,
-        "layoutY" : 853
+        "layoutX" : 2830,
+        "layoutY" : 856
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -1648,8 +1660,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3805,
-        "layoutY" : 852
+        "layoutX" : 3604,
+        "layoutY" : 855
       },
       "configuration" : {
         "direction" : "TO",
@@ -1677,8 +1689,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3531,
-        "layoutY" : 853
+        "layoutX" : 3330,
+        "layoutY" : 856
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -1701,8 +1713,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2529,
-        "layoutY" : 900
+        "layoutX" : 2328,
+        "layoutY" : 903
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -1774,6 +1786,53 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2330,
+        "layoutY" : 852
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "msg = {\n    code : 3,\n    message : \"Thiết bị này chưa tồn tại trên hệ thống !!\"\n}\nmsgType = \"REST_API_REQUEST\"\nreturn {\n    msg: msg,\n    metadata: metadata,\n    msgType: msgType\n};",
+        "tbelScript" : "var cmd = msg.cmd;\nvar rqi = msg.rqi;\nvar msgType = \"POST_TELEMETRY_REQUEST\";\n\n// // Quét thiết bị: : app->HC\n// if(cmd === \"startScanBleRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Dừng quét thiết bị: : app->HC\n// else if(cmd === \"stopScanBleRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Báo thiết bị mới: HC->app hoặc HC->server\n// else if(cmd === \"newDevRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Xóa thiết bị app -> HC\n// else if(cmd === \"delDevRsp\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Xóa thiết bị HC -> app\n// else if(cmd === \"delDev\"){\n//     metadata.cmd = cmd;\n//     msg = msg.data;\n// }\n// //Tạo nhóm: app->HC\n// else if(cmd === \"createGroupRsp\"){\n//     metadata.cmd = cmd;\n// }\n//Thêm thiết bị vào nhóm: app->HC\nif(cmd === \"addDevToGroupRsp\"){\n    // Lấy Asset ID và danh sách Device ID\n    var assetId = msg.data.id; // ID của Asset\n    var deviceIds = msg.data.success; // Danh sách ID của Devices\n\n    // Tạo danh sách quan hệ\n    var relations = deviceIds.map(function(deviceId) {\n        return {\n            from: deviceId, // ID của Device\n            to: assetId,    // ID của Asset\n            type: \"BelongsTo\" // Loại quan hệ (có thể đặt tên khác)\n        };\n    });\n\n    // Gắn danh sách vào metadata\n    metadata.relations = relations;\n}\n//Xóa thiết bị khỏi nhóm: app->HC\nelse if(cmd === \"delDevFromGroupRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa nhóm: app->HC\nelse if(cmd === \"delGroupRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Tạo/sửa cảnh: app->HC\nelse if(cmd === \"createSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa cảnh: app->HC\nelse if(cmd === \"delSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Thêm thiết bị vào cảnh: app->HC\nelse if(cmd === \"addDevToSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa thiết bị trong cảnh: app->HC\nelse if(cmd === \"delDevToSceneRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Tạo kịch bản gọi cảnh: app->HC\nelse if(cmd === \"createSceneControllerRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Xóa kịch bản gọi cảnh: app->HC\nelse if(cmd === \"delSceneControllerRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//tạo kịch bản: app->HC\nelse if(cmd === \"createRuleRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa kịch bản: app->HC\nelse if(cmd === \"delRuleRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Tạo phòng: app->HC\nelse if(cmd === \"createRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Thêm thiết bị vào phòng: app->HC\nelse if(cmd === \"addDevToRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Xóa thiết bị ra khỏi phòng: app->HC\nelse if(cmd === \"delDevToRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Xóa phòng: app->HC\nelse if(cmd === \"delRoomRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//Reset HC: app->HC\nelse if(cmd === \"resetHcRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n//HC cập nhật trạng thái kết nối với Cloud: HC->server\nelse if(cmd === \"homeControllerRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\n// Bản tin device update: app->HC\nelse if(cmd === \"delDevFromGroupRsp\"){\n    metadata.cmd = cmd;\n    msg = msg.data;\n}\nreturn {msg: msg, metadata: metadata, msgType: msgType};\n"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "83deb680-557d-11f1-ad24-0fa2d544f4f5"
+      },
+      "name" : "Tiền sử lý",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2579,
+        "layoutY" : 850
+      },
+      "configuration" : {
+        "requestIdMetaDataAttribute" : "requestUUID_API",
+        "serviceIdMetaDataAttribute" : "serviceId"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "83dedd90-557d-11f1-ad24-0fa2d544f4f5"
+      },
+      "name" : "phản hổi về app",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.rest.TbSendRestApiCallReplyNode"
     } ],
     "ruleChainConnections" : null
   },
