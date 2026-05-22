@@ -722,7 +722,7 @@
       "type" : "True"
     }, {
       "fromIndex" : 169,
-      "toIndex" : 174,
+      "toIndex" : 175,
       "type" : "False"
     }, {
       "fromIndex" : 170,
@@ -730,7 +730,7 @@
       "type" : "True"
     }, {
       "fromIndex" : 170,
-      "toIndex" : 175,
+      "toIndex" : 174,
       "type" : "False"
     }, {
       "fromIndex" : 171,
@@ -742,11 +742,11 @@
       "type" : "Success"
     }, {
       "fromIndex" : 174,
-      "toIndex" : 173,
+      "toIndex" : 139,
       "type" : "Success"
     }, {
       "fromIndex" : 175,
-      "toIndex" : 139,
+      "toIndex" : 173,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 0,
@@ -5131,35 +5131,6 @@
     }, {
       "additionalInfo" : {
         "description" : "Tạo quan hệ cho Room với Gateway",
-        "layoutX" : 2376,
-        "layoutY" : 1527
-      },
-      "configuration" : {
-        "direction" : "FROM",
-        "entityType" : "DEVICE",
-        "entityNamePattern" : "${entityName_DeviceWifi}",
-        "entityTypePattern" : "${profileName_DeviceWifi}",
-        "relationType" : "Room@DeviceDirect",
-        "createEntityIfNotExists" : false,
-        "removeCurrentRelations" : false,
-        "changeOriginatorToRelatedEntity" : true
-      },
-      "configurationVersion" : 1,
-      "createdTime" : 0,
-      "debugMode" : true,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "efba2fa0-55c9-11f1-ad24-0fa2d544f4f5"
-      },
-      "name" : "Room@DeviceDirect",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.action.TbCreateRelationNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "Tạo quan hệ cho Room với Gateway",
         "layoutX" : 2377,
         "layoutY" : 1727
       },
@@ -5180,6 +5151,35 @@
       "id" : {
         "entityType" : "RULE_NODE",
         "id" : "03b64e30-55ca-11f1-ad24-0fa2d544f4f5"
+      },
+      "name" : "Room@DeviceDirect",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.action.TbCreateRelationNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "Tạo quan hệ cho Room với Gateway",
+        "layoutX" : 2377,
+        "layoutY" : 1527
+      },
+      "configuration" : {
+        "direction" : "FROM",
+        "entityType" : "DEVICE",
+        "entityNamePattern" : "${entityName_Room}",
+        "entityTypePattern" : "ROOM",
+        "relationType" : "Room@DeviceDirect",
+        "createEntityIfNotExists" : false,
+        "removeCurrentRelations" : false,
+        "changeOriginatorToRelatedEntity" : false
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "302a5a00-55cb-11f1-ad24-0fa2d544f4f5"
       },
       "name" : "Room@DeviceDirect",
       "queueName" : null,
