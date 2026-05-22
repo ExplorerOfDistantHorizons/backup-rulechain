@@ -1747,7 +1747,7 @@
       "configuration" : {
         "originatorSource" : "ENTITY",
         "entityType" : "ASSET",
-        "entityNamePattern" : "d",
+        "entityNamePattern" : "list_dev_wifi",
         "relationsQuery" : {
           "direction" : "FROM",
           "maxLevel" : 1,
@@ -1761,13 +1761,13 @@
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
-      "debugMode" : false,
+      "debugMode" : true,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
         "id" : "da28d970-5579-11f1-ad24-0fa2d544f4f5"
       },
-      "name" : "->",
+      "name" : "-> list_dev_wifi",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
