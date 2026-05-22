@@ -1515,7 +1515,7 @@
       "configuration" : {
         "originatorSource" : "ENTITY",
         "entityType" : "DEVICE",
-        "entityNamePattern" : "${entityName}",
+        "entityNamePattern" : "${entityName_Device}",
         "relationsQuery" : {
           "fetchLastLevelOnly" : false,
           "direction" : "FROM",
