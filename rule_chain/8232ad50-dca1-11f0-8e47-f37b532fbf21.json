@@ -9,7 +9,7 @@
     "externalId" : null,
     "firstRuleNodeId" : {
       "entityType" : "RULE_NODE",
-      "id" : "824fab30-dca1-11f0-8e47-f37b532fbf21"
+      "id" : "eeac3e10-55f5-11f1-ad24-0fa2d544f4f5"
     },
     "id" : {
       "entityType" : "RULE_CHAIN",
@@ -768,8 +768,12 @@
       "fromIndex" : 177,
       "toIndex" : 165,
       "type" : "False"
+    }, {
+      "fromIndex" : 178,
+      "toIndex" : 0,
+      "type" : "Success"
     } ],
-    "firstNodeIndex" : 0,
+    "firstNodeIndex" : 178,
     "nodes" : [ {
       "additionalInfo" : {
         "description" : "",
@@ -5256,6 +5260,32 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 278,
+        "layoutY" : 702
+      },
+      "configuration" : {
+        "dataMapping" : {
+          "id" : "entityId"
+        },
+        "ignoreNullStrings" : false,
+        "fetchTo" : "METADATA"
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "eeac3e10-55f5-11f1-ad24-0fa2d544f4f5"
+      },
+      "name" : "lấy entityId_Room",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetOriginatorFieldsNode"
     } ],
     "ruleChainConnections" : null
   },
