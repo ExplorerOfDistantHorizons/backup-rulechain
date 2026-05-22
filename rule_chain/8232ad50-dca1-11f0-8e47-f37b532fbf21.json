@@ -5442,7 +5442,7 @@
       "configuration" : {
         "originatorSource" : "ENTITY",
         "entityType" : "DEVICE",
-        "entityNamePattern" : "$[deviceName]",
+        "entityNamePattern" : "${entityName_DeviceWifi}",
         "relationsQuery" : {
           "direction" : "FROM",
           "maxLevel" : 1,
