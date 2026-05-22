@@ -1,0 +1,29 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : {
+      "assetNameBuilding" : "7820ddf3-e479-4025-bfed-8792c742796e"
+    },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "cb504220-dca3-11f0-8e47-f37b532fbf21"
+    },
+    "attributes" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "c89f9a90-55c4-11f1-ad24-0fa2d544f4f5"
+    },
+    "label" : "Tầng 1",
+    "name" : "c8ddb9ea-7194-4e7a-a37b-0767ef279232",
+    "telemetry" : null,
+    "type" : "FLOOR"
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
