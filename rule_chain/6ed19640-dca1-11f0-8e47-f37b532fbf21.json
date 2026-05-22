@@ -1774,6 +1774,30 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.metadata.TbGetAttributesPlusNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2075,
+        "layoutY" : 904
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "return msg.pairMode == true && msg.timePairMode;",
+        "tbelScript" : "return msg.pairMode == true && msg.timePairMode;"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "65db69e0-557c-11f1-ad24-0fa2d544f4f5"
+      },
+      "name" : "check pairMode",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
     } ],
     "ruleChainConnections" : null
   },
