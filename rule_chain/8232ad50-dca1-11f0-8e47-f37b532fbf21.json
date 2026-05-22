@@ -453,14 +453,6 @@
       "toIndex" : 98,
       "type" : "Success"
     }, {
-      "fromIndex" : 96,
-      "toIndex" : 97,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 96,
-      "toIndex" : 165,
-      "type" : "Success"
-    }, {
       "fromIndex" : 97,
       "toIndex" : 137,
       "type" : "Success"
@@ -1336,8 +1328,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3401,
-        "layoutY" : 2029
+        "layoutX" : 3674,
+        "layoutY" : 2028
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -3174,8 +3166,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2877,
-        "layoutY" : 2078
+        "layoutX" : 3150,
+        "layoutY" : 2077
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
@@ -3271,8 +3263,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3652,
-        "layoutY" : 2079
+        "layoutX" : 3925,
+        "layoutY" : 2078
       },
       "configuration" : {
         "tellFailureIfAbsent" : false,
@@ -3299,8 +3291,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3904,
-        "layoutY" : 2080
+        "layoutX" : 4177,
+        "layoutY" : 2079
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -3323,8 +3315,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 4151,
-        "layoutY" : 2080
+        "layoutX" : 4424,
+        "layoutY" : 2079
       },
       "configuration" : {
         "version" : 0
@@ -3345,8 +3337,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 4401,
-        "layoutY" : 2079
+        "layoutX" : 4674,
+        "layoutY" : 2078
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
@@ -3798,8 +3790,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3403,
-        "layoutY" : 2079
+        "layoutX" : 3676,
+        "layoutY" : 2078
       },
       "configuration" : {
         "requestIdMetaDataAttribute" : "requestUUID_API",
@@ -3821,8 +3813,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Chuyển thực thể gốc tới thiết bị con là Device",
-        "layoutX" : 3151,
-        "layoutY" : 2029
+        "layoutX" : 3424,
+        "layoutY" : 2028
       },
       "configuration" : {
         "originatorSource" : "RELATED",
@@ -4219,8 +4211,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3152,
-        "layoutY" : 2078
+        "layoutX" : 3425,
+        "layoutY" : 2077
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -4929,8 +4921,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2878,
-        "layoutY" : 2029
+        "layoutX" : 3151,
+        "layoutY" : 2028
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -5263,6 +5255,30 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.metadata.TbGetRelatedEntityDataPlusNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2875,
+        "layoutY" : 2028
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "var DeviceDirects = [\"APTOMAT_WIFI_1P\",\"CTCU_WIFI_1\",\"CTCU_WIFI_2\",\"CTCU_WIFI_3\",\"CTCU_WIFI_4\"]\nreturn msg.temperature > 20;",
+        "tbelScript" : "return msg.temperature > 20;"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "80dc04c0-55f4-11f1-ad24-0fa2d544f4f5"
+      },
+      "name" : "is DeviceDirect ?",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
     } ],
     "ruleChainConnections" : null
   },
