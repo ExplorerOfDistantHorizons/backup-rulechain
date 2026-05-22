@@ -1770,7 +1770,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "return msg.pairMode == true && Date.now() - msg.timePairMode <= 1000*60*5 ;",
+        "jsScript" : "return msg.cs_pairMode == true && Date.now() - msg.cs_timePairMode <= 1000*60*5 ;",
         "tbelScript" : "return msg.pairMode == true && msg.timePairMode;"
       },
       "configurationVersion" : 0,
