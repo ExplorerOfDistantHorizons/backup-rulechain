@@ -883,7 +883,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "msg.method = \"registerDev\"\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "jsScript" : "msg.method = \"registerDev\"\nmetadata.relationType = \"Building_Gateway\"\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
         "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
       },
       "configurationVersion" : 0,
