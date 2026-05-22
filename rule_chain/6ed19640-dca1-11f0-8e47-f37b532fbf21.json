@@ -901,8 +901,8 @@
         "layoutY" : 1018
       },
       "configuration" : {
-        "scriptLang" : "TBEL",
-        "jsScript" : "function nextRelation(metadata, msg) {\n    return ['one','nine'];\n}\nif(msgType === 'POST_TELEMETRY_REQUEST') {\n    return ['two'];\n}\nreturn nextRelation(metadata, msg);",
+        "scriptLang" : "JS",
+        "jsScript" : "function nextRelation(metadata, msg) {\r\n    var out_list = [];\r\n    switch (msg.method) {\r\n        case \"registerHC\":\r\n            out_list = ['registerHC']\r\n            break;\r\n        \r\n        case \"registerDev\":\r\n            out_list = ['registerDev']\r\n            break;\r\n            \r\n        case \"controlDev\":\r\n            out_list = ['controlDev']\r\n            break;\r\n            \r\n        case \"configDev\":\r\n            out_list = ['configDev']\r\n            break;\r\n            \r\n        case \"delDeviceWifi\":\r\n            out_list = ['delDeviceWifi']\r\n            break;\r\n            \r\n        default:\r\n            out_list = ['otherMethod']\r\n            break;\r\n    }\r\n    return out_list;\r\n}\r\nreturn nextRelation(metadata, msg);",
         "tbelScript" : "function nextRelation(metadata, msg) {\r\n    var out_list = [];\r\n    switch (msg.method) {\r\n        case \"registerHC\":\r\n            out_list = ['registerHC']\r\n            break;\r\n        \r\n        case \"registerDev\":\r\n            out_list = ['registerDev']\r\n            break;\r\n            \r\n        case \"controlDev\":\r\n            out_list = ['controlDev']\r\n            break;\r\n            \r\n        case \"configDev\":\r\n            out_list = ['configDev']\r\n            break;\r\n            \r\n        case \"delDeviceWifi\":\r\n            out_list = ['delDeviceWifi']\r\n            break;\r\n            \r\n        default:\r\n            out_list = ['otherMethod']\r\n            break;\r\n    }\r\n    return out_list;\r\n}\r\nreturn nextRelation(metadata, msg);"
       },
       "configurationVersion" : 0,
