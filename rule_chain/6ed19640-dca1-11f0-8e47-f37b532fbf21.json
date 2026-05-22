@@ -1741,12 +1741,12 @@
         "layoutY" : 904
       },
       "configuration" : {
-        "tellFailureIfAbsent" : true,
+        "tellFailureIfAbsent" : false,
         "fetchTo" : "METADATA",
         "clientAttributeNames" : [ "pairMode", "timePairMode" ],
-        "sharedAttributeNames" : [ ],
-        "serverAttributeNames" : [ ],
         "latestTsKeyNames" : [ ],
+        "serverAttributeNames" : [ ],
+        "sharedAttributeNames" : [ ],
         "getLatestValueWithTs" : false
       },
       "configurationVersion" : 1,
