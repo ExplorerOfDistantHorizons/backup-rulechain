@@ -5065,7 +5065,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "return msg.temperature > 20;",
+        "jsScript" : "return metadata.typeMessage == \"true\";",
         "tbelScript" : "return msg.temperature > 20;"
       },
       "configurationVersion" : 0,
@@ -5089,7 +5089,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "return msg.temperature > 20;",
+        "jsScript" : "return metadata.typeMessage == \"true\";",
         "tbelScript" : "return msg.temperature > 20;"
       },
       "configurationVersion" : 0,
