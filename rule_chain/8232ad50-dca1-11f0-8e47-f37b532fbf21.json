@@ -5149,8 +5149,8 @@
       "configuration" : {
         "direction" : "FROM",
         "entityType" : "DEVICE",
-        "entityNamePattern" : "${entityName_Room}",
-        "entityTypePattern" : "ROOM",
+        "entityNamePattern" : "${entityName_DeviceWifi}",
+        "entityTypePattern" : "${profileName_DeviceWifi}",
         "relationType" : "Room@DeviceDirect",
         "createEntityIfNotExists" : false,
         "removeCurrentRelations" : false,
