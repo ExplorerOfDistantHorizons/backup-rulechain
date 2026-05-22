@@ -249,10 +249,6 @@
       "toIndex" : 52,
       "type" : "Failure"
     }, {
-      "fromIndex" : 51,
-      "toIndex" : 60,
-      "type" : "Success"
-    }, {
       "fromIndex" : 52,
       "toIndex" : 53,
       "type" : "Success"
@@ -1746,32 +1742,6 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "",
-        "layoutX" : 1826,
-        "layoutY" : 905
-      },
-      "configuration" : {
-        "dataMapping" : {
-          "name" : "entityName_Device"
-        },
-        "ignoreNullStrings" : false,
-        "fetchTo" : "METADATA"
-      },
-      "configurationVersion" : 1,
-      "createdTime" : 0,
-      "debugMode" : false,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "89f27200-5578-11f1-ad24-0fa2d544f4f5"
-      },
-      "name" : "G entityName_Device",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.metadata.TbGetOriginatorFieldsNode"
     } ],
     "ruleChainConnections" : null
   },
