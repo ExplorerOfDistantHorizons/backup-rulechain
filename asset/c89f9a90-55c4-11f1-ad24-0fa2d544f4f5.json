@@ -18,12 +18,20 @@
       "entityType" : "ASSET",
       "id" : "c89f9a90-55c4-11f1-ad24-0fa2d544f4f5"
     },
-    "label" : "Tầng 1",
+    "label" : "Tầng 2",
     "name" : "c8ddb9ea-7194-4e7a-a37b-0767ef279232",
     "telemetry" : null,
     "type" : "FLOOR"
   },
   "attributes" : {
-    "SERVER_SCOPE" : [ ]
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "entityType",
+      "lastUpdateTs" : 1779443909361,
+      "longValue" : null,
+      "strValue" : "ASSET"
+    } ]
   }
 }
