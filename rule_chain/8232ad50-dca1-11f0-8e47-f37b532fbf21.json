@@ -454,7 +454,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 96,
-      "toIndex" : 178,
+      "toIndex" : 177,
       "type" : "Success"
     }, {
       "fromIndex" : 97,
@@ -757,15 +757,15 @@
       "toIndex" : 141,
       "type" : "Success"
     }, {
-      "fromIndex" : 178,
+      "fromIndex" : 177,
       "toIndex" : 97,
       "type" : "False"
     }, {
-      "fromIndex" : 178,
+      "fromIndex" : 177,
       "toIndex" : 97,
       "type" : "True"
     }, {
-      "fromIndex" : 178,
+      "fromIndex" : 177,
       "toIndex" : 165,
       "type" : "False"
     } ],
@@ -5232,45 +5232,6 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.action.TbDeleteRelationNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "",
-        "layoutX" : 1847,
-        "layoutY" : 2269
-      },
-      "configuration" : {
-        "relationsQuery" : {
-          "fetchLastLevelOnly" : false,
-          "direction" : "FROM",
-          "maxLevel" : 1,
-          "filters" : [ {
-            "relationType" : "Room_DeviceInDirect",
-            "entityTypes" : [ "DEVICE" ]
-          }, {
-            "relationType" : "Room_DeviceDirect",
-            "entityTypes" : [ "DEVICE" ]
-          } ]
-        },
-        "dataToFetch" : "FIELDS",
-        "fetchTo" : "DATA",
-        "dataMapping" : {
-          "name" : "entityName",
-          "type" : "profileName"
-        }
-      },
-      "configurationVersion" : 2,
-      "createdTime" : 0,
-      "debugMode" : false,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "9ef18130-55f2-11f1-ad24-0fa2d544f4f5"
-      },
-      "name" : "Lấy danh sách các thiết bị trong phòng",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.metadata.TbGetRelatedEntityDataPlusNode"
     }, {
       "additionalInfo" : {
         "description" : "",
