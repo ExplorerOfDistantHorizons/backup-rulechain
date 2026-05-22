@@ -229,6 +229,10 @@
       "toIndex" : 43,
       "type" : "Success"
     }, {
+      "fromIndex" : 42,
+      "toIndex" : 63,
+      "type" : "Success"
+    }, {
       "fromIndex" : 44,
       "toIndex" : 21,
       "type" : "Success"
@@ -1825,6 +1829,32 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.rpc.TbSendRPCRequestNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2077,
+        "layoutY" : 1127
+      },
+      "configuration" : {
+        "deleteForSingleEntity" : false,
+        "direction" : "TO",
+        "entityType" : null,
+        "entityNamePattern" : null,
+        "relationType" : "full_relation"
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "93cf9620-55b6-11f1-ad24-0fa2d544f4f5"
+      },
+      "name" : "Xóa timer cũ",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.action.TbDeleteRelationPlusNode"
     } ],
     "ruleChainConnections" : null
   },
