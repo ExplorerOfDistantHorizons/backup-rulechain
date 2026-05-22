@@ -737,6 +737,10 @@
       "toIndex" : 131,
       "type" : "True"
     }, {
+      "fromIndex" : 171,
+      "toIndex" : 176,
+      "type" : "False"
+    }, {
       "fromIndex" : 173,
       "toIndex" : 172,
       "type" : "Success"
@@ -747,6 +751,10 @@
     }, {
       "fromIndex" : 175,
       "toIndex" : 173,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 176,
+      "toIndex" : 141,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 0,
@@ -5186,6 +5194,33 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.action.TbCreateRelationNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2376,
+        "layoutY" : 1928
+      },
+      "configuration" : {
+        "direction" : "FROM",
+        "relationType" : "Contains",
+        "entityType" : null,
+        "entityNamePattern" : "",
+        "entityTypePattern" : null,
+        "deleteForSingleEntity" : false
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "56e75800-55cb-11f1-ad24-0fa2d544f4f5"
+      },
+      "name" : "Room%DeviceDirect",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.action.TbDeleteRelationNode"
     } ],
     "ruleChainConnections" : null
   },
