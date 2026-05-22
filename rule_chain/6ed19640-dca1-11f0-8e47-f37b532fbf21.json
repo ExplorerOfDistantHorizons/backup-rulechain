@@ -58,7 +58,7 @@
       "type" : "Entity Updated"
     }, {
       "fromIndex" : 0,
-      "toIndex" : 46,
+      "toIndex" : 45,
       "type" : "Post telemetry"
     }, {
       "fromIndex" : 1,
@@ -70,11 +70,11 @@
       "type" : "Success"
     }, {
       "fromIndex" : 2,
-      "toIndex" : 55,
+      "toIndex" : 54,
       "type" : "Failure"
     }, {
       "fromIndex" : 2,
-      "toIndex" : 55,
+      "toIndex" : 54,
       "type" : "Success"
     }, {
       "fromIndex" : 3,
@@ -82,7 +82,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 3,
-      "toIndex" : 57,
+      "toIndex" : 56,
       "type" : "Success"
     }, {
       "fromIndex" : 4,
@@ -90,15 +90,19 @@
       "type" : "True"
     }, {
       "fromIndex" : 5,
+      "toIndex" : 9,
+      "type" : "Failure"
+    }, {
+      "fromIndex" : 5,
+      "toIndex" : 9,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 5,
       "toIndex" : 43,
       "type" : "Failure"
     }, {
       "fromIndex" : 5,
       "toIndex" : 43,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 5,
-      "toIndex" : 45,
       "type" : "Success"
     }, {
       "fromIndex" : 6,
@@ -111,10 +115,6 @@
     }, {
       "fromIndex" : 6,
       "toIndex" : 16,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 9,
-      "toIndex" : 8,
       "type" : "Success"
     }, {
       "fromIndex" : 10,
@@ -150,11 +150,11 @@
       "type" : "Success"
     }, {
       "fromIndex" : 23,
-      "toIndex" : 47,
+      "toIndex" : 46,
       "type" : "Success"
     }, {
       "fromIndex" : 24,
-      "toIndex" : 48,
+      "toIndex" : 47,
       "type" : "Success"
     }, {
       "fromIndex" : 25,
@@ -174,7 +174,7 @@
       "type" : "configDev"
     }, {
       "fromIndex" : 25,
-      "toIndex" : 63,
+      "toIndex" : 62,
       "type" : "registerHC"
     }, {
       "fromIndex" : 26,
@@ -194,7 +194,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 30,
-      "toIndex" : 51,
+      "toIndex" : 50,
       "type" : "Success"
     }, {
       "fromIndex" : 31,
@@ -214,7 +214,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 34,
-      "toIndex" : 50,
+      "toIndex" : 49,
       "type" : "Success"
     }, {
       "fromIndex" : 36,
@@ -238,59 +238,55 @@
       "type" : "Success"
     }, {
       "fromIndex" : 45,
-      "toIndex" : 9,
-      "type" : "True"
-    }, {
-      "fromIndex" : 46,
       "toIndex" : 22,
       "type" : "Success"
     }, {
-      "fromIndex" : 50,
-      "toIndex" : 49,
+      "fromIndex" : 49,
+      "toIndex" : 48,
       "type" : "DEVICE"
+    }, {
+      "fromIndex" : 50,
+      "toIndex" : 51,
+      "type" : "Failure"
+    }, {
+      "fromIndex" : 50,
+      "toIndex" : 58,
+      "type" : "Success"
     }, {
       "fromIndex" : 51,
       "toIndex" : 52,
-      "type" : "Failure"
-    }, {
-      "fromIndex" : 51,
-      "toIndex" : 59,
       "type" : "Success"
     }, {
-      "fromIndex" : 52,
+      "fromIndex" : 54,
       "toIndex" : 53,
       "type" : "Success"
     }, {
-      "fromIndex" : 55,
-      "toIndex" : 54,
+      "fromIndex" : 56,
+      "toIndex" : 55,
       "type" : "Success"
     }, {
       "fromIndex" : 57,
-      "toIndex" : 56,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 58,
       "toIndex" : 2,
       "type" : "Success"
     }, {
-      "fromIndex" : 59,
-      "toIndex" : 60,
+      "fromIndex" : 58,
+      "toIndex" : 59,
       "type" : "Success"
     }, {
-      "fromIndex" : 60,
-      "toIndex" : 58,
+      "fromIndex" : 59,
+      "toIndex" : 57,
       "type" : "True"
+    }, {
+      "fromIndex" : 59,
+      "toIndex" : 60,
+      "type" : "False"
     }, {
       "fromIndex" : 60,
       "toIndex" : 61,
-      "type" : "False"
-    }, {
-      "fromIndex" : 61,
-      "toIndex" : 62,
       "type" : "Success"
     }, {
-      "fromIndex" : 63,
-      "toIndex" : 64,
+      "fromIndex" : 62,
+      "toIndex" : 63,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 32,
@@ -486,8 +482,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2328,
-        "layoutY" : 1128
+        "layoutX" : 2390,
+        "layoutY" : 1114
       },
       "configuration" : {
         "forwardMsgToDefaultRuleChain" : false,
@@ -509,7 +505,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2078,
+        "layoutX" : 1829,
         "layoutY" : 1128
       },
       "configuration" : {
@@ -1375,30 +1371,6 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.rest.TbSendRestApiCallReplyNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "",
-        "layoutX" : 1827,
-        "layoutY" : 1129
-      },
-      "configuration" : {
-        "scriptLang" : "JS",
-        "jsScript" : "return msg.params.code === 0",
-        "tbelScript" : "return msg.temperature > 20;"
-      },
-      "configurationVersion" : 0,
-      "createdTime" : 0,
-      "debugMode" : true,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "b08cad80-f8f9-11f0-8c6e-5381beb8d689"
-      },
-      "name" : "nếu thành công",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
     }, {
       "additionalInfo" : {
         "description" : "",
