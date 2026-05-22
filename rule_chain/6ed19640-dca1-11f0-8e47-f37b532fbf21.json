@@ -786,7 +786,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "return {msg: msg, metadata: metadata, msgType: msgType};",
+        "jsScript" : "if(msg.pairMode!=null){\n    msg.timePairMode = Date.now()\n}\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
         "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
       },
       "configurationVersion" : 0,
