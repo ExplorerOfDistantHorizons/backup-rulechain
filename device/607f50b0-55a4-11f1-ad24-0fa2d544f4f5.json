@@ -16,12 +16,12 @@
         "type" : "DEFAULT"
       },
       "transportConfiguration" : {
-        "type" : "DEFAULT"
+        "type" : "MQTT"
       }
     },
     "deviceProfileId" : {
       "entityType" : "DEVICE_PROFILE",
-      "id" : "f3053f40-dca4-11f0-8e47-f37b532fbf21"
+      "id" : "828ea8a0-dca4-11f0-8e47-f37b532fbf21"
     },
     "externalId" : null,
     "firmwareId" : null,
@@ -33,7 +33,7 @@
     "name" : "device_wifi_10003bb86428",
     "softwareId" : null,
     "telemetry" : null,
-    "type" : "CTCU_BLE_3"
+    "type" : "CTCU_WIFI_3"
   },
   "credentials" : {
     "credentialsId" : "IT45Qg1iwa2zb7FDiIlz",
