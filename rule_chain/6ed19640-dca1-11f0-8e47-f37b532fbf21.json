@@ -272,10 +272,6 @@
       "fromIndex" : 58,
       "toIndex" : 57,
       "type" : "Success"
-    }, {
-      "fromIndex" : 59,
-      "toIndex" : 2,
-      "type" : "Success"
     } ],
     "firstNodeIndex" : 32,
     "nodes" : [ {
