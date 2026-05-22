@@ -268,10 +268,6 @@
       "fromIndex" : 59,
       "toIndex" : 2,
       "type" : "Success"
-    }, {
-      "fromIndex" : 60,
-      "toIndex" : 59,
-      "type" : "Success"
     } ],
     "firstNodeIndex" : 32,
     "nodes" : [ {
@@ -321,8 +317,8 @@
     }, {
       "additionalInfo" : {
         "description" : null,
-        "layoutX" : 2327,
-        "layoutY" : 904
+        "layoutX" : 2780,
+        "layoutY" : 902
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -343,8 +339,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2829,
-        "layoutY" : 906
+        "layoutX" : 3282,
+        "layoutY" : 904
       },
       "configuration" : {
         "dataMapping" : {
@@ -371,8 +367,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2579,
-        "layoutY" : 905
+        "layoutX" : 3032,
+        "layoutY" : 903
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -417,8 +413,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3077,
-        "layoutY" : 905
+        "layoutX" : 3530,
+        "layoutY" : 903
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -441,8 +437,8 @@
     }, {
       "additionalInfo" : {
         "description" : null,
-        "layoutX" : 3602,
-        "layoutY" : 903
+        "layoutX" : 4055,
+        "layoutY" : 901
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
@@ -563,8 +559,8 @@
     }, {
       "additionalInfo" : {
         "description" : null,
-        "layoutX" : 3602,
-        "layoutY" : 952
+        "layoutX" : 4055,
+        "layoutY" : 950
       },
       "configuration" : {
         "scope" : "SHARED_SCOPE",
@@ -588,8 +584,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3352,
-        "layoutY" : 1003
+        "layoutX" : 3805,
+        "layoutY" : 1001
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -612,8 +608,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3602,
-        "layoutY" : 1002
+        "layoutX" : 4055,
+        "layoutY" : 1000
       },
       "configuration" : {
         "defaultTTL" : 0,
@@ -636,8 +632,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3351,
-        "layoutY" : 954
+        "layoutX" : 3804,
+        "layoutY" : 952
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -660,8 +656,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3351,
-        "layoutY" : 903
+        "layoutX" : 3804,
+        "layoutY" : 901
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -1601,8 +1597,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2830,
-        "layoutY" : 854
+        "layoutX" : 3283,
+        "layoutY" : 852
       },
       "configuration" : {
         "serviceIdMetaDataAttribute" : "serviceId",
@@ -1624,8 +1620,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2578,
-        "layoutY" : 855
+        "layoutX" : 3031,
+        "layoutY" : 853
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -1648,8 +1644,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3352,
-        "layoutY" : 854
+        "layoutX" : 3805,
+        "layoutY" : 852
       },
       "configuration" : {
         "direction" : "TO",
@@ -1677,8 +1673,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3078,
-        "layoutY" : 855
+        "layoutX" : 3531,
+        "layoutY" : 853
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -1729,8 +1725,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2078,
-        "layoutY" : 903
+        "layoutX" : 2529,
+        "layoutY" : 900
       },
       "configuration" : {
         "scriptLang" : "JS",
