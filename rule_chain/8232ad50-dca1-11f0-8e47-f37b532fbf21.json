@@ -1336,8 +1336,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3399,
-        "layoutY" : 2081
+        "layoutX" : 3401,
+        "layoutY" : 2029
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -3174,8 +3174,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2876,
-        "layoutY" : 2031
+        "layoutX" : 2877,
+        "layoutY" : 2078
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
@@ -3271,8 +3271,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3651,
-        "layoutY" : 2029
+        "layoutX" : 3652,
+        "layoutY" : 2079
       },
       "configuration" : {
         "tellFailureIfAbsent" : false,
@@ -3299,8 +3299,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3903,
-        "layoutY" : 2030
+        "layoutX" : 3904,
+        "layoutY" : 2080
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -3323,8 +3323,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 4150,
-        "layoutY" : 2030
+        "layoutX" : 4151,
+        "layoutY" : 2080
       },
       "configuration" : {
         "version" : 0
@@ -3345,8 +3345,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 4400,
-        "layoutY" : 2029
+        "layoutX" : 4401,
+        "layoutY" : 2079
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
@@ -3798,8 +3798,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3399,
-        "layoutY" : 2032
+        "layoutX" : 3403,
+        "layoutY" : 2079
       },
       "configuration" : {
         "requestIdMetaDataAttribute" : "requestUUID_API",
@@ -3821,8 +3821,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Chuyển thực thể gốc tới thiết bị con là Device",
-        "layoutX" : 3149,
-        "layoutY" : 2081
+        "layoutX" : 3151,
+        "layoutY" : 2029
       },
       "configuration" : {
         "originatorSource" : "RELATED",
@@ -4219,8 +4219,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3151,
-        "layoutY" : 2032
+        "layoutX" : 3152,
+        "layoutY" : 2078
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -4929,8 +4929,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2876,
-        "layoutY" : 2081
+        "layoutX" : 2878,
+        "layoutY" : 2029
       },
       "configuration" : {
         "scriptLang" : "JS",
