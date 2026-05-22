@@ -190,7 +190,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 30,
-      "toIndex" : 51,
+      "toIndex" : 52,
       "type" : "Success"
     }, {
       "fromIndex" : 31,
@@ -248,10 +248,6 @@
       "fromIndex" : 51,
       "toIndex" : 52,
       "type" : "Success"
-    }, {
-      "fromIndex" : 51,
-      "toIndex" : 53,
-      "type" : "Failure"
     }, {
       "fromIndex" : 52,
       "toIndex" : 2,
@@ -1522,7 +1518,7 @@
       "additionalInfo" : {
         "description" : "",
         "layoutX" : 1577,
-        "layoutY" : 904
+        "layoutY" : 855
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
