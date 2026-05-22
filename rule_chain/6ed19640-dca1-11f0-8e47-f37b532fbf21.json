@@ -1796,10 +1796,10 @@
             "entityTypes" : [ "DEVICE" ]
           } ]
         },
-        "dataToFetch" : "ATTRIBUTES",
+        "dataToFetch" : "FIELDS",
         "fetchTo" : "METADATA",
         "dataMapping" : {
-          "serialNumber" : "sn"
+          "name" : "entityName_Device"
         }
       },
       "configurationVersion" : 2,
