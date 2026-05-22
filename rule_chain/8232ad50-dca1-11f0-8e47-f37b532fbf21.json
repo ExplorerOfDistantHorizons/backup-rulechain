@@ -732,6 +732,10 @@
       "fromIndex" : 174,
       "toIndex" : 173,
       "type" : "Success"
+    }, {
+      "fromIndex" : 175,
+      "toIndex" : 174,
+      "type" : "Success"
     } ],
     "firstNodeIndex" : 0,
     "nodes" : [ {
@@ -5069,7 +5073,7 @@
       "additionalInfo" : {
         "description" : "",
         "layoutX" : 1877,
-        "layoutY" : 1479
+        "layoutY" : 1529
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -5136,6 +5140,35 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "Tạo quan hệ cho Room với Gateway",
+        "layoutX" : 2376,
+        "layoutY" : 1527
+      },
+      "configuration" : {
+        "direction" : "FROM",
+        "entityType" : "ASSET",
+        "entityNamePattern" : "${entityName_Room}",
+        "entityTypePattern" : "ROOM",
+        "relationType" : "Room@DeviceDirect",
+        "createEntityIfNotExists" : false,
+        "removeCurrentRelations" : false,
+        "changeOriginatorToRelatedEntity" : true
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "efba2fa0-55c9-11f1-ad24-0fa2d544f4f5"
+      },
+      "name" : "Room@DeviceDirect",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.action.TbCreateRelationNode"
     } ],
     "ruleChainConnections" : null
   },
