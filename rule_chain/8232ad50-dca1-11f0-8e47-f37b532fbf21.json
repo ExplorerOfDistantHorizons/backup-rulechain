@@ -5124,7 +5124,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "var message = \"\";\r\nvar code = 0;\r\nif(msg.params.code!=null) code = msg.params.code\r\n\r\nif (msg.params && msg.params.code === 0) {\r\n    message = \"Tạo phòng thành công\";\r\n    code = 0;\r\n} else {\r\n    message = \"Tạo phòng thất bại\";\r\n}\r\n\r\n\r\n\r\n\r\nmsg = {\r\n    code: code,\r\n    message: message\r\n};\r\nmsgType = \"REST_API_REQUEST\";\r\nreturn {\r\n    msg: msg,\r\n    metadata: metadata,\r\n    msgType: msgType\r\n};",
+        "jsScript" : "var message = \"\";\r\nvar code = 0;\r\n\r\nif(metadata.typeMessage == \"true\"){ // Đây là thiết bị BLE\r\n    if (msg.params && msg.params.code === 0) {\r\n        message = \"Tạo phòng thành công\";\r\n        code = 0;\r\n    } else {\r\n        message = \"Tạo phòng thất bại\";\r\n    }\r\n}else if(metadata.typeMessage == \"false\"){ // đây là thiết bị wifi hoặc loại thiết bị kết nối trực tiếp\r\n    code = 0,\r\n    message = \"Thêm thà\"\r\n}\r\n\r\nmsg = {\r\n    code: code,\r\n    message: message\r\n};\r\n// msgType = \"REST_API_REQUEST\";\r\nreturn {\r\n    msg: msg,\r\n    metadata: metadata,\r\n    msgType: msgType\r\n};",
         "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
       },
       "configurationVersion" : 0,
