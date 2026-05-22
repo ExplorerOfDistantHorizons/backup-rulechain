@@ -3056,6 +3056,9 @@
           "filters" : [ {
             "relationType" : "Room_DeviceInDirect",
             "entityTypes" : [ "DEVICE" ]
+          }, {
+            "relationType" : "Room_DeviceDirect",
+            "entityTypes" : [ "DEVICE" ]
           } ]
         },
         "dataToFetch" : "FIELDS",
