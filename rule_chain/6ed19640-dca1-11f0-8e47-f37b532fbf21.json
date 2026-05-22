@@ -1742,7 +1742,7 @@
       },
       "configuration" : {
         "tellFailureIfAbsent" : false,
-        "fetchTo" : "METADATA",
+        "fetchTo" : "DATA",
         "clientAttributeNames" : [ "pairMode", "timePairMode" ],
         "latestTsKeyNames" : [ ],
         "serverAttributeNames" : [ ],
