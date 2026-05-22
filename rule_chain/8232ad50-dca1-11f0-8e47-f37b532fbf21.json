@@ -5276,7 +5276,7 @@
       },
       "configuration" : {
         "dataMapping" : {
-          "id" : "entityId_Room"
+          "id" : "entityId"
         },
         "ignoreNullStrings" : false,
         "fetchTo" : "METADATA"
