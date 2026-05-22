@@ -750,7 +750,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 175,
-      "toIndex" : 173,
+      "toIndex" : 180,
       "type" : "Success"
     }, {
       "fromIndex" : 176,
@@ -771,6 +771,10 @@
     }, {
       "fromIndex" : 178,
       "toIndex" : 0,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 180,
+      "toIndex" : 179,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 178,
@@ -5184,8 +5188,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Tạo quan hệ cho Room với Gateway",
-        "layoutX" : 2377,
-        "layoutY" : 1527
+        "layoutX" : 1877,
+        "layoutY" : 1529
       },
       "configuration" : {
         "direction" : "FROM",
@@ -5286,6 +5290,55 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.metadata.TbGetOriginatorFieldsNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2377,
+        "layoutY" : 1529
+      },
+      "configuration" : {
+        "scope" : "SERVER_SCOPE",
+        "notifyDevice" : false,
+        "sendAttributesUpdatedNotification" : false,
+        "updateAttributesOnlyOnValueChange" : false
+      },
+      "configurationVersion" : 2,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "7bd4b790-55f6-11f1-ad24-0fa2d544f4f5"
+      },
+      "name" : "lưu vào S attribute",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgAttributesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "Xử lý các danh sách thiết bị, nhóm , cảnh",
+        "layoutX" : 2127,
+        "layoutY" : 1528
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "msg = {\n   roomId: metadata.entityId\n}\nmsgType = \"POST_ATTRIBUTES_REQUEST\";\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "7bd52cc0-55f6-11f1-ad24-0fa2d544f4f5"
+      },
+      "name" : "lưu roomId",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
     } ],
     "ruleChainConnections" : null
   },
