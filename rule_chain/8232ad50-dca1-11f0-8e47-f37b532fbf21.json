@@ -5136,9 +5136,9 @@
       },
       "configuration" : {
         "direction" : "FROM",
-        "entityType" : "ASSET",
-        "entityNamePattern" : "${entityName_Room}",
-        "entityTypePattern" : "${profileName_0}",
+        "entityType" : "DEVICE",
+        "entityNamePattern" : "${entityName_DeviceWifi}",
+        "entityTypePattern" : "${profileName_DeviceWifi}",
         "relationType" : "Room@DeviceDirect",
         "createEntityIfNotExists" : false,
         "removeCurrentRelations" : false,
@@ -5171,7 +5171,7 @@
         "relationType" : "Room@DeviceDirect",
         "createEntityIfNotExists" : false,
         "removeCurrentRelations" : false,
-        "changeOriginatorToRelatedEntity" : true
+        "changeOriginatorToRelatedEntity" : false
       },
       "configurationVersion" : 1,
       "createdTime" : 0,
