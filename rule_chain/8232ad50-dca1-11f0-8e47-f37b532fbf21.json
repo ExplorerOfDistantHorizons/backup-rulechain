@@ -9,7 +9,7 @@
     "externalId" : null,
     "firstRuleNodeId" : {
       "entityType" : "RULE_NODE",
-      "id" : "eeac3e10-55f5-11f1-ad24-0fa2d544f4f5"
+      "id" : "fa1f2690-55f5-11f1-ad24-0fa2d544f4f5"
     },
     "id" : {
       "entityType" : "RULE_CHAIN",
@@ -5268,7 +5268,7 @@
       },
       "configuration" : {
         "dataMapping" : {
-          "id" : "entityId"
+          "id" : "entityId_Room"
         },
         "ignoreNullStrings" : false,
         "fetchTo" : "METADATA"
@@ -5279,7 +5279,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "eeac3e10-55f5-11f1-ad24-0fa2d544f4f5"
+        "id" : "fa1f2690-55f5-11f1-ad24-0fa2d544f4f5"
       },
       "name" : "lấy entityId_Room",
       "queueName" : null,
