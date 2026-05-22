@@ -1813,8 +1813,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2579,
-        "layoutY" : 850
+        "layoutX" : 2577,
+        "layoutY" : 852
       },
       "configuration" : {
         "requestIdMetaDataAttribute" : "requestUUID_API",
