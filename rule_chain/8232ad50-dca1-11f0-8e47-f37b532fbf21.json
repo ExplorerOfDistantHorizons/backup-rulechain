@@ -5263,7 +5263,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "var DeviceDirects = [\"APTOMAT_WIFI_1P\",\"CTCU_WIFI_1\",\"CTCU_WIFI_2\",\"CTCU_WIFI_3\",\"CTCU_WIFI_4\"]\nreturn msg.temperature > 20;",
+        "jsScript" : "var DeviceDirects = [\"APTOMAT_WIFI_1P\",\"CTCU_WIFI_1\",\"CTCU_WIFI_2\",\"CTCU_WIFI_3\",\"CTCU_WIFI_4\"]\n\nif(DeviceDirects.indexOf(msg.profileName!== -1)){\n    return true\n}else{\n    return false\n}",
         "tbelScript" : "return msg.temperature > 20;"
       },
       "configurationVersion" : 0,
