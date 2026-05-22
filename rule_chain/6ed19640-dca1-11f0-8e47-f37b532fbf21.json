@@ -250,7 +250,7 @@
       "type" : "Failure"
     }, {
       "fromIndex" : 51,
-      "toIndex" : 60,
+      "toIndex" : 59,
       "type" : "Success"
     }, {
       "fromIndex" : 52,
@@ -265,12 +265,12 @@
       "toIndex" : 56,
       "type" : "Success"
     }, {
-      "fromIndex" : 59,
+      "fromIndex" : 58,
       "toIndex" : 2,
       "type" : "Success"
     }, {
-      "fromIndex" : 60,
-      "toIndex" : 61,
+      "fromIndex" : 59,
+      "toIndex" : 60,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 32,
@@ -1698,34 +1698,6 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "",
-        "layoutX" : 1797,
-        "layoutY" : 628
-      },
-      "configuration" : {
-        "msgCount" : 0,
-        "periodInSeconds" : 5,
-        "scriptLang" : "JS",
-        "jsScript" : "var msg = {\n    \"method\": \"registerDev\",\n    \"params\": {\n        \"mac\": \"0892729d5a98\"\n    }\n};\nvar metadata = {};\nmetadata.originServiceId = \"thingsboarddev\"\nmetadata.expirationTime  = Date.now() +30000,\nmetadata.oneway          = false\nvar msgType = \"RPC_CALL_FROM_SERVER_TO_DEVICE\"\n\nreturn { msg: msg, metadata: metadata, msgType: msgType };",
-        "tbelScript" : "var msg = { temp: 42, humidity: 77 };\nvar metadata = { data: 40 };\nvar msgType = \"POST_TELEMETRY_REQUEST\";\n\nreturn { msg: msg, metadata: metadata, msgType: msgType };",
-        "originatorId" : "b179b130-54f1-11f1-ad24-0fa2d544f4f5",
-        "originatorType" : "DEVICE"
-      },
-      "configurationVersion" : 2,
-      "createdTime" : 0,
-      "debugMode" : false,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "8ccb8da0-54ff-11f1-ad24-0fa2d544f4f5"
-      },
-      "name" : "ok",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.debug.TbMsgGeneratorNode"
     }, {
       "additionalInfo" : {
         "description" : "",
