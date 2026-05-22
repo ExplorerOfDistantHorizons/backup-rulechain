@@ -355,8 +355,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3081,
-        "layoutY" : 907
+        "layoutX" : 3077,
+        "layoutY" : 906
       },
       "configuration" : {
         "dataMapping" : {
@@ -383,8 +383,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2831,
-        "layoutY" : 906
+        "layoutX" : 2827,
+        "layoutY" : 905
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -429,8 +429,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3329,
-        "layoutY" : 906
+        "layoutX" : 3326,
+        "layoutY" : 905
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -1613,8 +1613,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3082,
-        "layoutY" : 855
+        "layoutX" : 3078,
+        "layoutY" : 854
       },
       "configuration" : {
         "serviceIdMetaDataAttribute" : "serviceId",
@@ -1636,8 +1636,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2830,
-        "layoutY" : 856
+        "layoutX" : 2826,
+        "layoutY" : 855
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -1689,8 +1689,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3330,
-        "layoutY" : 856
+        "layoutX" : 3327,
+        "layoutY" : 855
       },
       "configuration" : {
         "scriptLang" : "JS",
