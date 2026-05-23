@@ -265,10 +265,6 @@
       "toIndex" : 50,
       "type" : "Success"
     }, {
-      "fromIndex" : 53,
-      "toIndex" : 52,
-      "type" : "Success"
-    }, {
       "fromIndex" : 54,
       "toIndex" : 2,
       "type" : "Success"
@@ -1585,8 +1581,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3604,
-        "layoutY" : 855
+        "layoutX" : 3854,
+        "layoutY" : 852
       },
       "configuration" : {
         "direction" : "TO",
@@ -1952,6 +1948,33 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.telemetry.TbMsgAttributesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 3602,
+        "layoutY" : 854
+      },
+      "configuration" : {
+        "direction" : "FROM",
+        "relationType" : "Contains",
+        "entityType" : null,
+        "entityNamePattern" : "",
+        "entityTypePattern" : null,
+        "deleteForSingleEntity" : false
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "ae7ae110-565a-11f1-a71d-cd55e6d4a461"
+      },
+      "name" : "tẩy trần data",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.action.TbDeleteRelationPlusNode"
     } ],
     "ruleChainConnections" : null
   },
