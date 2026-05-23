@@ -1963,12 +1963,11 @@
         "layoutY" : 854
       },
       "configuration" : {
-        "direction" : "FROM",
-        "relationType" : "Contains",
+        "deleteForSingleEntity" : false,
+        "direction" : "TO",
         "entityType" : null,
-        "entityNamePattern" : "",
-        "entityTypePattern" : null,
-        "deleteForSingleEntity" : false
+        "entityNamePattern" : null,
+        "relationType" : "full_relation"
       },
       "configurationVersion" : 1,
       "createdTime" : 0,
