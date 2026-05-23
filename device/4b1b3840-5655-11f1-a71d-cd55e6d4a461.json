@@ -24,7 +24,10 @@
       "id" : "65643a60-dca4-11f0-8e47-f37b532fbf21"
     },
     "externalId" : null,
-    "firmwareId" : null,
+    "firmwareId" : {
+      "entityType" : "OTA_PACKAGE",
+      "id" : "aa82be20-5655-11f1-a71d-cd55e6d4a461"
+    },
     "id" : {
       "entityType" : "DEVICE",
       "id" : "4b1b3840-5655-11f1-a71d-cd55e6d4a461"
@@ -36,12 +39,52 @@
     "type" : "CTCU_WIFI_1"
   },
   "credentials" : {
-    "credentialsId" : "B6wP7wjZDTLMi9ZZppKX",
-    "credentialsType" : "ACCESS_TOKEN",
-    "credentialsValue" : null
+    "credentialsId" : "cfcbefe846d56821b1b488580110046ecf27a927f50c00201ffcd7a35c4bf022",
+    "credentialsType" : "MQTT_BASIC",
+    "credentialsValue" : "{\"clientId\":\"rd_10003bb60588\",\"userName\":\"rd_10003bb60588\",\"password\":\"rd_10003bb60588\"}"
   },
   "attributes" : {
-    "SERVER_SCOPE" : [ ],
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1779506017922,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "entityName_Gateway",
+      "lastUpdateTs" : 1779505975805,
+      "longValue" : null,
+      "strValue" : "device_wifi_10003bb60588"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "entityType",
+      "lastUpdateTs" : 1779505975805,
+      "longValue" : null,
+      "strValue" : "DEVICE"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1779506139967,
+      "longValue" : 1779506139448,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1779506017921,
+      "longValue" : 1779506017921,
+      "strValue" : null
+    } ],
     "SHARED_SCOPE" : [ ]
   }
 }
