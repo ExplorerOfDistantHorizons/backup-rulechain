@@ -1,0 +1,99 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : null,
+    "attributes" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "f3053f40-dca4-11f0-8e47-f37b532fbf21"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "0cfdfba0-55b1-11f1-ad24-0fa2d544f4f5"
+    },
+    "label" : null,
+    "name" : "dev_c4dd5761c430_e8a88738c1a4",
+    "softwareId" : null,
+    "telemetry" : null,
+    "type" : "CTCU_BLE_3"
+  },
+  "credentials" : {
+    "credentialsId" : "Tj7hjSIt629zy46iIErc",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1779517879089,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "entityName_Gateway",
+      "lastUpdateTs" : 1779435434127,
+      "longValue" : null,
+      "strValue" : "HC_c4dd5761c430"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "homeControllerId",
+      "lastUpdateTs" : 1779435434127,
+      "longValue" : null,
+      "strValue" : "8470b860-500e-11f1-beae-3fa34090f9a6"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1779436091731,
+      "longValue" : 1779436091731,
+      "strValue" : null
+    }, {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "isFavoriteDevice",
+      "lastUpdateTs" : 1779440112154,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "longevityRelay",
+      "lastUpdateTs" : 1779435434127,
+      "longValue" : 100000,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "roomId",
+      "lastUpdateTs" : 1779444485338,
+      "longValue" : null,
+      "strValue" : "1fcadc70-55c6-11f1-ad24-0fa2d544f4f5"
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}
