@@ -5190,7 +5190,7 @@
         "relationType" : "Room_DeviceDirect",
         "createEntityIfNotExists" : false,
         "removeCurrentRelations" : false,
-        "changeOriginatorToRelatedEntity" : false
+        "changeOriginatorToRelatedEntity" : true
       },
       "configurationVersion" : 1,
       "createdTime" : 0,
@@ -5200,7 +5200,7 @@
         "entityType" : "RULE_NODE",
         "id" : "03b64e30-55ca-11f1-ad24-0fa2d544f4f5"
       },
-      "name" : "Room@DeviceDirect",
+      "name" : "Room@DeviceDirect+>",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
