@@ -1084,7 +1084,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "// Lấy name\nvar deviceName = msg.name || \"\";\n// Tách chuỗi theo \"_\"\nvar arr = deviceName.split(\"_\");\nmetadata.mac =  arr.length >= 3 ? arr[2] : \"\";\nmsg = {\n    entityType: \"DEVICE\"\n}\nmsgType = \"POST_ATTRIBUTES_REQUEST\";\n\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "jsScript" : "// Lấy name\nvar deviceName = msg.name || \"\";\n// Tách chuỗi theo \"_\"\nvar arr = deviceName.split(\"_\");\nmetadata.mac =  arr.length >= 3 ? arr[2] : \"\";\nmsg = {\n    entityType: \"DEVICE\",\n    entityName_Gateway : msg.name\n    \n}\nmsgType = \"POST_ATTRIBUTES_REQUEST\";\n\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
         "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
       },
       "configurationVersion" : 0,
