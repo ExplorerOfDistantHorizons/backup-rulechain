@@ -145,6 +145,10 @@
       "toIndex" : 21,
       "type" : "Success"
     }, {
+      "fromIndex" : 29,
+      "toIndex" : 37,
+      "type" : "Success"
+    }, {
       "fromIndex" : 30,
       "toIndex" : 31,
       "type" : "Success"
@@ -163,6 +167,10 @@
     }, {
       "fromIndex" : 35,
       "toIndex" : 34,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 37,
+      "toIndex" : 36,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 1,
@@ -707,8 +715,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2277,
-        "layoutY" : 704
+        "layoutX" : 2278,
+        "layoutY" : 755
       },
       "configuration" : {
         "forwardMsgToDefaultRuleChain" : false,
@@ -1085,6 +1093,55 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.metadata.TbGetOriginatorFieldsNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2529,
+        "layoutY" : 704
+      },
+      "configuration" : {
+        "scope" : "SERVER_SCOPE",
+        "notifyDevice" : false,
+        "sendAttributesUpdatedNotification" : false,
+        "updateAttributesOnlyOnValueChange" : false
+      },
+      "configurationVersion" : 2,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "56f4ca70-5658-11f1-a71d-cd55e6d4a461"
+      },
+      "name" : "lưu vào S attribute",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgAttributesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2279,
+        "layoutY" : 704
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "msg={\n    name : msg.params.name,\n}\ndelete metadata.nextData\nmetadata.msgType = msgType\nmsgType = \"POST_ATTRIBUTES_REQUEST\";\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "56f4f180-5658-11f1-a71d-cd55e6d4a461"
+      },
+      "name" : "tiền sử lý",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
     } ],
     "ruleChainConnections" : null
   },
