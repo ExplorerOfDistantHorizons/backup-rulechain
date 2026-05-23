@@ -427,8 +427,8 @@
     }, {
       "additionalInfo" : {
         "description" : null,
-        "layoutX" : 1575,
-        "layoutY" : 1303
+        "layoutX" : 1579,
+        "layoutY" : 1182
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -1006,8 +1006,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1328,
-        "layoutY" : 1302
+        "layoutX" : 1332,
+        "layoutY" : 1181
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -1272,8 +1272,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1825,
-        "layoutY" : 1303
+        "layoutX" : 1829,
+        "layoutY" : 1182
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -1296,8 +1296,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2077,
-        "layoutY" : 1352
+        "layoutX" : 2081,
+        "layoutY" : 1231
       },
       "configuration" : {
         "serviceIdMetaDataAttribute" : "serviceId",
@@ -1807,8 +1807,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2077,
-        "layoutY" : 1301
+        "layoutX" : 2081,
+        "layoutY" : 1180
       },
       "configuration" : {
         "deleteForSingleEntity" : false,
@@ -1833,8 +1833,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2327,
-        "layoutY" : 1300
+        "layoutX" : 2331,
+        "layoutY" : 1179
       },
       "configuration" : {
         "deleteForSingleEntity" : false,
