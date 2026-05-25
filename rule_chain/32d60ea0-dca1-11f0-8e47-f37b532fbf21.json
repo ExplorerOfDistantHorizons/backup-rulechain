@@ -1330,7 +1330,7 @@
         "entityType" : "RULE_NODE",
         "id" : "22b1c3f0-fc1a-11f0-8c6e-5381beb8d689"
       },
-      "name" : "Tạo quan hệ cho Rule local với Group",
+      "name" : "RuleL_Group",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
@@ -1359,7 +1359,7 @@
         "entityType" : "RULE_NODE",
         "id" : "22b1c3f1-fc1a-11f0-8c6e-5381beb8d689"
       },
-      "name" : "Tạo quan hệ cho Rule local với Scene",
+      "name" : "RuleL_Scene",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
