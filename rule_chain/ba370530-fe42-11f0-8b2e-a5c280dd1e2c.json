@@ -2952,7 +2952,7 @@
         "entityType" : "ASSET",
         "entityNamePattern" : "${entityName_Building}",
         "entityTypePattern" : "BUILDING",
-        "relationType" : "Building@RuleCloud",
+        "relationType" : "Building_RuleCloud",
         "createEntityIfNotExists" : false,
         "removeCurrentRelations" : false,
         "changeOriginatorToRelatedEntity" : false
@@ -2965,7 +2965,7 @@
         "entityType" : "RULE_NODE",
         "id" : "5de323e0-01a3-11f1-a4ee-8575c523c112"
       },
-      "name" : "Rule@Building",
+      "name" : "Building@RuleCloud",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
