@@ -1522,7 +1522,7 @@
         "entityType" : "RULE_NODE",
         "id" : "d3b9cef0-fc23-11f0-8c6e-5381beb8d689"
       },
-      "name" : "xóa quan hệ với rule",
+      "name" : "RuleL%DeviceInDirect",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
