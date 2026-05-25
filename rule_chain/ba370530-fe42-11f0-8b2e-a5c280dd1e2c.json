@@ -2668,7 +2668,7 @@
         "entityType" : "RULE_NODE",
         "id" : "a82bc3c0-fffb-11f0-a4ee-8575c523c112"
       },
-      "name" : "lấy danh sách đầu vào",
+      "name" : "G InputEntityS",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
