@@ -1674,7 +1674,7 @@
         "entityType" : "RULE_NODE",
         "id" : "c7ae99e1-fc2a-11f0-8c6e-5381beb8d689"
       },
-      "name" : "xóa quan hệ với rule",
+      "name" : "RuleL%Group",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
