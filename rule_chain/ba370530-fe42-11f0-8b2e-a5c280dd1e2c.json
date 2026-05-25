@@ -854,7 +854,7 @@
         "entityType" : "RULE_NODE",
         "id" : "ba3dbbf2-fe42-11f0-8b2e-a5c280dd1e2c"
       },
-      "name" : "chuẩn hóa mảng",
+      "name" : "dataResponse->msg",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
@@ -3288,6 +3288,34 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.action.TbCreateRelationNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2253,
+        "layoutY" : 1383
+      },
+      "configuration" : {
+        "tellFailureIfAbsent" : true,
+        "fetchTo" : "METADATA",
+        "clientAttributeNames" : [ "f" ],
+        "sharedAttributeNames" : [ ],
+        "serverAttributeNames" : [ ],
+        "latestTsKeyNames" : [ ],
+        "getLatestValueWithTs" : false
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "f8d35e90-5817-11f1-a71d-cd55e6d4a461"
+      },
+      "name" : "f",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetAttributesPlusNode"
     } ],
     "ruleChainConnections" : null
   },
