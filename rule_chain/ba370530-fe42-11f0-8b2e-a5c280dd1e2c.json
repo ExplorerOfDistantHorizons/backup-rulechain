@@ -2952,7 +2952,7 @@
         "entityType" : "ASSET",
         "entityNamePattern" : "${entityName_Building}",
         "entityTypePattern" : "BUILDING",
-        "relationType" : "ruleCloud",
+        "relationType" : "Building@RuleCloud",
         "createEntityIfNotExists" : false,
         "removeCurrentRelations" : false,
         "changeOriginatorToRelatedEntity" : false
