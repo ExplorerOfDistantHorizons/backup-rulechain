@@ -1301,7 +1301,7 @@
         "entityType" : "RULE_NODE",
         "id" : "22b19ce0-fc1a-11f0-8c6e-5381beb8d689"
       },
-      "name" : "Tạo quan hệ cho Rule local với thiết bị",
+      "name" : "RuleL@DeviceInDirect",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
