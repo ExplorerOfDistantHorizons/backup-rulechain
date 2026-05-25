@@ -2633,7 +2633,7 @@
         "entityType" : "RULE_NODE",
         "id" : "ea9a84a0-fff9-11f0-a4ee-8575c523c112"
       },
-      "name" : "lấy danh sách entity Đầu ra",
+      "name" : "G OutputEntityS",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
