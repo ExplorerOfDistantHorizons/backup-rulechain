@@ -472,6 +472,10 @@
       "fromIndex" : 109,
       "toIndex" : 111,
       "type" : "Success"
+    }, {
+      "fromIndex" : 111,
+      "toIndex" : 110,
+      "type" : "Success"
     } ],
     "firstNodeIndex" : 1,
     "nodes" : [ {
@@ -593,8 +597,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3766,
-        "layoutY" : 1137
+        "layoutX" : 3177,
+        "layoutY" : 1228
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -617,8 +621,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3946,
-        "layoutY" : 1037
+        "layoutX" : 3350,
+        "layoutY" : 1128
       },
       "configuration" : {
         "useMetadataPeriodInSecondsPatterns" : true,
@@ -642,8 +646,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 4771,
-        "layoutY" : 1087
+        "layoutX" : 4175,
+        "layoutY" : 1178
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -664,8 +668,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 4522,
-        "layoutY" : 1089
+        "layoutX" : 3926,
+        "layoutY" : 1180
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -726,8 +730,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3673,
-        "layoutY" : 1037
+        "layoutX" : 3077,
+        "layoutY" : 1128
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -750,8 +754,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 4046,
-        "layoutY" : 1137
+        "layoutX" : 3450,
+        "layoutY" : 1228
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -2594,8 +2598,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 4220,
-        "layoutY" : 1037
+        "layoutX" : 3624,
+        "layoutY" : 1128
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -2842,8 +2846,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 4522,
-        "layoutY" : 1138
+        "layoutX" : 3926,
+        "layoutY" : 1229
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -2876,8 +2880,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 4522,
-        "layoutY" : 1187
+        "layoutX" : 3926,
+        "layoutY" : 1278
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -2910,8 +2914,8 @@
     }, {
       "additionalInfo" : {
         "description" : "chuyển đến Rule chain - Room",
-        "layoutX" : 4772,
-        "layoutY" : 1136
+        "layoutX" : 4176,
+        "layoutY" : 1227
       },
       "configuration" : {
         "forwardMsgToDefaultRuleChain" : false,
@@ -2933,8 +2937,8 @@
     }, {
       "additionalInfo" : {
         "description" : "chuyển đến Rule chain - Room",
-        "layoutX" : 4772,
-        "layoutY" : 1187
+        "layoutX" : 4176,
+        "layoutY" : 1278
       },
       "configuration" : {
         "forwardMsgToDefaultRuleChain" : false,
@@ -2985,8 +2989,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 5021,
-        "layoutY" : 1038
+        "layoutX" : 4425,
+        "layoutY" : 1129
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -3007,8 +3011,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 4522,
-        "layoutY" : 1037
+        "layoutX" : 3926,
+        "layoutY" : 1128
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -3041,8 +3045,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 4771,
-        "layoutY" : 1038
+        "layoutX" : 4175,
+        "layoutY" : 1129
       },
       "configuration" : {
         "originatorSource" : "RELATED",
@@ -3369,9 +3373,9 @@
       "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
     }, {
       "additionalInfo" : {
-        "description" : "",
-        "layoutX" : 2799,
-        "layoutY" : 1382
+        "description" : "Kiểm tra trạng thái hiện tại của thực thể và bản tin , nếu khác nhau thì mới call , giống nhau thì bỏ qua để tránh thừa !",
+        "layoutX" : 2903,
+        "layoutY" : 1229
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -3380,13 +3384,13 @@
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
-      "debugMode" : false,
+      "debugMode" : true,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
         "id" : "c8720c90-58d2-11f1-bc3b-3f08926d080e"
       },
-      "name" : "check delay",
+      "name" : "check bản tin lặp",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
