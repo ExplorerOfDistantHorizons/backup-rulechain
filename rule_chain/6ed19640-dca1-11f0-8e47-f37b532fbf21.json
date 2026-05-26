@@ -2323,7 +2323,7 @@
         "entityType" : "RULE_NODE",
         "id" : "b4f833a0-58a1-11f1-a71d-cd55e6d4a461"
       },
-      "name" : "lấy thông tin telemetry hiện tại",
+      "name" : "G now info Device",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
