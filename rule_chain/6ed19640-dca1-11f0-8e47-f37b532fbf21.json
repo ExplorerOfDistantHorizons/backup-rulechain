@@ -2418,10 +2418,10 @@
           "direction" : "TO",
           "maxLevel" : 1,
           "filters" : [ {
-            "relationType" : "Group_DeviceInDirect",
+            "relationType" : "Group_DeviceDirect",
             "entityTypes" : [ "ASSET" ]
           }, {
-            "relationType" : "Scene_DeviceInDirect",
+            "relationType" : "Scene_DeviceDirect",
             "entityTypes" : [ "ASSET" ]
           } ]
         },
