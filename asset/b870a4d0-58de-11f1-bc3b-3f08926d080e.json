@@ -57,6 +57,38 @@
     "type" : "RULE_CLOUD"
   },
   "attributes" : {
-    "SERVER_SCOPE" : [ ]
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "{\"activeTimer\":false,\"triggers\":[]}",
+      "key" : "inputTimer",
+      "lastUpdateTs" : 1779784902590,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "logic",
+      "lastUpdateTs" : 1779784902590,
+      "longValue" : null,
+      "strValue" : "or"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "status",
+      "lastUpdateTs" : 1779784902590,
+      "longValue" : 1,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "{\"allDay\":true,\"startTime\":\"00:00:00\",\"endTime\":\"23:59:59\",\"repeat\":127}",
+      "key" : "validityPeriod",
+      "lastUpdateTs" : 1779784902590,
+      "longValue" : null,
+      "strValue" : null
+    } ]
   }
 }
