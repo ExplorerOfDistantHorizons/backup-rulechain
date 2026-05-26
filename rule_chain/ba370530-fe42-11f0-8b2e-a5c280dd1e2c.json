@@ -464,6 +464,14 @@
       "fromIndex" : 107,
       "toIndex" : 29,
       "type" : "Success"
+    }, {
+      "fromIndex" : 108,
+      "toIndex" : 111,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 109,
+      "toIndex" : 111,
+      "type" : "Success"
     } ],
     "firstNodeIndex" : 1,
     "nodes" : [ {
@@ -3386,8 +3394,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Lấy trạng thái hiện tại của thực thể đầu ra để check với bản tin , nếu khác thì mới call xuống dưới thiết bị , giúp giảm tải hệ thống.",
-        "layoutX" : 2683,
-        "layoutY" : 1299
+        "layoutX" : 2804,
+        "layoutY" : 1128
       },
       "configuration" : {
         "tellFailureIfAbsent" : false,
