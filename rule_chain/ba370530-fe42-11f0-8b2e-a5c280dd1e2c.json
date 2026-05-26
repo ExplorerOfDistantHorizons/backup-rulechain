@@ -730,7 +730,7 @@
         "entityType" : "RULE_NODE",
         "id" : "ba3cd192-fe42-11f0-8b2e-a5c280dd1e2c"
       },
-      "name" : "chuyển delayOutput lên telemetri",
+      "name" : "Tính toán thời gian delay của đầu ra",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
