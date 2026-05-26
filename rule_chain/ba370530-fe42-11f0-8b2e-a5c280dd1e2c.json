@@ -734,7 +734,7 @@
         "entityType" : "RULE_NODE",
         "id" : "ba3cd192-fe42-11f0-8b2e-a5c280dd1e2c"
       },
-      "name" : "Tính toán thời gian delay của đầu ra",
+      "name" : "validate delay",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
