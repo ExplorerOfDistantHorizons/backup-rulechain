@@ -2440,7 +2440,7 @@
         "entityType" : "RULE_NODE",
         "id" : "b4f881c2-58a1-11f1-a71d-cd55e6d4a461"
       },
-      "name" : "lấy danh sách group và scene của thiết bị này",
+      "name" : "G_group && G_scene this Dev",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
