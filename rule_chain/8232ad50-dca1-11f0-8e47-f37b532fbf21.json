@@ -2971,7 +2971,8 @@
           "bt2" : "bt2",
           "bt3" : "bt3",
           "bt4" : "bt4",
-          "dim" : "dim"
+          "dim" : "dim",
+          "onoff" : "onoff"
         }
       },
       "configurationVersion" : 2,
@@ -2995,7 +2996,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "function aggregateBtDim(dataResponse) {\n    var result = {\n        bt: 0,\n        dim: 0\n    };\n\n    if (!dataResponse || !dataResponse.length) {\n        return result;\n    }\n\n    var dimSum = 0;\n    var dimCount = 0;\n\n    for (var i = 0; i < dataResponse.length; i++) {\n        var item = dataResponse[i];\n\n        if (!item) {\n            continue;\n        }\n\n        // ===== bt: chỉ cần 1 thằng = 1 là đủ =====\n        var bt = parseInt(item.bt, 10);\n        if (bt === 1) {\n            result.bt = 1;\n        }\n\n        // ===== dim: tính trung bình =====\n        var dim = parseInt(item.dim, 10);\n        if (!isNaN(dim)) {\n            dimSum += dim;\n            dimCount++;\n        }\n    }\n\n    if (dimCount > 0) {\n        result.dim = Math.round(dimSum / dimCount);\n    }\n\n    return result;\n}\nmsg = aggregateBtDim(msg.dataResponse)\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "jsScript" : "// hàm check nút trong phòng,\n\n\nfunction aggregateBtDim(dataResponse) {\n    var result = {\n        bt: 0,\n        dim: 0\n    };\n\n    if (!dataResponse || !dataResponse.length) {\n        return result;\n    }\n\n    var dimSum = 0;\n    var dimCount = 0;\n\n    for (var i = 0; i < dataResponse.length; i++) {\n        var item = dataResponse[i];\n\n        if (!item) {\n            continue;\n        }\n\n        // ===== bt: chỉ cần 1 thằng = 1 là đủ =====\n        var bt = parseInt(item.bt, 10);\n        \n        if (bt === 1) {\n            result.bt = 1;\n        }\n\n        // ===== dim: tính trung bình =====\n        var dim = parseInt(item.dim, 10);\n        if (!isNaN(dim)) {\n            dimSum += dim;\n            dimCount++;\n        }\n    }\n\n    if (dimCount > 0) {\n        result.dim = Math.round(dimSum / dimCount);\n    }\n\n    return result;\n}\nmsg = aggregateBtDim(msg.dataResponse)\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
         "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
       },
       "configurationVersion" : 0,
