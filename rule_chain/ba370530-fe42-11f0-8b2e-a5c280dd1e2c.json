@@ -2605,7 +2605,7 @@
       "type" : "org.thingsboard.rule.engine.filter.TbJsSwitchNode"
     }, {
       "additionalInfo" : {
-        "description" : "",
+        "description" : "đầu ra ví dụ :\n{\n  \"entityName\": \"device_wifi_0892729d5a98\",\n  \"profileName\": \"CTCU_WIFI_4\",\n  \"index\": 0,\n  \"delayOutput\": 0,\n  \"dataAction\": {\n    \"bt\": 1\n  }\n}",
         "layoutX" : 2078,
         "layoutY" : 1228
       },
