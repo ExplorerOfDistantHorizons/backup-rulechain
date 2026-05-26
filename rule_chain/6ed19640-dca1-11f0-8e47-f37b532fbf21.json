@@ -2018,8 +2018,8 @@
     }, {
       "additionalInfo" : {
         "description" : null,
-        "layoutX" : 1826,
-        "layoutY" : 1102
+        "layoutX" : 1828,
+        "layoutY" : 1104
       },
       "configuration" : {
         "scope" : "SHARED_SCOPE",
