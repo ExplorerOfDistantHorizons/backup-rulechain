@@ -57,10 +57,6 @@
       "toIndex" : 34,
       "type" : "Entity Updated"
     }, {
-      "fromIndex" : 0,
-      "toIndex" : 75,
-      "type" : "Post telemetry"
-    }, {
       "fromIndex" : 1,
       "toIndex" : 8,
       "type" : "Success"
@@ -306,32 +302,88 @@
       "type" : "Success"
     }, {
       "fromIndex" : 68,
-      "toIndex" : 70,
+      "toIndex" : 76,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 68,
+      "toIndex" : 82,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 68,
+      "toIndex" : 84,
       "type" : "Success"
     }, {
       "fromIndex" : 69,
-      "toIndex" : 72,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 70,
       "toIndex" : 71,
       "type" : "Success"
     }, {
+      "fromIndex" : 70,
+      "toIndex" : 73,
+      "type" : "Success"
+    }, {
       "fromIndex" : 71,
-      "toIndex" : 69,
+      "toIndex" : 72,
       "type" : "Success"
     }, {
       "fromIndex" : 72,
-      "toIndex" : 73,
+      "toIndex" : 70,
       "type" : "Success"
     }, {
       "fromIndex" : 73,
       "toIndex" : 74,
       "type" : "Success"
     }, {
-      "fromIndex" : 75,
-      "toIndex" : 42,
+      "fromIndex" : 74,
+      "toIndex" : 75,
       "type" : "Success"
+    }, {
+      "fromIndex" : 76,
+      "toIndex" : 69,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 79,
+      "toIndex" : 78,
+      "type" : "addAlarm"
+    }, {
+      "fromIndex" : 79,
+      "toIndex" : 80,
+      "type" : "delAlarm"
+    }, {
+      "fromIndex" : 81,
+      "toIndex" : 68,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 81,
+      "toIndex" : 79,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 82,
+      "toIndex" : 83,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 84,
+      "toIndex" : 85,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 85,
+      "toIndex" : 86,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 86,
+      "toIndex" : 87,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 87,
+      "toIndex" : 90,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 90,
+      "toIndex" : 88,
+      "type" : "GROUP"
+    }, {
+      "fromIndex" : 90,
+      "toIndex" : 89,
+      "type" : "SCENE"
     } ],
     "firstNodeIndex" : 30,
     "nodes" : [ {
@@ -768,8 +820,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1875,
-        "layoutY" : 327
+        "layoutX" : 2175,
+        "layoutY" : 130
       },
       "configuration" : {
         "defaultTTL" : 0,
@@ -792,7 +844,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1026,
+        "layoutX" : 1028,
         "layoutY" : 428
       },
       "configuration" : {
@@ -816,8 +868,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1624,
-        "layoutY" : 327
+        "layoutX" : 1924,
+        "layoutY" : 130
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -1347,8 +1399,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1327,
-        "layoutY" : 328
+        "layoutX" : 1627,
+        "layoutY" : 131
       },
       "configuration" : {
         "tellFailureIfAbsent" : false,
@@ -2009,8 +2061,32 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1326,
-        "layoutY" : 377
+        "layoutX" : 1580,
+        "layoutY" : 329
+      },
+      "configuration" : {
+        "defaultTTL" : 0,
+        "skipLatestPersistence" : false,
+        "useServerTs" : false
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b4f637d0-58a1-11f1-a71d-cd55e6d4a461"
+      },
+      "name" : "lưu telemetry",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgTimeseriesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2103,
+        "layoutY" : 330
       },
       "configuration" : {
         "relationsQuery" : {
@@ -2034,7 +2110,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "152aefa0-581c-11f1-a71d-cd55e6d4a461"
+        "id" : "b4f65ee0-58a1-11f1-a71d-cd55e6d4a461"
       },
       "name" : "lấy danh sách rule của thiết bị này",
       "queueName" : null,
@@ -2044,8 +2120,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2126,
-        "layoutY" : 379
+        "layoutX" : 2427,
+        "layoutY" : 230
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -2068,7 +2144,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "152b16b0-581c-11f1-a71d-cd55e6d4a461"
+        "id" : "b4f65ee1-58a1-11f1-a71d-cd55e6d4a461"
       },
       "name" : "chuyển đến rule",
       "queueName" : null,
@@ -2078,8 +2154,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1626,
-        "layoutY" : 377
+        "layoutX" : 2178,
+        "layoutY" : 229
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -2092,7 +2168,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "152b16b1-581c-11f1-a71d-cd55e6d4a461"
+        "id" : "b4f685f0-58a1-11f1-a71d-cd55e6d4a461"
       },
       "name" : "Lấy danh sách rule",
       "queueName" : null,
@@ -2102,8 +2178,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1875,
-        "layoutY" : 378
+        "layoutX" : 2353,
+        "layoutY" : 330
       },
       "configuration" : {
         "version" : 0
@@ -2114,7 +2190,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "152b3dc0-581c-11f1-a71d-cd55e6d4a461"
+        "id" : "b4f685f1-58a1-11f1-a71d-cd55e6d4a461"
       },
       "name" : "Process Array",
       "queueName" : null,
@@ -2124,8 +2200,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2377,
-        "layoutY" : 378
+        "layoutX" : 2604,
+        "layoutY" : 329
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -2138,7 +2214,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "152b3dc1-581c-11f1-a71d-cd55e6d4a461"
+        "id" : "b4f685f2-58a1-11f1-a71d-cd55e6d4a461"
       },
       "name" : "lưu dữ liệu telemetry của thiết bị vào telemetry của rule để check",
       "queueName" : null,
@@ -2148,8 +2224,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2625,
-        "layoutY" : 378
+        "layoutX" : 2679,
+        "layoutY" : 228
       },
       "configuration" : {
         "defaultTTL" : 0,
@@ -2162,7 +2238,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "152b64d0-581c-11f1-a71d-cd55e6d4a461"
+        "id" : "b4f6ad00-58a1-11f1-a71d-cd55e6d4a461"
       },
       "name" : "lưu vào telemetry của rule",
       "queueName" : null,
@@ -2172,8 +2248,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2876,
-        "layoutY" : 379
+        "layoutX" : 2852,
+        "layoutY" : 330
       },
       "configuration" : {
         "forwardMsgToDefaultRuleChain" : false,
@@ -2185,7 +2261,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "152b64d1-581c-11f1-a71d-cd55e6d4a461"
+        "id" : "b4f6ad01-58a1-11f1-a71d-cd55e6d4a461"
       },
       "name" : "chuyển tới rule",
       "queueName" : null,
@@ -2195,12 +2271,12 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1026,
-        "layoutY" : 327
+        "layoutX" : 1855,
+        "layoutY" : 329
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "var objectData = {\n    cct : msg.cct,\n    dim : msg.dim,\n    onoff : msg.onoff,\n    bt  : msg.bt,\n    bt2 : msg.bt2,\n    bt3 : msg.bt3,\n    bt4 : msg.bt4\n}\nmetadata.telemetryData =JSON.stringify(objectData)\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "jsScript" : "var objectData = {\n    cct : msg.cct,\n    dim : msg.dim,\n    onoff : msg.onoff,\n    bt  : msg.bt,\n    bt2 : msg.bt2,\n    bt3 : msg.bt3,\n    bt4 : msg.bt4\n}\n\nmetadata.telemetryData =JSON.stringify(objectData)\nmsg = {}\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
         "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
       },
       "configurationVersion" : 0,
@@ -2209,13 +2285,392 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "152b64d2-581c-11f1-a71d-cd55e6d4a461"
+        "id" : "b4f80c90-58a1-11f1-a71d-cd55e6d4a461"
       },
       "name" : "Tiền xử lý",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1028,
+        "layoutY" : 329
+      },
+      "configuration" : {
+        "tellFailureIfAbsent" : false,
+        "fetchTo" : "METADATA",
+        "clientAttributeNames" : [ "type" ],
+        "latestTsKeyNames" : [ "*All" ],
+        "serverAttributeNames" : [ "longevityOnoff", "longevityLamp", "longevityRelay" ],
+        "sharedAttributeNames" : [ ],
+        "getLatestValueWithTs" : false
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b4f833a0-58a1-11f1-a71d-cd55e6d4a461"
+      },
+      "name" : "lấy thông tin telemetry hiện tại",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetAttributesPlusNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1854,
+        "layoutY" : 279
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "alarmDetailsBuildJs" : "var details = {};\nif (msg.stt == 0) {\n    details = metadata.key_alarmType\n}\nreturn details;",
+        "alarmDetailsBuildTbel" : "var details = {};\nif (metadata.prevAlarmDetails != null) {\n    details = JSON.parse(metadata.prevAlarmDetails);\n    //remove prevAlarmDetails from metadata\n    metadata.remove('prevAlarmDetails');\n    //now metadata is the same as it comes IN this rule node\n}\n\n\nreturn details;",
+        "useMessageAlarmData" : false,
+        "overwriteAlarmDetails" : false,
+        "alarmType" : "${key_alarmType}",
+        "severity" : "${key_alarmSeverity}",
+        "propagate" : false,
+        "relationTypes" : [ ],
+        "propagateToOwner" : false,
+        "propagateToTenant" : false,
+        "dynamicSeverity" : true
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b4f833a1-58a1-11f1-a71d-cd55e6d4a461"
+      },
+      "name" : "Tạo cảnh báo",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.action.TbCreateAlarmNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1580,
+        "layoutY" : 279
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "function nextRelation(metadata, msg) {\r\n    var out_list = [];\r\n    switch (metadata.alarmAction) {\r\n        case \"delAlarm\":\r\n            out_list = ['delAlarm']\r\n            break;\r\n            \r\n        case \"addAlarm\":\r\n            out_list = ['addAlarm']\r\n            break\r\n        \r\n        default:\r\n            out_list = ['otherMethod']\r\n            break;\r\n    }\r\n    return out_list;\r\n}\r\nreturn nextRelation(metadata, msg);",
+        "tbelScript" : "function nextRelation(metadata, msg) {\r\n    var out_list = [];\r\n    switch (msg.method) {\r\n        case \"log\":\r\n            out_list = ['log']\r\n            break;\r\n            \r\n        case \"getHcInfo\":\r\n            out_list = ['getHcInfo']\r\n            break;\r\n    \r\n        case \"resetHc\":\r\n            out_list = ['resetHc']\r\n            break;\r\n        \r\n        case \"delMatterFabric\":\r\n            out_list = ['delMatterFabric']\r\n            break;\r\n    \r\n        case \"setWifi\":\r\n            out_list = ['setWifi']\r\n            break;\r\n    \r\n        case \"getWifi\":\r\n            out_list = ['getWifi']\r\n            break;\r\n            \r\n        case \"registerHC\":\r\n            out_list = ['registerHC']\r\n            break;\r\n        \r\n        case \"startScan\":\r\n        case \"stopScan\":\r\n            out_list = ['deviceScan']\r\n            break;\r\n\r\n\r\n\r\n\r\n    \r\n        case \"bản tin thiết bị 11\":\r\n        case \"bản tin thiết bị 2\":\r\n            out_list = ['deviceMessage']\r\n            break;\r\n            \r\n        default:\r\n            out_list = ['otherMethod']\r\n            break;\r\n    }\r\n    return out_list;\r\n}\r\nreturn nextRelation(metadata, msg);"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b4f85ab0-58a1-11f1-a71d-cd55e6d4a461"
+      },
+      "name" : "Lọc hành động thông báo",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsSwitchNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1854,
+        "layoutY" : 229
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "alarmDetailsBuildJs" : "var details = {};\nif (msg.stt == 0) {\n    details = metadata.key_alarmType\n}\nreturn details;",
+        "alarmDetailsBuildTbel" : "var details = {};\nif (metadata.prevAlarmDetails != null) {\n    details = JSON.parse(metadata.prevAlarmDetails);\n    //remove prevAlarmDetails from metadata\n    metadata.remove('prevAlarmDetails');\n    //now metadata is the same as it comes IN this rule node\n}\n\n\nreturn details;",
+        "alarmType" : "${key_alarmType}"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b4f85ab1-58a1-11f1-a71d-cd55e6d4a461"
+      },
+      "name" : "Xóa cảnh báo",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.action.TbClearAlarmNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1328,
+        "layoutY" : 328
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "var listTypeLamp = [\"D_CCT-RGB_BLE\"]\n// Parse int an toàn\nfunction toInt(v, def) {\n    var n = parseInt(v, 10);\n    return isNaN(n) ? def : n;\n}\n// Button counter\nfunction handleButtonCounter(msg, metadata, newMsg) {\n    for (var key in msg) {\n        if (!msg.hasOwnProperty(key)) continue;\n        if (key.indexOf(\"bt\") !== 0) continue;\n        if (metadata[key] === undefined) continue;\n\n        if (msg[key] !== metadata[key]) {\n            var counterKey = (key === \"bt\")\n                ? \"countBt\"\n                : \"count\" + key.charAt(0).toUpperCase() + key.slice(1);\n\n            var count = toInt(metadata[counterKey], 0) + 1;\n            newMsg[counterKey] = count;\n\n            if (count >= toInt(metadata.ss_longevityRelay, 100000)) {\n                metadata.alarmAction = \"addAlarm\";\n                metadata.key_alarmType = \"Hết tuổi thọ nút số \" + counterKey;\n                metadata.key_alarmSeverity = \"WARNING\";// CRITICAL, MAJOR, MINOR, WARNING, INDETERMINATE\n            }\n        }\n    }\n}\n//Rule tăng counter\nfunction handleOnoffCounter(msg, metadata, newMsg) {\n    if (msg.onoff === undefined || metadata.onoff === undefined) {\n        return;\n    }\n\n    if (msg.onoff !== metadata.onoff) {\n        var count = toInt(metadata.countOnoff, 0) + 1;\n        newMsg.countOnoff = count;\n\n        if (count >= toInt(metadata.ss_longevityOnoff, 50000)) {\n            metadata.alarmAction = \"addAlarm\";\n            metadata.key_alarmType = \"Hết tuổi thọ bật/tắt đèn\";\n            metadata.key_alarmSeverity = \"WARNING\";// CRITICAL, MAJOR, MINOR, WARNING, INDETERMINATE\n        }\n    }\n}\n//Lamp usageTime (chỉ cho lamp)\nfunction handleLampUsage(msg, metadata, newMsg, listTypeLamp) {\n    if (listTypeLamp.indexOf(metadata.cs_type) === -1) return;\n    if (msg.onoff === undefined || metadata.onoff === undefined) return;\n\n    var curr = toInt(msg.onoff, -1);\n    var prev = toInt(metadata.onoff, -1);\n    var ts = toInt(msg.ts, 0);\n\n    if (curr < 0 || prev < 0 || ts === 0) return;\n\n    var usage = toInt(metadata.usageTime, 0);\n    var lastOn = toInt(metadata.lastOnTime, 0);\n\n    // 1 → 0\n    if (prev === 1 && curr === 0 && lastOn > 0) {\n        var delta = ts - lastOn;\n        if (delta > 0) usage += delta;\n        newMsg.usageTime = usage;\n\n        if (usage >= toInt(metadata.ss_longevityLamp, 30000*60*60*1000)) {\n            metadata.alarmAction = \"addAlarm\";\n            metadata.key_alarmType = \"Hết tuổi thọ của đèn\";\n            metadata.key_alarmSeverity = \"WARNING\";// CRITICAL, MAJOR, MINOR, WARNING, INDETERMINATE\n        }\n    }\n\n    // 0 → 1\n    if (prev === 0 && curr === 1) {\n        newMsg.lastOnTime = ts;\n    }\n}\n\n// PIR – Motion detection\nfunction handlePirAlarm(msg, metadata) {\n    if (msg.pir === undefined) return;\n\n    var pir = toInt(msg.pir, -1);\n    if (pir < 0) return;\n\n    // Có chuyển động\n    if (pir === 1) {\n        metadata.alarmAction = \"addAlarm\";\n        metadata.key_alarmType = \"Phát hiện có chuyển động\";\n        metadata.key_alarmSeverity = \"WARNING\";\n    }\n\n    // Không còn chuyển động\n    if (pir === 0) {\n        metadata.alarmAction = \"delAlarm\";\n        metadata.key_alarmType = \"Phát hiện có chuyển động\";\n    }\n}\n\n//Connectivity – ÁP DỤNG CHO MỌI THIẾT BỊ\nfunction handleConnectivity(msg, metadata, newMsg) {\n    if (msg.stt === undefined || metadata.stt === undefined) return;\n\n    var curr = toInt(msg.stt, -1);\n    var prev = toInt(metadata.stt, -1);\n    var ts = toInt(msg.ts, 0);\n\n    if (curr < 0 || prev < 0 || ts === 0) return;\n\n    var currOnoff = toInt(msg.onoff, 0);\n    var usage = toInt(metadata.usageTime, 0);\n    var lastOn = toInt(metadata.lastOnTime, 0);\n\n    // ONLINE → OFFLINE\n    if (prev === 1 && curr === 0) {\n        metadata.alarmAction = \"addAlarm\";\n        metadata.key_alarmType = \"Thiết bị offline\";\n        metadata.key_alarmSeverity = \"WARNING\";// CRITICAL, MAJOR, MINOR, WARNING, INDETERMINATE\n\n        if (currOnoff === 1 && lastOn > 0) {\n            var delta = ts - lastOn;\n            if (delta > 0) usage += delta;\n            newMsg.usageTime = usage;\n        }\n    }\n\n    // OFFLINE → ONLINE\n    if (prev === 0 && curr === 1) {\n        metadata.alarmAction = \"delAlarm\";\n        metadata.key_alarmType = \"Thiết bị offline\";\n        if (currOnoff === 1) {\n            newMsg.lastOnTime = ts;\n        }\n    }\n}\n\n//processMessage\nfunction processMessage(msg, metadata) {\n    var newMsg = {};\n\n    for (var k in msg) {\n        if (msg.hasOwnProperty(k) && k !== \"ts\") {\n            newMsg[k] = msg[k];\n        }\n    }\n\n    handleButtonCounter(msg, metadata, newMsg);\n    handleOnoffCounter(msg, metadata, newMsg);\n    handleLampUsage(msg, metadata, newMsg, listTypeLamp);\n    handlePirAlarm(msg, metadata);\n    handleConnectivity(msg, metadata, newMsg);\n\n    return newMsg;\n}\nmsg = processMessage(msg, metadata)\nreturn {\n    msg: msg,\n    metadata: metadata,\n    msgType: msgType\n};",
+        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b4f85ab2-58a1-11f1-a71d-cd55e6d4a461"
+      },
+      "name" : "Tiền xử lý",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1855,
+        "layoutY" : 380
+      },
+      "configuration" : {
+        "originatorSource" : "RELATED",
+        "entityType" : null,
+        "entityNamePattern" : null,
+        "relationsQuery" : {
+          "fetchLastLevelOnly" : false,
+          "direction" : "TO",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Room_DeviceInDirect",
+            "entityTypes" : [ "ASSET" ]
+          } ]
+        }
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b4f881c0-58a1-11f1-a71d-cd55e6d4a461"
+      },
+      "name" : "Chuyển tới Room",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2103,
+        "layoutY" : 379
+      },
+      "configuration" : {
+        "forwardMsgToDefaultRuleChain" : false,
+        "ruleChainId" : "8232ad50-dca1-11f0-8e47-f37b532fbf21"
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b4f881c1-58a1-11f1-a71d-cd55e6d4a461"
+      },
+      "name" : "Rule chain - Room",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "lấy danh sách group và scene của thiết bị này để tính trung bình ",
+        "layoutX" : 1855,
+        "layoutY" : 429
+      },
+      "configuration" : {
+        "relationsQuery" : {
+          "fetchLastLevelOnly" : false,
+          "direction" : "TO",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Group_DeviceInDirect",
+            "entityTypes" : [ "ASSET" ]
+          }, {
+            "relationType" : "Scene_DeviceInDirect",
+            "entityTypes" : [ "ASSET" ]
+          } ]
+        },
+        "dataToFetch" : "FIELDS",
+        "fetchTo" : "DATA",
+        "dataMapping" : {
+          "name" : "entityName",
+          "type" : "profileName"
+        }
+      },
+      "configurationVersion" : 2,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b4f881c2-58a1-11f1-a71d-cd55e6d4a461"
+      },
+      "name" : "lấy danh sách group và scene của thiết bị này",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetRelatedEntityDataPlusNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2103,
+        "layoutY" : 428
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "msg = msg.dataResponse\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b4f881c3-58a1-11f1-a71d-cd55e6d4a461"
+      },
+      "name" : "Tiền xử lý",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2176,
+        "layoutY" : 529
+      },
+      "configuration" : {
+        "version" : 0
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b4f8a8d0-58a1-11f1-a71d-cd55e6d4a461"
+      },
+      "name" : "Process Array",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbSplitArrayMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2353,
+        "layoutY" : 429
+      },
+      "configuration" : {
+        "originatorSource" : "ENTITY",
+        "entityType" : "ASSET",
+        "entityNamePattern" : "$[entityName]",
+        "relationsQuery" : {
+          "direction" : "FROM",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Contains",
+            "entityTypes" : [ ],
+            "negate" : false
+          } ],
+          "fetchLastLevelOnly" : false
+        }
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b4f8a8d1-58a1-11f1-a71d-cd55e6d4a461"
+      },
+      "name" : "chuyển đến asset cha",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2604,
+        "layoutY" : 428
+      },
+      "configuration" : {
+        "forwardMsgToDefaultRuleChain" : false,
+        "ruleChainId" : "5089d120-dca1-11f0-8e47-f37b532fbf21"
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b4f8a8d2-58a1-11f1-a71d-cd55e6d4a461"
+      },
+      "name" : "Rule chain - Group",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2679,
+        "layoutY" : 530
+      },
+      "configuration" : {
+        "forwardMsgToDefaultRuleChain" : false,
+        "ruleChainId" : "442bec60-dca1-11f0-8e47-f37b532fbf21"
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b4f8cfe0-58a1-11f1-a71d-cd55e6d4a461"
+      },
+      "name" : "Rule chain - Scene",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2429,
+        "layoutY" : 530
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "function nextRelation(metadata, msg) {\r\n    var out_list = [];\r\n    switch (metadata.profileName) {\r\n        case \"GROUP\":\r\n            out_list = ['GROUP']\r\n            break;\r\n        case \"SCENE\":\r\n            out_list = ['SCENE']\r\n            break;\r\n        default:\r\n            out_list = ['DEVICE']\r\n            break;\r\n    }\r\n    return out_list;\r\n}\r\nreturn nextRelation(metadata, msg);",
+        "tbelScript" : "function nextRelation(metadata, msg) {\r\n    var out_list = [];\r\n    switch (msg.profileName) {\r\n        case \"GROUP\":\r\n        case \"SCENE\":\r\n            out_list = ['ASSET']\r\n            break;\r\n\r\n        default:\r\n            out_list = ['DEVICE']\r\n            break;\r\n    }\r\n    return out_list;\r\n}\r\nreturn nextRelation(metadata, msg);"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b4f91e00-58a1-11f1-a71d-cd55e6d4a461"
+      },
+      "name" : "Lọc đầu ra",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsSwitchNode"
     } ],
     "ruleChainConnections" : null
   },
