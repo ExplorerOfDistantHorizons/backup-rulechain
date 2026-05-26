@@ -2959,6 +2959,9 @@
           "filters" : [ {
             "relationType" : "Room_DeviceInDirect",
             "entityTypes" : [ "DEVICE" ]
+          }, {
+            "relationType" : "Room_DeviceDirect",
+            "entityTypes" : [ "DEVICE" ]
           } ]
         },
         "dataToFetch" : "LATEST_TELEMETRY",
@@ -2970,7 +2973,7 @@
       },
       "configurationVersion" : 2,
       "createdTime" : 0,
-      "debugMode" : false,
+      "debugMode" : true,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
@@ -3018,7 +3021,7 @@
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
-      "debugMode" : false,
+      "debugMode" : true,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
