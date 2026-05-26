@@ -2462,7 +2462,7 @@
         "entityType" : "RULE_NODE",
         "id" : "b4f881c0-58a1-11f1-a71d-cd55e6d4a461"
       },
-      "name" : "Chuyển tới Room",
+      "name" : "-> Room",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
