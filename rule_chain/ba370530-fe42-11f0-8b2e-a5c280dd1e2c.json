@@ -2647,7 +2647,7 @@
       },
       "configurationVersion" : 2,
       "createdTime" : 0,
-      "debugMode" : false,
+      "debugMode" : true,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
@@ -3317,7 +3317,7 @@
       "configuration" : {
         "originatorSource" : "ENTITY",
         "entityType" : "DEVICE",
-        "entityNamePattern" : "${entityName}",
+        "entityNamePattern" : "${key_outputRuleCloud.entityName}",
         "relationsQuery" : {
           "fetchLastLevelOnly" : false,
           "direction" : "FROM",
@@ -3350,7 +3350,7 @@
       "configuration" : {
         "originatorSource" : "ENTITY",
         "entityType" : "ASSET",
-        "entityNamePattern" : "${entityName}",
+        "entityNamePattern" : "${key_outputRuleCloud.entityName}",
         "relationsQuery" : {
           "direction" : "FROM",
           "maxLevel" : 1,
