@@ -3383,7 +3383,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "return metadata.delayOutput > 0;",
+        "jsScript" : "function hasDifference(msg) {\n\n    var dataAction = msg.dataAction;\n\n    // tránh crash nếu dataAction null/undefined\n    if (!dataAction) {\n        return false;\n    }\n\n    for (var key in dataAction) {\n\n        // tránh duyệt prototype chain\n        if (dataAction.hasOwnProperty(key)) {\n\n            // chỉ cần khác là return ngay\n            if (dataAction[key] !== msg[key]) {\n                return true;\n            }\n        }\n    }\n\n    return false;\n}\nreturn hasDifference(msg);",
         "tbelScript" : "return msg.temperature > 20;"
       },
       "configurationVersion" : 0,
