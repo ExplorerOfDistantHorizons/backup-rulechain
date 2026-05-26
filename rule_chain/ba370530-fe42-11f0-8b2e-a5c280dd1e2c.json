@@ -3327,18 +3327,17 @@
         "layoutY" : 1128
       },
       "configuration" : {
-        "originatorSource" : "RELATED",
-        "entityType" : null,
-        "entityNamePattern" : null,
+        "originatorSource" : "ENTITY",
+        "entityType" : "DEVICE",
+        "entityNamePattern" : "${entityName}",
         "relationsQuery" : {
+          "fetchLastLevelOnly" : false,
           "direction" : "FROM",
           "maxLevel" : 1,
           "filters" : [ {
-            "relationType" : "Contains",
-            "entityTypes" : [ ],
-            "negate" : false
-          } ],
-          "fetchLastLevelOnly" : false
+            "relationType" : "RuleCloud_OutputEntity",
+            "entityTypes" : [ "DEVICE" ]
+          } ]
         }
       },
       "configurationVersion" : 0,
