@@ -50,11 +50,11 @@
       "type" : "Success"
     }, {
       "fromIndex" : 3,
-      "toIndex" : 109,
+      "toIndex" : 108,
       "type" : "Success"
     }, {
       "fromIndex" : 3,
-      "toIndex" : 110,
+      "toIndex" : 109,
       "type" : "Success"
     }, {
       "fromIndex" : 4,
@@ -585,8 +585,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2972,
-        "layoutY" : 1229
+        "layoutX" : 3766,
+        "layoutY" : 1137
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -609,8 +609,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3152,
-        "layoutY" : 1129
+        "layoutX" : 3946,
+        "layoutY" : 1037
       },
       "configuration" : {
         "useMetadataPeriodInSecondsPatterns" : true,
@@ -634,8 +634,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3977,
-        "layoutY" : 1179
+        "layoutX" : 4771,
+        "layoutY" : 1087
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -656,8 +656,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3728,
-        "layoutY" : 1181
+        "layoutX" : 4522,
+        "layoutY" : 1089
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -718,8 +718,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2879,
-        "layoutY" : 1129
+        "layoutX" : 3673,
+        "layoutY" : 1037
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -742,8 +742,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3252,
-        "layoutY" : 1229
+        "layoutX" : 4046,
+        "layoutY" : 1137
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -2586,8 +2586,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3426,
-        "layoutY" : 1129
+        "layoutX" : 4220,
+        "layoutY" : 1037
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -2834,8 +2834,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3728,
-        "layoutY" : 1230
+        "layoutX" : 4522,
+        "layoutY" : 1138
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -2868,8 +2868,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3728,
-        "layoutY" : 1279
+        "layoutX" : 4522,
+        "layoutY" : 1187
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -2902,8 +2902,8 @@
     }, {
       "additionalInfo" : {
         "description" : "chuyển đến Rule chain - Room",
-        "layoutX" : 3978,
-        "layoutY" : 1228
+        "layoutX" : 4772,
+        "layoutY" : 1136
       },
       "configuration" : {
         "forwardMsgToDefaultRuleChain" : false,
@@ -2925,8 +2925,8 @@
     }, {
       "additionalInfo" : {
         "description" : "chuyển đến Rule chain - Room",
-        "layoutX" : 3978,
-        "layoutY" : 1279
+        "layoutX" : 4772,
+        "layoutY" : 1187
       },
       "configuration" : {
         "forwardMsgToDefaultRuleChain" : false,
@@ -2977,8 +2977,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 4227,
-        "layoutY" : 1130
+        "layoutX" : 5021,
+        "layoutY" : 1038
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -2999,8 +2999,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3728,
-        "layoutY" : 1129
+        "layoutX" : 4522,
+        "layoutY" : 1037
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -3033,8 +3033,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3977,
-        "layoutY" : 1130
+        "layoutX" : 4771,
+        "layoutY" : 1038
       },
       "configuration" : {
         "originatorSource" : "RELATED",
@@ -3292,34 +3292,6 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.action.TbCreateRelationNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "",
-        "layoutX" : 2253,
-        "layoutY" : 1383
-      },
-      "configuration" : {
-        "tellFailureIfAbsent" : true,
-        "fetchTo" : "METADATA",
-        "clientAttributeNames" : [ "f" ],
-        "sharedAttributeNames" : [ ],
-        "serverAttributeNames" : [ ],
-        "latestTsKeyNames" : [ ],
-        "getLatestValueWithTs" : false
-      },
-      "configurationVersion" : 1,
-      "createdTime" : 0,
-      "debugMode" : false,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "f8d35e90-5817-11f1-a71d-cd55e6d4a461"
-      },
-      "name" : "f",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.metadata.TbGetAttributesPlusNode"
     }, {
       "additionalInfo" : {
         "description" : "",
