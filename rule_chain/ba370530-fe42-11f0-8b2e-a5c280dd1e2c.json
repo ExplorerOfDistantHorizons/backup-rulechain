@@ -2805,7 +2805,7 @@
       "type" : "org.thingsboard.rule.engine.metadata.TbGetAttributesPlusNode"
     }, {
       "additionalInfo" : {
-        "description" : "",
+        "description" : "làm sạch msg để chuẩn bị thực hiện đầu ra của rule cloud",
         "layoutX" : 1979,
         "layoutY" : 1128
       },
@@ -2822,7 +2822,7 @@
         "entityType" : "RULE_NODE",
         "id" : "4519fbc0-0015-11f1-a4ee-8575c523c112"
       },
-      "name" : "chuẩn hóa mảng",
+      "name" : "làm sạch msg",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
