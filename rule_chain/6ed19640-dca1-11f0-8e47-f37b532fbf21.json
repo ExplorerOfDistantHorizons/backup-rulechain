@@ -58,7 +58,7 @@
       "type" : "Entity Updated"
     }, {
       "fromIndex" : 0,
-      "toIndex" : 42,
+      "toIndex" : 75,
       "type" : "Post telemetry"
     }, {
       "fromIndex" : 1,
@@ -764,8 +764,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1577,
-        "layoutY" : 328
+        "layoutX" : 1875,
+        "layoutY" : 327
       },
       "configuration" : {
         "defaultTTL" : 0,
@@ -812,8 +812,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1326,
-        "layoutY" : 328
+        "layoutX" : 1624,
+        "layoutY" : 327
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -1343,8 +1343,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1026,
-        "layoutY" : 378
+        "layoutX" : 1327,
+        "layoutY" : 328
       },
       "configuration" : {
         "tellFailureIfAbsent" : false,
@@ -2191,12 +2191,12 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1819,
-        "layoutY" : 380
+        "layoutX" : 1026,
+        "layoutY" : 327
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "var objectData = {\n    cct : msg.cct,\n    dim : msg.dim,\n    onoff : msg.onoff,\n    bt  : msg.bt,\n    bt2 : msg.bt2,\n    bt3 : msg.bt3,\n    bt4 : msg.bt4\n}\n\nmetadata.telemetryData =JSON.stringify(objectData)\nmsg = {}\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "jsScript" : "var objectData = {\n    cct : msg.cct,\n    dim : msg.dim,\n    onoff : msg.onoff,\n    bt  : msg.bt,\n    bt2 : msg.bt2,\n    bt3 : msg.bt3,\n    bt4 : msg.bt4\n}\nmetadata.telemetryData =JSON.stringify(objectData)\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
         "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
       },
       "configurationVersion" : 0,
