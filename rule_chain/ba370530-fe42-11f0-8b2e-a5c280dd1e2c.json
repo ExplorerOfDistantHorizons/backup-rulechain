@@ -49,10 +49,6 @@
       "toIndex" : 85,
       "type" : "Success"
     }, {
-      "fromIndex" : 3,
-      "toIndex" : 10,
-      "type" : "Success"
-    }, {
       "fromIndex" : 4,
       "toIndex" : 16,
       "type" : "Success"
@@ -581,8 +577,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2622,
-        "layoutY" : 1228
+        "layoutX" : 2972,
+        "layoutY" : 1229
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -605,8 +601,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2802,
-        "layoutY" : 1128
+        "layoutX" : 3152,
+        "layoutY" : 1129
       },
       "configuration" : {
         "useMetadataPeriodInSecondsPatterns" : true,
@@ -630,8 +626,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3627,
-        "layoutY" : 1178
+        "layoutX" : 3977,
+        "layoutY" : 1179
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -652,8 +648,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3378,
-        "layoutY" : 1180
+        "layoutX" : 3728,
+        "layoutY" : 1181
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -714,8 +710,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2529,
-        "layoutY" : 1128
+        "layoutX" : 2879,
+        "layoutY" : 1129
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -738,8 +734,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2902,
-        "layoutY" : 1228
+        "layoutX" : 3252,
+        "layoutY" : 1229
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -2582,8 +2578,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3076,
-        "layoutY" : 1128
+        "layoutX" : 3426,
+        "layoutY" : 1129
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -2830,8 +2826,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3378,
-        "layoutY" : 1229
+        "layoutX" : 3728,
+        "layoutY" : 1230
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -2864,8 +2860,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3378,
-        "layoutY" : 1278
+        "layoutX" : 3728,
+        "layoutY" : 1279
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -2898,8 +2894,8 @@
     }, {
       "additionalInfo" : {
         "description" : "chuyển đến Rule chain - Room",
-        "layoutX" : 3628,
-        "layoutY" : 1227
+        "layoutX" : 3978,
+        "layoutY" : 1228
       },
       "configuration" : {
         "forwardMsgToDefaultRuleChain" : false,
@@ -2921,8 +2917,8 @@
     }, {
       "additionalInfo" : {
         "description" : "chuyển đến Rule chain - Room",
-        "layoutX" : 3628,
-        "layoutY" : 1278
+        "layoutX" : 3978,
+        "layoutY" : 1279
       },
       "configuration" : {
         "forwardMsgToDefaultRuleChain" : false,
@@ -2973,8 +2969,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3877,
-        "layoutY" : 1129
+        "layoutX" : 4227,
+        "layoutY" : 1130
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -2995,8 +2991,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3378,
-        "layoutY" : 1128
+        "layoutX" : 3728,
+        "layoutY" : 1129
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -3029,8 +3025,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3627,
-        "layoutY" : 1129
+        "layoutX" : 3977,
+        "layoutY" : 1130
       },
       "configuration" : {
         "originatorSource" : "RELATED",
