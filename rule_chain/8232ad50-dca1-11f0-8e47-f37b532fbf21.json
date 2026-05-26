@@ -2968,6 +2968,9 @@
         "fetchTo" : "DATA",
         "dataMapping" : {
           "bt" : "bt",
+          "bt2" : "bt2",
+          "bt3" : "bt3",
+          "bt4" : "bt4",
           "dim" : "dim"
         }
       },
