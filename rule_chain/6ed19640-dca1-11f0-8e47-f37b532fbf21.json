@@ -2279,7 +2279,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1855,
+        "layoutX" : 1851,
         "layoutY" : 329
       },
       "configuration" : {
@@ -2331,7 +2331,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1854,
+        "layoutX" : 1851,
         "layoutY" : 279
       },
       "configuration" : {
@@ -2388,8 +2388,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1854,
-        "layoutY" : 229
+        "layoutX" : 1851,
+        "layoutY" : 228
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -2437,8 +2437,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1855,
-        "layoutY" : 380
+        "layoutX" : 1851,
+        "layoutY" : 378
       },
       "configuration" : {
         "originatorSource" : "RELATED",
@@ -2493,8 +2493,8 @@
     }, {
       "additionalInfo" : {
         "description" : "lấy danh sách group và scene của thiết bị này để tính trung bình ",
-        "layoutX" : 1855,
-        "layoutY" : 429
+        "layoutX" : 1851,
+        "layoutY" : 428
       },
       "configuration" : {
         "relationsQuery" : {
