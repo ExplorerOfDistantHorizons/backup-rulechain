@@ -473,6 +473,10 @@
       "toIndex" : 111,
       "type" : "Success"
     }, {
+      "fromIndex" : 110,
+      "toIndex" : 10,
+      "type" : "True"
+    }, {
       "fromIndex" : 111,
       "toIndex" : 110,
       "type" : "Success"
@@ -3390,7 +3394,7 @@
         "entityType" : "RULE_NODE",
         "id" : "c8720c90-58d2-11f1-bc3b-3f08926d080e"
       },
-      "name" : "check bản tin lặp",
+      "name" : "dataAction != now data",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
