@@ -2449,7 +2449,7 @@
           "direction" : "TO",
           "maxLevel" : 1,
           "filters" : [ {
-            "relationType" : "Room_DeviceInDirect",
+            "relationType" : "Room_DeviceDirect",
             "entityTypes" : [ "ASSET" ]
           } ]
         }
