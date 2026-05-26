@@ -3360,9 +3360,9 @@
         "layoutY" : 1229
       },
       "configuration" : {
-        "originatorSource" : "RELATED",
-        "entityType" : null,
-        "entityNamePattern" : null,
+        "originatorSource" : "ENTITY",
+        "entityType" : "ASSET",
+        "entityNamePattern" : "${entityName}",
         "relationsQuery" : {
           "direction" : "FROM",
           "maxLevel" : 1,
