@@ -57,6 +57,10 @@
       "toIndex" : 34,
       "type" : "Entity Updated"
     }, {
+      "fromIndex" : 0,
+      "toIndex" : 77,
+      "type" : "Post telemetry"
+    }, {
       "fromIndex" : 1,
       "toIndex" : 8,
       "type" : "Success"
@@ -2295,8 +2299,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1028,
-        "layoutY" : 329
+        "layoutX" : 1027,
+        "layoutY" : 328
       },
       "configuration" : {
         "tellFailureIfAbsent" : false,
