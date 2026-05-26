@@ -642,6 +642,9 @@
           "filters" : [ {
             "relationType" : "Floor",
             "entityTypes" : [ "ASSET" ]
+          }, {
+            "relationType" : "Room",
+            "entityTypes" : [ "ASSET" ]
           } ]
         },
         "dataToFetch" : "LATEST_TELEMETRY",
