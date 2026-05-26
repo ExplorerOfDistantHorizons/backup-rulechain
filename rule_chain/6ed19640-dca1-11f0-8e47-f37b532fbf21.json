@@ -828,8 +828,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2175,
-        "layoutY" : 130
+        "layoutX" : 1576,
+        "layoutY" : 221
       },
       "configuration" : {
         "defaultTTL" : 0,
@@ -876,8 +876,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1924,
-        "layoutY" : 130
+        "layoutX" : 1326,
+        "layoutY" : 271
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -1407,8 +1407,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1627,
-        "layoutY" : 131
+        "layoutX" : 1027,
+        "layoutY" : 272
       },
       "configuration" : {
         "tellFailureIfAbsent" : false,
@@ -2069,8 +2069,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1580,
-        "layoutY" : 329
+        "layoutX" : 1576,
+        "layoutY" : 328
       },
       "configuration" : {
         "defaultTTL" : 0,
@@ -2364,7 +2364,7 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1580,
+        "layoutX" : 1577,
         "layoutY" : 279
       },
       "configuration" : {
