@@ -42,31 +42,31 @@
       "type" : "RPC Request from Device"
     }, {
       "fromIndex" : 0,
-      "toIndex" : 41,
-      "type" : "Post telemetry"
+      "toIndex" : 46,
+      "type" : "REST API request"
     }, {
       "fromIndex" : 0,
-      "toIndex" : 48,
-      "type" : "REST API request"
+      "toIndex" : 85,
+      "type" : "Post telemetry"
     }, {
       "fromIndex" : 1,
       "toIndex" : 2,
       "type" : "delGroup"
     }, {
       "fromIndex" : 1,
-      "toIndex" : 56,
+      "toIndex" : 54,
       "type" : "createGroup"
     }, {
       "fromIndex" : 1,
-      "toIndex" : 60,
+      "toIndex" : 58,
       "type" : "addDevToGroup"
     }, {
       "fromIndex" : 1,
-      "toIndex" : 64,
+      "toIndex" : 62,
       "type" : "delDevFromGroup"
     }, {
       "fromIndex" : 2,
-      "toIndex" : 73,
+      "toIndex" : 71,
       "type" : "Success"
     }, {
       "fromIndex" : 3,
@@ -74,11 +74,11 @@
       "type" : "Success"
     }, {
       "fromIndex" : 3,
-      "toIndex" : 80,
+      "toIndex" : 78,
       "type" : "Success"
     }, {
       "fromIndex" : 4,
-      "toIndex" : 75,
+      "toIndex" : 73,
       "type" : "Success"
     }, {
       "fromIndex" : 5,
@@ -98,11 +98,11 @@
       "type" : "Success"
     }, {
       "fromIndex" : 10,
-      "toIndex" : 81,
+      "toIndex" : 79,
       "type" : "Success"
     }, {
       "fromIndex" : 11,
-      "toIndex" : 76,
+      "toIndex" : 74,
       "type" : "Success"
     }, {
       "fromIndex" : 12,
@@ -138,7 +138,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 23,
-      "toIndex" : 82,
+      "toIndex" : 80,
       "type" : "Success"
     }, {
       "fromIndex" : 24,
@@ -146,7 +146,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 24,
-      "toIndex" : 77,
+      "toIndex" : 75,
       "type" : "Success"
     }, {
       "fromIndex" : 25,
@@ -205,181 +205,181 @@
       "toIndex" : 38,
       "type" : "Success"
     }, {
-      "fromIndex" : 41,
-      "toIndex" : 42,
-      "type" : "Success"
-    }, {
       "fromIndex" : 42,
       "toIndex" : 43,
       "type" : "Success"
     }, {
-      "fromIndex" : 44,
-      "toIndex" : 45,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 45,
-      "toIndex" : 46,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 46,
-      "toIndex" : 50,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 47,
-      "toIndex" : 51,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 47,
-      "toIndex" : 83,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 48,
-      "toIndex" : 47,
-      "type" : "controlEntity"
-    }, {
-      "fromIndex" : 49,
+      "fromIndex" : 43,
       "toIndex" : 44,
       "type" : "Success"
     }, {
-      "fromIndex" : 50,
-      "toIndex" : 52,
+      "fromIndex" : 44,
+      "toIndex" : 48,
       "type" : "Success"
     }, {
-      "fromIndex" : 51,
+      "fromIndex" : 45,
       "toIndex" : 49,
       "type" : "Success"
     }, {
-      "fromIndex" : 56,
-      "toIndex" : 58,
+      "fromIndex" : 45,
+      "toIndex" : 81,
       "type" : "Success"
     }, {
-      "fromIndex" : 57,
-      "toIndex" : 59,
+      "fromIndex" : 46,
+      "toIndex" : 45,
+      "type" : "controlEntity"
+    }, {
+      "fromIndex" : 47,
+      "toIndex" : 42,
       "type" : "Success"
     }, {
-      "fromIndex" : 58,
+      "fromIndex" : 48,
+      "toIndex" : 50,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 49,
+      "toIndex" : 47,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 54,
+      "toIndex" : 56,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 55,
       "toIndex" : 57,
       "type" : "Success"
     }, {
+      "fromIndex" : 56,
+      "toIndex" : 55,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 57,
+      "toIndex" : 82,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 58,
+      "toIndex" : 60,
+      "type" : "Success"
+    }, {
       "fromIndex" : 59,
-      "toIndex" : 84,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 60,
-      "toIndex" : 62,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 61,
-      "toIndex" : 63,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 62,
       "toIndex" : 61,
       "type" : "Success"
     }, {
+      "fromIndex" : 60,
+      "toIndex" : 59,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 61,
+      "toIndex" : 83,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 62,
+      "toIndex" : 64,
+      "type" : "Success"
+    }, {
       "fromIndex" : 63,
-      "toIndex" : 85,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 64,
-      "toIndex" : 66,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 65,
-      "toIndex" : 67,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 66,
       "toIndex" : 65,
       "type" : "Success"
     }, {
-      "fromIndex" : 67,
-      "toIndex" : 86,
+      "fromIndex" : 64,
+      "toIndex" : 63,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 65,
+      "toIndex" : 84,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 66,
+      "toIndex" : 67,
       "type" : "Success"
     }, {
       "fromIndex" : 68,
       "toIndex" : 69,
       "type" : "Success"
     }, {
-      "fromIndex" : 70,
-      "toIndex" : 71,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 71,
-      "toIndex" : 72,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 72,
-      "toIndex" : 74,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 73,
+      "fromIndex" : 69,
       "toIndex" : 70,
       "type" : "Success"
     }, {
-      "fromIndex" : 74,
+      "fromIndex" : 70,
+      "toIndex" : 72,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 71,
       "toIndex" : 68,
       "type" : "Success"
     }, {
-      "fromIndex" : 75,
+      "fromIndex" : 72,
+      "toIndex" : 66,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 73,
       "toIndex" : 6,
       "type" : "Success"
     }, {
-      "fromIndex" : 75,
+      "fromIndex" : 73,
       "toIndex" : 8,
       "type" : "Success"
     }, {
-      "fromIndex" : 75,
+      "fromIndex" : 73,
       "toIndex" : 12,
       "type" : "Success"
     }, {
-      "fromIndex" : 76,
+      "fromIndex" : 74,
       "toIndex" : 14,
       "type" : "Success"
     }, {
-      "fromIndex" : 77,
-      "toIndex" : 78,
+      "fromIndex" : 75,
+      "toIndex" : 76,
       "type" : "True"
     }, {
-      "fromIndex" : 80,
-      "toIndex" : 79,
+      "fromIndex" : 78,
+      "toIndex" : 77,
       "type" : "Success"
     }, {
-      "fromIndex" : 81,
-      "toIndex" : 55,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 82,
-      "toIndex" : 54,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 83,
+      "fromIndex" : 79,
       "toIndex" : 53,
       "type" : "Success"
     }, {
-      "fromIndex" : 84,
+      "fromIndex" : 80,
+      "toIndex" : 52,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 81,
+      "toIndex" : 51,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 82,
       "toIndex" : 3,
       "type" : "False"
     }, {
-      "fromIndex" : 84,
+      "fromIndex" : 82,
       "toIndex" : 5,
       "type" : "True"
     }, {
-      "fromIndex" : 85,
+      "fromIndex" : 83,
       "toIndex" : 10,
       "type" : "False"
     }, {
-      "fromIndex" : 85,
+      "fromIndex" : 83,
       "toIndex" : 11,
       "type" : "True"
     }, {
-      "fromIndex" : 86,
+      "fromIndex" : 84,
       "toIndex" : 23,
       "type" : "False"
     }, {
-      "fromIndex" : 86,
+      "fromIndex" : 84,
       "toIndex" : 24,
       "type" : "True"
+    }, {
+      "fromIndex" : 85,
+      "toIndex" : 86,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 86,
+      "toIndex" : 41,
+      "type" : "Success"
     } ],
     "firstNodeIndex" : 0,
     "nodes" : [ {
@@ -1420,66 +1420,6 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.action.TbDeleteRelationNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "",
-        "layoutX" : 827,
-        "layoutY" : 303
-      },
-      "configuration" : {
-        "relationsQuery" : {
-          "fetchLastLevelOnly" : false,
-          "direction" : "FROM",
-          "maxLevel" : 1,
-          "filters" : [ {
-            "relationType" : "Group_DeviceInDirect",
-            "entityTypes" : [ "DEVICE" ]
-          } ]
-        },
-        "dataToFetch" : "LATEST_TELEMETRY",
-        "fetchTo" : "DATA",
-        "dataMapping" : {
-          "bt" : "bt",
-          "dim" : "dim"
-        }
-      },
-      "configurationVersion" : 2,
-      "createdTime" : 0,
-      "debugMode" : false,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "093d9910-027f-11f1-86b8-d52a0a0e6635"
-      },
-      "name" : "Lấy dữ liệu từ các entityChild",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.metadata.TbGetRelatedEntityDataPlusNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "",
-        "layoutX" : 1101,
-        "layoutY" : 303
-      },
-      "configuration" : {
-        "scriptLang" : "JS",
-        "jsScript" : "function aggregateBtDim(dataResponse) {\n    var result = {\n        bt: 0,\n        dim: 0\n    };\n\n    if (!dataResponse || !dataResponse.length) {\n        return result;\n    }\n\n    var dimSum = 0;\n    var dimCount = 0;\n\n    for (var i = 0; i < dataResponse.length; i++) {\n        var item = dataResponse[i];\n\n        if (!item) {\n            continue;\n        }\n\n        // ===== bt: chỉ cần 1 thằng = 1 là đủ =====\n        var bt = parseInt(item.bt, 10);\n        if (bt === 1) {\n            result.bt = 1;\n        }\n\n        // ===== dim: tính trung bình =====\n        var dim = parseInt(item.dim, 10);\n        if (!isNaN(dim)) {\n            dimSum += dim;\n            dimCount++;\n        }\n    }\n\n    if (dimCount > 0) {\n        result.dim = Math.round(dimSum / dimCount);\n    }\n\n    return result;\n}\nmsg = aggregateBtDim(msg.dataResponse)\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
-        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
-      },
-      "configurationVersion" : 0,
-      "createdTime" : 0,
-      "debugMode" : false,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "093dc020-027f-11f1-86b8-d52a0a0e6635"
-      },
-      "name" : "Tính dữ liệu",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
     }, {
       "additionalInfo" : {
         "description" : "",
@@ -2605,6 +2545,73 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 827,
+        "layoutY" : 302
+      },
+      "configuration" : {
+        "relationsQuery" : {
+          "fetchLastLevelOnly" : false,
+          "direction" : "FROM",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Group_DeviceInDirect",
+            "entityTypes" : [ "DEVICE" ]
+          }, {
+            "relationType" : "Group_DeviceDirect",
+            "entityTypes" : [ "DEVICE" ]
+          } ]
+        },
+        "dataToFetch" : "LATEST_TELEMETRY",
+        "fetchTo" : "DATA",
+        "dataMapping" : {
+          "bt" : "bt",
+          "bt2" : "bt2",
+          "bt3" : "bt3",
+          "bt4" : "bt4",
+          "dim" : "dim",
+          "onoff" : "onoff"
+        }
+      },
+      "configurationVersion" : 2,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "a5034f00-58ad-11f1-a71d-cd55e6d4a461"
+      },
+      "name" : "Lấy dữ liệu từ các entityChild",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetRelatedEntityDataPlusNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1101,
+        "layoutY" : 302
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "function processDataResponse(dataResponse) {\r\n    var totalDim = 0;\r\n    var dimCount = 0;\r\n    var buttonStatus = 0;\r\n    for (var i = 0, len = dataResponse.length; i < len; i++) {\r\n        var item = dataResponse[i];\r\n        // Check trạng thái nút\r\n        if (\r\n            buttonStatus === 0 &&\r\n            (\r\n                item.bt === 1 ||\r\n                item.bt2 === 1 ||\r\n                item.bt3 === 1 ||\r\n                item.bt4 === 1 ||\r\n                item.onoff === 1\r\n            )\r\n        ) {\r\n            buttonStatus = 1;\r\n        }\r\n        // Tính dim trung bình\r\n        var dim = item.dim;\r\n        if (dim != null) {\r\n            totalDim += dim;\r\n            dimCount++;\r\n        }\r\n    }\r\n\r\n    return {\r\n        bt: buttonStatus,\r\n        dim: dimCount === 0\r\n            ? 0\r\n            : Math.ceil(totalDim / dimCount)\r\n    };\r\n}\r\nmsg = processDataResponse(msg.dataResponse);\r\nmetadata = {}\r\nreturn {\r\n    msg: msg,\r\n    metadata: metadata,\r\n    msgType: msgType\r\n};",
+        "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "a5034f01-58ad-11f1-a71d-cd55e6d4a461"
+      },
+      "name" : "Tính dữ liệu",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
     } ],
     "ruleChainConnections" : null
   },
