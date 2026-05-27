@@ -3377,7 +3377,7 @@
       "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
     }, {
       "additionalInfo" : {
-        "description" : "Kiểm tra trạng thái hiện tại của thực thể và bản tin , nếu khác nhau thì mới call , giống nhau thì bỏ qua để tránh thừa !",
+        "description" : "Kiểm tra trạng thái hiện tại của thực thể và bản tin , nếu khác nhau thì mới call , giống nhau thì bỏ qua để tránh lỗi vòng lặp tử thần!",
         "layoutX" : 2903,
         "layoutY" : 1229
       },
