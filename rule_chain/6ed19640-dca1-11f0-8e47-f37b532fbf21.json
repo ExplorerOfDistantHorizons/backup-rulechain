@@ -5,7 +5,7 @@
       "description" : ""
     },
     "configuration" : null,
-    "debugMode" : true,
+    "debugMode" : false,
     "externalId" : null,
     "firstRuleNodeId" : {
       "entityType" : "RULE_NODE",
@@ -2196,7 +2196,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "var objectData = {\n    cct : msg.cct,\n    dim : msg.dim,\n    onoff : msg.onoff,\n    bt  : msg.bt,\n    bt2 : msg.bt2,\n    bt3 : msg.bt3,\n    bt4 : msg.bt4\n}\n\nmetadata.telemetryData =JSON.stringify(objectData)\nmsg = {}\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "jsScript" : "var objectData = {\n    cct : msg.cct,\n    dim : msg.dim,\n    onoff : msg.onoff,\n    bt  : msg.bt,\n    bt2 : msg.bt2,\n    bt3 : msg.bt3,\n    bt4 : msg.bt4\n}\nmetadata = {\n    telemetryData : JSON.stringify(objectData),\n    deviceName : metadata.deviceName,\n    deviceType : metadata.deviceType\n}\nmsg = {}\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
         "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
       },
       "configurationVersion" : 0,
