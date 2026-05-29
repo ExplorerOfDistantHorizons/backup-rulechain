@@ -281,6 +281,10 @@
       "toIndex" : 57,
       "type" : "Success"
     }, {
+      "fromIndex" : 57,
+      "toIndex" : 86,
+      "type" : "Success"
+    }, {
       "fromIndex" : 58,
       "toIndex" : 59,
       "type" : "Success"
@@ -2541,6 +2545,31 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.filter.TbJsSwitchNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2576,
+        "layoutY" : 1178
+      },
+      "configuration" : {
+        "scope" : "SERVER_SCOPE",
+        "keys" : [ "roomId" ],
+        "sendAttributesDeletedNotification" : false,
+        "notifyDevice" : false
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "39785ab0-5b31-11f1-ae16-ffbf08cd8a40"
+      },
+      "name" : "xóa",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgDeleteAttributesNode"
     } ],
     "ruleChainConnections" : null
   },
