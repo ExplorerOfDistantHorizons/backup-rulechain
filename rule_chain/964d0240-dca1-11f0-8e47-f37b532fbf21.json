@@ -537,6 +537,9 @@
           "filters" : [ {
             "relationType" : "Contains",
             "entityTypes" : [ "DEVICE" ]
+          }, {
+            "relationType" : "Buidling_DeviceWifi",
+            "entityTypes" : [ ]
           } ]
         },
         "dataToFetch" : "FIELDS",
