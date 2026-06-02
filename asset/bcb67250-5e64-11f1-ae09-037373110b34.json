@@ -38,6 +38,17 @@
           "s" : 65535,
           "l" : 32768
         }
+      }, {
+        "entityName" : "dev_c4dd5761c430_fa011e38c1a4",
+        "profileName" : "D_CCT-RGB_BLE",
+        "index" : 1,
+        "delayOutput" : 0,
+        "dataAction" : {
+          "onoff" : 1,
+          "h" : 40413,
+          "s" : 65535,
+          "l" : 32768
+        }
       } ]
     },
     "assetProfileId" : {
@@ -87,9 +98,9 @@
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
-      "jsonValue" : "{\"allDay\":true,\"startTime\":\"00:00:00\",\"endTime\":\"23:59:59\",\"repeat\":127}",
+      "jsonValue" : "{\"allDay\":true,\"startTime\":\"00:00:00\",\"endTime\":\"23:59:59\",\"repeat\":127,\"activationDate\":\"2026-06-02T16:24:17.226Z\"}",
       "key" : "validityPeriod",
-      "lastUpdateTs" : 1780392218193,
+      "lastUpdateTs" : 1780392257247,
       "longValue" : null,
       "strValue" : null
     } ]
