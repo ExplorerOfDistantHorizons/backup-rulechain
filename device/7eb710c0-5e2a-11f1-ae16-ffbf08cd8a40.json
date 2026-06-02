@@ -1,0 +1,71 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : false,
+      "overwriteActivityTime" : false,
+      "description" : ""
+    },
+    "attributes" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "MQTT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "95f11f40-dca4-11f0-8e47-f37b532fbf21"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "7eb710c0-5e2a-11f1-ae16-ffbf08cd8a40"
+    },
+    "label" : "",
+    "name" : "dev_wifi_10003bb60ef4",
+    "softwareId" : null,
+    "telemetry" : null,
+    "type" : "CTCU_WIFI_4"
+  },
+  "credentials" : {
+    "credentialsId" : "6jHTzrt56XeDg0Iebz2g",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1780367210119,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "entityName_Gateway",
+      "lastUpdateTs" : 1780367208962,
+      "longValue" : null,
+      "strValue" : "dev_wifi_10003bb60ef4"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "entityType",
+      "lastUpdateTs" : 1780367208962,
+      "longValue" : null,
+      "strValue" : "DEVICE"
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}
