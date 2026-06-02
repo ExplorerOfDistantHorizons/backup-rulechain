@@ -1,0 +1,65 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : "",
+      "entityName_Building" : "c6034c32-702b-4204-b1e1-cf24b4eaca69",
+      "status" : 1,
+      "validityPeriod" : {
+        "allDay" : true,
+        "startTime" : "00:00:00",
+        "endTime" : "23:59:59",
+        "repeat" : 127
+      },
+      "inputData" : {
+        "logic" : "or",
+        "inputTimer" : {
+          "activeTimer" : false,
+          "triggers" : [ ]
+        },
+        "listInputDevice" : [ {
+          "entityName" : "dev_c4dd5761c430_e8a88738c1a4",
+          "profileName" : "CTCU_BLE_3",
+          "dataTrigger" : [ {
+            "key" : "bt",
+            "operator" : "=",
+            "value" : 1
+          } ]
+        } ]
+      },
+      "outputRuleValue" : [ {
+        "entityName" : "dev_08d1f99cd188_c66b5538c1a4",
+        "profileName" : "D_CCT-RGB_BLE",
+        "index" : 0,
+        "delayOutput" : 0,
+        "dataAction" : {
+          "onoff" : 1,
+          "h" : 728,
+          "s" : 65535,
+          "l" : 32768
+        }
+      } ]
+    },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "dec52d60-ea9b-11f0-a8cc-49dcc3dac220"
+    },
+    "attributes" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "f3378eb0-5e5d-11f1-8d23-2bb7f154af42"
+    },
+    "label" : "rcl3",
+    "name" : "1d0f30a7-eb30-4a09-9475-191d19a13910",
+    "telemetry" : null,
+    "type" : "RULE_CLOUD"
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
