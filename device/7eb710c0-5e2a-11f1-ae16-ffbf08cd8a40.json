@@ -24,7 +24,10 @@
       "id" : "95f11f40-dca4-11f0-8e47-f37b532fbf21"
     },
     "externalId" : null,
-    "firmwareId" : null,
+    "firmwareId" : {
+      "entityType" : "OTA_PACKAGE",
+      "id" : "491c39e0-5e2a-11f1-ae16-ffbf08cd8a40"
+    },
     "id" : {
       "entityType" : "DEVICE",
       "id" : "7eb710c0-5e2a-11f1-ae16-ffbf08cd8a40"
@@ -36,17 +39,17 @@
     "type" : "CTCU_WIFI_4"
   },
   "credentials" : {
-    "credentialsId" : "6jHTzrt56XeDg0Iebz2g",
-    "credentialsType" : "ACCESS_TOKEN",
-    "credentialsValue" : null
+    "credentialsId" : "72ec97e97dbc282fd0ee8c130acca17c3fab0f5b8c47e99224db636f02ead3b0",
+    "credentialsType" : "MQTT_BASIC",
+    "credentialsValue" : "{\"clientId\":\"rd_10003bb60ef4\",\"userName\":\"rd_10003bb60ef4\",\"password\":\"rd_10003bb60ef4\"}"
   },
   "attributes" : {
     "SERVER_SCOPE" : [ {
-      "booleanValue" : false,
+      "booleanValue" : true,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1780367210119,
+      "lastUpdateTs" : 1780367327466,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -65,6 +68,22 @@
       "lastUpdateTs" : 1780367208962,
       "longValue" : null,
       "strValue" : "DEVICE"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1780367329243,
+      "longValue" : 1780367327692,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1780367327465,
+      "longValue" : 1780367327464,
+      "strValue" : null
     } ],
     "SHARED_SCOPE" : [ ]
   }
