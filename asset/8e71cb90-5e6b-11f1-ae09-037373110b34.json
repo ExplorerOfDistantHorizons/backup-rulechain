@@ -1,0 +1,63 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : "",
+      "entityName_Building" : "c6034c32-702b-4204-b1e1-cf24b4eaca69",
+      "status" : 1,
+      "validityPeriod" : {
+        "allDay" : true,
+        "startTime" : "00:00:00",
+        "endTime" : "23:59:59",
+        "repeat" : 127
+      },
+      "inputData" : {
+        "logic" : "or",
+        "inputTimer" : {
+          "activeTimer" : false,
+          "triggers" : [ ]
+        },
+        "listInputDevice" : [ {
+          "entityName" : "device_wifi_10003bb66ef0",
+          "profileName" : "CTCU_WIFI_2",
+          "dataTrigger" : [ {
+            "key" : "bt",
+            "operator" : "=",
+            "value" : 1
+          } ]
+        } ]
+      },
+      "outputRuleValue" : [ {
+        "entityName" : "device_wifi_0892729d5a98",
+        "profileName" : "CTCU_WIFI_4",
+        "index" : 0,
+        "delayOutput" : 0,
+        "dataAction" : {
+          "bt2" : 1,
+          "bt4" : 1
+        }
+      } ]
+    },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "dec52d60-ea9b-11f0-a8cc-49dcc3dac220"
+    },
+    "attributes" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "8e71cb90-5e6b-11f1-ae09-037373110b34"
+    },
+    "label" : "fhji",
+    "name" : "47efdb1a-790e-4e69-9a1f-73d468514dca",
+    "telemetry" : null,
+    "type" : "RULE_CLOUD"
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
