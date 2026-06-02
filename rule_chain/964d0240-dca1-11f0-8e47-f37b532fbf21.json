@@ -538,7 +538,7 @@
             "relationType" : "Contains",
             "entityTypes" : [ "DEVICE" ]
           }, {
-            "relationType" : "Buidling_DeviceWifi",
+            "relationType" : "Building_DeviceWifi",
             "entityTypes" : [ "DEVICE" ]
           } ]
         },
