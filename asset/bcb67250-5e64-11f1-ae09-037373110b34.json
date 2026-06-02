@@ -34,7 +34,7 @@
         "delayOutput" : 0,
         "dataAction" : {
           "onoff" : 1,
-          "h" : 55705,
+          "h" : 20571,
           "s" : 65535,
           "l" : 32768
         }
@@ -55,11 +55,43 @@
       "id" : "bcb67250-5e64-11f1-ae09-037373110b34"
     },
     "label" : "rcl4",
-    "name" : "59b919ef-70c0-4474-81fa-3eab9c913bd8",
+    "name" : "bcb67250-5e64-11f1-ae09-037373110b34",
     "telemetry" : null,
     "type" : "RULE_CLOUD"
   },
   "attributes" : {
-    "SERVER_SCOPE" : [ ]
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "{\"activeTimer\":false,\"triggers\":[]}",
+      "key" : "inputTimer",
+      "lastUpdateTs" : 1780392218193,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "logic",
+      "lastUpdateTs" : 1780392218193,
+      "longValue" : null,
+      "strValue" : "or"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "status",
+      "lastUpdateTs" : 1780392218193,
+      "longValue" : 1,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "{\"allDay\":true,\"startTime\":\"00:00:00\",\"endTime\":\"23:59:59\",\"repeat\":127}",
+      "key" : "validityPeriod",
+      "lastUpdateTs" : 1780392218193,
+      "longValue" : null,
+      "strValue" : null
+    } ]
   }
 }
