@@ -34,7 +34,7 @@
         "delayOutput" : 0,
         "dataAction" : {
           "onoff" : 1,
-          "h" : 20571,
+          "h" : 40595,
           "s" : 65535,
           "l" : 32768
         }
@@ -98,9 +98,9 @@
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
-      "jsonValue" : "{\"allDay\":true,\"startTime\":\"00:00:00\",\"endTime\":\"23:59:59\",\"repeat\":127,\"activationDate\":\"2026-06-02T16:24:17.226Z\"}",
+      "jsonValue" : "{\"allDay\":true,\"startTime\":\"00:00:00\",\"endTime\":\"23:59:59\",\"repeat\":127,\"activationDate\":\"2026-06-02T16:24:52.619Z\"}",
       "key" : "validityPeriod",
-      "lastUpdateTs" : 1780392257247,
+      "lastUpdateTs" : 1780392292623,
       "longValue" : null,
       "strValue" : null
     } ]
