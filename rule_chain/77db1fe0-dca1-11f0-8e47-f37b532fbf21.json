@@ -2415,6 +2415,58 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.action.TbCreateRelationNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1889,
+        "layoutY" : 1388
+      },
+      "configuration" : {
+        "deleteForSingleEntity" : false,
+        "direction" : "TO",
+        "entityType" : null,
+        "entityNamePattern" : null,
+        "relationType" : "full_relation"
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "78156ae0-5ee4-11f1-ae09-037373110b34"
+      },
+      "name" : "Xóa full quan hệ với cấp trên",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.action.TbDeleteRelationPlusNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2171,
+        "layoutY" : 1351
+      },
+      "configuration" : {
+        "deleteForSingleEntity" : false,
+        "direction" : "FROM",
+        "entityType" : null,
+        "entityNamePattern" : null,
+        "relationType" : "full_relation"
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "7815b900-5ee4-11f1-ae09-037373110b34"
+      },
+      "name" : "Xóa full quan hệ với cấp dưới",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.action.TbDeleteRelationPlusNode"
     } ],
     "ruleChainConnections" : null
   },
