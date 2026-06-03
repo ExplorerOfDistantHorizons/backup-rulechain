@@ -504,6 +504,9 @@
           "filters" : [ {
             "relationType" : "Contains",
             "entityTypes" : [ "ASSET" ]
+          }, {
+            "relationType" : "Room",
+            "entityTypes" : [ "ASSET" ]
           } ]
         },
         "dataToFetch" : "FIELDS",
