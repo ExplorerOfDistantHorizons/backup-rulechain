@@ -437,10 +437,6 @@
       "toIndex" : 91,
       "type" : "Success"
     }, {
-      "fromIndex" : 91,
-      "toIndex" : 92,
-      "type" : "Success"
-    }, {
       "fromIndex" : 94,
       "toIndex" : 165,
       "type" : "Success"
@@ -1186,8 +1182,8 @@
         "layoutY" : 1429
       },
       "configuration" : {
-        "scriptLang" : "TBEL",
-        "jsScript" : "function nextRelation(metadata, msg) {\n    return ['one','nine'];\n}\nif(msgType === 'POST_TELEMETRY_REQUEST') {\n    return ['two'];\n}\nreturn nextRelation(metadata, msg);",
+        "scriptLang" : "JS",
+        "jsScript" : "function nextRelation(metadata, msg) {\r\n    var out_list = [];\r\n    switch (msg.method) {\r\n        case \"createRoom\":\r\n            out_list = ['createRoom']\r\n            break;\r\n            \r\n        case \"addDevToRoom\":\r\n            out_list = ['addDevToRoom']\r\n            break;\r\n            \r\n        case \"delDevFromRoom\":\r\n            out_list = ['delDevFromRoom']\r\n            break;\r\n            \r\n        case \"delRoom\":\r\n            out_list = ['delRoom']\r\n            break;\r\n\r\n        case \"updateRoomName\":\r\n            out_list = ['updateRoomName']\r\n            break;\r\n    \r\n        default:\r\n            out_list = ['otherMethod']\r\n            break;\r\n    }\r\n    return out_list;\r\n}\r\nreturn nextRelation(metadata, msg);",
         "tbelScript" : "function nextRelation(metadata, msg) {\r\n    var out_list = [];\r\n    switch (msg.method) {\r\n        case \"createRoom\":\r\n            out_list = ['createRoom']\r\n            break;\r\n            \r\n        case \"addDevToRoom\":\r\n            out_list = ['addDevToRoom']\r\n            break;\r\n            \r\n        case \"delDevFromRoom\":\r\n            out_list = ['delDevFromRoom']\r\n            break;\r\n            \r\n        case \"delRoom\":\r\n            out_list = ['delRoom']\r\n            break;\r\n\r\n        case \"updateRoomName\":\r\n            out_list = ['updateRoomName']\r\n            break;\r\n    \r\n        default:\r\n            out_list = ['otherMethod']\r\n            break;\r\n    }\r\n    return out_list;\r\n}\r\nreturn nextRelation(metadata, msg);"
       },
       "configurationVersion" : 0,
@@ -1997,8 +1993,8 @@
         "layoutY" : 1180
       },
       "configuration" : {
-        "scriptLang" : "TBEL",
-        "jsScript" : "function nextRelation(metadata, msg) {\n    return ['one','nine'];\n}\nif(msgType === 'POST_TELEMETRY_REQUEST') {\n    return ['two'];\n}\nreturn nextRelation(metadata, msg);",
+        "scriptLang" : "JS",
+        "jsScript" : "function nextRelation(metadata, msg) {\r\n    var out_list = [];\r\n    switch (msg.method) {\r\n        case \"createRoomRspComplete\":\r\n            out_list = ['createRoomRspComplete']\r\n            break;\r\n            \r\n        case \"addDevToRoomRspComplete\":\r\n            out_list = ['addDevToRoomRspComplete']\r\n            break;\r\n            \r\n        case \"delDevFromRoomRspComplete\":\r\n            out_list = ['delDevFromRoomRspComplete']\r\n            break;\r\n\r\n        default:\r\n            out_list = ['otherMethod']\r\n            break;\r\n    }\r\n    return out_list;\r\n}\r\nreturn nextRelation(metadata, msg);",
         "tbelScript" : "function nextRelation(metadata, msg) {\r\n    var out_list = [];\r\n    switch (msg.method) {\r\n        case \"createRoomRspComplete\":\r\n            out_list = ['createRoomRspComplete']\r\n            break;\r\n            \r\n        case \"addDevToRoomRspComplete\":\r\n            out_list = ['addDevToRoomRspComplete']\r\n            break;\r\n            \r\n        case \"delDevFromRoomRspComplete\":\r\n            out_list = ['delDevFromRoomRspComplete']\r\n            break;\r\n\r\n        default:\r\n            out_list = ['otherMethod']\r\n            break;\r\n    }\r\n    return out_list;\r\n}\r\nreturn nextRelation(metadata, msg);"
       },
       "configurationVersion" : 0,
@@ -3068,8 +3064,8 @@
     }, {
       "additionalInfo" : {
         "description" : "chuyển đến Rule chain - Room",
-        "layoutX" : 2002,
-        "layoutY" : 329
+        "layoutX" : 2503,
+        "layoutY" : 276
       },
       "configuration" : {
         "forwardMsgToDefaultRuleChain" : false,
@@ -5447,6 +5443,79 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "chuyển đến Rule chain - Room",
+        "layoutX" : 2502,
+        "layoutY" : 328
+      },
+      "configuration" : {
+        "forwardMsgToDefaultRuleChain" : false,
+        "ruleChainId" : "8d9fa260-dca1-11f0-8e47-f37b532fbf21"
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "4d3bc240-5ef0-11f1-ae09-037373110b34"
+      },
+      "name" : "Rule chain -  Floor",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2255,
+        "layoutY" : 331
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "function nextRelation(metadata, msg) {\r\n    var out_list = [];\r\n    switch (metadata.profileName_father) {\r\n        case \"BUILDING\":\r\n            out_list = ['BUILDING']\r\n            break;\r\n            \r\n        case \"FLOOR\":\r\n            out_list = ['FLOOR']\r\n            break;\r\n            \r\n        default:\r\n            out_list = ['otherMethod']\r\n            break;\r\n    }\r\n    return out_list;\r\n}\r\nreturn nextRelation(metadata, msg);",
+        "tbelScript" : "function nextRelation(metadata, msg) {\r\n    var out_list = [];\r\n    switch (metadata.profileName_father) {\r\n        case \"BUILDING\":\r\n            out_list = ['BUILDING']\r\n            break;\r\n            \r\n        case \"FLOOR\":\r\n            out_list = ['FLOOR']\r\n            break;\r\n            \r\n        default:\r\n            out_list = ['otherMethod']\r\n            break;\r\n    }\r\n    return out_list;\r\n}\r\nreturn nextRelation(metadata, msg);"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "4d3c1060-5ef0-11f1-ae09-037373110b34"
+      },
+      "name" : "Filter - switch",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsSwitchNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2002,
+        "layoutY" : 329
+      },
+      "configuration" : {
+        "dataMapping" : {
+          "name" : "entityName_Room"
+        },
+        "ignoreNullStrings" : false,
+        "fetchTo" : "METADATA"
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "4d3c1061-5ef0-11f1-ae09-037373110b34"
+      },
+      "name" : "lấy entityName của Room",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetOriginatorFieldsNode"
     } ],
     "ruleChainConnections" : null
   },
