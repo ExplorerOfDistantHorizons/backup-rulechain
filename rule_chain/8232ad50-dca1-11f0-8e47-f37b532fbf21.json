@@ -5541,7 +5541,7 @@
         "entityType" : "RULE_NODE",
         "id" : "4d3c1061-5ef0-11f1-ae09-037373110b34"
       },
-      "name" : "lấy Loại cha",
+      "name" : "G profile Name cha",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
