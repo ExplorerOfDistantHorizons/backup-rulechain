@@ -971,7 +971,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "msg = {\n    bt: 1,\n    h: 0,\n    s: 0,\n    l: 0,\n    dim: 50\n}\nmsgType = \"POST_TELEMETRY_REQUEST\";\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "jsScript" : "msg = {\n    bt: 1,\n    dim: 50\n}\nmsgType = \"POST_TELEMETRY_REQUEST\";\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
         "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
       },
       "configurationVersion" : 0,
