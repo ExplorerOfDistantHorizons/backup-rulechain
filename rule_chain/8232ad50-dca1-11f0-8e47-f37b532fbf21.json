@@ -3072,6 +3072,9 @@
           "filters" : [ {
             "relationType" : "Room",
             "entityTypes" : [ "ASSET" ]
+          }, {
+            "relationType" : "Contains",
+            "entityTypes" : [ "ASSET" ]
           } ]
         }
       },
