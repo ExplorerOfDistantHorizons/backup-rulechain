@@ -1153,9 +1153,6 @@
           "filters" : [ {
             "relationType" : "Gateway_Room",
             "entityTypes" : [ "DEVICE" ]
-          }, {
-            "relationType" : "Room_DeviceDirect",
-            "entityTypes" : [ "DEVICE" ]
           } ]
         },
         "dataToFetch" : "FIELDS",
