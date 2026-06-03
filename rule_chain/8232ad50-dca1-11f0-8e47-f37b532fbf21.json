@@ -437,6 +437,10 @@
       "toIndex" : 91,
       "type" : "Success"
     }, {
+      "fromIndex" : 91,
+      "toIndex" : 186,
+      "type" : "Success"
+    }, {
       "fromIndex" : 94,
       "toIndex" : 165,
       "type" : "Success"
@@ -787,6 +791,18 @@
     }, {
       "fromIndex" : 183,
       "toIndex" : 182,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 185,
+      "toIndex" : 92,
+      "type" : "BUILDING"
+    }, {
+      "fromIndex" : 185,
+      "toIndex" : 184,
+      "type" : "FLOOR"
+    }, {
+      "fromIndex" : 186,
+      "toIndex" : 185,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 177,
@@ -3063,13 +3079,13 @@
       "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
     }, {
       "additionalInfo" : {
-        "description" : "chuyển đến Rule chain - Room",
+        "description" : "",
         "layoutX" : 2503,
         "layoutY" : 276
       },
       "configuration" : {
         "forwardMsgToDefaultRuleChain" : false,
-        "ruleChainId" : "8d9fa260-dca1-11f0-8e47-f37b532fbf21"
+        "ruleChainId" : "964d0240-dca1-11f0-8e47-f37b532fbf21"
       },
       "configurationVersion" : 1,
       "createdTime" : 0,
@@ -5469,8 +5485,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2255,
-        "layoutY" : 331
+        "layoutX" : 2251,
+        "layoutY" : 327
       },
       "configuration" : {
         "scriptLang" : "JS",
