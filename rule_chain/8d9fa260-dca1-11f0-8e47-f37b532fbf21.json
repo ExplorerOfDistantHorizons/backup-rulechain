@@ -502,7 +502,7 @@
           "direction" : "FROM",
           "maxLevel" : 1,
           "filters" : [ {
-            "relationType" : "Room",
+            "relationType" : "Contains",
             "entityTypes" : [ "ASSET" ]
           } ]
         },
