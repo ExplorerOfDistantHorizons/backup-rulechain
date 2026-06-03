@@ -3095,7 +3095,7 @@
         "entityType" : "RULE_NODE",
         "id" : "9c7cb770-027e-11f1-86b8-d52a0a0e6635"
       },
-      "name" : "Rule chain -  Floor",
+      "name" : "Rule chain - Building",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
@@ -5461,7 +5461,7 @@
       "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
     }, {
       "additionalInfo" : {
-        "description" : "chuyển đến Rule chain - Room",
+        "description" : "",
         "layoutX" : 2502,
         "layoutY" : 328
       },
