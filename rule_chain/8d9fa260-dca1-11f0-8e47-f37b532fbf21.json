@@ -299,7 +299,7 @@
       },
       "configuration" : {
         "scriptLang" : "JS",
-        "jsScript" : "msg = {\n    onoff:1, // 0 =  tắt , 1 = bật , 2 = có thiết bị đang offline\n    dim:0 \n}\nmsgType = \"POST_TELEMETRY_REQUEST\";\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "jsScript" : "msg = {\n    bt:1, // 0 =  tắt , 1 = bật , 2 = có thiết bị đang offline\n    dim:0 \n}\nmsgType = \"POST_TELEMETRY_REQUEST\";\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
         "tbelScript" : "return {msg: msg, metadata: metadata, msgType: msgType};"
       },
       "configurationVersion" : 0,
