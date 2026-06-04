@@ -24,7 +24,10 @@
       "id" : "95f11f40-dca4-11f0-8e47-f37b532fbf21"
     },
     "externalId" : null,
-    "firmwareId" : null,
+    "firmwareId" : {
+      "entityType" : "OTA_PACKAGE",
+      "id" : "ae171070-5fc1-11f1-984f-6f6eb87bfc98"
+    },
     "id" : {
       "entityType" : "DEVICE",
       "id" : "b179b130-54f1-11f1-ad24-0fa2d544f4f5"
@@ -42,13 +45,21 @@
   },
   "attributes" : {
     "SERVER_SCOPE" : [ {
-      "booleanValue" : true,
+      "booleanValue" : false,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1779498972328,
+      "lastUpdateTs" : 1780483018730,
       "longValue" : null,
       "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "entityName_Gateway",
+      "lastUpdateTs" : 1779525888643,
+      "longValue" : null,
+      "strValue" : "device_wifi_0892729d5a98"
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
@@ -62,34 +73,162 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "inactivityAlarmTime",
-      "lastUpdateTs" : 1779448331818,
-      "longValue" : 1779448331818,
+      "lastUpdateTs" : 1780483018730,
+      "longValue" : 1780483018728,
+      "strValue" : null
+    }, {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "isFavoriteDevice",
+      "lastUpdateTs" : 1780448963971,
+      "longValue" : null,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastActivityTime",
-      "lastUpdateTs" : 1779501165967,
-      "longValue" : 1779501163154,
+      "lastUpdateTs" : 1780482388266,
+      "longValue" : 1780482385266,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastConnectTime",
-      "lastUpdateTs" : 1779498972326,
-      "longValue" : 1779498972326,
+      "lastUpdateTs" : 1780478448839,
+      "longValue" : 1780478448838,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastDisconnectTime",
-      "lastUpdateTs" : 1779447727328,
-      "longValue" : 1779447727328,
+      "lastUpdateTs" : 1780482385270,
+      "longValue" : 1780482385270,
       "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "roomId",
+      "lastUpdateTs" : 1780468203345,
+      "longValue" : null,
+      "strValue" : "a766f350-5f15-11f1-ae09-037373110b34"
     } ],
-    "SHARED_SCOPE" : [ ]
+    "SHARED_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "bOff",
+      "lastUpdateTs" : 1779503764684,
+      "longValue" : 150,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "bOn",
+      "lastUpdateTs" : 1779503764684,
+      "longValue" : 150,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "countdown",
+      "lastUpdateTs" : 1779503677094,
+      "longValue" : 30,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "dimOff",
+      "lastUpdateTs" : 1779503592922,
+      "longValue" : 0,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "dimOn",
+      "lastUpdateTs" : 1779503592922,
+      "longValue" : 39,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "fw_tag",
+      "lastUpdateTs" : 1780542123863,
+      "longValue" : null,
+      "strValue" : "aaa aaa"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "fw_title",
+      "lastUpdateTs" : 1780542123863,
+      "longValue" : null,
+      "strValue" : "aaa"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "fw_url",
+      "lastUpdateTs" : 1780542123863,
+      "longValue" : null,
+      "strValue" : "ddd"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "fw_version",
+      "lastUpdateTs" : 1780542123863,
+      "longValue" : null,
+      "strValue" : "aaa"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "gOff",
+      "lastUpdateTs" : 1779503764684,
+      "longValue" : 150,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "gOn",
+      "lastUpdateTs" : 1779503764684,
+      "longValue" : 150,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "rOff",
+      "lastUpdateTs" : 1779503764684,
+      "longValue" : 150,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "rOn",
+      "lastUpdateTs" : 1779503764684,
+      "longValue" : 150,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "statusStartup",
+      "lastUpdateTs" : 1779503649741,
+      "longValue" : 0,
+      "strValue" : null
+    } ]
   }
 }
