@@ -1014,8 +1014,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2003,
-        "layoutY" : 453
+        "layoutX" : 2101,
+        "layoutY" : 2204
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -1038,8 +1038,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2252,
-        "layoutY" : 454
+        "layoutX" : 2350,
+        "layoutY" : 2205
       },
       "configuration" : {
         "version" : 0
@@ -1060,8 +1060,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Chuyển thực thể gốc tới thiết bị con là Device",
-        "layoutX" : 2502,
-        "layoutY" : 452
+        "layoutX" : 2600,
+        "layoutY" : 2203
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -1094,8 +1094,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1229,
-        "layoutY" : 453
+        "layoutX" : 1327,
+        "layoutY" : 2204
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -1118,8 +1118,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 952,
-        "layoutY" : 453
+        "layoutX" : 1050,
+        "layoutY" : 2204
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -1142,8 +1142,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1752,
-        "layoutY" : 453
+        "layoutX" : 1850,
+        "layoutY" : 2204
       },
       "configuration" : {
         "relationsQuery" : {
@@ -1178,8 +1178,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2752,
-        "layoutY" : 453
+        "layoutX" : 2850,
+        "layoutY" : 2204
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -2893,8 +2893,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1501,
-        "layoutY" : 453
+        "layoutX" : 1599,
+        "layoutY" : 2204
       },
       "configuration" : {
         "dataMapping" : {
@@ -2919,8 +2919,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 3002,
-        "layoutY" : 453
+        "layoutX" : 3100,
+        "layoutY" : 2204
       },
       "configuration" : {
         "timeoutInSeconds" : 0
@@ -2941,8 +2941,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1752,
-        "layoutY" : 403
+        "layoutX" : 1850,
+        "layoutY" : 2154
       },
       "configuration" : {
         "requestIdMetaDataAttribute" : "requestUUID_API",
@@ -4376,8 +4376,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1502,
-        "layoutY" : 404
+        "layoutX" : 1600,
+        "layoutY" : 2155
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -4400,8 +4400,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2501,
-        "layoutY" : 604
+        "layoutX" : 2599,
+        "layoutY" : 2355
       },
       "configuration" : {
         "forwardMsgToDefaultRuleChain" : false,
@@ -4423,8 +4423,8 @@
     }, {
       "additionalInfo" : {
         "description" : "kiểm tra xem loại phòng được tạo là phòng thường hay phòng trống",
-        "layoutX" : 1228,
-        "layoutY" : 600
+        "layoutX" : 1326,
+        "layoutY" : 2351
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -4447,8 +4447,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2001,
-        "layoutY" : 551
+        "layoutX" : 2099,
+        "layoutY" : 2302
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
@@ -4472,8 +4472,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1751,
-        "layoutY" : 554
+        "layoutX" : 1849,
+        "layoutY" : 2305
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -4496,8 +4496,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1503,
-        "layoutY" : 554
+        "layoutX" : 1601,
+        "layoutY" : 2305
       },
       "configuration" : {
         "direction" : "FROM",
@@ -4525,8 +4525,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2251,
-        "layoutY" : 552
+        "layoutX" : 2349,
+        "layoutY" : 2303
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -4549,8 +4549,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2502,
-        "layoutY" : 553
+        "layoutX" : 2600,
+        "layoutY" : 2304
       },
       "configuration" : {
         "serviceIdMetaDataAttribute" : "serviceId",
@@ -4572,8 +4572,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2252,
-        "layoutY" : 604
+        "layoutX" : 2350,
+        "layoutY" : 2355
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -4596,8 +4596,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1503,
-        "layoutY" : 604
+        "layoutX" : 1601,
+        "layoutY" : 2355
       },
       "configuration" : {
         "relationsQuery" : {
@@ -4631,8 +4631,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1751,
-        "layoutY" : 604
+        "layoutX" : 1849,
+        "layoutY" : 2355
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -4655,8 +4655,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2001,
-        "layoutY" : 602
+        "layoutX" : 2099,
+        "layoutY" : 2353
       },
       "configuration" : {
         "direction" : "FROM",
@@ -4684,8 +4684,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2501,
-        "layoutY" : 702
+        "layoutX" : 2599,
+        "layoutY" : 2453
       },
       "configuration" : {
         "forwardMsgToDefaultRuleChain" : false,
@@ -4707,8 +4707,8 @@
     }, {
       "additionalInfo" : {
         "description" : "kiểm tra xem loại phòng được tạo là phòng thường hay phòng trống",
-        "layoutX" : 1228,
-        "layoutY" : 650
+        "layoutX" : 1326,
+        "layoutY" : 2401
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -4731,8 +4731,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2002,
-        "layoutY" : 651
+        "layoutX" : 2100,
+        "layoutY" : 2402
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE",
@@ -4756,8 +4756,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1751,
-        "layoutY" : 652
+        "layoutX" : 1849,
+        "layoutY" : 2403
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -4780,8 +4780,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1503,
-        "layoutY" : 652
+        "layoutX" : 1601,
+        "layoutY" : 2403
       },
       "configuration" : {
         "direction" : "FROM",
@@ -4809,8 +4809,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2254,
-        "layoutY" : 651
+        "layoutX" : 2352,
+        "layoutY" : 2402
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -4833,8 +4833,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2502,
-        "layoutY" : 651
+        "layoutX" : 2600,
+        "layoutY" : 2402
       },
       "configuration" : {
         "serviceIdMetaDataAttribute" : "serviceId",
@@ -4856,8 +4856,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2252,
-        "layoutY" : 702
+        "layoutX" : 2350,
+        "layoutY" : 2453
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -4880,8 +4880,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1503,
-        "layoutY" : 702
+        "layoutX" : 1601,
+        "layoutY" : 2453
       },
       "configuration" : {
         "relationsQuery" : {
@@ -4915,8 +4915,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1751,
-        "layoutY" : 702
+        "layoutX" : 1849,
+        "layoutY" : 2453
       },
       "configuration" : {
         "scriptLang" : "JS",
@@ -4939,8 +4939,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2001,
-        "layoutY" : 701
+        "layoutX" : 2099,
+        "layoutY" : 2452
       },
       "configuration" : {
         "direction" : "FROM",
@@ -5546,8 +5546,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1752,
-        "layoutY" : 504
+        "layoutX" : 1850,
+        "layoutY" : 2255
       },
       "configuration" : {
         "relationsQuery" : {
