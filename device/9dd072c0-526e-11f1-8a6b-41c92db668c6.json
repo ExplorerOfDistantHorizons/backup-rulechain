@@ -24,10 +24,7 @@
       "id" : "95f11f40-dca4-11f0-8e47-f37b532fbf21"
     },
     "externalId" : null,
-    "firmwareId" : {
-      "entityType" : "OTA_PACKAGE",
-      "id" : "c58b7480-607f-11f1-984f-6f6eb87bfc98"
-    },
+    "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",
       "id" : "9dd072c0-526e-11f1-8a6b-41c92db668c6"
@@ -69,54 +66,6 @@
       "longValue" : 1779077673020,
       "strValue" : null
     } ],
-    "SHARED_SCOPE" : [ {
-      "booleanValue" : null,
-      "doubleValue" : null,
-      "jsonValue" : null,
-      "key" : "fw_checksum",
-      "lastUpdateTs" : 1780625075496,
-      "longValue" : null,
-      "strValue" : "0293eaa2b76f1732e7b2000662bd288c79bdb0fd23072e3f18cf1ba446056a9e"
-    }, {
-      "booleanValue" : null,
-      "doubleValue" : null,
-      "jsonValue" : null,
-      "key" : "fw_checksum_algorithm",
-      "lastUpdateTs" : 1780625075496,
-      "longValue" : null,
-      "strValue" : "SHA256"
-    }, {
-      "booleanValue" : null,
-      "doubleValue" : null,
-      "jsonValue" : null,
-      "key" : "fw_size",
-      "lastUpdateTs" : 1780625075496,
-      "longValue" : 1382656,
-      "strValue" : null
-    }, {
-      "booleanValue" : null,
-      "doubleValue" : null,
-      "jsonValue" : null,
-      "key" : "fw_tag",
-      "lastUpdateTs" : 1780625075496,
-      "longValue" : null,
-      "strValue" : "device_wifi_4 1.0.2"
-    }, {
-      "booleanValue" : null,
-      "doubleValue" : null,
-      "jsonValue" : null,
-      "key" : "fw_title",
-      "lastUpdateTs" : 1780625075496,
-      "longValue" : null,
-      "strValue" : "device_wifi_4"
-    }, {
-      "booleanValue" : null,
-      "doubleValue" : null,
-      "jsonValue" : null,
-      "key" : "fw_version",
-      "lastUpdateTs" : 1780625075496,
-      "longValue" : null,
-      "strValue" : "1.0.2"
-    } ]
+    "SHARED_SCOPE" : [ ]
   }
 }
